@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewRowText" xml:space="preserve">
+    <value>Click here to add new row</value>
+    <comment>Add new row text</comment>
+  </data>
+  <data name="FilterControl_After" xml:space="preserve">
+    <value>After</value>
+    <comment>Text for AFter</comment>
+  </data>
+  <data name="FilterControl_AfterOrEqual" xml:space="preserve">
+    <value>After or Equal</value>
+    <comment>Text for After or Equal</comment>
+  </data>
+  <data name="FilterControl_Before" xml:space="preserve">
+    <value>Before</value>
+    <comment>Text for Before</comment>
+  </data>
+  <data name="FilterControl_BeforeOrEqual" xml:space="preserve">
+    <value>Before or Equal</value>
+    <comment>Text for Before or Equal</comment>
+  </data>
+  <data name="FilterControl_BeginsWith" xml:space="preserve">
+    <value>Begins With</value>
+    <comment>Text for Begins With</comment>
+  </data>
+  <data name="FilterControl_Blanks" xml:space="preserve">
+    <value>(Blanks)</value>
+    <comment>Text for (Blanks)</comment>
+  </data>
+  <data name="FilterControl_Contains" xml:space="preserve">
+    <value>Contains</value>
+    <comment>Text for Contains</comment>
+  </data>
+  <data name="FilterControl_DateSortAscending" xml:space="preserve">
+    <value>Sort Oldest to Newest</value>
+    <comment>Text for Sort Oldest to Newest</comment>
+  </data>
+  <data name="FilterControl_DateSortDescending" xml:space="preserve">
+    <value>Sort Newest to Oldest</value>
+    <comment>Text for Sort Newest to Oldest</comment>
+  </data>
+  <data name="FilterControl_Empty" xml:space="preserve">
+    <value>Empty</value>
+    <comment>Text for Empty</comment>
+  </data>
+  <data name="FilterControl_EndsWith" xml:space="preserve">
+    <value>Ends With</value>
+    <comment>Text for Ends With</comment>
+  </data>
+  <data name="FilterControl_EnterValidFilterValue" xml:space="preserve">
+    <value>Enter Valid FilterValue</value>
+    <comment>Text for Enter Valid FilterValue</comment>
+  </data>
+  <data name="FilterControl_Equals" xml:space="preserve">
+    <value>Equals</value>
+    <comment>Text for Equals</comment>
+  </data>
+  <data name="FilterControl_GreaterThan" xml:space="preserve">
+    <value>Greater Than</value>
+    <comment>Text for Greater Than</comment>
+  </data>
+  <data name="FilterControl_GreaterThanorEqual" xml:space="preserve">
+    <value>Greater Than or Equal</value>
+    <comment>Text for Greater Than or Equal</comment>
+  </data>
+  <data name="FilterControl_LessThan" xml:space="preserve">
+    <value>Less Than</value>
+    <comment>Text for Less Than</comment>
+  </data>
+  <data name="FilterControl_LessThanorEqual" xml:space="preserve">
+    <value>Less Than or Equal</value>
+    <comment>Text for Less Than or Equal</comment>
+  </data>
+  <data name="FilterControl_NotEmpty" xml:space="preserve">
+    <value>Not Empty</value>
+    <comment>Text for Not Empty</comment>
+  </data>
+  <data name="FilterControl_NotEquals" xml:space="preserve">
+    <value>Not Equals</value>
+    <comment>Text for Not Null</comment>
+  </data>
+  <data name="FilterControl_NotNull" xml:space="preserve">
+    <value>Not Null</value>
+    <comment>Text for Not Null</comment>
+  </data>
+  <data name="FilterControl_Null" xml:space="preserve">
+    <value>Null</value>
+    <comment>Text for Null</comment>
+  </data>
+  <data name="FilterControl_NumberSortAscending" xml:space="preserve">
+    <value>Sort Smallest to Largest</value>
+    <comment>Text for Sort Smallest to Largest</comment>
+  </data>
+  <data name="FilterControl_NumberSortDescending" xml:space="preserve">
+    <value>Sort Largest to Smallest</value>
+    <comment>Text for Sort Largest to Smallest</comment>
+  </data>
+  <data name="FilterControl_SelectAll" xml:space="preserve">
+    <value>(SelectAll)</value>
+    <comment>Text for (SelectAll)</comment>
+  </data>
+  <data name="FilterControl_TextSortAscending" xml:space="preserve">
+    <value>Sort A to Z</value>
+    <comment>Text for Sort A to Z</comment>
+  </data>
+  <data name="FilterControl_TextSortDescending" xml:space="preserve">
+    <value>Sort Z to A</value>
+    <comment>Text for Sort Z to A</comment>
+  </data>
+  <data name="INotifyDataErrorInfo_DefaultErrorMessage" xml:space="preserve">
+    <value>Row containing error</value>
+    <comment>Only for INotifyDataErrorInfo error for a row. Error message can be changed using the RowValidating event.</comment>
+  </data>
+</root>

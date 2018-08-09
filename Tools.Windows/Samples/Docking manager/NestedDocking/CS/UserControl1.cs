@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace NestedDocking
+{
+    public partial class UserControl1 : UserControl
+    {
+        public UserControl1()
+        {
+            InitializeComponent();
+            
+            this.dockingManager1.VisualStyle = Syncfusion.Windows.Forms.VisualStyle.VS2010;
+            this.dockingManager1.DragProviderStyle = Syncfusion.Windows.Forms.Tools.DragProviderStyle.VS2010;
+            this.treeNavigator1.ParentPanel.AutoScroll = false;
+            this.treeNavigator2.ParentPanel.AutoScroll = false;
+            this.treeNavigator3.ParentPanel.AutoScroll = false;
+            this.dockingManager1.NewDockStateEndLoad += new EventHandler(dockingManager1_NewDockStateEndLoad);
+            this.dockingManager1.DockTabBackColor = ColorTranslator.FromHtml("#4d6082");
+            this.dockingManager1.DockTabSeparatorColor = ColorTranslator.FromHtml("#4d6082");
+            this.dockingManager1.ActiveCaptionBackground = new Syncfusion.Drawing.BrushInfo(ColorTranslator.FromHtml("#fff29d"));
+        }
+
+        void dockingManager1_NewDockStateEndLoad(object sender, EventArgs e)
+        {
+            this.dockingManager1.SetDockLabel(this.panel2, "Ipsum");
+            this.dockingManager1.SetDockLabel(this.panel3, "Vestibulum");
+            this.dockingManager1.SetDockLabel(this.panel4, "Aliquam");
+        }
+    }
+}
