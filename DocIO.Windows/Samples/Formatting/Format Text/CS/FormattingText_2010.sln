@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingText_2010", "FormattingText_2010.csproj", "{18AEE431-C667-4DBD-9991-DF7B78E2FEA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{18AEE431-C667-4DBD-9991-DF7B78E2FEA1}.Debug.ActiveCfg = Debug|.NET
+		{18AEE431-C667-4DBD-9991-DF7B78E2FEA1}.Debug.Build.0 = Debug|.NET
+		{18AEE431-C667-4DBD-9991-DF7B78E2FEA1}.Release.ActiveCfg = Release|.NET
+		{18AEE431-C667-4DBD-9991-DF7B78E2FEA1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

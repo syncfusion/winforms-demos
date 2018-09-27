@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sample>
+  <name value="~/Viewer/Custom Toolbar/Sample.aspx" />
+  <displayname value="Custom Toolbar Demo" />
+  <sortorder value="2" />
+</sample>
