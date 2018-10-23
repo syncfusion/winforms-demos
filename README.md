@@ -1,13 +1,13 @@
-# Syncfusion Windows Forms samples
+# Syncfusion WinForms examples
 
-This repository contains the demos of [Syncfusion Windows Forms UI controls](https://www.syncfusion.com/products/windows-forms?utm_source=github&utm_medium=listing). This is the best place to check our controls to get more insight about the usage of APIs.
+This repository contains the demos of [Syncfusion WinForms UI controls](https://www.syncfusion.com/products/winforms?utm_source=github&utm_medium=listing). This is the best place to check our controls to get more insight about the usage of APIs.
 
-This section guides you to use the Syncfusion Windows Forms samples in your applications.
+This section guides you to use the Syncfusion WinForms examples in your applications.
 
 * [Requirements to run the demo](#requirements-to-run-the-demo)
 * [Documentation](#documentation)
 * [License](#license)
-* [Using the samples](#using-the-samples)
+* [Using the examples](#using-the-examples)
 * [Controls Catalog](#controls-catalog)
 * [Support and Feedback](#support-and-feedback)
 
@@ -24,7 +24,7 @@ All controls documentation for the Syncfusion Windows Forms controls can be foun
 
 Syncfusion has no liability for any damage or consequence that may arise by the use or viewing of the samples. The samples are for demonstrative purposes and if you choose to use or access the samples you agree to not hold Syncfusion liable, in any form, for any damage that is related to use, accessing or otherwise viewing the samples. By accessing, viewing, or otherwise seeing the samples you acknowledge and agree Syncfusion’s samples will not allow you to seek injunctive relief in any form for any claim related to the sample. If you do not agree to this, do not view, access, utilize or otherwise do anything with Syncfusion’s samples.
 
-## <a name="using-the-samples"></a>Using the samples ##
+## <a name="using-the-samples"></a>Using the examples ##
 
 The easiest way to use these samples without using Git is to download the zip file containing the current version (using the following link or by clicking the "Download ZIP" button on the repo page). You can then unzip the entire archive and use the samples.
 
