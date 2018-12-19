@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Syncfusion.Windows.Forms.Chart;
+using Syncfusion.Drawing;
+using System.Drawing;
+
+namespace LineChart2002
+{
+    public static class ChartAppearance
+    {
+        public static void ApplyChartStyles(ChartControl chart)
+        {
+            #region ApplyCustomPalette
+            chart.Skins = Skins.Metro;
+            #endregion
+
+            #region Chart Appearance Customization
+
+            chart.BorderAppearance.SkinStyle = Syncfusion.Windows.Forms.Chart.ChartBorderSkinStyle.None;
+            chart.BorderAppearance.BaseColor = Color.DarkOliveGreen;
+            chart.BorderAppearance.FrameThickness = new ChartThickness(-2, -2, 2, 2);
+            chart.PrimaryXAxis.RangePaddingType = ChartAxisRangePaddingType.Calculate;
+            chart.PrimaryYAxis.RangePaddingType = ChartAxisRangePaddingType.Calculate;
+            chart.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            
+            chart.ElementsSpacing = 0;
+            chart.Text = "Team ranking(1985-2000)";
+            chart.PrimaryXAxis.Title = "Year";
+            chart.PrimaryYAxis.Title = "Rank";
+          
+                   
+            #endregion
+
+            #region Axes Customization
+
+
+            chart.PrimaryYAxis.Inversed = true;
+            chart.PrimaryXAxis.RangeType = ChartAxisRangeType.Set;
+            chart.PrimaryXAxis.Range = new MinMaxInfo(1985, 2000, 1);
+            chart.PrimaryYAxis.RangeType = ChartAxisRangeType.Set;
+            chart.PrimaryYAxis.Range = new MinMaxInfo(0, 16, 2);
+            chart.PrimaryXAxis.LabelRotate = true;
+            chart.PrimaryXAxis.LabelRotateAngle = 90;
+            chart.EnableMouseRotation = true; 
+            #endregion
+
+            #region Legend Customization
+
+            chart.Series[0].FancyToolTip.Visible = true;
+            chart.Series[1].FancyToolTip.Visible = true;
+            chart.Series[2].FancyToolTip.Visible = true;
+            chart.LegendPosition = ChartDock.Top;
+            chart.LegendsPlacement = ChartPlacement.Outside;
+            chart.LegendAlignment = ChartAlignment.Center;
+            chart.Legend.ItemsSize = new Size(15, 15);
+         
+
+            #endregion
+        }
+
+
+    }
+}

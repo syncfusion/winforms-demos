@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingTutorial_2010", "GroupingTutorial_2010.csproj", "{E3375A32-1FD6-4072-8DE7-67708B5158B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E3375A32-1FD6-4072-8DE7-67708B5158B4}.Debug.ActiveCfg = Debug|.NET
+		{E3375A32-1FD6-4072-8DE7-67708B5158B4}.Debug.Build.0 = Debug|.NET
+		{E3375A32-1FD6-4072-8DE7-67708B5158B4}.Release.ActiveCfg = Release|.NET
+		{E3375A32-1FD6-4072-8DE7-67708B5158B4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
