@@ -1,0 +1,240 @@
+-------------------------------------------------- 
+Mon 08/30/2004 
+11:41a
+Program    : tiara         
+Executable : C:\SEA\cosmos\PROD\bin\tiara.exe   
+User       : LocalAdmin-A     
+At Host    : HOUBTC-D-3414DP 
+System     : Windows_NT           
+-------------------------------------------------- 
+
+*** WARNING - Tiara LICENSE WILL EXPIRE IN  0 DAYS, AND  9.12 HRS
+            ECHO OFF ; %----- Reading TIARA  Initialization File ;
+            ECHO OFF ; %----- Reading CFPOST Initialization File ;
+ comment % ;
+%
+%  include model file
+%
+  Inc b1.inc;
+Comment %;
+
+ Units Me,N,MPa ;
+
+ OPTion LEG ABS DISpl TOLerance .0000001 ;
+ OPTion LEG ABS SLOpe TOLerance .0000001 ;
+ FLUid 1 'Empty'  .0000001
+       2 'Water' 10060.583 ;
+
+ % DEFINE FOUNDATION ( CABLE ON BOTTOM )
+  foundation 1
+     model ekvall
+     soil strength = 0.0019152
+     number of points       8
+     lateral friction coefficient   1.0
+     lateral movement    406.400/1000
+     ;
+
+      % Water Depth RB Yref
+
+      Water Depth    = 193.00 ;
+      RB 1 Referance = 193.00 ;
+
+      % DEFINE PIPE/CABLE COMPONENTS
+
+
+
+#Region "Components"
+ Component  1
+ Name        =  'PIPE2'
+ OD          =  406.400/1000
+ WALL        =  15.900/1000
+ Weight Add  =  13.124
+ BUOyan Add  =  4.970
+ Drag TOP OD =  406.400/1000
+;
+
+
+ Component  2
+ Name        =  'PIPE1'
+ OD          =  406.400/1000
+ WALL        =  15.900/1000
+ Weight Add  =  260.624
+ BUOyan Add  =  170.970
+ Drag TOP OD =  406.400/1000
+;
+
+
+ Component  3
+ Name        =  'CABLE'
+ OD          =  52.070/1000
+ WALL        =  26.035/1000
+ Weight Add  =  -58.396
+ BUOyan Add  =  -7.620
+ Drag TOP OD =  52.070/1000
+ EI          =  6894.759
+;
+
+#End Region
+
+
+
+
+
+#Region "Tensioner"
+
+      %Riser Heading Tensioner Attachment point etc
+
+ scr 1, type 'SlayPipe'
+     Fluid    'Empty' 'Empty'
+     Foundation          1
+     Direction         180
+     Slop             0.00
+     Anchor Depth     193.0
+     Bottom Condition Pinned
+     Bottom Offsetxz       0.0     0.0
+     TOP TENsion      110000.00
+     Flexjoint Location    194.00   10.48    0
+     Flexjoint Stiffness   70000000.00   70000000.00   70000000.00    0   0   0   0  0
+     Flexjoint Preten   104.12  0.00 0.00
+     ;
+
+#End Region
+
+
+
+
+#Region "Segments"
+ SCR 1 Segment     1 Components 'CABLE'
+       Length              = 255.0
+       Number of Elements  = 97
+       Cd                  = 1.20
+       Cm                  = 1.00
+       ;
+
+ SCR 1 Segment     2 Components 'PIPE1'
+       Length              = 244.0
+       Number of Elements  = 93
+       Cd                  = 1.20
+       Cm                  = 1.00
+       ;
+
+ SCR 1 Segment     3 Components 'PIPE2'
+       Length              = 465.0
+       Number of Elements  = 176
+       Cd                  = 1.20
+       Cm                  = 1.00
+       ;
+
+#End Region
+
+#region "Test Region1"
+
+#end region       
+
+#Region "Test Region2"
+
+#End Region 
+
+
+#Region "Rigid Body"
+
+%
+%
+  Inc b1.LM;
+Comment %;
+
+ Units Me,N,MPa ;
+
+ RB 1 LM   1 LOC   186.900    10.475     2.500   186.900    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   2 LOC   176.700    10.475     2.500   176.700    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   3 LOC   162.500    10.475     2.500   162.500    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   4 LOC   152.300    10.475     2.500   152.300    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   5 LOC   138.100    10.475     2.500   138.100    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   6 LOC   127.900    10.475     2.500   127.900    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   7 LOC   113.700    10.475     2.500   113.700    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   8 LOC   103.500    10.475     2.500   103.500    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM   9 LOC    84.200    10.475     2.500    84.200    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM  10 LOC    59.800    10.475     2.500    59.800    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM  11 LOC    35.530    10.475     2.500    35.530    10.475    -2.500 SEC   0.025 TYPpe      Ramp STF     0.000 ;
+ RB 1 LM  12 LOC    14.590     9.570     2.500    14.590     9.570    -2.500 SEC   0.025 TYPpe     Barge STF     0.000 ;
+ RB 1 LM  13 LOC    -5.680     7.104     2.500    -5.680     7.104    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  14 LOC   -15.666     5.361     2.500   -15.666     5.361    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  15 LOC   -25.362     2.767     2.500   -25.362     2.767    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  16 LOC   -35.400    -0.949     2.500   -35.400    -0.949    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  17 LOC   -44.200    -5.179     2.500   -44.200    -5.179    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  18 LOC   -52.769   -10.294     2.500   -52.769   -10.294    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  19 LOC   -62.925   -17.864     2.500   -62.925   -17.864    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  20 LOC   -70.183   -24.519     2.500   -70.183   -24.519    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  21 LOC   -76.651   -31.608     2.500   -76.651   -31.608    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  22 LOC   -81.262   -37.560     2.500   -81.262   -37.560    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  23 LOC   -85.479   -43.822     2.500   -85.479   -43.822    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+ RB 1 LM  24 LOC   -89.296   -50.399     2.500   -89.296   -50.399    -2.500 SEC   0.025 TYPpe   Stinger STF     0.000 ;
+%
+%
+
+
+#End Region 
+
+
+
+
+
+#Region "Include Files"
+
+  CURent FILe = b1.cur;
+%
+%
+  RB 1 FILE   = b1.rbm;
+%
+%
+  WAVe FILe   = b1.wav;
+%
+
+#End Region
+
+
+
+
+#Region "Run Cosmos"
+
+OPTION CAT = -1 ;
+%
+create/run cosf b1;
+
+ *** MSG - cosf INPUT WILL BE CREATED USING THE GIVEN WEATHER FILES
+           NCURR = 4 AND NWAVES = 0
+
+
+ *** MSG - cosf INPUT "b1.data"
+           HAS BEEN SUCCESSFULLY CREATED. NCARDS =  180
+
+
+ *** MSG - A RISER DATABASE WAS CREATED, NREC =   366
+
+ **** TIARA STARTS cosf (b1) ****
+
+*** WARNING - Cosmos LICENSE WILL EXPIRE IN  0 DAYS, AND  9.12 HRS
+
+  *** COSMOS VERSION 7.1a RELEASED DATE 7/1/04 ***
+
+        ****** COSF: INPUT PARAMETERS ******
+
+     No. of Legs (Legs+Mooring) .. LEGS   = 1
+     No. of Mooring Lines ........ NMOOR  = 1
+     No. of Parts Per Mooring Line MPART  = 1
+     No. of Elements Per Leg ..... LEMENT = 366
+     No. of RB (Rigid-Bodies) .... NBODY  = 1
+     No. of Line Members Per RB .. LINMEM = 24
+     No. of Springs Each Type .... ISPRNG = 1
+     No. of Frequencies .......... IWAVE  = 0
+     No. of Headings Per Freq..... IHEAD  = 0
+     No. of Current Points ....... ICURR  = 4
+     No. of Convolution Points ... MAXHIS = 0
+     Eigenvalue Parameter ........ ISSD   = 1
+
+  ***** COSF: DYNAMIC ALLOCATION SUCCESSFUL *****
+
+forrtl: error (200): program aborting due to window-CLOSE event **** TIARA  ENDS  cosf (b1) ****
+forrtl: error (200): program aborting due to window-CLOSE event
+
+#End Region 

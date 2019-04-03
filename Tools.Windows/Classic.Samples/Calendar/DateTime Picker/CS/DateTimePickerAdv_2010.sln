@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePickerAdv_2010", "DateTimePickerAdv_2010.csproj", "{FA2F8F98-682D-43CE-8527-28512BE7F38E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug XML|Any CPU = Debug XML|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2F8F98-682D-43CE-8527-28512BE7F38E}.Debug XML|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2F8F98-682D-43CE-8527-28512BE7F38E}.Debug XML|Any CPU.Build.0 = Debug|Any CPU
+		{FA2F8F98-682D-43CE-8527-28512BE7F38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2F8F98-682D-43CE-8527-28512BE7F38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2F8F98-682D-43CE-8527-28512BE7F38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2F8F98-682D-43CE-8527-28512BE7F38E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
