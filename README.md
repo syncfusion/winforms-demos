@@ -7,7 +7,7 @@ This section guides you to use the Syncfusion WinForms examples in your applicat
 * [Requirements to run the demo](#requirements-to-run-the-demo)
 * [Documentation](#documentation)
 * [License](#license)
-* [Using the examples](#using-the-examples)
+* [Using the examples](#using-the-examples) 
 * [Controls Catalog](#controls-catalog)
 * [Support and Feedback](#support-and-feedback)
 

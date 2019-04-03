@@ -1,4 +1,0 @@
-E:\Samples_16.4.0.42\Windows\Grid.Grouping.Windows\Samples\Styling and Formatting\Skin Customization Demo\CS\obj\x86\Debug\SkinCustomization_2010.csprojResolveAssemblyReference.cache
-E:\Samples_16.4.0.42\Windows\Grid.Grouping.Windows\Samples\Styling and Formatting\Skin Customization Demo\CS\obj\x86\Debug\EnhancedVisualStyleInGGC_Demo.Form1.resources
-E:\Samples_16.4.0.42\Windows\Grid.Grouping.Windows\Samples\Styling and Formatting\Skin Customization Demo\CS\obj\x86\Debug\EnhancedVisualStyleInGGCDemo_2010.Properties.Resources.resources
-E:\Samples_16.4.0.42\Windows\Grid.Grouping.Windows\Samples\Styling and Formatting\Skin Customization Demo\CS\obj\x86\Debug\SkinCustomization_2010.csproj.GenerateResource.Cache
