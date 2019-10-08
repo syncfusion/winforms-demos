@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual Importing_NETCore", "Virtual Importing_NETCore.csproj", "{BB1F7151-10C1-4F50-B178-F8D491CD9380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1F7151-10C1-4F50-B178-F8D491CD9380}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB1F7151-10C1-4F50-B178-F8D491CD9380}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB1F7151-10C1-4F50-B178-F8D491CD9380}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB1F7151-10C1-4F50-B178-F8D491CD9380}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C70C022-81D5-45E9-90E7-864B5BF619D8}
+	EndGlobalSection
+EndGlobal

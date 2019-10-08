@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>RibbonControlAdv_2005</AssemblyName>
+    <RootNamespace>RibbonControlAdv_2005</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="17.3.0.14" />
+    <PackageReference Include="Syncfusion.Licensing" Version="17.3.0.14" />
+    <PackageReference Include="syncfusion.Grid.Windows" Version="17.3.0.14" />
+    <PackageReference Include="syncfusion.Shared.Base" Version="17.3.0.14" />
+    <PackageReference Include="syncfusion.Shared.Windows" Version="17.3.0.14" />
+    <PackageReference Include="syncfusion.Tools.Base" Version="17.3.0.14" />
+    <PackageReference Include="syncfusion.Tools.Windows" Version="17.3.0.14" />
+  </ItemGroup>
+</Project>
