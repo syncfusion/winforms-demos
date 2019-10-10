@@ -54,21 +54,20 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="DataGrid.WinForms/Samples">DataGrid</a>
 </td>
 <td>
-<a href="ListView.WinForms/Samples/SfListView">ListView</a>
+<a href="Grid.Windows/Samples/Serialization/Serialization%20Demo">GridControl</a>
 </td>
 <td>
-<a href="Grid.Windows/Samples/Serialization/Serialization%20Demo">GridControl</a>
+<a href="XlsIO.Windows/Samples/Business%20Intelligence/Pivot%20Table">PivotGrid</a>
+</td>
 </tr>
 <tr>
 <td>
 <a href="Grid.Grouping.Windows/Samples">GridGroupingControl</a>
 </td>
 <td>
-<a href="Spreadsheet.Windows">Spreadsheet</a>
-</td>
-<td>
 <a href="Grid.Windows/Samples/Grid%20List%20Control">GridListControl</a>
 </td>
+<td/>
 </tr>
 <tr>
 <td colspan="3" rowspan="1">
@@ -77,7 +76,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>    
 <tr>
 <td>
-<a href="Spreadsheet.Windows/Samples/Sparklines">Sparkline</a>
+<a href="Chart.Windows/Samples">Chart</a>
 </td>
 <td>
 <a href="Diagram.Windows/Samples">Diagram</a>
@@ -88,36 +87,44 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td>
-<a href="Schedule.Windows/Samples">Schedule</a>
-</td>
-<td>
 <a href="BulletGraph.Windows/Samples">BulletGraph</a>
-</td>
-<td>
-<a href="Maps.Windows">Maps</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Gauge.Windows/Samples/RadialGauge/RadialGauge">Radial Gauge</a>
-</td>
-<td>
-<a href="Gauge.Windows/Samples/LinearGauge/LinearGauge">Linear Gauge</a>
 </td>
 <td>
 <a href="Gauge.Windows/Samples/DigitalGauge/DigitalGauge">Digital Gauge</a>
 </td>
+<td>
+<a href="Gauge.Windows/Samples/LinearGauge/LinearGauge">Linear Gauge</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Maps.Windows">Maps</a>
+</td>
+<td>
+<a href="XlsIO.Windows/Samples/Business%20Intelligence/Pivot%20Chart">PivotChart</a>
+</td>
+<td>
+<a href="Gauge.Windows/Samples/RadialGauge/RadialGauge">Radial Gauge</a>
+</td>
+
 </tr>
 <tr>
 <td>
 <a href="SmithChart.WinForms/Samples">SmithChart</a>
 </td>
 <td>
-<a href="Chart.Windows/Samples">Chart</a>
+<a href="Spreadsheet.Windows/Samples/Sparklines">Sparkline</a>
 </td>
 <td>
 <a href="TreeMap.Windows">TreeMap</a>
 </td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Skin%20Manager/Skin%20Manager">SkinManager</a>
+</td>
+<td/>
+<td/>
 </tr>
 <tr>
 <td colspan="3" rowspan="1">
@@ -131,50 +138,95 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td colspan="3" rowspan="1">
-<b>FILE FORMATS</b>
+<b>FILE FORMAT FRAMEWORKS</b>
 </td>
 </tr>    
 <tr>
 <td>
-<a href="XlsIO.Windows/Samples">Xlslo</a>
+<a href="XlsIO.Windows/Samples">Excel</a>
 </td>
 <td>
 <a href="PDF.Windows/Samples">PDF</a>
 </td>
 <td>
-<a href="DocIO.Windows/Samples">DoclO</a>
+<a href="Presentation.Windows/Samples">Presentation</a>
 </td>
+</tr>
+<tr>
+<td>
+<a href="DocIO.Windows/Samples">Word</a>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td colspan="3" rowspan="1">
+<b>FILE VIEWERS AND EDITORS
 </tr>
 <tr>
 <td >
 <a href="PdfViewer.Windows/Samples">PDFViewer</a>
 </td>
-<td colspan="2" rowspan="1">
-<a href="Presentation.Windows/Samples">Presentation</a>
+<td>
+<a href="Spreadsheet.Windows">Spreadsheet</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">SyntaxEditor</a>
 </td>
 </tr>
 <tr>
+<td>
+<a href="HTMLUI.Windows">HTML Viewer</a>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
 <td colspan="3" rowspan="1">
-<b>NOTIFICATION</b>
+<b>DIALOGS AND NOTIFICATION</b>
 </td>
 </tr>    
 <tr>
 <td>
-<a href="Core.WinForms/Samples/SfToolTip/GettingStarted">Tooltip</a>
+<a href="Core.WinForms/Samples/SfForm">Form</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/TabbedMdi%20manager/Tabbed%20MDI">TabbedMDI</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/HubTile/HubTile/HubTile">HubTile</a>
+</td>
+
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Tile%20layout/TileLayout">Image Streamer</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/MessageBoxAdv">MessageBox</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples">MetroForm</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Office%20Style%20Form/Office2010Form">Office2010Form</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Progressbar">ProgressBarAdv</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/StatusBar/StatusBarAdv">StatusBarAdv</a>
+<a href="Tools.Windows/Samples/Splash/Splash%20Control">Splash</a>
 </td>
 </tr>
+
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Super%20Tooltip/SuperTooltip">SuperToolTip</a>
+<a href="Tools.Windows/Samples/Splash/SplashPanel">SplashPanel</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Splash/Splash%20Control">Splash</a>
+<a href="Tools.Windows/Samples/StatusBar/StatusBarAdv">StatusBarAdv</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/StatusBar/StatusBarAdv%20Panel">StatusBarAdvPanel</a>
@@ -182,20 +234,14 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td>
-<a href="Tools.Windows/Samples/HubTile/HubTile/HubTile">HubTile</a>
+<a href="Core.WinForms/Samples/SfToolTip/GettingStarted">Tooltip</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Container%20controls/Gradient%20Panel">GradientPanelExt</a>
+<a href="Tools.Windows/Samples/Super%20Tooltip/SuperTooltip">SuperToolTip</a>
 </td>
-<td>
-<a href="Tools.Windows/Samples/Splash/SplashPanel">SplashPanel</a>
-</td>
+<td/>
 </tr>
-<tr>
-<td colspan="3" rowspan="1">
-<a href="Tools.Windows/Samples/Container%20controls/Gradient%20Panel">GradientPanel</a>
-</td>
-</tr>
+
 <tr>
 <td colspan="3" rowspan="1">
 <b>NAVIGATION</b>
@@ -203,7 +249,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>    
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Ribbon/RibbonControlAdv">RibbonControlAdv</a>
+<a href="Tools.Windows/Samples/Ribbon/RibbonControlAdv">Ribbon</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Ribbon/RibbonMerge">RibbonPanelMergeContainer</a>
@@ -214,90 +260,85 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td>
-<a href="Core.WinForms/Samples/SfForm">Form</a>
+<a href="Tools.Windows/Samples/TabControl">TabControl</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/RadialMenu">RadialMenu</a>
+<a href="Tools.Windows/Samples/Menu">Menu</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Office%20Style%20Form/Office2010Form">Office2010Form</a>
+<a href="Tools.Windows/Samples/Context%20Menu">Context Menu</a>
 </td>
 </tr>
+
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Docking%20manager">DockingManager</a>
+<a href="Tools.Windows/Samples/Hierarchical%20navigator/Navigation%20View">NavigationView</a>
 </td>
-<td>
-<a href="Tools.Windows/Samples/ToolBars/Command%20Bars">CommandBars</a>
-</td>
-<td>
-<a href="Grid.Grouping.Windows">GroupView</a>
-</td>
-</tr>
-<tr>
 <td>
 <a href="Tools.Windows/Samples/MultiColumnTreeView">MulticolumnTreeView</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/TreeView">TreeView</a>
+<a href="Tools.Windows/Samples/NavigationDrawer">NavigationDrawer</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="Tools.Windows/Samples/RadialMenu">RadialMenu</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Scrollers%20Frame/Scrollers%20Frame">ScrollFrame</a>
 </td>
+<td>
+<a href="Tools.Windows/Samples/Container%20controls/TabBarSplitter">TabSplitter Container</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="Tools.Windows/Samples/ToolBars/Toolbars">Toolbar</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/TreeNavigator">TreeNavigator</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/TreeView">TreeView</a>
+</td>
 </tr>
 <tr>
+<td>
+<a href="Tools.Windows/Samples/Wizard/Wizard%20Control">Wizard</a>
+</td>
 <td>
 <a href="Tools.Windows/Samples/GroupBar">GroupBar</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Wizard/Task%20Pane">XPTaskPane</a>
 </td>
-<td>
-<a href="Tools.Windows/Samples/TaskBar/XpTaskbar">XPTaskbar</a>
-</td>
 </tr>
+
 <tr>
 <td>
-<a href="Tools.Windows/Samples">MetroForm</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Menu">MainFrameBarManager</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Container%20controls/Popup%20Container">PopupMenu</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/ToolBars/Toolbars">XPToolbar</a>
+<a href="Grid.Grouping.Windows">GroupView</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Menu/MDI%20Merge">MDIChildForms</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Hierarchical%20navigator/Navigation%20View">NavigationView</a>
+<a href="Tools.Windows/Samples/TaskBar/XpTaskbar">XPTaskbar</a>
 </td>
 </tr>
+
 <tr>
-<td>
-<a href="Tools.Windows/Samples/TreeNavigator">TreeNavigator</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/TabControl">TabControlAdv</a>
-</td>
 <td>
 <a href="Tools.Windows/Samples/Menu">ChildFrameBarManager</a>
 </td>
-</tr>
-<tr>
 <td>
-<a href="Tools.Windows/Samples/NavigationDrawer">NavigationDrawer</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Context%20Menu">Context Menu</a>
+<a href="Tools.Windows/Samples/ToolBars/Command%20Bars">CommandBars</a>
 </td>
 <td/>
 </tr>
+
 <tr>
 <td colspan="3" rowspan="1">
 <b>MISCELLANEOUS</b>
@@ -305,101 +346,47 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>    
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Skin%20Manager/Skin%20Manager">SkinManager</a>
+<a href="Calculate.Windows/Samples">Calculate</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/MessageBoxAdv">MessageBoxAdv</a>
+<a href="Tools.Windows/Samples/Input%20Controls/Calculator">Calculator</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Clock/Clock">Clock</a>
 </td>
+<td/>
 </tr>
 <tr>
-<td>
-<a href="HTMLUI.Windows">HTMLUI</a>
-</td>
 <td>
 <a href="Grid.Grouping.Windows/Samples">Grouping</a>
 </td>
-<td>
-<a href="Calculate.Windows/Samples">Calculate</a>
-</td>
-</tr>
-<tr>
 <td>
 <a href="Tools.Windows/Samples/Digital%20Clock">DigitalClock</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Localization">Localization</a>
 </td>
-<td/>
 </tr>
 
 <tr>
 <td colspan="3" rowspan="1">
-<b>BUSINESS INTELLIGENCE</b>
+<b>BUTTONS</b>
 </td>
 </tr>    
 <tr>
 <td>
-<a href="XlsIO.Windows/Samples/Business%20Intelligence/Pivot%20Table">PivotGrid</a>
-</td>
-<td colspan="2" rowspan="1">
-<a href="XlsIO.Windows/Samples/Business%20Intelligence/Pivot%20Chart">PivotChart</a>
-</td>
-</tr>
-<tr>
-<td colspan="3" rowspan="1">
-<b>LAYOUT</b>
-</td>
-</tr>    
-<tr>
-<td>
-<a href="Tools.Windows/Samples/Carousel/Carousel">Carousel</a>
+<a href="Core.WinForms/Samples/SfButton">Button</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Container%20controls/TabBarSplitter">TabSplitter Container</a>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">ButtonEdit</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Wizard/Wizard%20Control">Wizard</a>
+<a href="Core.WinForms/Samples/SfButton/Buttons">SplitButton</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="Tools.Windows/Samples/TabbedMdi%20manager/Tabbed%20MDI">TabbedMDI</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/FolderBrowser/Folder%20Browser">FolderBrowser</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Tile%20layout/TileLayout">TileLayout</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/Tile%20layout/TileLayout">Image Streamer</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Tile%20layout/TileLayout">Splitter</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Container%20controls/Popup%20Container">PopupControlContainer</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/Layout manager/BorderLayout">Border Layout</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Layout manager/CardLayout">Card Layout</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Layout manager/FlowLayout">Flow Layout</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/Layout manager/GridLayout">Grid Layout</a>
+<a href="Tools.Windows/Samples/ToggleButton/ToggleButton">ToggleButton</a>
 </td>
 <td/>
 <td/>
@@ -407,18 +394,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 
 <tr>
 <td colspan="3" rowspan="1">
-<b>EDITORS</b>
-</td>
-</tr>                               
-<tr>
-<td>
-<a href="Tools.Windows/Samples/Input%20Controls/Autocomplete">Autocomplete</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Input%20Controls/Calculator">Calculator</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">SyntaxEditor</a>
+<b>LISTS AND DROPDOWN</b>
 </td>
 </tr>
 <tr>
@@ -428,28 +404,124 @@ The easiest way to use these samples without using Git is to download the zip fi
 <td>
 <a href="Tools.Windows/Samples/List%20Controls/ComboBox%20Autocomplete">ComboBoxAutocomplete</a>
 </td>
+<td>
+<a href="ListView.WinForms/Samples/SfListView">ListView</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">EditableList</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/List%20Controls/Multi%20Column%20ComboBox">MultiColumnComboBox</a>
+</td>
+<td>
+<a href="ListView.WinForms/Samples/SfComboBox/MultiSelection">MultiSelectionComboBox</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="Tools.Windows/Samples/List%20Controls/FontListBox">FontListBox</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/List%20Controls/Combo%20DropDown">ComboDropDown</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/FontComboBox">FontComboBox</a>
+</td>
+</tr>
+
+<tr>
+<td colspan="3" rowspan="1">
+<b>CALENDAR</b>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Input%20Controls/SfCalendar">Calender</a>
+</td>
+<td>
+<a href="Schedule.Windows/Samples">Schedule</a>
+</td>
 <td/>
 </tr>
+
+<tr>
+<td colspan="3" rowspan="1">
+<b>LAYOUT</b>
+</td>
+</tr>    
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">TrackBarEx</a>
+<a href="Tools.Windows/Samples/Docking%20manager">DockingManager</a>
 </td>
 <td>
-<a href="Core.WinForms/Samples/SfButton">Button</a>
+<a href="Tools.Windows/Samples/Layout manager/BorderLayout">Border Layout</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">ButtonAdv</a>
+<a href="Tools.Windows/Samples/Layout manager/CardLayout">Card Layout</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Carousel/Carousel">Carousel</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Layout manager/FlowLayout">Flow Layout</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Container%20controls/Gradient%20Panel">GradientPanel</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Container%20controls/Gradient%20Panel">GradientPanelExt</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Layout manager/GridLayout">Grid Layout</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Container%20controls/Popup%20Container">PopupMenu</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Container%20controls/Popup%20Container">PopupControlContainer</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Container%20controls/Split%20ContainerAdv">SplitContainerAdv</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Tile%20layout/TileLayout">TileLayout</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">ButtonEdit</a>
+<a href="Tools.Windows/Samples/Tile%20layout/TileLayout">Splitter</a>
+</td>
+<td/>
+<td/>
+</tr>
+
+
+<tr>
+<td colspan="3" rowspan="1">
+<b>INPUT CONTROLS</b>
+</td>
+</tr>                               
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Input%20Controls/SfNumericTextBox">Numeric TextBox</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Input%20Controls/Autocomplete">Autocomplete</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Input%20Controls/CheckBoxAdv">CheckBoxAdv</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/List%20Controls/FontListBox">FontListBox</a>
 </td>
 </tr>
 <tr>
@@ -457,12 +529,46 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="Tools.Windows/Samples/ColorUI%20Controls/Color%20UI%20Control">ColorUI</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">BannerText</a>
+<a href="Tools.Windows/Samples/ColorUI%20Controls/Color%20UI%20Control">ColorPickerUIAdv</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">EditableList</a>
+<a href="Tools.Windows/Samples/ColorUI%20Controls/ColorPickerButton">ColorPicker Button</a>
 </td>
 </tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/FolderBrowser/Folder%20Browser">FolderBrowser</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">MaskedEditBox</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">NumericUpdownExt</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/RadialSlider/RadialSlider">RadialSlider</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Input%20Controls/RadioButtonAdv">RadioButtonAdv</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/RangeSlider">RangeSlider</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/RatingControl">Rating</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">TextBoxExt</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">BannerText</a>
+</td>
+</tr>
+
 <tr>
 <td>
 <a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">CurrencyEdit</a>
@@ -475,87 +581,24 @@ The easiest way to use these samples without using Git is to download the zip fi
 </td>
 </tr>
 <tr>
-<td>
-<a href="Tools.Windows/Samples/Input%20Controls/SfNumericTextBox">Numeric TextBox</a>
-</td>
+
 <td>
 <a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">DoubleTextBox</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">IntegerTextBox</a>
 </td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">MaskedEditBox</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">NumericUpdownExt</a>
-</td>
 <td>
 <a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">PercentTextBox</a>
 </td>
-</tr><tr>
-<td>
-<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">TextBoxExt</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/List%20Controls/Multi%20Column%20ComboBox">MultiColumnComboBox</a>
-</td>
-<td>
-<a href="ListView.WinForms/Samples/SfComboBox/MultiSelection">MultiSelectionComboBox</a>
-</td>
 </tr>
 <tr>
 <td>
-<a href="Tools.Windows/Samples/Input%20Controls/RadioButtonAdv">RadioButtonAdv</a>
-</td>
-<td/>
-<td>
-<a href="Tools.Windows/Samples/List%20Controls/Combo%20DropDown">ComboDropDown</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Core.WinForms/Samples/SfButton/Buttons">SplitButton</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Container%20controls/Split%20ContainerAdv">SplitContainerAdv</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/ColorUI%20Controls/Color%20UI%20Control">ColorPickerUIAdv</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/ColorUI%20Controls/ColorPickerButton">ColorPicker Button</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/RadialSlider/RadialSlider">RadialSlider</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/RatingControl">Rating</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/ToggleButton/ToggleButton">ToggleButton</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/Input%20Controls/SfCalendar">Calender</a>
+<a href="Tools.Windows/Samples/Editor%20Controls/Editor%20Controls">TrackBarEx</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Input%20Controls/SfDateTimeEdit/Getting%20Started">DateTimeEdit</a>
 </td>
-</tr>
-<tr>
-<td>
-<a href="Tools.Windows/Samples/RangeSlider">RangeSlider</a>
-</td>
-<td>
-<a href="Tools.Windows/Samples/FontComboBox">FontComboBox</a>
-</td>
-<td/>
 </tr>
 </table>
 
