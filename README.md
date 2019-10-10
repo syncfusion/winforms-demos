@@ -354,7 +354,6 @@ The easiest way to use these samples without using Git is to download the zip fi
 <td>
 <a href="Tools.Windows/Samples/Clock/Clock">Clock</a>
 </td>
-<td/>
 </tr>
 <tr>
 <td>
@@ -599,6 +598,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 <td>
 <a href="Tools.Windows/Samples/Input%20Controls/SfDateTimeEdit/Getting%20Started">DateTimeEdit</a>
 </td>
+<td/>
 </tr>
 </table>
 
