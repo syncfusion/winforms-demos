@@ -54,7 +54,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="DataGrid.WinForms/Samples">DataGrid</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/List%20Controls/SfListView">ListView</a>
+<a href="ListView.WinForms/Samples/SfListView">ListView</a>
 </td>
 <td>
 <a href="Grid.Windows/Samples/Serialization/Serialization%20Demo">GridControl</a>
@@ -217,7 +217,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="Core.WinForms/Samples/SfForm">Form</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/RadialMenu/RadialMenu">RadialMenu</a>
+<a href="Tools.Windows/Samples/RadialMenu">RadialMenu</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Office%20Style%20Form/Office2010Form">Office2010Form</a>
@@ -236,7 +236,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td>
-<a href="Tools.Windows/Samples/TreeView/Multi%20Column%20TreeView">MulticolumnTreeView</a>
+<a href="Tools.Windows/Samples/MultiColumnTreeView">MulticolumnTreeView</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/TreeView">TreeView</a>
@@ -272,7 +272,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="Tools.Windows/Samples/ToolBars/Toolbars">XPToolbar</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/Menu/MDI">MDIChildForms</a>
+<a href="Tools.Windows/Samples/Menu/MDI%20Merge">MDIChildForms</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Hierarchical%20navigator/Navigation%20View">NavigationView</a>
@@ -293,9 +293,10 @@ The easiest way to use these samples without using Git is to download the zip fi
 <td>
 <a href="Tools.Windows/Samples/NavigationDrawer">NavigationDrawer</a>
 </td>
-<td colspan="3" rowspan="1">
-  
+<td>
+<a href="Tools.Windows/Samples/Context%20Menu">Context Menu</a>
 </td>
+<td/>
 </tr>
 <tr>
 <td colspan="3" rowspan="1">
@@ -307,7 +308,7 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="Tools.Windows/Samples/Skin%20Manager/Skin%20Manager">SkinManager</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/MessageBoxAdv/MessageBoxAdv">MessageBoxAdv</a>
+<a href="Tools.Windows/Samples/MessageBoxAdv">MessageBoxAdv</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/Clock/Clock">Clock</a>
@@ -324,6 +325,16 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="Calculate.Windows/Samples">Calculate</a>
 </td>
 </tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Digital%20Clock">DigitalClock</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Localization">Localization</a>
+</td>
+<td/>
+</tr>
+
 <tr>
 <td colspan="3" rowspan="1">
 <b>BUSINESS INTELLIGENCE</b>
@@ -376,6 +387,25 @@ The easiest way to use these samples without using Git is to download the zip fi
 </td>
 </tr>
 <tr>
+<td>
+<a href="Tools.Windows/Samples/Layout manager/BorderLayout">Border Layout</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Layout manager/CardLayout">Card Layout</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/Layout manager/FlowLayout">Flow Layout</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/Layout manager/GridLayout">Grid Layout</a>
+</td>
+<td/>
+<td/>
+</tr>
+
+<tr>
 <td colspan="3" rowspan="1">
 <b>EDITORS</b>
 </td>
@@ -393,14 +423,12 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td>
-<a href="Tools.Windows/Samples/List%20Controls/SfComboBox">ComboBox</a>
+<a href="ListView.WinForms/Samples/SfComboBox">ComboBox</a>
 </td>
 <td>
 <a href="Tools.Windows/Samples/List%20Controls/ComboBox%20Autocomplete">ComboBoxAutocomplete</a>
 </td>
-<td>
-<a href="Tools.Windows/Samples/List%20Controls/ComboBox%20Base">ComboBoxBase</a>
-</td>
+<td/>
 </tr>
 <tr>
 <td>
@@ -475,16 +503,14 @@ The easiest way to use these samples without using Git is to download the zip fi
 <a href="Tools.Windows/Samples/List%20Controls/Multi%20Column%20ComboBox">MultiColumnComboBox</a>
 </td>
 <td>
-<a href="Tools.Windows/Samples/List%20Controls/MultiSelectionComboBox">MultiSelectionComboBox</a>
+<a href="ListView.WinForms/Samples/SfComboBox/MultiSelection">MultiSelectionComboBox</a>
 </td>
 </tr>
 <tr>
 <td>
 <a href="Tools.Windows/Samples/Input%20Controls/RadioButtonAdv">RadioButtonAdv</a>
 </td>
-<td>
-<a href="Tools.Windows/Samples/List%20Controls/ComboBoxAdv">ComboBoxAdv</a>
-</td>
+<td/>
 <td>
 <a href="Tools.Windows/Samples/List%20Controls/Combo%20DropDown">ComboDropDown</a>
 </td>
@@ -521,6 +547,15 @@ The easiest way to use these samples without using Git is to download the zip fi
 <td>
 <a href="Tools.Windows/Samples/Input%20Controls/SfDateTimeEdit/Getting%20Started">DateTimeEdit</a>
 </td>
+</tr>
+<tr>
+<td>
+<a href="Tools.Windows/Samples/RangeSlider">RangeSlider</a>
+</td>
+<td>
+<a href="Tools.Windows/Samples/FontComboBox">FontComboBox</a>
+</td>
+<td/>
 </tr>
 </table>
 
