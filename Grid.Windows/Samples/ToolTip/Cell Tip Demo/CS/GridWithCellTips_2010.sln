@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridWithCellTips_2010", "GridWithCellTips_2010.csproj", "{FB151EA9-009D-44BE-A7AF-FC5C5A0ECA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FB151EA9-009D-44BE-A7AF-FC5C5A0ECA23}.Debug.ActiveCfg = Debug|.NET
+		{FB151EA9-009D-44BE-A7AF-FC5C5A0ECA23}.Debug.Build.0 = Debug|.NET
+		{FB151EA9-009D-44BE-A7AF-FC5C5A0ECA23}.Release.ActiveCfg = Release|.NET
+		{FB151EA9-009D-44BE-A7AF-FC5C5A0ECA23}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

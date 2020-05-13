@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchyView_2010", "HierarchyView_2010.csproj", "{28B84666-C6BC-4980-B4DE-54C6F83DE967}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{28B84666-C6BC-4980-B4DE-54C6F83DE967}.Debug.ActiveCfg = Debug|.NET
+		{28B84666-C6BC-4980-B4DE-54C6F83DE967}.Debug.Build.0 = Debug|.NET
+		{28B84666-C6BC-4980-B4DE-54C6F83DE967}.Release.ActiveCfg = Release|.NET
+		{28B84666-C6BC-4980-B4DE-54C6F83DE967}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
