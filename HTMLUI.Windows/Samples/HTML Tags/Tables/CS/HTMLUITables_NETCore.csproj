@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>HTMLUITables</AssemblyName>
+    <RootNamespace>Syncfusion.Windows.Forms.HTMLUI.Samples</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="tables.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="tables.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.HTMLUI.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.HTMLUI.Windows" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.MIME.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Edit.Windows" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Grid.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Scripting.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Scripting.Windows" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="18.1.0.52" />
+    <PackageReference Include="Syncfusion.Licensing" Version="18.1.0.52" />
+  </ItemGroup>
+</Project>

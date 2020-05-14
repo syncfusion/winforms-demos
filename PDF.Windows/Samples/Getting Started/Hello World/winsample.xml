@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sample>
+  <name value="~/Getting Started/Hello World/Sample.aspx" />
+  <displayname value="Hello World Sample" />
+  <sortorder value="1" />
+</sample>
