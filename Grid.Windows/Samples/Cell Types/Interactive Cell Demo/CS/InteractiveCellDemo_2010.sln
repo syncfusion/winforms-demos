@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveCellDemo_2010", "InteractiveCellDemo_2010.csproj", "{5E6CA20C-E6F9-431A-BA8E-44D7E663EA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E6CA20C-E6F9-431A-BA8E-44D7E663EA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6CA20C-E6F9-431A-BA8E-44D7E663EA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6CA20C-E6F9-431A-BA8E-44D7E663EA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6CA20C-E6F9-431A-BA8E-44D7E663EA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

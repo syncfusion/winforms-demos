@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DefineConstants>NETCORE;</DefineConstants>
+    <AssemblyName>LocalizingDialogs_2005</AssemblyName>
+    <RootNamespace>LocalizingDialogs</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Diagram.Base" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Diagram.Windows" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Licensing" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="18.4.0.30" />
+  </ItemGroup>
+</Project>

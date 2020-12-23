@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>DataFromDataBase</AssemblyName>
+    <RootNamespace>DataFromDataBase</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <PackageReference Include="Syncfusion.Chart.Base" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Chart.Windows" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="18.4.0.30" />
+    <PackageReference Include="Syncfusion.Licensing" Version="18.4.0.30" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+</Project>
