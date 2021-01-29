@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>WordMLtoWord</AssemblyName>
+    <RootNamespace>WordML to Doc</RootNamespace>
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.DocIO.WinForms" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="18.4.0.39" />
+    <PackageReference Include="Syncfusion.Licensing" Version="18.4.0.39" />
+  </ItemGroup>
+</Project>
