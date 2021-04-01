@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualRelations_2010", "ManualRelations_2010.csproj", "{94AB91A5-1EC2-489D-9F93-82D90B68F4A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{94AB91A5-1EC2-489D-9F93-82D90B68F4A4}.Debug.ActiveCfg = Debug|.NET
+		{94AB91A5-1EC2-489D-9F93-82D90B68F4A4}.Debug.Build.0 = Debug|.NET
+		{94AB91A5-1EC2-489D-9F93-82D90B68F4A4}.Release.ActiveCfg = Release|.NET
+		{94AB91A5-1EC2-489D-9F93-82D90B68F4A4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

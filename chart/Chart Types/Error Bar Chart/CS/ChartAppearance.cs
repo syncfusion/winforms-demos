@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Syncfusion.Windows.Forms.Chart;
+using Syncfusion.Drawing;
+using System.Drawing;
+
+namespace ErrorBarsChart_2005
+{
+    public static class ChartAppearance
+    {
+        public static void ApplyChartStyles(ChartControl chart)
+        {
+            #region ApplyCustomPalette
+            chart.Skins = Skins.Metro;
+            #endregion
+
+            #region Chart Appearance Customization
+
+            chart.BorderAppearance.SkinStyle = Syncfusion.Windows.Forms.Chart.ChartBorderSkinStyle.None;
+            chart.PrimaryXAxis.RangePaddingType = ChartAxisRangePaddingType.Calculate;
+            chart.PrimaryYAxis.RangePaddingType = ChartAxisRangePaddingType.Calculate;
+            chart.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            chart.ChartArea.PrimaryXAxis.HidePartialLabels = true;
+            chart.ElementsSpacing = 0;
+            chart.Text = "Life time for Home Appliances with Error Values";
+            chart.PrimaryXAxis.Title = "Product Name";
+            chart.PrimaryYAxis.Title = "Life Time(Year)";
+            chart.PrimaryYAxis.RangeType = ChartAxisRangeType.Set;
+            chart.PrimaryYAxis.Range = new MinMaxInfo(0, 20, 5);
+            chart.PrimaryYAxis.DrawGrid = true;
+
+            #endregion
+
+            #region Axes Customization
+            chart.PrimaryXAxis.TitleSpacing = 6;
+            chart.PrimaryXAxis.Range.Min = 0;
+            chart.PrimaryYAxis.Range.Min = 0;
+
+            #endregion
+
+            #region Legend Customization
+            for (int i = 0; i < chart.Legend.Items.Length; i++)
+            {
+                chart.Legend.Items[i].Spacing = 2;
+                chart.Legend.ItemsSize = new Size(13, 13);
+                chart.Legend.Items[i].TextAligment = VerticalAlignment.Bottom;
+                chart.Legend.BackColor = Color.Transparent;
+                chart.LegendsPlacement = ChartPlacement.Outside;
+                chart.LegendAlignment = ChartAlignment.Center;
+                chart.LegendPosition = ChartDock.Bottom;
+                chart.Legend.Font = new Font("Segoe UI", 10.25f);
+                chart.Legend.RepresentationType = ChartLegendRepresentationType.None;
+            }
+            #endregion
+        }
+
+
+    }
+}
