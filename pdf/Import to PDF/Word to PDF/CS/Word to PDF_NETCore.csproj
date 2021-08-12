@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Word to PDF</AssemblyName>
+    <RootNamespace>Word_to_PDF</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings" />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.DocIO.WinForms" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.DocToPDFConverter.WinForms" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.OfficeChartToImageConverter.WinForms" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.2.0.55" />
+  </ItemGroup>
+</Project>

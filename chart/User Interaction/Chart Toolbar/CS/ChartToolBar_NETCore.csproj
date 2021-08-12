@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>ChartToolBar_2005</AssemblyName>
+    <RootNamespace>ChartToolBar_2005</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Chart.Base" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Chart.Windows" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.2.0.55" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.2.0.55" />
+  </ItemGroup>
+</Project>

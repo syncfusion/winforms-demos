@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingPerf_2010", "GroupingPerf_2010.csproj", "{4F865C7E-FD4E-4626-A585-3CCD7F7E6FB3}"
+EndProject
+Global
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4F865C7E-FD4E-4626-A585-3CCD7F7E6FB3}.Debug.ActiveCfg = Debug|.NET
+		{4F865C7E-FD4E-4626-A585-3CCD7F7E6FB3}.Debug.Build.0 = Debug|.NET
+		{4F865C7E-FD4E-4626-A585-3CCD7F7E6FB3}.Release.ActiveCfg = Release|.NET
+		{4F865C7E-FD4E-4626-A585-3CCD7F7E6FB3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

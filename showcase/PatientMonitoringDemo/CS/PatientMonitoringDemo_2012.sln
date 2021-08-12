@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMonitoringDemo_2012", "PatientMonitoringDemo_2012.csproj", "{82450947-1346-4DA4-9326-3C5A3EE1789B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82450947-1346-4DA4-9326-3C5A3EE1789B}.Debug|x86.ActiveCfg = Debug|x86
+		{82450947-1346-4DA4-9326-3C5A3EE1789B}.Debug|x86.Build.0 = Debug|x86
+		{82450947-1346-4DA4-9326-3C5A3EE1789B}.Release|x86.ActiveCfg = Release|x86
+		{82450947-1346-4DA4-9326-3C5A3EE1789B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
