@@ -1,0 +1,149 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>ExpenseAnalysis</AssemblyName>
+    <RootNamespace>ExpenseAnalysis</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Resource Remove="Images\1-.png" />
+    <Resource Remove="Images\chartstatistics.png" />
+    <Resource Remove="Images\Chart_Clicked.png" />
+    <Resource Remove="Images\Chart_Hover.png" />
+    <Resource Remove="Images\Chart_Noraml.png" />
+    <Resource Remove="Images\close.png" />
+    <Resource Remove="Images\DataExporthover.png" />
+    <Resource Remove="Images\DataExportnormal.png" />
+    <Resource Remove="Images\ExcelExporthover.png" />
+    <Resource Remove="Images\ExcelExportnormal.png" />
+    <Resource Remove="Images\expense-values.png" />
+    <Resource Remove="Images\ExpenseAnalysis.png" />
+    <Resource Remove="Images\expense_slice_valuetitle_bg.png" />
+    <Resource Remove="Images\Grid_Clicked.png" />
+    <Resource Remove="Images\Grid_Hover.png" />
+    <Resource Remove="Images\Grid_Normal.png" />
+    <Resource Remove="Images\image2.PNG" />
+    <Resource Remove="Images\left-image.png" />
+    <Resource Remove="Images\logo.png" />
+    <Resource Remove="Images\minimise.png" />
+    <Resource Remove="Images\PdfExportHover.png" />
+    <Resource Remove="Images\PdfExportNormal.png" />
+    <Resource Remove="Images\Previous_MouseHover.png" />
+    <Resource Remove="Images\Previous_Normal.png" />
+    <Resource Remove="Images\statistics.PNG" />
+    <Resource Remove="Images\WordExportHover.png" />
+    <Resource Remove="Images\WordExportNormal.png" />
+    <EmbeddedResource Include="Images\1-.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\chartstatistics.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Chart_Clicked.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Chart_Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Chart_Noraml.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\DataExporthover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\DataExportnormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ExcelExporthover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ExcelExportnormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\expense-values.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ExpenseAnalysis.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\expense_slice_valuetitle_bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Grid_Clicked.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Grid_Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Grid_Normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\image2.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\left-image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\minimise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\PdfExportHover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\PdfExportNormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Previous_MouseHover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Previous_Normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\statistics.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\WordExportHover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\WordExportNormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <PackageReference Include="Syncfusion.Chart.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Chart.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Data.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.DataSource.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.DocIO.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.GridCommon.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Office2016Theme.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.DataGridExport.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.SfInput.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.SfListView.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.XlsIO.WinForms" Version="19.3.0.43" />
+  </ItemGroup>
+</Project>

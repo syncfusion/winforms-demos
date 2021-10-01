@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>SparklinesWithGrid_2008</AssemblyName>
+    <RootNamespace>SparklinesWithGrid_2008</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Chart.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Chart.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.3.0.43" />
+  </ItemGroup>
+</Project>

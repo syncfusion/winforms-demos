@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>PPTXToImage</AssemblyName>
+    <RootNamespace>PPTXToImage</RootNamespace>
+    <DefineConstants>NETCore</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Presentation.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.OfficeChartToImageConverter.WinForms" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.3.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.3.0.43" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
