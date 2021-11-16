@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>PowerPointViewer</AssemblyName>
+    <RootNamespace>PowerPointViewer</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Resource Include="**\*.gif" />
+    <Resource Include="**\*.ico" />
+    <None Remove="Data\NewCharts.pptx" />
+    <EmbeddedResource Include="Data\NewCharts.pptx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.OfficeChartToImageConverter.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Presentation.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.PresentationToPdfConverter.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.3.0.53" />
+  </ItemGroup>
+</Project>
