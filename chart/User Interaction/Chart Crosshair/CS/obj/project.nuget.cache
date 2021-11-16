@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Otk4Na7zE/ecM+OCPwmZON3CD0Q0F2d+HYH6iHRgOB27veZLzLbz8rxH731rSB+KOp8tk+0tocR22BSJZvxlbQ==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\chart\\User Interaction\\Chart Crosshair\\CS\\ChartCrosshair_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.base\\19.3.0.53\\syncfusion.chart.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.windows\\19.3.0.53\\syncfusion.chart.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grouping.base\\19.3.0.53\\syncfusion.grouping.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

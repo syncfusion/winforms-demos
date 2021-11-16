@@ -1,0 +1,184 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CustomizationDemo/1.0.0": {
+        "dependencies": {
+          "Syncfusion.Core.WinForms": "19.3.0.53",
+          "Syncfusion.Grid.Windows": "19.3.0.53",
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53",
+          "Syncfusion.SpellChecker.Base": "19.3.0.53",
+          "Syncfusion.Tools.Base": "19.3.0.53",
+          "Syncfusion.Tools.Windows": "19.3.0.53"
+        },
+        "runtime": {
+          "CustomizationDemo.dll": {}
+        }
+      },
+      "Syncfusion.Core.WinForms/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Core.WinForms.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      },
+      "Syncfusion.Grid.Windows/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Grid.Windows.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.53": {
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.3.0.53",
+            "fileVersion": "19.3.0.53"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      },
+      "Syncfusion.Shared.Windows/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      },
+      "Syncfusion.SpellChecker.Base/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SpellChecker.Base.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      },
+      "Syncfusion.Tools.Base/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.Base.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      },
+      "Syncfusion.Tools.Windows/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Grid.Windows": "19.3.0.53",
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53",
+          "Syncfusion.SpellChecker.Base": "19.3.0.53",
+          "Syncfusion.Tools.Base": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.Windows.dll": {
+            "assemblyVersion": "19.3310.0.53",
+            "fileVersion": "19.3310.0.53"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomizationDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.Core.WinForms/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zfuPVGbr0mxWQTADU9lcyUH1twcQM2GdvR2wa3qn5IiX8KEP2JRGWHLJk/C682pgT2/Whj1XzcNid0UadWLoYg==",
+      "path": "syncfusion.core.winforms/19.3.0.53",
+      "hashPath": "syncfusion.core.winforms.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Grid.Windows/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x/FBtXjhb51LfvfroaCzdY8Xm+O3Ghas2NBtdIEn2oGWF/PVztTl/LlcWMeixxYsZUQIPhxFsxqHiJcCPBhKBA==",
+      "path": "syncfusion.grid.windows/19.3.0.53",
+      "hashPath": "syncfusion.grid.windows.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4T+7hY4QIoSxgGS8ymSuAkdUHPVt5X2t0N/77ZqHm0nlPKQvVcVpoDuW49rThiaiqKQBf0XJSyBMZ9LsPMhAeA==",
+      "path": "syncfusion.licensing/19.3.0.53",
+      "hashPath": "syncfusion.licensing.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Base/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jVj/MqMkmbEpd0UNW32USgenCqskC6gRICKN/UTmXNno/bbEfwEy4TS3OBP9QFFnXb8get9zB18ztYPMgAjPQ==",
+      "path": "syncfusion.shared.base/19.3.0.53",
+      "hashPath": "syncfusion.shared.base.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Windows/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q/JnJokfpmQ/63lRAKkoOwtE/i6cjTo5i5nHtTKa4IZrTU2NqHtxfg+EyEGBEZd7zGrJRAoIFoWnh2QCgjCo9Q==",
+      "path": "syncfusion.shared.windows/19.3.0.53",
+      "hashPath": "syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.SpellChecker.Base/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WoCRnKOUTxOcKG99Vx+9IdOOqSf/lhkVLOfEX5m8/csDDIubQse9eUfbZP1faWquVl6WRj/p7vEiEIu8JUlnLw==",
+      "path": "syncfusion.spellchecker.base/19.3.0.53",
+      "hashPath": "syncfusion.spellchecker.base.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Tools.Base/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y6TxFgzfLyyC8dJ7FNdNu3J5hYaJQHRGw6YSnqrjEUfFWGSX3SMSQfXU0MQOiv5OQN6ErSij3CGnAXP6uzT6xA==",
+      "path": "syncfusion.tools.base/19.3.0.53",
+      "hashPath": "syncfusion.tools.base.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Tools.Windows/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sIqR01u+1v0PVm51tDrWBU7u+aAmZqdxwxT/tzsSGUckmp/e49NPC67ogApJgTl4mD7YrLmMY1b8EzvRrHpOPw==",
+      "path": "syncfusion.tools.windows/19.3.0.53",
+      "hashPath": "syncfusion.tools.windows.19.3.0.53.nupkg.sha512"
+    }
+  }
+}

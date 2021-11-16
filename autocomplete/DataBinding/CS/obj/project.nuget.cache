@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "1+BNWZ9CaadgKiU+08tAj6JMxqh3J6DU0E5j5Ki4S/riF4kZVadjOkqR/ea4YNbxrrjvohmLNc+M8xos2tp7FQ==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\autocomplete\\DataBinding\\CS\\DataBinding_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.core.winforms\\19.3.0.53\\syncfusion.core.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grid.windows\\19.3.0.53\\syncfusion.grid.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.gridcommon.winforms\\19.3.0.53\\syncfusion.gridcommon.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.office2019theme.winforms\\19.3.0.53\\syncfusion.office2019theme.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.spellchecker.base\\19.3.0.53\\syncfusion.spellchecker.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.base\\19.3.0.53\\syncfusion.tools.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.windows\\19.3.0.53\\syncfusion.tools.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

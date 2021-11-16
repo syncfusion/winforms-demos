@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "mg39m6VbIaVdWG4hp6mmtlZvami/cuBV5ssRRuA5As3OgCBC4QUmLrQ0qu9oMgfS9YrRypeyds95v7ok0KuvVw==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\barcode\\GettingStarted\\CS\\Barcode_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grid.windows\\19.3.0.53\\syncfusion.grid.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.sfbarcode.windows\\19.3.0.53\\syncfusion.sfbarcode.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.spellchecker.base\\19.3.0.53\\syncfusion.spellchecker.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.base\\19.3.0.53\\syncfusion.tools.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.windows\\19.3.0.53\\syncfusion.tools.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

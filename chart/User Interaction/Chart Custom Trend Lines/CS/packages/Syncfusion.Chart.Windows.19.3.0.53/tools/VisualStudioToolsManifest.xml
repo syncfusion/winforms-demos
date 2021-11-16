@@ -1,0 +1,10 @@
+<FileList>
+
+<File Reference="Syncfusion.Chart.Windows.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.Windows.Forms.Chart.ChartControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Chart.SparkLine"/>
+	</ToolboxItems>
+</File>
+</FileList>

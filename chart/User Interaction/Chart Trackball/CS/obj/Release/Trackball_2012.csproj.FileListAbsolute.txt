@@ -1,0 +1,14 @@
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Trackball.exe
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Shared.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Chart.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Chart.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\bin\Release\Syncfusion.Shared.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\obj\Release\Trackball_2012.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\obj\Release\Trackball.Form1.resources
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\obj\Release\Trackball_2012.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Trackball\CS\obj\Release\Trackball.exe

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "RT20HS9sRtG3aluvGeIRpeQIZOMMq4HJpv+IedQF82S4cOFBFVJDW7orJBHcwo13lKwXfQ0h107TOy/oDm4KFg==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\docio\\Chart\\Pie Chart\\CS\\PieChart_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.compression.base\\19.3.0.53\\syncfusion.compression.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.docio.winforms\\19.3.0.53\\syncfusion.docio.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grid.windows\\19.3.0.53\\syncfusion.grid.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.officechart.base\\19.3.0.53\\syncfusion.officechart.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.spellchecker.base\\19.3.0.53\\syncfusion.spellchecker.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.base\\19.3.0.53\\syncfusion.tools.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.windows\\19.3.0.53\\syncfusion.tools.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\GanttChart.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Chart.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Chart.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\obj\Release\GanttChart_2013.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\obj\Release\OtherCharts.Form1.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\obj\Release\GanttChart_2013.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Gantt Chart\CS\obj\Release\GanttChart.exe

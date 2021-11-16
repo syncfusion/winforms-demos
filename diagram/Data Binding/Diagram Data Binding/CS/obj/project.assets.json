@@ -1,0 +1,360 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Syncfusion.Diagram.Base/19.3.0.53": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Diagram.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Diagram.Base.dll": {}
+        }
+      },
+      "Syncfusion.Diagram.Windows/19.3.0.53": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Diagram.Base": "19.3.0.53",
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Diagram.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Diagram.Windows.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.53": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Shared.Base/19.3.0.53": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {}
+        }
+      },
+      "Syncfusion.Shared.Windows/19.3.0.53": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll": {}
+        }
+      },
+      "DiagramDataBindingManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Syncfusion.Diagram.Base": "19.3.0.53",
+          "Syncfusion.Diagram.Windows": "19.3.0.53",
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53"
+        },
+        "compile": {
+          "bin/placeholder/DiagramDataBindingManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiagramDataBindingManager.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Syncfusion.Diagram.Base/19.3.0.53": {
+      "sha512": "gwsFgLGuZqdiFADY4WZHc5fyMobQS/gErzFs/9BIqOsTvMqgDmkIpCdW9c3AiK/o+BecvOgVkOUZQHsRA7m8Ig==",
+      "type": "package",
+      "path": "syncfusion.diagram.base/19.3.0.53",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.Diagram.Base.dll",
+        "lib/net20/Syncfusion.Diagram.Base.xml",
+        "lib/net35/Syncfusion.Diagram.Base.dll",
+        "lib/net35/Syncfusion.Diagram.Base.xml",
+        "lib/net40/Syncfusion.Diagram.Base.dll",
+        "lib/net40/Syncfusion.Diagram.Base.xml",
+        "lib/net45/Syncfusion.Diagram.Base.dll",
+        "lib/net45/Syncfusion.Diagram.Base.xml",
+        "lib/net451/Syncfusion.Diagram.Base.dll",
+        "lib/net451/Syncfusion.Diagram.Base.xml",
+        "lib/net46/Syncfusion.Diagram.Base.dll",
+        "lib/net46/Syncfusion.Diagram.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Diagram.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Diagram.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Diagram.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Diagram.Base.xml",
+        "syncfusion.diagram.base.19.3.0.53.nupkg.sha512",
+        "syncfusion.diagram.base.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Diagram.Windows/19.3.0.53": {
+      "sha512": "pwCBbaVDlF7ZVd42iKbJX1gqctOi+ZJU01FOcTmncWlqpNv5bpMdHW1G165kKAaUKoywcYmOqhs7ajRB8IfgPA==",
+      "type": "package",
+      "path": "syncfusion.diagram.windows/19.3.0.53",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.Diagram.Windows.dll",
+        "lib/net20/Syncfusion.Diagram.Windows.xml",
+        "lib/net35/Syncfusion.Diagram.Windows.dll",
+        "lib/net35/Syncfusion.Diagram.Windows.xml",
+        "lib/net40/Syncfusion.Diagram.Windows.dll",
+        "lib/net40/Syncfusion.Diagram.Windows.xml",
+        "lib/net45/Syncfusion.Diagram.Windows.dll",
+        "lib/net45/Syncfusion.Diagram.Windows.xml",
+        "lib/net451/Syncfusion.Diagram.Windows.dll",
+        "lib/net451/Syncfusion.Diagram.Windows.xml",
+        "lib/net46/Syncfusion.Diagram.Windows.dll",
+        "lib/net46/Syncfusion.Diagram.Windows.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Diagram.Windows.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Diagram.Windows.xml",
+        "lib/netcoreapp3.1/Syncfusion.Diagram.Windows.dll",
+        "lib/netcoreapp3.1/Syncfusion.Diagram.Windows.xml",
+        "syncfusion.diagram.windows.19.3.0.53.nupkg.sha512",
+        "syncfusion.diagram.windows.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Licensing/19.3.0.53": {
+      "sha512": "4T+7hY4QIoSxgGS8ymSuAkdUHPVt5X2t0N/77ZqHm0nlPKQvVcVpoDuW49rThiaiqKQBf0XJSyBMZ9LsPMhAeA==",
+      "type": "package",
+      "path": "syncfusion.licensing/19.3.0.53",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0-windows10.0/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.19.3.0.53.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Shared.Base/19.3.0.53": {
+      "sha512": "7jVj/MqMkmbEpd0UNW32USgenCqskC6gRICKN/UTmXNno/bbEfwEy4TS3OBP9QFFnXb8get9zB18ztYPMgAjPQ==",
+      "type": "package",
+      "path": "syncfusion.shared.base/19.3.0.53",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.Shared.Base.dll",
+        "lib/net20/Syncfusion.Shared.Base.xml",
+        "lib/net35/Syncfusion.Shared.Base.dll",
+        "lib/net35/Syncfusion.Shared.Base.xml",
+        "lib/net40/Syncfusion.Shared.Base.dll",
+        "lib/net40/Syncfusion.Shared.Base.xml",
+        "lib/net45/Syncfusion.Shared.Base.dll",
+        "lib/net45/Syncfusion.Shared.Base.xml",
+        "lib/net451/Syncfusion.Shared.Base.dll",
+        "lib/net451/Syncfusion.Shared.Base.xml",
+        "lib/net46/Syncfusion.Shared.Base.dll",
+        "lib/net46/Syncfusion.Shared.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Base.xml",
+        "syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+        "syncfusion.shared.base.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.Windows/19.3.0.53": {
+      "sha512": "Q/JnJokfpmQ/63lRAKkoOwtE/i6cjTo5i5nHtTKa4IZrTU2NqHtxfg+EyEGBEZd7zGrJRAoIFoWnh2QCgjCo9Q==",
+      "type": "package",
+      "path": "syncfusion.shared.windows/19.3.0.53",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.Shared.Windows.dll",
+        "lib/net20/Syncfusion.Shared.Windows.xml",
+        "lib/net35/Syncfusion.Shared.Windows.dll",
+        "lib/net35/Syncfusion.Shared.Windows.xml",
+        "lib/net40/Syncfusion.Shared.Windows.dll",
+        "lib/net40/Syncfusion.Shared.Windows.xml",
+        "lib/net45/Syncfusion.Shared.Windows.dll",
+        "lib/net45/Syncfusion.Shared.Windows.xml",
+        "lib/net451/Syncfusion.Shared.Windows.dll",
+        "lib/net451/Syncfusion.Shared.Windows.xml",
+        "lib/net46/Syncfusion.Shared.Windows.dll",
+        "lib/net46/Syncfusion.Shared.Windows.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Windows.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Windows.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Windows.xml",
+        "syncfusion.shared.windows.19.3.0.53.nupkg.sha512",
+        "syncfusion.shared.windows.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "DiagramDataBindingManager/1.0.0": {
+      "type": "project",
+      "path": "DiagramDataBindingManager/DiagramDBiManager_NETCore.csproj",
+      "msbuildProject": "DiagramDataBindingManager/DiagramDBiManager_NETCore.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DiagramDataBindingManager >= 1.0.0",
+      "Syncfusion.Diagram.Base >= 19.3.0.53",
+      "Syncfusion.Diagram.Windows >= 19.3.0.53",
+      "Syncfusion.Licensing >= 19.3.0.53",
+      "Syncfusion.Shared.Base >= 19.3.0.53",
+      "Syncfusion.Shared.Windows >= 19.3.0.53"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Data Binding\\Diagram Data Binding\\CS\\DiagramDataBindingSample_NETCore.csproj",
+      "projectName": "DiagramORMSample",
+      "projectPath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Data Binding\\Diagram Data Binding\\CS\\DiagramDataBindingSample_NETCore.csproj",
+      "packagesPath": "C:\\Users\\BuildAutomation\\.nuget\\packages\\",
+      "outputPath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Data Binding\\Diagram Data Binding\\CS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "D:\\Samples_19.3.0.53\\Windows\\diagram\\Data Binding\\Diagram Data Binding\\CS\\NuGet.Config",
+        "C:\\Users\\BuildAutomation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nexus.syncfusion.com/repository/nuget-hosted/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Samples_19.3.0.53\\Windows\\diagram\\Data Binding\\Diagram Data Binding\\CS\\DiagramDataBindingManager\\DiagramDBiManager_NETCore.csproj": {
+              "projectPath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Data Binding\\Diagram Data Binding\\CS\\DiagramDataBindingManager\\DiagramDBiManager_NETCore.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Syncfusion.Diagram.Base": {
+            "target": "Package",
+            "version": "[19.3.0.53, )"
+          },
+          "Syncfusion.Diagram.Windows": {
+            "target": "Package",
+            "version": "[19.3.0.53, )"
+          },
+          "Syncfusion.Licensing": {
+            "target": "Package",
+            "version": "[19.3.0.53, )"
+          },
+          "Syncfusion.Shared.Base": {
+            "target": "Package",
+            "version": "[19.3.0.53, )"
+          },
+          "Syncfusion.Shared.Windows": {
+            "target": "Package",
+            "version": "[19.3.0.53, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

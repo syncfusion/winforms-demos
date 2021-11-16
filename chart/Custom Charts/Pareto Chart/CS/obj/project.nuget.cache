@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GIO/rx4xeXG1vmoqjGuGVitwTrUFQ8sXazYw5aNLNNdzGcVNi7+RkaHP7u5IgdQomHixOLb0WMS2pCf8JfbwTQ==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\chart\\Custom Charts\\Pareto Chart\\CS\\Pareto_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.base\\19.3.0.53\\syncfusion.chart.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.windows\\19.3.0.53\\syncfusion.chart.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grouping.base\\19.3.0.53\\syncfusion.grouping.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.base\\19.3.0.53\\syncfusion.tools.base.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

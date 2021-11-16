@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "T4imcK3pREVX+HeruncLoa4lW+u4r/6H9+YaJdfeK+ykv4Wh0slbA9w9g91HErJHVEGtNyKg6Be+MmaPKAUbeQ==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Getting Started\\Print Demo\\CS\\Printing_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.base\\19.3.0.53\\syncfusion.diagram.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.windows\\19.3.0.53\\syncfusion.diagram.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

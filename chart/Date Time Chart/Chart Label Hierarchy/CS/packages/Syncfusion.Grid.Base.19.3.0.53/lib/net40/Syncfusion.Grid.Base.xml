@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.Grid.Base</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.NamespaceDoc">
+            <summary>
+            The Syncfusion namespace contains classes that defines the value and reference data types, events and event handlers, interfaces, attributes and processing the exceptions.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.GridBaseAssembly">
+            <exclude/>
+            <summary>
+            This class holds the name of the Syncfusion.Grid.Base assembly and provides a helper 
+            routine that helps with resolving types when loading a serialization stream and when 
+            the framework probes for assemblies by reflection. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.GridBaseAssembly.Name">
+            <summary>
+            The full name of this assembly without version information: "Syncfusion.Grid.Base".
+            </summary>
+        </member>
+        <member name="F:Syncfusion.GridBaseAssembly.Assembly">
+            <summary>
+            A reference to the <see cref="T:System.Reflection.Assembly"/> for the grid assembly.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.GridBaseAssembly.RootNamespace">
+            <summary>
+            The root namespace of this assembly. Used internally for locating resources within the assembly.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.GridBaseAssembly.AssemblyResolver(System.Object,System.ResolveEventArgs)">
+            <summary>
+            This delegate helps with resolving types and can be used as an eventhandler
+            for a <see cref="E:System.AppDomain.AssemblyResolve"/> event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data with information about the type.</param>
+            <returns>A reference to the assembly where the type is located.</returns>
+            <remarks>
+            Use this handler when reading back types from a serialization stream
+            saved with an earlier version of this assembly.
+            </remarks>
+            <example>
+            <code lang="C#">
+                      public static GridModel LoadSoap(Stream s)
+                      {
+                           try
+                           {
+                                AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(GridBaseAssembly.AssemblyResolver);
+                                SoapFormatter b = new SoapFormatter();
+                                b.AssemblyFormat = FormatterAssemblyStyle.Simple;
+                                GridModel t = b.Deserialize(s) as GridModel;
+                                t.Modified = false;
+                                return t;
+                           }
+                           finally
+                           {
+                                AppDomain.CurrentDomain.AssemblyResolve -= new ResolveEventHandler(GridBaseAssembly.AssemblyResolver);
+                           }
+                      }
+            
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>

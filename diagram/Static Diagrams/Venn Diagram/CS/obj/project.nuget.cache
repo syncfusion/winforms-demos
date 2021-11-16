@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ta5ZnGgrEFjet+jX7JxnxarUbxw0yS//YbTciCTMWK7a9riOk3S29IwndE+hdRoZ1J/EnqZrRKBdD07cwCCazw==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Static Diagrams\\Venn Diagram\\CS\\VennDiagram_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.base\\19.3.0.53\\syncfusion.diagram.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.windows\\19.3.0.53\\syncfusion.diagram.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

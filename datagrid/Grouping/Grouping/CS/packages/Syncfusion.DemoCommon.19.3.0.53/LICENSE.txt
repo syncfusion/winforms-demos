@@ -1,0 +1,7 @@
+This software is covered by the Software License Agreement (the “Agreement”)(https://www.syncfusion.com/nuget/license?utm_source=nuget&amp;utm_medium=listing). Any use in any form, regardless of where it was obtained is governed by the Agreement. The Agreement is a legal agreement between you (“You”, “Your”, or “Customer”) and Syncfusion, Inc., a Delaware corporation with its principal place of business located at 2501 Aerial Center Parkway, Suite 200, Morrisville, NC 27560 (“Syncfusion”). By accessing, downloading, viewing, possessing, or otherwise using any part of Syncfusion’s Essential Studio product, you are agreeing to be bound by the terms and conditions and agree to register with Syncfusion. If you do not agree to be bound by the terms and conditions of the Agreement, you cannot access, register, use, or view any part of Syncfusion’s Essential Studio product or lines of code.
+
+This license is for Essential Studio Enterprise Edition.
+
+TO READ THE COMPLETE LICENSE AGREEMENT: https://www.syncfusion.com/nuget/license?utm_source=nuget&amp;utm_medium=listing,
+
+IF AFTER READING THIS AGREEMENT YOU HAVE ANY QUESTIONS ABOUT THIS AGREEMENT, PLEASE CONTACT SYNCFUSION PRIOR TO USING THE SOFTWARE PRODUCT VIA EMAIL AT LEGALQUESTIONS@SYNCFUSION.COM 

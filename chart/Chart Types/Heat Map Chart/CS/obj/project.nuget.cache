@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2DhkcPKvRqFDOeLCGiXqweFYl5j+rp37ZYqYSFL7dH6mr2/28Pz+CHV23GGlb9fgrHPyd5/H/8ytl1EyX0wmSg==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\chart\\Chart Types\\Heat Map Chart\\CS\\HeatMapChart_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.base\\19.3.0.53\\syncfusion.chart.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.windows\\19.3.0.53\\syncfusion.chart.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grouping.base\\19.3.0.53\\syncfusion.grouping.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0DvY5BmFA68191EqXCmVHvSyehaHycMcqFZEme58+S3+X9/Fqmo18420gGv/RmZSB5lK3p8kb1OCoZhyksNDag==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Getting Started\\Simple Drill Down\\CS\\SimpleDrillDown_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.base\\19.3.0.53\\syncfusion.diagram.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.windows\\19.3.0.53\\syncfusion.diagram.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

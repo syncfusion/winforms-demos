@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gsxV0QZzS5KBE6F/2N7YvuKzVQuLoYH21F020QjI09UKJYMSmTicYyEiNsmgOY3lv4hYFyp59YNVQTwup8kF4w==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\chart\\Data Binding\\Custom Collections\\CS\\CustomCollections_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.base\\19.3.0.53\\syncfusion.chart.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.windows\\19.3.0.53\\syncfusion.chart.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grouping.base\\19.3.0.53\\syncfusion.grouping.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "eRJtUekHGj3nsmJ2xr1g2BwCMRRMlhFyc2JCtqlu6B80JRg6xJm8P5RstyepOaJI7JpvCFYx8BEA0JAbFc5h0w==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Static Diagrams\\State Diagram\\CS\\StateDiagram_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.base\\19.3.0.53\\syncfusion.diagram.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.windows\\19.3.0.53\\syncfusion.diagram.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

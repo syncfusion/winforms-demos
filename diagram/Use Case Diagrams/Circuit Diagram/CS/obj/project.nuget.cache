@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C43lfXV3XOS+GUtbNB3hudkTuuNDnc8VrJNQ/DCOzbpeTwiLeTr6nII8D/MeTIgDhHm9Wo2rbyDs9Xjs+io7hg==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\diagram\\Use Case Diagrams\\Circuit Diagram\\CS\\Circuit Diagram_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.democommon\\19.3.0.53\\syncfusion.democommon.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.base\\19.3.0.53\\syncfusion.diagram.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.diagram.windows\\19.3.0.53\\syncfusion.diagram.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

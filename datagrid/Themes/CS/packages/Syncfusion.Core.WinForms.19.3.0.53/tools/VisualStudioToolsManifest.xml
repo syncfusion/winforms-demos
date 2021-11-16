@@ -1,0 +1,11 @@
+<FileList>
+
+<File Reference="Syncfusion.Core.WinForms.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.WinForms.Controls.SfButton"/>
+		<Item Type="Syncfusion.WinForms.Controls.SfScrollFrame"/>
+		<Item Type="Syncfusion.WinForms.Controls.SfSkinManager"/>
+	</ToolboxItems>
+</File>
+</FileList>

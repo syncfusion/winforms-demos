@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "J8SRUZddpajWxpevstW2IP3wqy16D3BB2x97UE8k1ys/2wp9jD+1pz8uySfwgJDhb1iuW33reuzkgbON18Xhhg==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\chart\\SparklineChart\\SparklinesWithGrid\\CS\\SparklinesWithGrid_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.base\\19.3.0.53\\syncfusion.chart.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.chart.windows\\19.3.0.53\\syncfusion.chart.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grid.windows\\19.3.0.53\\syncfusion.grid.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grouping.base\\19.3.0.53\\syncfusion.grouping.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,20 @@
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\ChartBreaks Sample.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\ChartBreaks Sample.deps.json
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\ChartBreaks Sample.runtimeconfig.json
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\ChartBreaks Sample.runtimeconfig.dev.json
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\ChartBreaks Sample.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\ChartBreaks Sample.pdb
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\Syncfusion.Grouping.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\bin\Release\netcoreapp3.1\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaksSample_NETCore.csprojAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\EssentialChartSample.Form1.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\EssentialChartSample.Properties.Resources.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaksSample_NETCore.csproj.GenerateResource.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaksSample_NETCore.csproj.CoreCompileInputs.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaksSample_NETCore.csproj.CopyComplete
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaks Sample.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaks Sample.pdb
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Chart Breaks\CS\obj\Release\netcoreapp3.1\ChartBreaksSample_NETCore.genruntimeconfig.cache

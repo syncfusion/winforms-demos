@@ -1,0 +1,10 @@
+<FileList>
+
+<File Reference="Syncfusion.SfListView.WinForms.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.WinForms.ListView.SfComboBox"/>
+		<Item Type="Syncfusion.WinForms.ListView.SfListView"/>
+	</ToolboxItems>
+</File>
+</FileList>

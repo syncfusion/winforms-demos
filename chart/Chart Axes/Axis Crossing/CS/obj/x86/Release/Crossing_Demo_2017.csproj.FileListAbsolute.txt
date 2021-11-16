@@ -1,0 +1,15 @@
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Crossing_Demo_2010.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Crossing_Demo_2010.pdb
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Chart.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Chart.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\obj\x86\Release\Crossing_Demo_2017.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\obj\x86\Release\Crossing_Demo_2008.Form1.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\obj\x86\Release\Crossing_Demo_2010.Properties.Resources.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\obj\x86\Release\Crossing_Demo_2017.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\obj\x86\Release\Crossing_Demo_2010.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Axes\Axis Crossing\CS\obj\x86\Release\Crossing_Demo_2010.pdb

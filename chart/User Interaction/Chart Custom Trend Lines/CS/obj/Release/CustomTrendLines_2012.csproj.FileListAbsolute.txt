@@ -1,0 +1,15 @@
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\ClickPointDemo2.exe
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\ClickPointDemo2.pdb
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Chart.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Chart.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\obj\Release\CustomTrendLines_2012.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\obj\Release\ClickPointDemo2.MainForm.resources
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\obj\Release\ClickPointDemo2.Properties.Resources.resources
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\obj\Release\CustomTrendLines_2012.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\obj\Release\ClickPointDemo2.exe
+D:\Samples_19.3.0.53\Windows\chart\User Interaction\Chart Custom Trend Lines\CS\obj\Release\ClickPointDemo2.pdb

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.Calculate.Windows</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.Calculate.CalcQuick">
+            <summary>
+            A class that allows you to quickly add calculation support for controls on a form, or usercontrol.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Calculate.CalcQuick.RegisterControlArray(System.Windows.Forms.Control[])">
+            <summary>
+            A Virtual method that registers an array of controls as formula objects in this CalcQuick instance.
+            </summary>
+            <param name="controls">The control array.</param>
+        </member>
+        <member name="M:Syncfusion.Calculate.CalcQuick.RegisterControl(System.Windows.Forms.Control)">
+            <summary>
+            Used to register a control as a calculation object in this CalcQuick instance.
+            </summary>
+            <param name="c">The control to register.</param>
+            <remarks>
+            To reference this calculation object from another calculation in this CalcQuick
+            object, you use the Control.Name string. The value of this calculation object is
+            bound to the Control.Text property. 
+            </remarks>
+        </member>
+    </members>
+</doc>

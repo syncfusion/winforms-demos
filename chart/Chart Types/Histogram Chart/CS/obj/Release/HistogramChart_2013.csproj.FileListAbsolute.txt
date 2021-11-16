@@ -1,0 +1,15 @@
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\HistogramChart.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\HistogramChart.pdb
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Chart.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Chart.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\obj\Release\HistogramChart_2013.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\obj\Release\HistogramChart.Form1.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\obj\Release\HistogramChart.Properties.Resources.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\obj\Release\HistogramChart_2013.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\obj\Release\HistogramChart.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Types\Histogram Chart\CS\obj\Release\HistogramChart.pdb

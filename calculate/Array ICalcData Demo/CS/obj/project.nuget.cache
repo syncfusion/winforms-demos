@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "G6OGDUJLuNfqd4+HKn2nElVNudhAfPTMSAsnAEkUM0aB5S6WmZTn+1CxNeSv4tU6ibyefGv0LrkBDUPXvp7J9A==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\calculate\\Array ICalcData Demo\\CS\\ArrayICalcData_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.calculate.base\\19.3.0.53\\syncfusion.calculate.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.democommon\\19.3.0.53\\syncfusion.democommon.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.grid.windows\\19.3.0.53\\syncfusion.grid.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.windows\\19.3.0.53\\syncfusion.shared.windows.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.spellchecker.base\\19.3.0.53\\syncfusion.spellchecker.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.base\\19.3.0.53\\syncfusion.tools.base.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.tools.windows\\19.3.0.53\\syncfusion.tools.windows.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

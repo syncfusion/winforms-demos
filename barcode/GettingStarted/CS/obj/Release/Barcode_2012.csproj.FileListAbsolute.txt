@@ -1,0 +1,16 @@
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\BarcodeSampleDemo_2012.exe.config
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\BarcodeSampleDemo_2012.exe
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\BarcodeSampleDemo_2012.pdb
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.SfBarcode.Windows.dll
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.Tools.Windows.dll
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.SfBarcode.Windows.xml
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.Tools.Windows.xml
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\obj\Release\Barcode_2012.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\obj\Release\BarcodeSampleDemo_2010.Form1.resources
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\obj\Release\BarcodeSampleDemo_2012.Properties.Resources.resources
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\obj\Release\Barcode_2012.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\obj\Release\BarcodeSampleDemo_2012.exe
+D:\Samples_19.3.0.53\Windows\barcode\GettingStarted\CS\obj\Release\BarcodeSampleDemo_2012.pdb

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "XdxiNrvzYuVhCquZupmmEWihYYqWySUA/7DVa7qfx71PktsS7zrfDB+K3kJPaICbZyyRgT/hLIPM5h1K0fQ3rA==",
+  "success": true,
+  "projectFilePath": "D:\\Samples_19.3.0.53\\Windows\\datagrid\\Scroll Performance\\CS\\ScrollPerfomance_NETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.core.winforms\\19.3.0.53\\syncfusion.core.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.data.winforms\\19.3.0.53\\syncfusion.data.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.datasource.winforms\\19.3.0.53\\syncfusion.datasource.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.gridcommon.winforms\\19.3.0.53\\syncfusion.gridcommon.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.licensing\\19.3.0.53\\syncfusion.licensing.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.sfdatagrid.winforms\\19.3.0.53\\syncfusion.sfdatagrid.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.sfinput.winforms\\19.3.0.53\\syncfusion.sfinput.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.sflistview.winforms\\19.3.0.53\\syncfusion.sflistview.winforms.19.3.0.53.nupkg.sha512",
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\syncfusion.shared.base\\19.3.0.53\\syncfusion.shared.base.19.3.0.53.nupkg.sha512"
+  ],
+  "logs": []
+}

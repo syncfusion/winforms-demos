@@ -1,0 +1,13 @@
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\ChartLegendSample.exe
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Chart.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Chart.Windows.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Licensing.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Shared.Base.dll
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Chart.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Chart.Windows.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\bin\Release\Syncfusion.Shared.Base.xml
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\obj\Release\ChartLegend_2015.csprojResolveAssemblyReference.cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\obj\Release\ChartLegendSample.Form1.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\obj\Release\ChartLegendSample.Properties.Resources.resources
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\obj\Release\ChartLegend_2015.csproj.GenerateResource.Cache
+D:\Samples_19.3.0.53\Windows\chart\Chart Title and Legends\Chart Legend\CS\obj\Release\ChartLegendSample.exe

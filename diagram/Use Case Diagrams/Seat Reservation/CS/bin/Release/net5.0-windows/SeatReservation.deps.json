@@ -1,0 +1,122 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SeatReservation/1.0.0": {
+        "dependencies": {
+          "Syncfusion.Diagram.Base": "19.3.0.53",
+          "Syncfusion.Diagram.Windows": "19.3.0.53",
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53"
+        },
+        "runtime": {
+          "SeatReservation.dll": {}
+        }
+      },
+      "Syncfusion.Diagram.Base/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Diagram.Base.dll": {
+            "assemblyVersion": "19.3500.0.53",
+            "fileVersion": "19.3500.0.53"
+          }
+        }
+      },
+      "Syncfusion.Diagram.Windows/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Diagram.Base": "19.3.0.53",
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53",
+          "Syncfusion.Shared.Windows": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Diagram.Windows.dll": {
+            "assemblyVersion": "19.3500.0.53",
+            "fileVersion": "19.3500.0.53"
+          }
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.53": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.3.0.53",
+            "fileVersion": "19.3.0.53"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "assemblyVersion": "19.3500.0.53",
+            "fileVersion": "19.3500.0.53"
+          }
+        }
+      },
+      "Syncfusion.Shared.Windows/19.3.0.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.53",
+          "Syncfusion.Shared.Base": "19.3.0.53"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Windows.dll": {
+            "assemblyVersion": "19.3500.0.53",
+            "fileVersion": "19.3500.0.53"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SeatReservation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.Diagram.Base/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwsFgLGuZqdiFADY4WZHc5fyMobQS/gErzFs/9BIqOsTvMqgDmkIpCdW9c3AiK/o+BecvOgVkOUZQHsRA7m8Ig==",
+      "path": "syncfusion.diagram.base/19.3.0.53",
+      "hashPath": "syncfusion.diagram.base.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Diagram.Windows/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pwCBbaVDlF7ZVd42iKbJX1gqctOi+ZJU01FOcTmncWlqpNv5bpMdHW1G165kKAaUKoywcYmOqhs7ajRB8IfgPA==",
+      "path": "syncfusion.diagram.windows/19.3.0.53",
+      "hashPath": "syncfusion.diagram.windows.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4T+7hY4QIoSxgGS8ymSuAkdUHPVt5X2t0N/77ZqHm0nlPKQvVcVpoDuW49rThiaiqKQBf0XJSyBMZ9LsPMhAeA==",
+      "path": "syncfusion.licensing/19.3.0.53",
+      "hashPath": "syncfusion.licensing.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Base/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jVj/MqMkmbEpd0UNW32USgenCqskC6gRICKN/UTmXNno/bbEfwEy4TS3OBP9QFFnXb8get9zB18ztYPMgAjPQ==",
+      "path": "syncfusion.shared.base/19.3.0.53",
+      "hashPath": "syncfusion.shared.base.19.3.0.53.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Windows/19.3.0.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q/JnJokfpmQ/63lRAKkoOwtE/i6cjTo5i5nHtTKa4IZrTU2NqHtxfg+EyEGBEZd7zGrJRAoIFoWnh2QCgjCo9Q==",
+      "path": "syncfusion.shared.windows/19.3.0.53",
+      "hashPath": "syncfusion.shared.windows.19.3.0.53.nupkg.sha512"
+    }
+  }
+}
