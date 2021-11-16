@@ -1,0 +1,11 @@
+<FileList>
+
+<File Reference="Syncfusion.Diagram.Base.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.Windows.Forms.Diagram.DrawingScaleControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.MeasureTextBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.PageSizeControl"/>
+	</ToolboxItems>
+</File>
+</FileList>

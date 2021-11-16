@@ -1,0 +1,1261 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.Diagram.Utility.Windows</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.DiagramUtilityAssembly">
+            <summary>
+            This class holds the name of the Syncfusion.Diagram.Windows assembly and provides a helper 
+            routine that helps with resolving types when loading a serialization stream and when 
+            the framework probes for assemblies by reflection. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.DiagramUtilityAssembly.Name">
+            <summary>
+            The full name of this assembly without version information: "Syncfusion.Diagram.Windows"
+            </summary>
+        </member>
+        <member name="F:Syncfusion.DiagramUtilityAssembly.Assembly">
+            <summary>
+            A reference to the <see cref="T:System.Reflection.Assembly"/> for the grid assembly.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.DiagramUtilityAssembly.RootNamespace">
+            <summary>
+            The root namespace of this assembly. Used internally for locating resources within the assembly.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.DiagramUtilityAssembly.AssemblyResolver(System.Object,System.ResolveEventArgs)">
+            <summary>
+            Assemblies the resolver.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.ResolveEventArgs"/> instance containing the event data.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.DiagramUtilityAssembly.Binder">
+            The Binder class helps with the resolution of Diagram types between different versions of 
+            the Syncfusion assemblies.
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.DiagramUtilityAssembly.Binder.BindToType(System.String,System.String)">
+            <summary>
+            When overridden in a derived class, controls the binding of a serialized object to a type.
+            </summary>
+            <param name="assemblyName">Specifies the <see cref="T:System.Reflection.Assembly"/> name of the serialized object.</param>
+            <param name="typeName">Specifies the <see cref="T:System.Type"/> name of the serialized object.</param>
+            <returns>
+            The type of the object the formatter creates a new instance of.
+            </returns>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.CallBack">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.BrowserFolderCallback">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.HIWORD(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.LOWORD(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.LOWORD(System.IntPtr)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.HIWORD(System.IntPtr)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.MAKELONG(System.Int32,System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.MAKELPARAM(System.Int32,System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.RGBToCOLORREF(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.COLORREFToRGB(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.GetRValue(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.GetGValue(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="M:Syncfusion.Runtime.InteropServices.WinAPI.Macros.GetBValue(System.Int32)">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.POINT">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.SIZE">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.RECT">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.COMRECT">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.Window.HookProc">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Runtime.InteropServices.WinAPI.Window.DrawStateProc">
+            <internalonly/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.ProgressDialog">
+            <summary>
+            Progress form used to display the visio palette conversion.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.IStop">
+            <summary>
+            Interface to stop the progress form.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.IStop.CloseForm">
+            <summary>
+            Closes the form.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.ProgressDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.ProgressDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.ProgressDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.ProgressDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.ProgressDialog.CloseForm">
+            <summary>
+            Closes the form.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv">
+            <summary>
+            RichTextBoxAdv class.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.m_iLockCounter">
+            <summary>
+            Redrawing locking calls counter. Allow to ignore unneeded control (un)locking.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.m_iEventMask">
+            <summary>
+            Special mask of Richedit control. It stored by BeginUpdate method and required
+            for proper unlocking. User must not change it.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.BeginUpdate">
+            <summary>
+            Lock control updating till proper call of EndUpdate Method. Each call 
+            of BeginUpdate must be corresponding EndUpdate, otherwise control redrawing
+            will be locked
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.EndUpdate">
+            <summary>
+            UnLock control update 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.OnRtfChanged(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:RtfChanged"/> event.
+            </summary>
+            <param name="args">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineSelection(System.Int32,System.Int32,Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle,Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor)">
+            <summary>
+            Underlines the selection.
+            </summary>
+            <param name="position">The position.</param>
+            <param name="length">The length.</param>
+            <param name="style">The style.</param>
+            <param name="color">The color.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.GetCharFormat">
+            <summary>
+            Gets the char format.
+            </summary>
+            <returns>CHAR format.</returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.ToggleSelectionFontStyle(System.Drawing.FontStyle)">
+            <summary>
+            Toggles the selection font style.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.OnHandleCreated(System.EventArgs)">
+            <summary>
+            This member overrides
+            <see cref="T:System.Windows.Forms.Control"/>.OnHandleCreated.
+            </summary>
+            <param name="e">Event args.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.RemoveTheme">
+            <summary> 
+            Removes the themed style from the specified window. 
+            </summary> 
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.SelectionBackColor">
+            <summary>
+            Gets or sets the selections background color
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.SelectionAlignment">
+            <summary>
+            Gets or sets the alignment to apply to the current
+            selection or insertion point.
+            </summary>
+            <remarks>
+            Replaces the SelectionAlignment from
+            <see cref="T:System.Windows.Forms.RichTextBox"/>.
+            </remarks>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.Rtf">
+            <summary>
+            Gets or sets the Rtf string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.TextLength">
+            <summary>
+            Gets the string length.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.SelectionUnderlineColor">
+            <summary>
+            Gets or sets the underline color to apply to the
+            current selection or insertion point.
+            </summary>
+            <remarks>
+            Underline colors can be set to any value of the
+            <see cref="T:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor"/> enumeration.
+            </remarks>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.SelectionUnderlineStyle">
+            <summary>
+            Gets or sets the underline style to apply to the
+            current selection or insertion point.
+            </summary>
+            <remarks>
+            Underline styles can be set to any value of the
+            <see cref="T:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle"/> enumeration.
+            </remarks>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor">
+            <summary>
+            Underline Colors
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Default">
+            <summary>
+            Default underline color
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Blue">
+            <summary>
+            Blue color
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Aqua">
+            <summary>
+            Aqua color
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Lime">
+            <summary>
+            Lime color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Fuchsia">
+            <summary>
+            Fuchsia color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Red">
+            <summary>
+            Red color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Yellow">
+            <summary>
+            Yellow color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.White">
+            <summary>
+            White color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Navy">
+            <summary>
+            Navy color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Teal">
+            <summary>
+            Teal color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Green">
+            <summary>
+            Green color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Purple">
+            <summary>
+            Purple color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Maroon">
+            <summary>
+            Maroon color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Olive">
+            <summary>
+            Olive color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Gray">
+            <summary>
+            Gray color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineColor.Silver">
+            <summary>
+            Silver color.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle">
+            <summary>
+            Underline styles.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.None">
+            <summary>
+            No underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.Underline">
+            <summary>
+            Single underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineDouble">
+            <summary>
+            Double underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineDotted">
+            <summary>
+            Dotted underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineDash">
+            <summary>
+            Dash underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineDashDot">
+            <summary>
+            Dash dot underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineDashDotDot">
+            <summary>
+            Dash dot dot underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineWave">
+            <summary>
+            Wave underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineThick">
+            <summary>
+            Thick underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineHairline">
+            <summary>
+            Hairline underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineDoubleWave">
+            <summary>
+            Double wave underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineHeavyWave">
+            <summary>
+            Heavy wave underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineLongDash">
+            <summary>
+            Long dash underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineThickDash">
+            <summary>
+            Thick dash underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineThickDashDot">
+            <summary>
+            Thich dash dot underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineThickDashDotDot">
+            <summary>
+            Thich dash dot dot underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineThickDotted">
+            <summary>
+            Thick dotted underline.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.UnderlineStyle.UnderlineThickLongDash">
+            <summary>
+            Thick long dash underline.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.TextAlign">
+            <summary>
+            Specifies how text is horizontally aligned.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.TextAlign.Left">
+            <summary>
+            The text is aligned to the left.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.TextAlign.Right">
+            <summary>
+            The text is aligned to the right.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.TextAlign.Center">
+            <summary>
+            The text is aligned in the center.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv.TextAlign.Justify">
+            <summary>
+            The text is justified.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert">
+            <summary>
+            Visio stencil converter is used to convert Visio stencils (*.vss)
+            into diagram palette files (*edp) and load into palette GroupBar control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert"/> class.
+            </summary>
+            <param name="strFileName">Name of the file.</param>
+            <param name="ignoreStyles">Ignore styles, if set to true.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert"/> class.
+            </summary>
+            <param name="strFileName">Name of the file.</param>
+            <param name="strTempDir">The temp dir.</param>
+            <param name="ignoreStyles">Ignore styles, if set to true.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.InternalConvert">
+            <summary>
+            Convert internally.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.Convert">
+            <summary>
+            Converts this instance.
+            </summary>
+            <returns>Symbol Palette.</returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.VisioStencilConvert.HashMasterScale">
+            <summary>
+            Gets the hash master scale.
+            </summary>
+            <value>The hash master scale.</value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter">
+            <summary>
+            The VisioStencilConverter is a utility class that converts Visio stencil files (*.vss files) into Essential Diagram 
+            symbol palettes (*.edp files). Each shape in the stencil file will have a <see cref="T:Syncfusion.Windows.Forms.Diagram.Group"/> 
+            equivalent in the <see cref="T:Syncfusion.Windows.Forms.Diagram.SymbolPalette"/>. The symbol palette 
+            may directly be consumed by diagramming applications, and symbols created from the symbol models.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter"/> class.
+            </summary>
+            <param name="strFileName">The Visio stencil file.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter"/> class.
+            </summary>
+            <param name="strFileName">The Visio stencil file.</param>
+            <param name="strTempDir">Directory used to store Converer temorary files.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.#ctor(System.String,System.Windows.Forms.Form)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter"/> class.
+            </summary>
+            <param name="strFileName">The Visio stencil file.</param>
+            <param name="parent">The form hosting the converter.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.Convert">
+            <summary>
+            Converts the Visio stencil into an Essential Diagram symbol palette.
+            </summary>
+            <returns>The <see cref="T:Syncfusion.Windows.Forms.Diagram.SymbolPalette"/> instance generated from the stencil.</returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.Dispose">
+            <summary>
+            Disposes the VisioStencilConverter.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.TemporaryDirectory">
+            <summary>
+            Gets or sets a value indcating whether temporary directory used by Visio converter to store temp files.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.ShowProgressDialog">
+            <summary>
+            Gets or sets a value indicating whether a progress dialog should be displayed during the conversion.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.VisioStencilConverter.IgnoreStyles">
+            <summary>
+            Gets or sets a value indicating whether the fill styles specified for the Visio shapes 
+            will be applied to the diagram symbols.   
+            </summary>
+            <remarks>
+            When the IgnoreStyles property is set to its default value of TRUE the Visio shape fill values will 
+            not be extended to the diagram symbolmodel, and the symbols will retain the default fill values.
+            </remarks>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.IBaseHelper">
+            <summary>
+            Base helper interface.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.IBaseHelper.Inherit(Syncfusion.Windows.Forms.Diagram.IBaseHelper)">
+            <summary>
+            Inherits the specified base helper.
+            </summary>
+            <param name="hlp">The base helper.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.IBaseHelper.ApplyStyle(Syncfusion.Windows.Forms.Diagram.INode)">
+            <summary>
+            Applies the style.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.IBaseHelper.Appliable(System.Int32)">
+            <summary>
+            Applies the specified appliable one.
+            </summary>
+            <param name="nAppliable">Appilable one</param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.IBaseHelper.InheritedFrom">
+            <summary>
+            Gets or sets the inherited value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.IBaseHelper.SearchFor">
+            <summary>
+            Gets the search for.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.HelperLineStyle">
+            <summary>
+            Line Style helper
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperLineStyle"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.Inherit(Syncfusion.Windows.Forms.Diagram.IBaseHelper)">
+            <summary>
+            Returns StyleSheet ID to inherit from
+            </summary>
+            <param name="hlpFromm">The base helper.</param>
+            <returns>The helper value.</returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.ApplyStyle(Syncfusion.Windows.Forms.Diagram.INode)">
+            <summary>
+            Applies the style.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.Appliable(System.Int32)">
+            <summary>
+            Appliables the specified appliable one.
+            </summary>
+            <param name="nAppliable">Appliable one.</param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.NoLine">
+            <summary>
+            Gets or sets a value indicating whether no line should be drawn.
+            </summary>
+            <value><c>true</c> if no line; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.LineColor">
+            <summary>
+            Gets or sets the color of the line.
+            </summary>
+            <value>The color of the line.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.LineWeight">
+            <summary>
+            Gets or sets the line weight.
+            </summary>
+            <value>The line weight.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.LinePattern">
+            <summary>
+            Gets or sets the line pattern.
+            </summary>
+            <value>The line pattern.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.LineCap">
+            <summary>
+            Gets or sets the line cap.
+            </summary>
+            <value>The line cap.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.Transparency">
+            <summary>
+            Gets or sets the transparency.
+            </summary>
+            <value>The transparency.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.SearchFor">
+            <summary>
+            Gets the search for.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperLineStyle.InheritedFrom">
+            <summary>
+            Gets or sets the inherited value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.HelperFillStyle">
+            <summary>
+            Fill Style Helper.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperFillStyle"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.Inherit(Syncfusion.Windows.Forms.Diagram.IBaseHelper)">
+            <summary>
+            Returns StyleSheet ID to inherit from
+            </summary>
+            <param name="hlpFromm">The base helper.</param>
+            <returns>The helper value.</returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ApplyStyle(Syncfusion.Windows.Forms.Diagram.INode)">
+            <summary>
+            Applies the style.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.Appliable(System.Int32)">
+            <summary>
+            Appliables the specified appliable one.
+            </summary>
+            <param name="nAppliable">Appliable one.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ApplyShadowStyle(Syncfusion.Windows.Forms.Diagram.Node)">
+            <summary>
+            Update the node shadow.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.NoFill">
+            <summary>
+            Gets or sets a value indicating whether fill is needed.
+            </summary>
+            <value><c>true</c> if no fill; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.FillPattern">
+            <summary>
+            Gets or sets the fill pattern.
+            </summary>
+            <value>The fill pattern.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ForeColorTransparency">
+            <summary>
+            Gets or sets the fore color transparency.
+            </summary>
+            <value>The fore color transparency.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.BackColorTransparency">
+            <summary>
+            Gets or sets the back color transparency.
+            </summary>
+            <value>The back color transparency.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwOffsetX">
+            <summary>
+            Gets or sets the shadow x offset.
+            </summary>
+            <value>The shadow offset X.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwOffsetY">
+            <summary>
+            Gets or sets the shadow y offset.
+            </summary>
+            <value>The shadow offset Y.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwPattern">
+            <summary>
+            Gets or sets the shadow pattern.
+            </summary>
+            <value>The shadow pattern.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.FillBkgnd">
+            <summary>
+            Gets or sets the fill background.
+            </summary>
+            <value>The fill background.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.FillForegnd">
+            <summary>
+            Gets or sets the fill foreground.
+            </summary>
+            <value>The fill foreground.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwBkgnd">
+            <summary>
+            Gets or sets the shadow background.
+            </summary>
+            <value>The shadow background.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwForegnd">
+            <summary>
+            Gets or sets the shadow foreground.
+            </summary>
+            <value>The shadow foreground.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwForegndTrans">
+            <summary>
+            Gets or sets the shadow foregnd transformation.
+            </summary>
+            <value>The SHDshadowW foreground transformation.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.ShdwBkgndTrans">
+            <summary>
+            Gets or sets the shadow background transformation.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.SearchFor">
+            <summary>
+            Gets the search.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperFillStyle.InheritedFrom">
+            <summary>
+            Gets or sets the inherited value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle">
+            <summary>
+            Text Block Style Helper.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.Appliable(System.Int32)">
+            <summary>
+            Appliables the specified appliable.
+            </summary>
+            <param name="Appliable">The appliable.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.ApplyStyle(Syncfusion.Windows.Forms.Diagram.INode)">
+            <summary>
+            Applies the style.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.Inherit(Syncfusion.Windows.Forms.Diagram.IBaseHelper)">
+            <summary>
+            Inherits the specified base helper.
+            </summary>
+            <param name="hlpFromm">The base helper.</param>
+            <returns>Base helper value.</returns>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.TextBackground">
+            <summary>
+            Gets or sets the text background.
+            </summary>
+            <value>The text background.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.SearchFor">
+            <summary>
+            Gets the search.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperTextBlockStyle.InheritedFrom">
+            <summary>
+            Gets or sets the inherited value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.HelperCharStyle">
+            <summary>
+            Chart style helper
+            </summary>
+            <remarks>
+            used in two cases -- first : to populate HelperCharStyle Hashtable from StyleSheets ( .ctor() )
+            second -- to apply styles ( .ctor( ref RichTextBoxAdv, Hashtable ) )
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperCharStyle"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.#ctor(Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv@,System.Collections.Hashtable)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperCharStyle"/> class.
+            </summary>
+            <param name="rtfTemp">The RTF.</param>
+            <param name="hashFaceNames">The hash face names.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.Appliable(System.Int32)">
+            <summary>
+            Appliables the specified appliable.
+            </summary>
+            <param name="Appliable">The appliable.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.ApplyStyle(Syncfusion.Windows.Forms.Diagram.INode)">
+            <summary>
+            Applies the style.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.Inherit(Syncfusion.Windows.Forms.Diagram.IBaseHelper)">
+            <summary>
+            Inherits the specified base helper.
+            </summary>
+            <param name="hlpFromm">The base helper.</param>
+            <returns>Base helper value.</returns>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.FontID">
+            <summary>
+            Gets or sets the font ID.
+            </summary>
+            <value>The font ID.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.TextColor">
+            <summary>
+            Gets or sets the color of the text.
+            </summary>
+            <value>The color of the text.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.TextSize">
+            <summary>
+            Gets or sets the size of the text.
+            </summary>
+            <value>The size of the text.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.LangID">
+            <summary>
+            Gets or sets the lang ID.
+            </summary>
+            <value>The lang ID.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.Style">
+            <summary>
+            Gets or sets the style.
+            </summary>
+            <value>The style.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.Case">
+            <summary>
+            Gets or sets the case.
+            </summary>
+            <value>The case.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.RTL">
+            <summary>
+            Gets or sets the RTL.
+            </summary>
+            <value>The RTL.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.StrikeThrough">
+            <summary>
+            Gets or sets the strike through.
+            </summary>
+            <value>The strike through.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.DoubleUnderline">
+            <summary>
+            Gets or sets the double underline.
+            </summary>
+            <value>The double underline.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.UseVertical">
+            <summary>
+            Gets or sets the use vertical.
+            </summary>
+            <value>The use vertical.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.Spacing">
+            <summary>
+            Gets or sets the spacing.
+            </summary>
+            <value>The spacing.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.Position">
+            <summary>
+            Gets or sets the position.
+            </summary>
+            <value>The position.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.FontScale">
+            <summary>
+            Gets or sets the font scale.
+            </summary>
+            <value>The font scale.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.SearchFor">
+            <summary>
+            Gets the search.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperCharStyle.InheritedFrom">
+            <summary>
+            Gets or sets the inherited value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.HelperParaStyle">
+            <summary>
+            Para style helper
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperParaStyle"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.#ctor(Syncfusion.Windows.Forms.Diagram.RichTextBoxAdv@)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.HelperParaStyle"/> class.
+            </summary>
+            <param name="rtfBox">The RTF box.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.Appliable(System.Int32)">
+            <summary>
+            Appliables the specified appliable.
+            </summary>
+            <param name="Appliable">The appliable.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.ApplyStyle(Syncfusion.Windows.Forms.Diagram.INode)">
+            <summary>
+            Applies the style.
+            </summary>
+            <param name="node">The node.</param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.Inherit(Syncfusion.Windows.Forms.Diagram.IBaseHelper)">
+            <summary>
+            Inherits the specified base helper.
+            </summary>
+            <param name="hlpFromm">The base helper.</param>
+            <returns>Base helper value.</returns>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.IndFirst">
+            <summary>
+            Gets or sets the indent first.
+            </summary>
+            <value>The indent first.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.IndLeft">
+            <summary>
+            Gets or sets the indent left.
+            </summary>
+            <value>The indent left.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.IndRight">
+            <summary>
+            Gets or sets the indent right.
+            </summary>
+            <value>The indent right.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.SpLine">
+            <summary>
+            Gets or sets the sp line.
+            </summary>
+            <value>The sp line.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.SpBefore">
+            <summary>
+            Gets or sets the sp before.
+            </summary>
+            <value>The sp before.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.SpAfter">
+            <summary>
+            Gets or sets the sp after.
+            </summary>
+            <value>The sp after.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.HorzAlign">
+            <summary>
+            Gets or sets the horizontal align.
+            </summary>
+            <value>The horizontal align.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.TextPosAfterBullet">
+            <summary>
+            Gets or sets the text position after bullet.
+            </summary>
+            <value>The text position after bullet.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.SearchFor">
+            <summary>
+            Gets the search.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.HelperParaStyle.InheritedFrom">
+            <summary>
+            Gets or sets the inherited value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.XForm">
+            <summary>
+            X form class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.XForm.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>
+            A new object that is a copy of this instance.
+            </returns>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.ClosedPathNode">
+            <summary>
+            Gets or sets a value indicating whether path node is closed.
+            </summary>
+            <value><c>true</c> if closed path node; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.PinX">
+            <summary>
+            Gets or sets the pin X.
+            </summary>
+            <value>The pin X.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.PinY">
+            <summary>
+            Gets or sets the pin Y.
+            </summary>
+            <value>The pin Y.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.LocPinX">
+            <summary>
+            Gets or sets the loc pin X.
+            </summary>
+            <value>The loc pin X.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.LocPinY">
+            <summary>
+            Gets or sets the loc pin Y.
+            </summary>
+            <value>The loc pin Y.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.FlipX">
+            <summary>
+            Gets or sets a value indicating whether flip X.
+            </summary>
+            <value><c>true</c> if flip X; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.FlipY">
+            <summary>
+            Gets or sets a value indicating whether flip Y.
+            </summary>
+            <value><c>true</c> if flip Y; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.RotationAngle">
+            <summary>
+            Gets or sets the rotation angle.
+            </summary>
+            <value>The rotation angle.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.Width">
+            <summary>
+            Gets or sets the width.
+            </summary>
+            <value>The width.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.Height">
+            <summary>
+            Gets or sets the height.
+            </summary>
+            <value>The height.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.ScratchX">
+            <summary>
+            Gets or sets the scratch X.
+            </summary>
+            <value>The scratch X.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.XForm.ScratchY">
+            <summary>
+            Gets or sets the scratch Y.
+            </summary>
+            <value>The scratch Y.</value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.CharFontStyle">
+            <summary>
+            Char font styles
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.CharFontStyle.Undefined">
+            <summary>
+            Undefined font style.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.CharFontStyle.Bold">
+            <summary>
+            Bold font style.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.CharFontStyle.Italic">
+            <summary>
+            Italic font style.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.CharFontStyle.Underline">
+            <summary>
+            Underline font style.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.Diagram.CharFontStyle.SmallCaps">
+            <summary>
+            Small caps font style.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.VisioShape">
+            <summary>
+            Visio shape class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.VisioShape.ShapeGraphicsPath">
+            <summary>
+            Gets or sets the shape graphics path.
+            </summary>
+            <value>The shape graphics path.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.VisioShape.GroupRect">
+            <summary>
+            Gets or sets the group rect.
+            </summary>
+            <value>The group rect.</value>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation">
+            <summary>
+            Connection transformation.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.Group">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation"/> is group.
+            </summary>
+            <value><c>true</c> if group; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.ShapeRotate">
+            <summary>
+            Gets or sets the shape rotation.
+            </summary>
+            <value>The shape rotate.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.ShapeFlip">
+            <summary>
+            Gets or sets the shape flip.
+            </summary>
+            <value>The shape flip.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.PointGroup">
+            <summary>
+            Gets or sets the point group.
+            </summary>
+            <value>The point group.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.FlipPoint">
+            <summary>
+            Gets or sets the flip point.
+            </summary>
+            <value>The flip point.</value>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.Diagram.ConnectionTransformation.ConnectionParent">
+            <summary>
+            Gets or sets the connection parent.
+            </summary>
+            <value>The connection parent.</value>
+        </member>
+    </members>
+</doc>

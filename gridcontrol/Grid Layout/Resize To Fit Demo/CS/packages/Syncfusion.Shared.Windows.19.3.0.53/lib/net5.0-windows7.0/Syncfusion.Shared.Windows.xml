@@ -1,0 +1,1380 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.Shared.Windows</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.SharedWindowsAssembly">
+            <exclude/>
+            <summary>
+            This class holds the name of the Syncfusion.Shared.Windows assembly and provides a helper 
+            routine that helps with resolving types when loading a serialization stream and when 
+            the framework probes for assemblies by reflection. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SharedWindowsAssembly.Name">
+            <summary>
+            The full name of this assembly without version information: "Syncfusion.Shared.Windows"
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SharedWindowsAssembly.Assembly">
+            <summary>
+            A reference to the <see cref="T:System.Reflection.Assembly"/> for the grid assembly.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SharedWindowsAssembly.RootNamespace">
+            <summary>
+            The root namespace of this assembly. Used internally for locating resources within the assembly.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SharedWindowsAssembly.AssemblyResolver(System.Object,System.ResolveEventArgs)">
+            <summary>
+            This delegate helps with resolving types and can be used as a eventhandler
+            for a <see cref="E:System.AppDomain.AssemblyResolve"/> event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data with information about the type.</param>
+            <returns>A reference to the assembly where the type is located.</returns>
+            <remarks>
+            Use this handler when reading back types from a serialization stread
+            saved with an earlier version of this assembly.
+            </remarks>
+            <example>
+            <code lang="C#">
+            		public static GridModel LoadSoap(Stream s)
+            		{
+            			try
+            			{
+            				AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(SharedWindowsAssembly.AssemblyResolver);
+            				SoapFormatter b = new SoapFormatter();
+            				b.AssemblyFormat = FormatterAssemblyStyle.Simple;
+            				GridModel t = b.Deserialize(s) as GridModel;
+            				t.Modified = false;
+            				return t;
+            			}
+            			finally
+            			{
+            				AppDomain.CurrentDomain.AssemblyResolve -= new ResolveEventHandler(SharedWindowsAssembly.AssemblyResolver);
+            			}
+            		}
+            
+            </code>
+            </example>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ActionInfo">
+             <exclude/>
+             <summary>
+            		Wrapper object for menu actions 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfo.#ctor(System.String,System.Object,System.Object)">
+            <summary>
+                Creates an ActionInfo object
+            </summary>
+            <param name="eventName" type="string">
+                <para>
+                    Fully qualified name of Event that will be fired
+                </para>
+            </param>
+            <param name="parentForm" type="object">
+                <para>
+                    Parent form/object that contains the menu that item is in
+                </para>
+            </param>
+            <param name="srcObject" type="object">
+                <para>
+                    The menu item tied to the event (e.g. MenuItem, ToolbarItem, etc)
+                </para>
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfo.RegisterAction(System.Object)">
+            <summary>
+                Adds the action to the parent object's list of ActionItems. The parent object must have a "RegisterAction" method.
+            </summary>
+            <param name="parentForm" type="object">
+                <para>
+                    Parent form/object
+                </para>
+            </param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfo.EventHandler">
+            <exclude/>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfo.SourceObject">
+            <exclude/>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfo.ActionName">
+            <exclude/>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfo.Action">
+            <exclude/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection">
+            <exclude/>
+            <summary>
+                A collection that stores 'ActionInfo' objects.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.#ctor">
+            <summary>
+                Initializes a new instance of 'ActionInfoCollection'.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection)">
+            <summary>
+                Initializes a new instance of 'ActionInfoCollection' based on an already existing instance.
+            </summary>
+            <param name='actValue'>
+                A 'ActionInfoCollection' from which the contents is copied
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.ActionInfo[])">
+            <summary>
+                Initializes a new instance of 'ActionInfoCollection' with an array of 'ActionInfo' objects.
+            </summary>
+            <param name='actValue'>
+                An array of 'ActionInfo' objects with which to initialize the collection
+            </param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.Item(System.Int32)">
+            <summary>
+                Represents the 'ActionInfo' item at the specified index position.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index of the entry to locate in the collection.
+            </param>
+            <value>
+                The entry at the specified index of the collection.
+            </value>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.Add(Syncfusion.Windows.Forms.InternalMenus.ActionInfo)">
+            <summary>
+                Adds a 'ActionInfo' item with the specified value to the 'ActionInfoCollection'
+            </summary>
+            <param name='actValue'>
+                The 'ActionInfo' to add.
+            </param>
+            <returns>
+                The index at which the new element was inserted.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.ActionInfo[])">
+            <summary>
+                Copies the elements of an array at the end of this instance of 'ActionInfoCollection'.
+            </summary>
+            <param name='actValue'>
+                An array of 'ActionInfo' objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection)">
+            <summary>
+                Adds the contents of another 'ActionInfoCollection' at the end of this instance.
+            </summary>
+            <param name='actValue'>
+                A 'ActionInfoCollection' containing the objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.Contains(Syncfusion.Windows.Forms.InternalMenus.ActionInfo)">
+            <summary>
+                Gets a value indicating whether the 'ActionInfoCollection' contains the specified value.
+            </summary>
+            <param name='actValue'>
+                The item to locate.
+            </param>
+            <returns>
+                True if the item exists in the collection; false otherwise.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.CopyTo(Syncfusion.Windows.Forms.InternalMenus.ActionInfo[],System.Int32)">
+            <summary>
+                Copies the 'ActionInfoCollection' values to a one-dimensional System.Array
+                instance starting at the specified array index.
+            </summary>
+            <param name='actArray'>
+                The one-dimensional System.Array that represents the copy destination.
+            </param>
+            <param name='intIndex'>
+                The index in the array where copying begins.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.IndexOf(Syncfusion.Windows.Forms.InternalMenus.ActionInfo)">
+            <summary>
+                Returns the index of a 'ActionInfo' object in the collection.
+            </summary>
+            <param name='actValue'>
+                The 'ActionInfo' object whose index will be retrieved.
+            </param>
+            <returns>
+                If found, the index of the value; otherwise, -1.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.Insert(System.Int32,Syncfusion.Windows.Forms.InternalMenus.ActionInfo)">
+            <summary>
+                Inserts an existing 'ActionInfo' into the collection at the specified index.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index where the new item should be inserted.
+            </param>
+            <param name='actValue'>
+                The item to insert.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.GetEnumerator">
+            <summary>
+                Returns an enumerator that can be used to iterate through
+                the 'ActionInfoCollection'.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.Remove(Syncfusion.Windows.Forms.InternalMenus.ActionInfo)">
+            <summary>
+                Removes a specific item from the 'ActionInfoCollection'.
+            </summary>
+            <param name='actValue'>
+                The item to remove from the 'ActionInfoCollection'.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.OnSet(System.Int32,System.Object,System.Object)">
+            <summary>
+                TODO: Describe what custom processing this method does
+                before setting an item in the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.OnInsert(System.Int32,System.Object)">
+            <summary>
+                TODO: Describe what custom processing this method does
+                before insering a new item in the collection
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator">
+            <exclude/>
+            <summary>
+                A strongly typed enumerator for 'ActionInfoCollection'
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.#ctor(Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection)">
+            <summary>
+                Enumerator constructor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.Current">
+            <summary>
+                Gets the current element from the collection (strongly typed)
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.System#Collections#IEnumerator#Current">
+            <summary>
+                Gets the current element from the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.System#Collections#IEnumerator#MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ActionInfoCollection.ActionInfoEnumerator.System#Collections#IEnumerator#Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.BasicAction">
+            <exclude/>
+            <summary>
+            This class is the common base class for actions such as
+            MenuActions, Editactions or plugins
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.BasicAction.InvokeAction(System.Object,System.EventArgs)">
+            <summary>
+            Inheriting actions must overwrite this method, it is called, when the action
+            occurs.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.BasicAction.MainWindow">
+            <exclude/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuFactory">
+            <exclude/>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuFactory.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuFactory.CreateMenuImp">
+            <summary>Derived classes must implement to create a <see cref="T:Syncfusion.Windows.Forms.InternalMenus.MenuImp"/> object.</summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuFactory.CreateToolBarImp">
+            <summary>Derived classes must implement to create a <see cref="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarImp"/> object.</summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuFactory.Menus">
+            <exclude/>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuFactory.ToolBars">
+            <exclude/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.WinFormsMenuFactory">
+            <exclude/>
+            <summary>
+            Summary description for WinFormsMenuFactory.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuImp">
+            <exclude/>
+            <summary>
+            Abstract base class for menu implementation
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuImp.resourceManager">
+            <exclude/>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuImp.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuImp.CreateMenus(System.Resources.ResourceManager,Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection[])">
+            <summary>Derived classes must override.</summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuImp.GetShortcutByStringRep(System.String)">
+            <summary>
+                returns a Shortcut based on the string representation (e.g. CtrlN)
+            </summary>
+            <param name="stringRepresentation" type="string">
+                <para>
+            		the string to convert into a Shortcut
+                </para>
+            </param>
+            <returns>
+                A System.Windows.Forms.Shortcut value...
+            </returns>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarButtonSeperator">
+            <exclude/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.RichToolBarButton">
+            <exclude/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.StandardToolBar">
+             <exclude/>
+             <summary>
+            	Toolbar to be used by default WinForms MenuFactory 
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarImp">
+            <exclude/>
+            <summary>
+            Abstract class used to provide implementation of ToolBars
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarImp.resourceManager">
+            <exclude/>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarImp.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarImp.CreateToolBars(System.Resources.ResourceManager,Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection[])">
+            <summary>Derived classes must override.</summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.WinFormsMenuImp">
+            <exclude/>
+            <summary>
+            Implementation class for standard WinForms menu.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.WinFormsToolBarImp">
+            <exclude/>
+            <summary>
+            Summary description for XMLToolBarImp.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+            <exclude/>
+            <summary>Type of menus to add</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.FactoryType.WinFormsMenuFactory">
+            <exclude/>
+            <summary>Standard WinForms menus</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.FactoryType.XPMenuFactory">
+            <exclude/>
+            <summary>XPMenus from Essential Tools if available</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.FactoryType.WhidbeyMenuFactory">
+            <exclude/>
+            <summary>New Whidbey menus</summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuLoader">
+            <exclude/>
+            <summary>
+            MenuLoader contains static implementation of MenuFactories
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.CreateFactory(Syncfusion.Windows.Forms.InternalMenus.FactoryType,System.String,System.String[],System.String[],System.Resources.ResourceManager,System.Object)">
+            <summary>
+                Creates a MenuFactory
+            </summary>
+            <param name="defaultFactoryType" type="Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+                <para>
+                    Type of factory to create
+                </para>
+            </param>
+            <param name="eventActionNamespace" type="string">
+                <para>
+                    The fully qualified namespace that contains the menu actions
+                </para>
+            </param>
+            <param name="toolbarDefinitionXmlResource" type="string[]">
+                <para>
+                    String array of qualified names for toolbar resources that contain ToolbarDefinitions
+                </para>
+            </param>
+            <param name="menuDefinitionXmlResource" type="string[]">
+                <para>
+                    String array of qualified names for menu resources that contain MenuDefinitions
+                </para>
+            </param>
+            <param name="resManager" type="System.Resources.ResourceManager">
+                <para>
+                    The ResourceManager that contains the image/icon information
+                </para>
+            </param>
+            <param name="parent" type="object">
+                <para>
+                    The parent form/object that contains the menu
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuFactory value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.CreateFactory(Syncfusion.Windows.Forms.InternalMenus.FactoryType,System.String,System.String,System.String,System.Resources.ResourceManager,System.Object)">
+            <summary>
+                Creates a MenuFactory
+            </summary>
+            <param name="defaultFactoryType" type="Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+                <para>
+                    Type of MenuFactory to create
+                </para>
+            </param>
+            <param name="eventActionNamespace" type="string">
+                <para>
+                    Fully qualified namespace that contains the action items
+                </para>
+            </param>
+            <param name="toolbarItemStructXmlResource" type="string">
+                <para>
+                    Resource in parent assembly that contains a ToolbarItemStructCollection
+                </para>
+            </param>
+            <param name="menuItemStructXmlResource" type="string">
+                <para>
+                    Resource in parent assembly that contains a MenuItemStructCollection
+                </para>
+            </param>
+            <param name="resManager" type="System.Resources.ResourceManager">
+                <para>
+                    ResourceManager that contains the icon/image resources
+                </para>
+            </param>
+            <param name="parent" type="object">
+                <para>
+                    The parent form/object that contains the menu.
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuFactory value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.CreateFactory(Syncfusion.Windows.Forms.InternalMenus.FactoryType,System.String,System.IO.Stream,System.IO.Stream,System.Resources.ResourceManager,System.Object)">
+            <summary>
+                Creates a MenuFactory
+            </summary>
+            <param name="defaultFactoryType" type="Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+                <para>
+                    Type of MenuFactory to create
+                </para>
+            </param>
+            <param name="eventActionNamespace" type="string">
+                <para>
+                    Fully qualified namespace that contains the action items
+                </para>
+            </param>
+            <param name="toolbarItemCollectionXmlStream" type="System.IO.Stream">
+                <para>
+                    Stream that contains the ToolbarItemStructCollection
+                </para>
+            </param>
+            <param name="menuItemCollectionXmlStream" type="System.IO.Stream">
+                <para>
+                    Stream that contains the MenuItemStructCollection
+                </para>
+            </param>
+            <param name="resManager" type="System.Resources.ResourceManager">
+                <para>
+                    ResourceManager containing the icon/image resources for the menu
+                </para>
+            </param>
+            <param name="parent" type="object">
+                <para>
+                    Parent form/object that contains the menu
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuFactory value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.CreateFactory(Syncfusion.Windows.Forms.InternalMenus.FactoryType,System.String,Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection,Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection,System.Resources.ResourceManager,System.Object)">
+            <summary>
+                Creates a MenuFactory
+            </summary>
+            <param name="defaultFactoryType" type="Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+                <para>
+                    Type of MenuFactory to create
+                </para>
+            </param>
+            <param name="eventActionNamespace" type="string">
+                <para>
+                    Fully qualified namespace containing the action items
+                </para>
+            </param>
+            <param name="toolbarItemStructCollection" type="Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection">
+                <para>
+                    The ToolbarItemStructCollection to create
+                </para>
+            </param>
+            <param name="menuItemStructCollection" type="Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection">
+                <para>
+                    The MenuItemStructCollection to create
+                </para>
+            </param>
+            <param name="resManager" type="System.Resources.ResourceManager">
+                <para>
+                    The ResourceManager that contains the icon/image resources
+                </para>
+            </param>
+            <param name="parent" type="object">
+                <para>
+                    Parent form/object that contains the menu
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuFactory value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.CreateFactory(Syncfusion.Windows.Forms.InternalMenus.FactoryType,System.String,Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection[],Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection[],System.Resources.ResourceManager,System.Object)">
+            <summary>
+                Creates a MenuFactory
+            </summary>
+            <param name="defaultFactoryType" type="Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+                <para>
+                    Type of MenuFactory to create
+                </para>
+            </param>
+            <param name="eventActionNamespace" type="string">
+                <para>
+                    Fully qualified namespace that contains the action items
+                </para>
+            </param>
+            <param name="toolbarItemStructs" type="Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection[]">
+                <para>
+                    Array of ToolBarItemStructCollections to create multiple toolbars
+                </para>
+            </param>
+            <param name="menuItemStructs" type="Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection[]">
+                <para>
+                    Array of MenuItemStructCollections to create multiple menus
+                </para>
+            </param>
+            <param name="resManager" type="System.Resources.ResourceManager">
+                <para>
+                    ResourceManager containing the image resources
+                </para>
+            </param>
+            <param name="parent" type="object">
+                <para>
+                    Parent form/object that contains the menu
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuFactory value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.CreateFactory(Syncfusion.Windows.Forms.InternalMenus.FactoryType)">
+            <summary>
+                Creates the MenuFactory based on toolbar/menu items provided by the public constructors
+            </summary>
+            <param name="fType" type="Syncfusion.Windows.Forms.InternalMenus.FactoryType">
+                <para>
+                    The type of MenuFactory to create.
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuFactory value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.GetMenuItemStructCollections(System.String[])">
+            <summary>
+                Constructs a MenuItemStructCollection[] based on MenuDefinition resources in the parent's assembly
+            </summary>
+            <param name="menuDefinitionsInParent" type="string[]">
+                <para>
+                    Qualified resource name that contains the MenuDefinitions
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection[] value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.GetToolBarItemStructCollections(System.String[])">
+            <summary>
+                Constructs a ToolBarItemStructCollection[] based on ToolBarDefinition resources in the parent's assembly
+            </summary>
+            <param name="toolbarDefinitionsInParent" type="string[]">
+                <para>
+                    Qualified resource name that contains the ToolBarDefinitions
+                </para>
+            </param>
+            <returns>
+                A Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection[] value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.SetItemStructCollections(System.String[],System.Type)">
+            <summary>
+                Returns an ArrayList of either MenuItemStructCollections or ToolBarItemStructCollections
+            </summary>
+            <param name="resourcesInParent" type="string[]">
+                <para>
+                    The resources in the parent's assembly
+                </para>
+            </param>
+            <param name="itemStructCollectionType" type="System.Type">
+                <para>
+                    typeof(ToolBarItemStructCollection) or typeof(MenuItemStructCollection)
+                </para>
+            </param>
+            <returns>
+                A System.Collections.ArrayList value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.SetItemStructCollection(System.IO.Stream,System.Type)">
+            <summary>
+                Returns either a MenuItemStructCollection or a ToolBarItemStructCollection
+            </summary>
+            <param name="xmlStream" type="System.IO.Stream">
+                <para>
+                    The stream to read the collection from
+                </para>
+            </param>
+            <param name="itemStructCollectionType" type="System.Type">
+                <para>
+                   typeof(ToolBarItemStructCollection) or typeof(MenuItemStructCollection) 
+                </para>
+            </param>
+            <returns>
+                A object value...
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuLoader.SetItemStructCollection(System.String,System.Type)">
+            <summary>
+                Returns either a MenuItemStructCollection or a ToolBarItemStructCollection
+            </summary>
+            <param name="resourceInParent" type="string">
+                <para>
+                    The fully qualified resource name in the parent's assembly
+                </para>
+            </param>
+            <param name="itemStructCollectionType" type="System.Type">
+                <para>
+                    typeof(ToolBarItemStructCollection) or typeof(MenuItemStructCollection) 
+                </para>
+            </param>
+            <returns>
+                A object value...
+            </returns>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.Images">
+            <exclude/>
+            <summary>
+            Wrapper object that controls the images used in the menu and toolbar implementations
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.Images.AddToImageList(System.Int32)">
+            <summary>
+                Adds an image to the internal image list from the internal imageCollection at the specified index
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ImageStruct">
+            <exclude/>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection">
+            <exclude/>
+            <summary>
+                A collection that stores 'ImageStruct' objects.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.#ctor">
+            <summary>
+                Initializes a new instance of 'ImageStructCollection'.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection)">
+            <summary>
+                Initializes a new instance of 'ImageStructCollection' based on an already existing instance.
+            </summary>
+            <param name='imaValue'>
+                A 'ImageStructCollection' from which the contents is copied
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.ImageStruct[])">
+            <summary>
+                Initializes a new instance of 'ImageStructCollection' with an array of 'ImageStruct' objects.
+            </summary>
+            <param name='imaValue'>
+                An array of 'ImageStruct' objects with which to initialize the collection
+            </param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.Item(System.Int32)">
+            <summary>
+                Represents the 'ImageStruct' item at the specified index position.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index of the entry to locate in the collection.
+            </param>
+            <value>
+                The entry at the specified index of the collection.
+            </value>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.Add(Syncfusion.Windows.Forms.InternalMenus.ImageStruct)">
+            <summary>
+                Adds a 'ImageStruct' item with the specified value to the 'ImageStructCollection'
+            </summary>
+            <param name='imaValue'>
+                The 'ImageStruct' to add.
+            </param>
+            <returns>
+                The index at which the new element was inserted.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.ImageStruct[])">
+            <summary>
+                Copies the elements of an array at the end of this instance of 'ImageStructCollection'.
+            </summary>
+            <param name='imaValue'>
+                An array of 'ImageStruct' objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection)">
+            <summary>
+                Adds the contents of another 'ImageStructCollection' at the end of this instance.
+            </summary>
+            <param name='imaValue'>
+                A 'ImageStructCollection' containing the objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.Contains(Syncfusion.Windows.Forms.InternalMenus.ImageStruct)">
+            <summary>
+                Gets a value indicating whether the 'ImageStructCollection' contains the specified value.
+            </summary>
+            <param name='imaValue'>
+                The item to locate.
+            </param>
+            <returns>
+                True if the item exists in the collection; false otherwise.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.IndexOf(System.String,System.Boolean,System.Resources.ResourceManager)">
+            <summary>
+                Gets a value indicating the index within 'ImageStructCollection' of an ImageStruct with the specified resource name.
+            </summary>
+            <param name='resourceName'>
+                The value to locate.
+            </param>
+            <param name="addIfNotFound">
+            	True to add the image if it does not exist
+            </param>
+            <param name="manager">
+            	The Resource Manager that contains the image
+            </param>
+            <returns>
+                True if the item exists in the collection; false otherwise.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.CopyTo(Syncfusion.Windows.Forms.InternalMenus.ImageStruct[],System.Int32)">
+            <summary>
+                Copies the 'ImageStructCollection' values to a one-dimensional System.Array
+                instance starting at the specified array index.
+            </summary>
+            <param name='imaArray'>
+                The one-dimensional System.Array that represents the copy destination.
+            </param>
+            <param name='intIndex'>
+                The index in the array where copying begins.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.IndexOf(Syncfusion.Windows.Forms.InternalMenus.ImageStruct)">
+            <summary>
+                Returns the index of a 'ImageStruct' object in the collection.
+            </summary>
+            <param name='imaValue'>
+                The 'ImageStruct' object whose index will be retrieved.
+            </param>
+            <returns>
+                If found, the index of the value; otherwise, -1.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.Insert(System.Int32,Syncfusion.Windows.Forms.InternalMenus.ImageStruct)">
+            <summary>
+                Inserts an existing 'ImageStruct' into the collection at the specified index.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index where the new item should be inserted.
+            </param>
+            <param name='imaValue'>
+                The item to insert.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.GetEnumerator">
+            <summary>
+                Returns an enumerator that can be used to iterate through
+                the 'ImageStructCollection'.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.Remove(Syncfusion.Windows.Forms.InternalMenus.ImageStruct)">
+            <summary>
+                Removes a specific item from the 'ImageStructCollection'.
+            </summary>
+            <param name='imaValue'>
+                The item to remove from the 'ImageStructCollection'.
+            </param>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator">
+            <exclude/>
+            <summary>
+                A strongly typed enumerator for 'ImageStructCollection'
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.#ctor(Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection)">
+            <summary>
+                Enumerator constructor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.Current">
+            <summary>
+                Gets the current element from the collection (strongly typed)
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.System#Collections#IEnumerator#Current">
+            <summary>
+                Gets the current element from the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.System#Collections#IEnumerator#MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ImageStructCollection.ImageStructEnumerator.System#Collections#IEnumerator#Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuDefinition">
+            <exclude/>
+            <summary>
+            Defines a Menu by a name and MenuItemStructCollection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuDefinition.#ctor">
+            <summary>
+                Creates an empty MenuDefinition
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuDefinition.#ctor(System.String,Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection)">
+            <summary>
+                Constructs a MenuDefinition given the Name and MenuItemStructCollection
+            </summary>
+            <param name="mName" type="string">
+                <para>
+            	Name of the menu         
+                </para>
+            </param>
+            <param name="misCollection" type="Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection">
+                <para>
+                    The MenuItemStructCollection used to create the menu
+                </para>
+            </param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuDefinition.MenuName">
+            <summary>
+                Name of the contained menu
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuDefinition.MenuItems">
+            <summary>
+                Collection of <see cref="T:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct"/> objects defining the contained menu items.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarDefinition">
+            <exclude/>
+            <summary>
+            Defines a Toolbar by name and ToolBarItemStructCollection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarDefinition.#ctor">
+            <summary>
+                Creates an empty ToolBarDefinition
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarDefinition.#ctor(System.String,Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection)">
+            <summary>
+                Creates a ToolBarDefinition given the name and ToolBarItemStructCollection
+            </summary>
+            <param name="tName" type="string">
+                <para>
+                    Name of the menu
+                </para>
+            </param>
+            <param name="tisCollection" type="Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection">
+                <para>
+                    ToolBarItemStructCollection used to create the toolbar
+                </para>
+            </param>
+            <returns>
+                A void value...
+            </returns>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ToolBarDefinition.ToolBarName">
+            <summary>
+                Name of the defined Toolbar
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ToolBarDefinition.ToolBarItems">
+            <summary>
+                Collection of <see cref="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct"/> objects that defines the items in the toolbar.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct">
+            <exclude/>
+            <summary>Internal structure used for menu items</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.text">
+            <exclude/>
+            <summary>Text to display</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.iconResource">
+            <exclude/>
+            <summary>Resource of the icon</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.shortcutText">
+            <exclude/>
+            <summary>Tooltip information</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.parent">
+            <exclude/>
+            <summary>obsolete</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.hasChildren">
+            <exclude/>
+            <summary>obsolete</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.shortcut">
+            <exclude/>
+            <summary>String format of Shortcut. e.g. CtrlN</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.eventHandler">
+            <exclude/>
+            <summary>Name of the event handler</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct.children">
+            <exclude/>
+            <summary>Children of the menu item</summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct">
+            <exclude/>
+            <summary>Internal structure used for toolbar items</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.iconResource">
+            <exclude/>
+            <summary>Resource of the icon</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.shortcutText">
+            <exclude/>
+            <summary>Tooltip information</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.text">
+            <exclude/>
+            <summary>Text to display</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.eventHandler">
+            <exclude/>
+            <summary>Name of the event handler</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.style">
+            <summary>
+            Availabe styles are Button,ToggleButton,Radio,CheckBox,TextBox and ComboBox
+            </summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.width">
+            <exclude/>
+            <summary>Width of the button if custom drawn</summary>
+        </member>
+        <member name="F:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct.height">
+            <exclude/>
+            <summary>Height of the button if custom drawn</summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection">
+            <exclude/>
+            <summary>
+                A collection that stores 'MenuItemStruct' objects.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.#ctor">
+            <summary>
+                Initializes a new instance of 'MenuItemStructCollection'.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuName">
+            <exclude/>
+            <summary>Name of the menu</summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection)">
+            <summary>
+                Initializes a new instance of 'MenuItemStructCollection' based on an already existing instance.
+            </summary>
+            <param name='menValue'>
+                A 'MenuItemStructCollection' from which the contents is copied
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct[])">
+            <summary>
+                Initializes a new instance of 'MenuItemStructCollection' with an array of 'MenuItemStruct' objects.
+            </summary>
+            <param name='menValue'>
+                An array of 'MenuItemStruct' objects with which to initialize the collection
+            </param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.Item(System.Int32)">
+            <summary>
+                Represents the 'MenuItemStruct' item at the specified index position.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index of the entry to locate in the collection.
+            </param>
+            <value>
+                The entry at the specified index of the collection.
+            </value>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.Add(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct)">
+            <summary>
+                Adds a 'MenuItemStruct' item with the specified value to the 'MenuItemStructCollection'
+            </summary>
+            <param name='menValue'>
+                The 'MenuItemStruct' to add.
+            </param>
+            <returns>
+                The index at which the new element was inserted.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct[])">
+            <summary>
+                Copies the elements of an array at the end of this instance of 'MenuItemStructCollection'.
+            </summary>
+            <param name='menValue'>
+                An array of 'MenuItemStruct' objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection)">
+            <summary>
+                Adds the contents of another 'MenuItemStructCollection' at the end of this instance.
+            </summary>
+            <param name='menValue'>
+                A 'MenuItemStructCollection' containing the objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.Contains(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct)">
+            <summary>
+                Gets a value indicating whether the 'MenuItemStructCollection' contains the specified value.
+            </summary>
+            <param name='menValue'>
+                The item to locate.
+            </param>
+            <returns>
+                True if the item exists in the collection; false otherwise.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.CopyTo(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct[],System.Int32)">
+            <summary>
+                Copies the 'MenuItemStructCollection' values to a one-dimensional System.Array
+                instance starting at the specified array index.
+            </summary>
+            <param name='menArray'>
+                The one-dimensional System.Array that represents the copy destination.
+            </param>
+            <param name='intIndex'>
+                The index in the array where copying begins.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.IndexOf(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct)">
+            <summary>
+                Returns the index of a 'MenuItemStruct' object in the collection.
+            </summary>
+            <param name='menValue'>
+                The 'MenuItemStruct' object whose index will be retrieved.
+            </param>
+            <returns>
+                If found, the index of the value; otherwise, -1.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.Insert(System.Int32,Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct)">
+            <summary>
+                Inserts an existing 'MenuItemStruct' into the collection at the specified index.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index where the new item should be inserted.
+            </param>
+            <param name='menValue'>
+                The item to insert.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.GetEnumerator">
+            <summary>
+                Returns an enumerator that can be used to iterate through
+                the 'MenuItemStructCollection'.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.Remove(Syncfusion.Windows.Forms.InternalMenus.MenuItemStruct)">
+            <summary>
+                Removes a specific item from the 'MenuItemStructCollection'.
+            </summary>
+            <param name='menValue'>
+                The item to remove from the 'MenuItemStructCollection'.
+            </param>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator">
+            <exclude/>
+            <summary>
+                A strongly typed enumerator for 'MenuItemStructCollection'
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.#ctor(Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection)">
+            <summary>
+                Enumerator constructor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.Current">
+            <summary>
+                Gets the current element from the collection (strongly typed)
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.System#Collections#IEnumerator#Current">
+            <summary>
+                Gets the current element from the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.System#Collections#IEnumerator#MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.MenuItemStructCollection.MenuItemStructEnumerator.System#Collections#IEnumerator#Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection">
+            <exclude/>
+            <summary>
+                A collection that stores 'ToolBarItemStruct' objects.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.#ctor">
+            <summary>
+                Initializes a new instance of 'ToolBarItemStructCollection'.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarName">
+            <exclude/>
+            <summary>Name of the toolbar</summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection)">
+            <summary>
+                Initializes a new instance of 'ToolBarItemStructCollection' based on an already existing instance.
+            </summary>
+            <param name='tooValue'>
+                A 'ToolBarItemStructCollection' from which the contents is copied
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.#ctor(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct[])">
+            <summary>
+                Initializes a new instance of 'ToolBarItemStructCollection' with an array of 'ToolBarItemStruct' objects.
+            </summary>
+            <param name='tooValue'>
+                An array of 'ToolBarItemStruct' objects with which to initialize the collection
+            </param>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.Item(System.Int32)">
+            <summary>
+                Represents the 'ToolBarItemStruct' item at the specified index position.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index of the entry to locate in the collection.
+            </param>
+            <value>
+                The entry at the specified index of the collection.
+            </value>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.Add(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct)">
+            <summary>
+                Adds a 'ToolBarItemStruct' item with the specified value to the 'ToolBarItemStructCollection'
+            </summary>
+            <param name='tooValue'>
+                The 'ToolBarItemStruct' to add.
+            </param>
+            <returns>
+                The index at which the new element was inserted.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct[])">
+            <summary>
+                Copies the elements of an array at the end of this instance of 'ToolBarItemStructCollection'.
+            </summary>
+            <param name='tooValue'>
+                An array of 'ToolBarItemStruct' objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.AddRange(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection)">
+            <summary>
+                Adds the contents of another 'ToolBarItemStructCollection' at the end of this instance.
+            </summary>
+            <param name='tooValue'>
+                A 'ToolBarItemStructCollection' containing the objects to add to the collection.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.Contains(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct)">
+            <summary>
+                Gets a value indicating whether the 'ToolBarItemStructCollection' contains the specified value.
+            </summary>
+            <param name='tooValue'>
+                The item to locate.
+            </param>
+            <returns>
+                True if the item exists in the collection; false otherwise.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.CopyTo(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct[],System.Int32)">
+            <summary>
+                Copies the 'ToolBarItemStructCollection' values to a one-dimensional System.Array
+                instance starting at the specified array index.
+            </summary>
+            <param name='tooArray'>
+                The one-dimensional System.Array that represents the copy destination.
+            </param>
+            <param name='intIndex'>
+                The index in the array where copying begins.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.IndexOf(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct)">
+            <summary>
+                Returns the index of a 'ToolBarItemStruct' object in the collection.
+            </summary>
+            <param name='tooValue'>
+                The 'ToolBarItemStruct' object whose index will be retrieved.
+            </param>
+            <returns>
+                If found, the index of the value; otherwise, -1.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.Insert(System.Int32,Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct)">
+            <summary>
+                Inserts an existing 'ToolBarItemStruct' into the collection at the specified index.
+            </summary>
+            <param name='intIndex'>
+                The zero-based index where the new item should be inserted.
+            </param>
+            <param name='tooValue'>
+                The item to insert.
+            </param>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.GetEnumerator">
+            <summary>
+                Returns an enumerator that can be used to iterate through
+                the 'ToolBarItemStructCollection'.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.Remove(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStruct)">
+            <summary>
+                Removes a specific item from the 'ToolBarItemStructCollection'.
+            </summary>
+            <param name='tooValue'>
+                The item to remove from the 'ToolBarItemStructCollection'.
+            </param>
+        </member>
+        <member name="T:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator">
+            <exclude/>
+            <summary>
+                A strongly typed enumerator for 'ToolBarItemStructCollection'
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.#ctor(Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection)">
+            <summary>
+                Enumerator constructor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.Current">
+            <summary>
+                Gets the current element from the collection (strongly typed)
+            </summary>
+        </member>
+        <member name="P:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.System#Collections#IEnumerator#Current">
+            <summary>
+                Gets the current element from the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.System#Collections#IEnumerator#MoveNext">
+            <summary>
+                Advances the enumerator to the next element of the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+        <member name="M:Syncfusion.Windows.Forms.InternalMenus.ToolBarItemStructCollection.ToolBarItemStructEnumerator.System#Collections#IEnumerator#Reset">
+            <summary>
+                Sets the enumerator to the first element in the collection
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>AddNewRow</AssemblyName>
+    <RootNamespace>AddNewRow</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.DemoCommon" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Data.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.GridCommon.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.SfInput.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.SfListView.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.DataSource.WinForms" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.3.0.53" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+<FileList>
+
+<File Reference="Syncfusion.Diagram.Windows.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.Diagram"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.DocumentExplorer"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.PaletteGroupBar"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.PaletteGroupView"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.PropertyEditor"/>
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.OverviewControl"/>
+	</ToolboxItems>
+</File>
+</FileList>

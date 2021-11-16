@@ -1,0 +1,10 @@
+<FileList>
+
+<File Reference="Syncfusion.SfDataGrid.WinForms.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.WinForms.DataGrid.SfDataGrid"/>
+		<Item Type="Syncfusion.WinForms.DataPager.SfDataPager"/>
+	</ToolboxItems>
+</File>
+</FileList>

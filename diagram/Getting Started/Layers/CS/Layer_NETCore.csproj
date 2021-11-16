@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DefineConstants>NETCORE;</DefineConstants>
+    <AssemblyName>Layer</AssemblyName>
+    <RootNamespace>LayerDemo</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Diagram.Base" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Diagram.Windows" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="19.3.0.53" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="19.3.0.53" />
+  </ItemGroup>
+</Project>

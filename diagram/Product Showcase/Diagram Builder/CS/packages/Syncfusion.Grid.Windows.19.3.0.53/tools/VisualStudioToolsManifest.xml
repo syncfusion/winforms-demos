@@ -1,0 +1,12 @@
+<FileList>
+
+<File Reference="Syncfusion.Grid.Windows.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridListControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridRecordNavigationControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridAwareTextBox"/>
+	</ToolboxItems>
+</File>
+</FileList>
