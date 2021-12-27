@@ -1,0 +1,509 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Syncfusion.Grid.Windows/19.4.0.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.38",
+          "Syncfusion.Shared.Base": "19.4.0.38",
+          "Syncfusion.Shared.Windows": "19.4.0.38"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Grid.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Grid.Windows.dll": {}
+        }
+      },
+      "Syncfusion.HighContrastTheme.WinForms/19.4.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.HighContrastTheme.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.HighContrastTheme.WinForms.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.4.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Office2019Theme.WinForms/19.4.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Office2019Theme.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Office2019Theme.WinForms.dll": {}
+        }
+      },
+      "Syncfusion.Shared.Base/19.4.0.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.38"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {}
+        }
+      },
+      "Syncfusion.Shared.Windows/19.4.0.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.38",
+          "Syncfusion.Shared.Base": "19.4.0.38"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll": {}
+        }
+      },
+      "Syncfusion.SpellChecker.Base/19.4.0.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.38"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SpellChecker.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SpellChecker.Base.dll": {}
+        }
+      },
+      "Syncfusion.Tools.Base/19.4.0.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.38",
+          "Syncfusion.Shared.Base": "19.4.0.38"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.Base.dll": {}
+        }
+      },
+      "Syncfusion.Tools.Windows/19.4.0.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Grid.Windows": "19.4.0.38",
+          "Syncfusion.Licensing": "19.4.0.38",
+          "Syncfusion.Shared.Base": "19.4.0.38",
+          "Syncfusion.Shared.Windows": "19.4.0.38",
+          "Syncfusion.SpellChecker.Base": "19.4.0.38",
+          "Syncfusion.Tools.Base": "19.4.0.38"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.Windows.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syncfusion.Grid.Windows/19.4.0.38": {
+      "sha512": "RGpKVTvbg1gRHe/6PmWZuHURCZ8YKd0nSLGHCYd82cPdgHOsNvEbxL0kI9v7yjRAkF+t2ye9adnqhWPDeK56ug==",
+      "type": "package",
+      "path": "syncfusion.grid.windows/19.4.0.38",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.Grid.Windows.dll",
+        "lib/net20/Syncfusion.Grid.Windows.xml",
+        "lib/net35/Syncfusion.Grid.Windows.dll",
+        "lib/net35/Syncfusion.Grid.Windows.xml",
+        "lib/net40/Syncfusion.Grid.Windows.dll",
+        "lib/net40/Syncfusion.Grid.Windows.xml",
+        "lib/net45/Syncfusion.Grid.Windows.dll",
+        "lib/net45/Syncfusion.Grid.Windows.xml",
+        "lib/net451/Syncfusion.Grid.Windows.dll",
+        "lib/net451/Syncfusion.Grid.Windows.xml",
+        "lib/net46/Syncfusion.Grid.Windows.dll",
+        "lib/net46/Syncfusion.Grid.Windows.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Grid.Windows.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Grid.Windows.xml",
+        "lib/netcoreapp3.1/Syncfusion.Grid.Windows.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.Windows.xml",
+        "syncfusion.grid.windows.19.4.0.38.nupkg.sha512",
+        "syncfusion.grid.windows.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.HighContrastTheme.WinForms/19.4.0.38": {
+      "sha512": "bihvWlmF38gzj31qpa1m6YVTQbxRHCY0dHBDX7zez4+PNeIllWvXMN8OnOJ0L9x60CGBcyJHGMy+gk+ae+yXwg==",
+      "type": "package",
+      "path": "syncfusion.highcontrasttheme.winforms/19.4.0.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net20/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/net35/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net35/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/net40/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net40/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/net45/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net45/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/net451/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net451/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/net46/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net46/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/net5.0-windows7.0/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/net5.0-windows7.0/Syncfusion.HighContrastTheme.WinForms.xml",
+        "lib/netcoreapp3.1/Syncfusion.HighContrastTheme.WinForms.dll",
+        "lib/netcoreapp3.1/Syncfusion.HighContrastTheme.WinForms.xml",
+        "syncfusion.highcontrasttheme.winforms.19.4.0.38.nupkg.sha512",
+        "syncfusion.highcontrasttheme.winforms.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/19.4.0.38": {
+      "sha512": "aO2/KBA53/uYDAs0cj0HYW+Hf3cYnyZUpo96IaijDoVvS+Vi9N7tEUVvnAbW84aQiJFZD5LOUxoEz18Dw74iAw==",
+      "type": "package",
+      "path": "syncfusion.licensing/19.4.0.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0-windows10.0/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.19.4.0.38.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Office2019Theme.WinForms/19.4.0.38": {
+      "sha512": "IX0tgRp//Q9jw3f64ZubvO2QuhTvYRdpszthi4fyEEKzx/55TvmMpGFHwVnbCCBdXuFL66T/70UhUUYndh8P+g==",
+      "type": "package",
+      "path": "syncfusion.office2019theme.winforms/19.4.0.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.Office2019Theme.WinForms.dll",
+        "lib/net40/Syncfusion.Office2019Theme.WinForms.xml",
+        "lib/net45/Syncfusion.Office2019Theme.WinForms.dll",
+        "lib/net45/Syncfusion.Office2019Theme.WinForms.xml",
+        "lib/net451/Syncfusion.Office2019Theme.WinForms.dll",
+        "lib/net451/Syncfusion.Office2019Theme.WinForms.xml",
+        "lib/net46/Syncfusion.Office2019Theme.WinForms.dll",
+        "lib/net46/Syncfusion.Office2019Theme.WinForms.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Office2019Theme.WinForms.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Office2019Theme.WinForms.xml",
+        "lib/netcoreapp3.1/Syncfusion.Office2019Theme.WinForms.dll",
+        "lib/netcoreapp3.1/Syncfusion.Office2019Theme.WinForms.xml",
+        "syncfusion.office2019theme.winforms.19.4.0.38.nupkg.sha512",
+        "syncfusion.office2019theme.winforms.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Shared.Base/19.4.0.38": {
+      "sha512": "bsBGeUVYHMpPU3PDUAfjO6oxMZUDMlzGFRhHOf6WEiJiH/f6UIECMv+xjAijDwIK+ZrGS65Ie/Ezb4E55fPlEQ==",
+      "type": "package",
+      "path": "syncfusion.shared.base/19.4.0.38",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.Shared.Base.dll",
+        "lib/net20/Syncfusion.Shared.Base.xml",
+        "lib/net35/Syncfusion.Shared.Base.dll",
+        "lib/net35/Syncfusion.Shared.Base.xml",
+        "lib/net40/Syncfusion.Shared.Base.dll",
+        "lib/net40/Syncfusion.Shared.Base.xml",
+        "lib/net45/Syncfusion.Shared.Base.dll",
+        "lib/net45/Syncfusion.Shared.Base.xml",
+        "lib/net451/Syncfusion.Shared.Base.dll",
+        "lib/net451/Syncfusion.Shared.Base.xml",
+        "lib/net46/Syncfusion.Shared.Base.dll",
+        "lib/net46/Syncfusion.Shared.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Base.xml",
+        "syncfusion.shared.base.19.4.0.38.nupkg.sha512",
+        "syncfusion.shared.base.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.Windows/19.4.0.38": {
+      "sha512": "9vIFJaEnF/a9Pwerm5ZANoDpHnMqem1d1p3M8xhPSE3ZLVxnMH3aQAzgQ4n5c3EIcl9GDwOhd5BWbic/ScBBEQ==",
+      "type": "package",
+      "path": "syncfusion.shared.windows/19.4.0.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.Shared.Windows.dll",
+        "lib/net20/Syncfusion.Shared.Windows.xml",
+        "lib/net35/Syncfusion.Shared.Windows.dll",
+        "lib/net35/Syncfusion.Shared.Windows.xml",
+        "lib/net40/Syncfusion.Shared.Windows.dll",
+        "lib/net40/Syncfusion.Shared.Windows.xml",
+        "lib/net45/Syncfusion.Shared.Windows.dll",
+        "lib/net45/Syncfusion.Shared.Windows.xml",
+        "lib/net451/Syncfusion.Shared.Windows.dll",
+        "lib/net451/Syncfusion.Shared.Windows.xml",
+        "lib/net46/Syncfusion.Shared.Windows.dll",
+        "lib/net46/Syncfusion.Shared.Windows.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Windows.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.Windows.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Windows.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Windows.xml",
+        "syncfusion.shared.windows.19.4.0.38.nupkg.sha512",
+        "syncfusion.shared.windows.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.SpellChecker.Base/19.4.0.38": {
+      "sha512": "bY6686xd7DSEicRWeNjO91NoEdGtLRDzmO+5T3c3cA/TLkgdxXhRD4Tm68xphN4rLGLTUrXBgvK7Cj0BCPGHjg==",
+      "type": "package",
+      "path": "syncfusion.spellchecker.base/19.4.0.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Syncfusion.SpellChecker.Base.dll",
+        "lib/net35/Syncfusion.SpellChecker.Base.xml",
+        "lib/net40/Syncfusion.SpellChecker.Base.dll",
+        "lib/net40/Syncfusion.SpellChecker.Base.xml",
+        "lib/net45/Syncfusion.SpellChecker.Base.dll",
+        "lib/net45/Syncfusion.SpellChecker.Base.xml",
+        "lib/net451/Syncfusion.SpellChecker.Base.dll",
+        "lib/net451/Syncfusion.SpellChecker.Base.xml",
+        "lib/net46/Syncfusion.SpellChecker.Base.dll",
+        "lib/net46/Syncfusion.SpellChecker.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.SpellChecker.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.SpellChecker.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.SpellChecker.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.SpellChecker.Base.xml",
+        "syncfusion.spellchecker.base.19.4.0.38.nupkg.sha512",
+        "syncfusion.spellchecker.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Tools.Base/19.4.0.38": {
+      "sha512": "O3ChTOzgflcNyxQ6q2O0kzbMLegQxmuNvrjc/lRZaHZjRy06Lvd8CatY78oDy5WodUPgUVCseRDysIqeELO3iw==",
+      "type": "package",
+      "path": "syncfusion.tools.base/19.4.0.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.Tools.Base.dll",
+        "lib/net20/Syncfusion.Tools.Base.xml",
+        "lib/net35/Syncfusion.Tools.Base.dll",
+        "lib/net35/Syncfusion.Tools.Base.xml",
+        "lib/net40/Syncfusion.Tools.Base.dll",
+        "lib/net40/Syncfusion.Tools.Base.xml",
+        "lib/net45/Syncfusion.Tools.Base.dll",
+        "lib/net45/Syncfusion.Tools.Base.xml",
+        "lib/net451/Syncfusion.Tools.Base.dll",
+        "lib/net451/Syncfusion.Tools.Base.xml",
+        "lib/net46/Syncfusion.Tools.Base.dll",
+        "lib/net46/Syncfusion.Tools.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Tools.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.Base.xml",
+        "syncfusion.tools.base.19.4.0.38.nupkg.sha512",
+        "syncfusion.tools.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Tools.Windows/19.4.0.38": {
+      "sha512": "3K6UhEh6VEzJGY0H5x7mHE+OUuuuAsDJKLT/Vr5bChpPxwnZWSCdxuERZqu64jQLsoqujFOQtIn/rDtUu0pLRg==",
+      "type": "package",
+      "path": "syncfusion.tools.windows/19.4.0.38",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net20/Syncfusion.Tools.Windows.dll",
+        "lib/net20/Syncfusion.Tools.Windows.xml",
+        "lib/net35/Syncfusion.Tools.Windows.dll",
+        "lib/net35/Syncfusion.Tools.Windows.xml",
+        "lib/net40/Syncfusion.Tools.Windows.dll",
+        "lib/net40/Syncfusion.Tools.Windows.xml",
+        "lib/net45/Syncfusion.Tools.Windows.dll",
+        "lib/net45/Syncfusion.Tools.Windows.xml",
+        "lib/net451/Syncfusion.Tools.Windows.dll",
+        "lib/net451/Syncfusion.Tools.Windows.xml",
+        "lib/net46/Syncfusion.Tools.Windows.dll",
+        "lib/net46/Syncfusion.Tools.Windows.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.Windows.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.Windows.xml",
+        "lib/netcoreapp3.1/Syncfusion.Tools.Windows.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.Windows.xml",
+        "syncfusion.tools.windows.19.4.0.38.nupkg.sha512",
+        "syncfusion.tools.windows.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Syncfusion.Grid.Windows >= 19.4.0.38",
+      "Syncfusion.HighContrastTheme.WinForms >= 19.4.0.38",
+      "Syncfusion.Licensing >= 19.4.0.38",
+      "Syncfusion.Office2019Theme.WinForms >= 19.4.0.38",
+      "Syncfusion.Shared.Base >= 19.4.0.38",
+      "Syncfusion.Shared.Windows >= 19.4.0.38",
+      "Syncfusion.SpellChecker.Base >= 19.4.0.38",
+      "Syncfusion.Tools.Base >= 19.4.0.38",
+      "Syncfusion.Tools.Windows >= 19.4.0.38"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BuildAutomation\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Samples_19.4.0.38\\Windows\\autocomplete\\Appearance\\CS\\Appearance_NETCore.csproj",
+      "projectName": "AppearanceDemo",
+      "projectPath": "D:\\Samples_19.4.0.38\\Windows\\autocomplete\\Appearance\\CS\\Appearance_NETCore.csproj",
+      "packagesPath": "C:\\Users\\BuildAutomation\\.nuget\\packages\\",
+      "outputPath": "D:\\Samples_19.4.0.38\\Windows\\autocomplete\\Appearance\\CS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "D:\\Samples_19.4.0.38\\Windows\\autocomplete\\Appearance\\CS\\NuGet.Config",
+        "C:\\Users\\BuildAutomation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nexus.syncfusion.com/repository/nuget-hosted/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Syncfusion.Grid.Windows": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.HighContrastTheme.WinForms": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.Licensing": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.Office2019Theme.WinForms": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.Shared.Base": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.Shared.Windows": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.SpellChecker.Base": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.Tools.Base": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          },
+          "Syncfusion.Tools.Windows": {
+            "target": "Package",
+            "version": "[19.4.0.38, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
