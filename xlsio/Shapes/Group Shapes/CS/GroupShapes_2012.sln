@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupShapes_2012", "GroupShapes_2012.csproj", "{8222B8E5-E74F-4447-9565-F32A5D8F34AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-Xml|Any CPU = Debug-Xml|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-Xml|Any CPU = Release-Xml|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Debug-Xml|Any CPU.ActiveCfg = Debug|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Debug-Xml|Any CPU.Build.0 = Debug|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
+		{8222B8E5-E74F-4447-9565-F32A5D8F34AD}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
