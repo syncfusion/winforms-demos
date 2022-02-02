@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>DiagramBuilder</AssemblyName>
+    <RootNamespace>Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Compile Remove="_TESTSCRIPT\**" />
+    <EmbeddedResource Remove="_TESTSCRIPT\**" />
+    <None Remove="_TESTSCRIPT\**" />
+    <Resource Remove="_TESTSCRIPT\**" />
+    <Compile Remove="MyDiagram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Diagram.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Diagram.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Diagram.Utility.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Diagram.Utility.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Diagram.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Diagram.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Edit.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Edit.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Scripting.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Scripting.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Scripting.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Scripting.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.SpellChecker.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

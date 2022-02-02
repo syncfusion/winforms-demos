@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CarDashboard</AssemblyName>
+    <RootNamespace>CarDashboard</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Resource Remove="Fuel.png" />
+    <EmbeddedResource Include="Fuel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Core.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Gauge.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Gauge.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net5.0\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+ 
+</Project>

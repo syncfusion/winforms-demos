@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CreateMacro</AssemblyName>
+    <RootNamespace>ReportFromTemplate</RootNamespace>
+	<DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SpellChecker.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base">
+	 <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.XlsIO.Base.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

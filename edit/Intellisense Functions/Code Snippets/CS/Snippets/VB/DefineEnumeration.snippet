@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Define Enumeration</Title>
+      <Author>Microsoft Corporation</Author>
+      <Description>Defines an enumeration with specified integer values.</Description>
+      <Shortcut>EnumCustom</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.VisualBasic</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Object>
+          <ID>EnumName</ID>
+          <Type>String</Type>
+          <ToolTip>Replace with enumeration name.</ToolTip>
+          <Default>MyEnum</Default>
+        </Object>
+        <Literal>
+          <ID>Enum1</ID>
+          <Type>String</Type>
+          <ToolTip>Replace with an enumeration value.</ToolTip>
+          <Default>ValueOne</Default>
+        </Literal>
+        <Literal>
+          <ID>Enum2</ID>
+          <Type>String</Type>
+          <ToolTip>Replace with an enumeration value.</ToolTip>
+          <Default>ValueTwo</Default>
+        </Literal>
+        <Literal>
+          <ID>Value1</ID>
+          <Type>Integer</Type>
+          <ToolTip>Replace with an Integer.</ToolTip>
+          <Default>2</Default>
+        </Literal>
+        <Literal>
+          <ID>Value2</ID>
+          <Type>Integer</Type>
+          <ToolTip>Replace with an Integer.</ToolTip>
+          <Default>3</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB" Kind="type decl"><![CDATA[Enum $EnumName$
+    $Enum1$ = $Value1$
+    $Enum2$ = $Value2$
+End Enum]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
