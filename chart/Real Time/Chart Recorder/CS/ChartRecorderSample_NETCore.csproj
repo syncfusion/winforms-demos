@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>ChartRecorderSample</AssemblyName>
+    <RootNamespace>ChartRecorderSample</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Chart.Base" Version="20.1.0.47" />
+    <PackageReference Include="Syncfusion.Chart.Windows" Version="20.1.0.47" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.1.0.47" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.1.0.47" />
+  </ItemGroup>
+</Project>
