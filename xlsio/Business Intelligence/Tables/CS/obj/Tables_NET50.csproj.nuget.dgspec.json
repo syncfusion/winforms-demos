@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Samples_20.1.0.55\\Windows\\xlsio\\Business Intelligence\\Tables\\CS\\Tables_NET50.csproj": {}
+  },
+  "projects": {
+    "D:\\Samples_20.1.0.55\\Windows\\xlsio\\Business Intelligence\\Tables\\CS\\Tables_NET50.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Samples_20.1.0.55\\Windows\\xlsio\\Business Intelligence\\Tables\\CS\\Tables_NET50.csproj",
+        "projectName": "Tables",
+        "projectPath": "D:\\Samples_20.1.0.55\\Windows\\xlsio\\Business Intelligence\\Tables\\CS\\Tables_NET50.csproj",
+        "packagesPath": "C:\\Users\\BuildAutomation\\.nuget\\packages\\",
+        "outputPath": "D:\\Samples_20.1.0.55\\Windows\\xlsio\\Business Intelligence\\Tables\\CS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Samples_20.1.0.55\\Windows\\xlsio\\Business Intelligence\\Tables\\CS\\NuGet.Config",
+          "C:\\Users\\BuildAutomation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.syncfusion.com/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Syncfusion.Compression.Base": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Grid.Base": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Grid.Windows": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Shared.Base": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Shared.Windows": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.SpellChecker.Base": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Tools.Base": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.Tools.Windows": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            },
+            "Syncfusion.XlsIO.WinForms": {
+              "target": "Package",
+              "version": "[20.1.0.55, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

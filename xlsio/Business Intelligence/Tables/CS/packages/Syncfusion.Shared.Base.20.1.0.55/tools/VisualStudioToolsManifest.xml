@@ -1,0 +1,37 @@
+<FileList>
+
+<File Reference="Syncfusion.Shared.Base.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.Windows.Forms.Tools.BorderLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CardLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GridLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.FlowLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GridBagLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ImageListAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ProgressBarAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.SkinManager"/>
+		<Item Type="Syncfusion.Windows.Forms.SplitterControl"/>
+		<Item Type="Syncfusion.Windows.Forms.RecordNavigationControl"/>
+		<Item Type="Syncfusion.Windows.Forms.RecordNavigationBar"/>
+		<Item Type="Syncfusion.Windows.Forms.PopupControlContainer"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ComboDropDown"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ComboBoxBase"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GroupBar"/>
+		<Item Type="Syncfusion.Windows.Forms.SfToolTip"/>
+		<Item Type="Syncfusion.Windows.Forms.ColorPickerButton"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.AutoLabel"/>
+		<Item Type="Syncfusion.Windows.Forms.BannerTextProvider"/>
+		<Item Type="Syncfusion.Windows.Forms.ColorUIControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CurrencyTextBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.DoubleTextBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.EditableList"/>
+		<Item Type="Syncfusion.Windows.Forms.FolderBrowser"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GradientPanel"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GradientPanelExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MaskedEditBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.PercentTextBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TextBoxExt"/>
+	</ToolboxItems>
+</File>
+</FileList>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DefineConstants>TRACE;NETCORE;</DefineConstants>
+    <AssemblyName>LocalizationDemo</AssemblyName>
+    <RootNamespace>LocalizationDemo</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.PivotAnalysis.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.PivotTable.WinForms" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Linq.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.1.0.55" />
+  </ItemGroup>
+</Project>

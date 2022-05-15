@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>MultipleLegends</AssemblyName>
+    <RootNamespace>MultipleLegends</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Chart.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Chart.Windows" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="20.1.0.55" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.1.0.55" />
+  </ItemGroup>
+</Project>

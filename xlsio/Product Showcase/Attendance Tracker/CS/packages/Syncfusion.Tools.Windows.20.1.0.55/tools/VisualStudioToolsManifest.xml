@@ -1,0 +1,64 @@
+<FileList>
+
+<File Reference="Syncfusion.Tools.Windows.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms">
+		<Item Type="Syncfusion.Windows.Forms.Tools.DockingManager"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TabControlAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.Carousel"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.Clock"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ImageStreamer"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TabbedGroupedMDIManager"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TabSplitterContainer"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TileLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SpellCheckerAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.DateTimePickerAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MonthCalendarAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CalculatorControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.HubTile"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.NavigationDrawer"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.NavigationView"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RadioButtonAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RibbonControlAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplashControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplashPanel"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.StatusBarAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.Controls.StatusBar.StatusBarExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.StatusBarAdvPanel"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.StatusStripEx"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TreeNavigator"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.Wizard"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPTaskBar"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPTaskPane"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CommandBarController"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPMenus.MainFrameBarManager"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RadialMenu"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPMenus.XPToolBar"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.AutoComplete"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ContextMenuStripEx"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.FontComboBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ComboBoxAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ComboBoxAutoComplete"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MultiColumnComboBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MultiColumnTreeView.MultiColumnTreeView"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MultiSelectionComboBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPMenus.PopupMenu"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TreeViewAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ButtonEdit"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplitButton"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ToggleButton"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplitContainerAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CheckBoxAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ColorPickerUIAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CurrencyEdit"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.DomainUpDownExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.NumericUpDownExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.FontListBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RadialSlider"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RangeSlider"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RatingControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TrackBarEx"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GradientLabel"/>
+	</ToolboxItems>
+</File>
+</FileList>

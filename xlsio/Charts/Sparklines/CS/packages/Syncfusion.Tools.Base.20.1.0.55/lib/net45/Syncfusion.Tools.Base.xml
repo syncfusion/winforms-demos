@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.Tools.Base</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.ToolsBaseAssembly">
+            <exclude/>
+             <summary>
+             This class holds the name of the Tools assembly and provides a helper
+             routine that helps with resolving types when loading a serialization stream and when the framework probes for assemblies by reflection.
+             </summary>
+        </member>
+        <member name="F:Syncfusion.ToolsBaseAssembly.Name">
+            <summary>
+            The full name of this assembly without version information, e.g. "Syncfusion.Tools".
+            </summary>
+        </member>
+        <member name="F:Syncfusion.ToolsBaseAssembly.Assembly">
+            <summary>
+            A reference to the <see cref="T:System.Reflection.Assembly"/> for the Tools assembly.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.ToolsBaseAssembly.RootNamespace">
+            <summary>
+            The root namespace of this assembly. Used internally for locating resources within the assembly.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.ToolsBaseAssembly.AssemblyResolver(System.Object,System.ResolveEventArgs)">
+            <summary>
+            This delegate helps with resolving types and can be used as an eventhandler
+            for a <see cref="E:System.AppDomain.AssemblyResolve"/> event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data with information about the type.</param>
+            <returns>A reference to the assembly where the type is located.</returns>
+            <remarks>
+            <para>If the requested assembly is either Tools, Grid, or Shared, this method returns the reference
+            to the corresponding assembly, it is bound to.</para>
+            <para>It's mandatory that you distribute Syncfusion.Grid.dll and Syncfusion.Shared.dll when you use this
+            method in your application.</para>
+            <para>Use this handler when reading back types from a serialization stream
+            saved with an earlier version of this assembly.</para>
+            </remarks>
+            <example>
+            <code lang="C#">
+            		public static AToolsType LoadSoap(Stream s)
+            		{
+            			try
+            			{
+            				AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(ToolsAssembly.AssemblyResolver);
+            				SoapFormatter b = new SoapFormatter();
+            				b.AssemblyFormat = FormatterAssemblyStyle.Simple;
+            				AToolsType t = b.Deserialize(s) as AToolsType;
+            				return t;
+            			}
+            			finally
+            			{
+            				AppDomain.CurrentDomain.AssemblyResolve -= new ResolveEventHandler(ToolsAssembly.AssemblyResolver);
+            			}
+            		}
+            
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>
