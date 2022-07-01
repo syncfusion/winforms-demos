@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>HTMLUIXSLTransform</AssemblyName>
+    <RootNamespace>Syncfusion.Windows.Forms.HTMLUI.Samples</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="contact_image.jpg" />
+    <None Remove="xmldata.xml" />
+    <None Remove="xsltfile.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="contact_image.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xmldata.xml" />
+    <EmbeddedResource Include="xsltfile.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.HTMLUI.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.HTMLUI.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.MIME.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Edit.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Scripting.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Scripting.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.2.0.36" />
+  </ItemGroup>
+</Project>

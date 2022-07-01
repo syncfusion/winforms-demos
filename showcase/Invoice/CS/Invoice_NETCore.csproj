@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Invoice</AssemblyName>
+    <RootNamespace>Invoice</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <None Remove="Assets\InvoiceTemplate.xlsx" />
+    <None Remove="Assets\ProdutsPriceList.xml" />
+    <None Remove="Assets\Template.docx" />
+    <Resource Remove="Assets\Syncfusion.png" />
+    <Resource Include="App.ico" />
+    <EmbeddedResource Include="Assets\InvoiceTemplate.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\ProdutsPriceList.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Syncfusion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Template.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.DocIO.WinForms" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Grid.Grouping.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Grouping.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="20.2.0.36" />
+    <PackageReference Include="Syncfusion.XlsIO.WinForms" Version="20.2.0.36" />
+  </ItemGroup>
+</Project>
