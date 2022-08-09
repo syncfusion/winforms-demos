@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>IntervalGrouping</AssemblyName>
+    <RootNamespace>IntervalGrouping</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Data.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.GridCommon.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.SfInput.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.SfListView.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.DataSource.WinForms" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.2.0.43" />
+  </ItemGroup>
+</Project>

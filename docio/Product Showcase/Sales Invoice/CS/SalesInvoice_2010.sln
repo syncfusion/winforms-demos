@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesInvoice_2010", "SalesInvoice_2010.csproj", "{CC5E63E7-7873-40E7-820D-C8D5D4AAD0B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CC5E63E7-7873-40E7-820D-C8D5D4AAD0B0}.Debug.ActiveCfg = Debug|.NET
+		{CC5E63E7-7873-40E7-820D-C8D5D4AAD0B0}.Debug.Build.0 = Debug|.NET
+		{CC5E63E7-7873-40E7-820D-C8D5D4AAD0B0}.Release.ActiveCfg = Release|.NET
+		{CC5E63E7-7873-40E7-820D-C8D5D4AAD0B0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

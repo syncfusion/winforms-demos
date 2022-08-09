@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>AutoShapes</AssemblyName>
+    <RootNamespace>ReportFromTemplate</RootNamespace>
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Grid.Base" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="20.2.0.43" />
+    <PackageReference Include="Syncfusion.XlsIO.WinForms" Version="20.2.0.43" />
+  </ItemGroup>
+</Project>
