@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>RemoveImage</AssemblyName>
+    <RootNamespace>RemoveImage</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.3.0.47" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

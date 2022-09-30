@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CustomizationDemo</AssemblyName>
+    <RootNamespace>CustomizationDemo</RootNamespace>
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.Shared.Wpf" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.TreeMap.Windows" Version="20.3.0.47" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.3.0.47" />
+  </ItemGroup>
+</Project>
