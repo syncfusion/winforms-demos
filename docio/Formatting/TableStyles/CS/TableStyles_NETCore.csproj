@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>TableStyles</AssemblyName>
+    <RootNamespace>ReportFromTemplate</RootNamespace>
+    <PlatformTarget>x86</PlatformTarget>
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="4.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Compression.Base" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.DocIO.WinForms" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.DocToPDFConverter.WinForms" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="20.3.0.56" />
+    <PackageReference Include="Syncfusion.Licensing" Version="20.3.0.56" />
+  </ItemGroup>
+</Project>

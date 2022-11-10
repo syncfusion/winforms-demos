@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sample>
+  <name value="~/Data Binding/LINQ Wrapper/Sample.aspx" />
+  <displayname value="LINQ Wrapper Sample" />
+  <sortorder value="2" />
+</sample>

@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridPad_2010", "GridPad_2010.csproj", "{210CBEF0-CEB9-4E99-A709-134BC5D9225B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{210CBEF0-CEB9-4E99-A709-134BC5D9225B}.Debug.ActiveCfg = Debug|.NET
+		{210CBEF0-CEB9-4E99-A709-134BC5D9225B}.Debug.Build.0 = Debug|.NET
+		{210CBEF0-CEB9-4E99-A709-134BC5D9225B}.Release.ActiveCfg = Release|.NET
+		{210CBEF0-CEB9-4E99-A709-134BC5D9225B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
