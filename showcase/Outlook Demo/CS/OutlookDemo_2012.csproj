@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A79245BA-5B5F-413F-BDB0-333E7651C877}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OutlookDemo_2010</RootNamespace>
+    <AssemblyName>OutlookDemo_2010</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnvDTE">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>packages\Syncfusion.Core.WinForms.20.4.0.48\lib\net45\Syncfusion.Core.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms">
+      <HintPath>packages\Syncfusion.Data.WinForms.20.4.0.48\lib\net45\Syncfusion.Data.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms">
+      <HintPath>packages\Syncfusion.DataSource.WinForms.20.4.0.48\lib\net45\Syncfusion.DataSource.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base">
+      <HintPath>packages\Syncfusion.Grid.Base.20.4.0.48\lib\net45\Syncfusion.Grid.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>packages\Syncfusion.Grid.Windows.20.4.0.48\lib\net45\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms">
+      <HintPath>packages\Syncfusion.GridCommon.WinForms.20.4.0.48\lib\net45\Syncfusion.GridCommon.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.WinForms">
+      <HintPath>packages\Syncfusion.SfDataGrid.WinForms.20.4.0.48\lib\net45\Syncfusion.SfDataGrid.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms">
+      <HintPath>packages\Syncfusion.SfInput.WinForms.20.4.0.48\lib\net45\Syncfusion.SfInput.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms">
+      <HintPath>packages\Syncfusion.SfListView.WinForms.20.4.0.48\lib\net45\Syncfusion.SfListView.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>packages\Syncfusion.Shared.Base.20.4.0.48\lib\net45\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>packages\Syncfusion.Shared.Windows.20.4.0.48\lib\net45\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>packages\Syncfusion.Tools.Base.20.4.0.48\lib\net45\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>packages\Syncfusion.Tools.Windows.20.4.0.48\lib\net45\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>packages\Syncfusion.SpellChecker.Base.20.4.0.48\lib\net45\Syncfusion.SpellChecker.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OutlookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutlookForm.Designer.cs">
+      <DependentUpon>OutlookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutlookCell.cs" />
+    <Compile Include="OutlookSearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OutlookSearchBox.Designer.cs">
+      <DependentUpon>OutlookSearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="OutlookForm.resx">
+      <DependentUpon>OutlookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutlookSearchBox.resx">
+      <DependentUpon>OutlookSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Resources\3 - Copy.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\40 x 40 icon padding.png" />
+    <None Include="Resources\41.png" />
+    <None Include="Resources\dp.png" />
+    <None Include="Resources\Ignore-022.png" />
+    <None Include="Resources\Item new-02.png" />
+    <None Include="Resources\Junk.png" />
+    <None Include="Resources\New Mail.png" />
+    <None Include="Resources\Team Email.png" />
+    <None Include="Resources\UserImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data.xml" />
+    <Content Include="Resources\PasteQAT.png" />
+    <None Include="Resources\importandexport.png" />
+    <None Include="Resources\Open.png" />
+    <None Include="Resources\opencalender.png" />
+    <None Include="Resources\openoutlookdatafile.png" />
+    <None Include="Resources\otheruser.png" />
+    <None Include="Resources\Message Priview1.png" />
+    <None Include="Resources\Run rules now2.png" />
+    <None Include="Resources\Run rules now1.png" />
+    <None Include="Resources\New folder.png" />
+    <None Include="Resources\show in favorites1.png" />
+    <None Include="Resources\Forward1.png" />
+    <None Include="Resources\Ignore.png" />
+    <None Include="Resources\New item1.png" />
+    <None Include="Resources\All folder-01.png" />
+    <None Include="Resources\Forward.jpg" />
+    <None Include="Resources\icons-5.png" />
+    <None Include="Resources\icons-4.png" />
+    <None Include="Resources\icons-3.png" />
+    <None Include="Resources\icon2.png" />
+    <None Include="Resources\icons.png" />
+    <None Include="Resources\icon-arrow-ryt.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\icon-arrow-1.png" />
+    <None Include="Resources\search-bar.png" />
+    <None Include="Resources\icon-arrow-2.png" />
+    <None Include="Resources\icon-arrow1.png" />
+    <None Include="Resources\sshot-1.png" />
+    <None Include="Resources\officeaccount.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\info1.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\Close All Item.png" />
+    <None Include="Resources\Open in New Window.png" />
+    <None Include="Resources\View Setting1.png" />
+    <None Include="Resources\Reminder Windows.png" />
+    <None Include="Resources\Message Preview1.png" />
+    <None Include="Resources\To Do Bar.png" />
+    <None Include="Resources\Reading Pane.png" />
+    <None Include="Resources\Folder Pane.png" />
+    <None Include="Resources\Reset View.png" />
+    <None Include="Resources\View Setting.png" />
+    <None Include="Resources\Change View.png" />
+    <None Include="Resources\Auto archive Setting.png" />
+    <None Include="Resources\Folder properties.png" />
+    <None Include="Resources\View in server.png" />
+    <None Include="Resources\show in fav.png" />
+    <None Include="Resources\Folder permission.png" />
+    <None Include="Resources\To manger.png" />
+    <None Include="Resources\clean up2.png" />
+    <None Include="Resources\Update Folder.png" />
+    <None Include="Resources\Show all A to Z.png" />
+    <None Include="Resources\Run rules now.png" />
+    <None Include="Resources\Mark all as read.png" />
+    <None Include="Resources\Delete1.png" />
+    <None Include="Resources\move1.png" />
+    <None Include="Resources\Rules1.png" />
+    <None Include="Resources\Rename folder.png" />
+    <None Include="Resources\New folder1.png" />
+    <None Include="Resources\flag.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\New search folder.png" />
+    <None Include="Resources\Cancel All2.png" />
+    <None Include="Resources\Show Progress.png" />
+    <None Include="Resources\Send-Receive group.png" />
+    <None Include="Resources\Send All.png" />
+    <None Include="Resources\updated-folder.png" />
+    <None Include="Resources\Send and recive all folder.png" />
+    <None Include="Resources\Filter Email.png" />
+    <None Include="Resources\Address Book.png" />
+    <None Include="Resources\follow up.png" />
+    <None Include="Resources\catgeroize.png" />
+    <None Include="Resources\Read unread.png" />
+    <None Include="Resources\one note.png" />
+    <None Include="Resources\Rules.png" />
+    <None Include="Resources\move.png" />
+    <None Include="Resources\more.png" />
+    <None Include="Resources\Meeting.png" />
+    <None Include="Resources\Forward.png" />
+    <None Include="Resources\Replay.png" />
+    <None Include="Resources\Replay All.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>packages\Syncfusion.Licensing.20.4.0.48\lib\net45\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

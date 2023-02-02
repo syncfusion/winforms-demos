@@ -1,4 +1,4 @@
-# Syncfusion WinForms examples
+﻿# Syncfusion WinForms examples
 
 This repository contains the demos of [Syncfusion WinForms UI controls](https://www.syncfusion.com/products/winforms?utm_source=github&utm_medium=listing). This is the best place to check our controls to get more insight about the usage of APIs.
 
@@ -571,4 +571,4 @@ The easiest way to use these samples without using Git is to download the zip fi
 
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
   
-<p>Copyright © 2001-2022 Syncfusion, Inc. Updated on 2022-12-27 at precisely 15:11:40 EST.</p>
+<p>Copyright © 2001-2023 Syncfusion, Inc. Updated on 2023-02-02 at precisely 11:21:51 EST.</p>
