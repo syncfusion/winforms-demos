@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTXToImage_2012", "PPTXToImage_2012.csproj", "{3877F87C-D91E-4CE1-8EC6-0F6F948DD736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-Xml|Any CPU = Debug-Xml|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-Xml|Any CPU = Release-Xml|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3877F87C-D91E-4CE1-8EC6-0F6F948DD736}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3877F87C-D91E-4CE1-8EC6-0F6F948DD736}.Debug-Xml|Any CPU.ActiveCfg = Debug|x86
+		{3877F87C-D91E-4CE1-8EC6-0F6F948DD736}.Release|Any CPU.ActiveCfg = Release|x86
+		{3877F87C-D91E-4CE1-8EC6-0F6F948DD736}.Release-Xml|Any CPU.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

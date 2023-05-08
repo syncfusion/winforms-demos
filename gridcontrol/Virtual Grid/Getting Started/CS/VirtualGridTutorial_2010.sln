@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualGridTutorial_2010", "VirtualGridTutorial_2010.csproj", "{ECE9E563-AB2D-425D-831D-16E0742DB162}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ECE9E563-AB2D-425D-831D-16E0742DB162}.Debug.ActiveCfg = Debug|.NET
+		{ECE9E563-AB2D-425D-831D-16E0742DB162}.Debug.Build.0 = Debug|.NET
+		{ECE9E563-AB2D-425D-831D-16E0742DB162}.Release.ActiveCfg = Release|.NET
+		{ECE9E563-AB2D-425D-831D-16E0742DB162}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

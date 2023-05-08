@@ -1,0 +1,248 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="NorthwindDataSet" targetNamespace="http://www.tempuri.org/NorthwindDataSet.xsd"
+	xmlns:mstns="http://www.tempuri.org/NorthwindDataSet.xsd" xmlns="http://www.tempuri.org/NorthwindDataSet.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="NorthwindDataSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Employees">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EmployeeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="LastName" type="xs:string" />
+							<xs:element name="FirstName" type="xs:string" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="TitleOfCourtesy" type="xs:string" minOccurs="0" />
+							<xs:element name="BirthDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="HireDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Address" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="Region" type="xs:string" minOccurs="0" />
+							<xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Country" type="xs:string" minOccurs="0" />
+							<xs:element name="HomePhone" type="xs:string" minOccurs="0" />
+							<xs:element name="Extension" type="xs:string" minOccurs="0" />
+							<xs:element name="Photo" type="xs:base64Binary" minOccurs="0" />
+							<xs:element name="Notes" type="xs:string" minOccurs="0" />
+							<xs:element name="ReportsTo" type="xs:int" minOccurs="0" />
+							<xs:element name="PhotoPath" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EmployeeTerritories">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EmployeeID" type="xs:int" />
+							<xs:element name="TerritoryID" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Region">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RegionID" type="xs:int" />
+							<xs:element name="RegionDescription" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Territories">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TerritoryID" type="xs:string" />
+							<xs:element name="TerritoryDescription" type="xs:string" />
+							<xs:element name="RegionID" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Orders">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrderID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+							<xs:element name="EmployeeID" type="xs:int" minOccurs="0" />
+							<xs:element name="OrderDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RequiredDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ShippedDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ShipVia" type="xs:int" minOccurs="0" />
+							<xs:element name="Freight" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ShipName" type="xs:string" minOccurs="0" />
+							<xs:element name="ShipAddress" type="xs:string" minOccurs="0" />
+							<xs:element name="ShipCity" type="xs:string" minOccurs="0" />
+							<xs:element name="ShipRegion" type="xs:string" minOccurs="0" />
+							<xs:element name="ShipPostalCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ShipCountry" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Order_x0020_Details">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrderID" type="xs:int" />
+							<xs:element name="ProductID" type="xs:int" />
+							<xs:element name="UnitPrice" type="xs:decimal" />
+							<xs:element name="Quantity" type="xs:short" />
+							<xs:element name="Discount" type="xs:float" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Products">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ProductID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ProductName" type="xs:string" />
+							<xs:element name="SupplierID" type="xs:int" minOccurs="0" />
+							<xs:element name="CategoryID" type="xs:int" minOccurs="0" />
+							<xs:element name="QuantityPerUnit" type="xs:string" minOccurs="0" />
+							<xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UnitsInStock" type="xs:short" minOccurs="0" />
+							<xs:element name="UnitsOnOrder" type="xs:short" minOccurs="0" />
+							<xs:element name="ReorderLevel" type="xs:short" minOccurs="0" />
+							<xs:element name="Discontinued" type="xs:boolean" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Suppliers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SupplierID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CompanyName" type="xs:string" />
+							<xs:element name="ContactName" type="xs:string" minOccurs="0" />
+							<xs:element name="ContactTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="Address" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="Region" type="xs:string" minOccurs="0" />
+							<xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Country" type="xs:string" minOccurs="0" />
+							<xs:element name="Phone" type="xs:string" minOccurs="0" />
+							<xs:element name="Fax" type="xs:string" minOccurs="0" />
+							<xs:element name="HomePage" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Categories">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CategoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CategoryName" type="xs:string" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="Picture" type="xs:base64Binary" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Shippers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ShipperID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CompanyName" type="xs:string" />
+							<xs:element name="Phone" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Customers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CustomerID" type="xs:string" />
+							<xs:element name="CompanyName" type="xs:string" />
+							<xs:element name="ContactName" type="xs:string" minOccurs="0" />
+							<xs:element name="ContactTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="Address" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="Region" type="xs:string" minOccurs="0" />
+							<xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Country" type="xs:string" minOccurs="0" />
+							<xs:element name="Phone" type="xs:string" minOccurs="0" />
+							<xs:element name="Fax" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Employees" />
+			<xs:field xpath="mstns:EmployeeID" />
+		</xs:unique>
+		<xs:unique name="EmployeeTerritories_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:EmployeeTerritories" />
+			<xs:field xpath="mstns:EmployeeID" />
+			<xs:field xpath="mstns:TerritoryID" />
+		</xs:unique>
+		<xs:unique name="Region_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Region" />
+			<xs:field xpath="mstns:RegionID" />
+		</xs:unique>
+		<xs:unique name="Territories_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Territories" />
+			<xs:field xpath="mstns:TerritoryID" />
+		</xs:unique>
+		<xs:keyref name="EmployeesEmployeeTerritories" refer="mstns:Constraint1">
+			<xs:selector xpath=".//mstns:EmployeeTerritories" />
+			<xs:field xpath="mstns:EmployeeID" />
+		</xs:keyref>
+		<xs:keyref name="TerritoriesEmployeeTerritories" refer="mstns:Territories_Constraint1" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:EmployeeTerritories" />
+			<xs:field xpath="mstns:TerritoryID" />
+		</xs:keyref>
+		<xs:keyref name="RegionTerritories" refer="mstns:Region_Constraint1" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Territories" />
+			<xs:field xpath="mstns:RegionID" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Orders" />
+			<xs:field xpath="mstns:OrderID" />
+		</xs:unique>
+		<xs:keyref name="EmployeesOrders" refer="mstns:Constraint1">
+			<xs:selector xpath=".//mstns:Orders" />
+			<xs:field xpath="mstns:EmployeeID" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Order_x0020_Details" />
+			<xs:field xpath="mstns:OrderID" />
+			<xs:field xpath="mstns:ProductID" />
+		</xs:unique>
+		<xs:keyref name="OrdersOrder_x005F_x0020_Details" refer="mstns:NorthwindDataSetKey1">
+			<xs:selector xpath=".//mstns:Order_x0020_Details" />
+			<xs:field xpath="mstns:OrderID" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Products" />
+			<xs:field xpath="mstns:ProductID" />
+		</xs:unique>
+		<xs:keyref name="ProductsOrder_x005F_x0020_Details" refer="mstns:NorthwindDataSetKey3" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Order_x0020_Details" />
+			<xs:field xpath="mstns:ProductID" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey4" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Suppliers" />
+			<xs:field xpath="mstns:SupplierID" />
+		</xs:unique>
+		<xs:keyref name="SuppliersProducts" refer="mstns:NorthwindDataSetKey4" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Products" />
+			<xs:field xpath="mstns:SupplierID" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey5" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Categories" />
+			<xs:field xpath="mstns:CategoryID" />
+		</xs:unique>
+		<xs:keyref name="CategoriesProducts" refer="mstns:NorthwindDataSetKey5" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Products" />
+			<xs:field xpath="mstns:CategoryID" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey6" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Shippers" />
+			<xs:field xpath="mstns:ShipperID" />
+		</xs:unique>
+		<xs:keyref name="ShippersOrders" refer="mstns:NorthwindDataSetKey6" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Orders" />
+			<xs:field xpath="mstns:ShipVia" />
+		</xs:keyref>
+		<xs:unique name="NorthwindDataSetKey7" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Customers" />
+			<xs:field xpath="mstns:CustomerID" />
+		</xs:unique>
+		<xs:keyref name="CustomersOrders" refer="mstns:NorthwindDataSetKey7" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Orders" />
+			<xs:field xpath="mstns:CustomerID" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>
