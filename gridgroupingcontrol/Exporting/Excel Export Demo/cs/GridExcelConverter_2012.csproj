@@ -83,40 +83,40 @@
   <ItemGroup>
     <Reference Include="EnvDTE" />
     <Reference Include="DemoCommon">
-      <HintPath>packages\Syncfusion.DemoCommon.22.1.34\lib\net45\DemoCommon.dll</HintPath>
+      <HintPath>packages\Syncfusion.DemoCommon.22.2.5\lib\net45\DemoCommon.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.compression.base">
-      <HintPath>packages\syncfusion.compression.base.22.1.34\lib\net45\syncfusion.compression.base.dll</HintPath>
+      <HintPath>packages\syncfusion.compression.base.22.2.5\lib\net45\syncfusion.compression.base.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.grid.grouping.windows">
-      <HintPath>packages\syncfusion.grid.grouping.windows.22.1.34\lib\net45\syncfusion.grid.grouping.windows.dll</HintPath>
+      <HintPath>packages\syncfusion.grid.grouping.windows.22.2.5\lib\net45\syncfusion.grid.grouping.windows.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.grid.windows">
-      <HintPath>packages\syncfusion.grid.windows.22.1.34\lib\net45\syncfusion.grid.windows.dll</HintPath>
+      <HintPath>packages\syncfusion.grid.windows.22.2.5\lib\net45\syncfusion.grid.windows.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.gridconverter.windows">
-      <HintPath>packages\Syncfusion.GridExport.WinForms.22.1.34\lib\net45\syncfusion.gridconverter.windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.GridExport.WinForms.22.2.5\lib\net45\syncfusion.gridconverter.windows.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.grouping.base">
-      <HintPath>packages\syncfusion.grouping.base.22.1.34\lib\net45\syncfusion.grouping.base.dll</HintPath>
+      <HintPath>packages\syncfusion.grouping.base.22.2.5\lib\net45\syncfusion.grouping.base.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.shared.base">
-      <HintPath>packages\syncfusion.shared.base.22.1.34\lib\net45\syncfusion.shared.base.dll</HintPath>
+      <HintPath>packages\syncfusion.shared.base.22.2.5\lib\net45\syncfusion.shared.base.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.shared.windows">
-      <HintPath>packages\syncfusion.shared.windows.22.1.34\lib\net45\syncfusion.shared.windows.dll</HintPath>
+      <HintPath>packages\syncfusion.shared.windows.22.2.5\lib\net45\syncfusion.shared.windows.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Tools.Base">
-      <HintPath>packages\Syncfusion.Tools.Base.22.1.34\lib\net45\Syncfusion.Tools.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Tools.Base.22.2.5\lib\net45\Syncfusion.Tools.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Tools.Windows">
-      <HintPath>packages\Syncfusion.Tools.Windows.22.1.34\lib\net45\Syncfusion.Tools.Windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.Tools.Windows.22.2.5\lib\net45\Syncfusion.Tools.Windows.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.xlsio.base">
-      <HintPath>packages\Syncfusion.XlsIO.WinForms.22.1.34\lib\net45\syncfusion.xlsio.base.dll</HintPath>
+      <HintPath>packages\Syncfusion.XlsIO.WinForms.22.2.5\lib\net45\syncfusion.xlsio.base.dll</HintPath>
     </Reference>
     <Reference Include="syncfusion.xlsio.windows">
-      <HintPath>packages\Syncfusion.XlsIO.WinForms.22.1.34\lib\net45\syncfusion.xlsio.windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.XlsIO.WinForms.22.2.5\lib\net45\syncfusion.xlsio.windows.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -163,7 +163,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Licensing">
-      <HintPath>packages\Syncfusion.Licensing.22.1.34\lib\net45\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.22.2.5\lib\net45\Syncfusion.Licensing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

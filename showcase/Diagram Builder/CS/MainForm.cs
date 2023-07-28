@@ -1552,8 +1552,9 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
                 {
                     FileStream fStream = new FileStream( strSavePath, FileMode.OpenOrCreate, FileAccess.Write );
                     BinaryFormatter formatter = new BinaryFormatter( );
-
-                    formatter.Serialize( fStream, symbolPalette );
+//#pragma warning disable SYSLIB0011
+//                    formatter.Serialize( fStream, symbolPalette );
+//#pragma warning restore SYSLIB0011
                     fStream.Close( );
                 }
             }

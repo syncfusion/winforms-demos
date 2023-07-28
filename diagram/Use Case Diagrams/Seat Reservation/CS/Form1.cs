@@ -270,7 +270,9 @@ namespace SeatReservation
                 {
                     AppDomain.CurrentDomain.AssemblyResolve +=
                         new ResolveEventHandler(DiagramBaseAssembly.AssemblyResolver);
+#pragma warning disable SYSLIB0011                    
                     curSymbolPalette = (SymbolPalette)formatter.Deserialize(iStream);
+#pragma warning restore SYSLIB0011                
                 }
                 catch (SerializationException)
                 {
@@ -279,7 +281,9 @@ namespace SeatReservation
                         formatter = new BinaryFormatter();
                         formatter.Binder = new OldToNewDeserializationBinder();
                         iStream.Position = 0;
+#pragma warning disable SYSLIB0011
                         curSymbolPalette = (SymbolPalette)formatter.Deserialize(iStream);
+#pragma warning restore SYSLIB0011                    
                     }
                     catch (Exception se)
                     {

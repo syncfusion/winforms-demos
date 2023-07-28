@@ -703,9 +703,9 @@ namespace SwimLaneDiagram
             ((System.ComponentModel.ISupportInitialize)(this.model1)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.paletteGroupBar1)).EndInit();
-            this.panel3.ResumeLayout(false);
+            //this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.diagram1)).EndInit();
-            this.ResumeLayout(false);
+            //this.ResumeLayout(false);
 
         }
 

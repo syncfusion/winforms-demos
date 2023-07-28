@@ -262,7 +262,9 @@ namespace Clock
                 {
                     AppDomain.CurrentDomain.AssemblyResolve +=
                         new ResolveEventHandler(DiagramBaseAssembly.AssemblyResolver);
+#pragma warning disable SYSLIB0011
                     curSymbolPalette = (SymbolPalette)formatter.Deserialize(iStream);
+#pragma warning restore SYSLIB0011   
                 }
                 catch (SerializationException)
                 {

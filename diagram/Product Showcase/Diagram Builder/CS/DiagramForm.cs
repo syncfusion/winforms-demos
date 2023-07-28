@@ -266,8 +266,9 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
                     BinaryFormatter formatter = new BinaryFormatter( );
                     formatter.Binder = Syncfusion.Runtime.Serialization.AppStateSerializer.CustomBinder;
                     formatter.AssemblyFormat = FormatterAssemblyStyle.Simple;
+#pragma warning disable SYSLIB0011
                     formatter.Serialize( oStream, this.scriptingMgr.Script );
-
+#pragma warning restore SYSLIB0011
                     this.FileName = strFileName;
                 }
                 catch ( Exception ex )

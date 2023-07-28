@@ -54,10 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Calculate.Base">
-      <HintPath>packages\Syncfusion.Calculate.Base.22.1.34\lib\net40\Syncfusion.Calculate.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Calculate.Base.22.2.5\lib\net40\Syncfusion.Calculate.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Calculate.Windows">
-      <HintPath>packages\Syncfusion.Calculate.Windows.22.1.34\lib\net40\Syncfusion.Calculate.Windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.Calculate.Windows.22.2.5\lib\net40\Syncfusion.Calculate.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -91,7 +91,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Reference Include="Syncfusion.Licensing">
-      <HintPath>packages\Syncfusion.Licensing.22.1.34\lib\net40\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.22.2.5\lib\net40\Syncfusion.Licensing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

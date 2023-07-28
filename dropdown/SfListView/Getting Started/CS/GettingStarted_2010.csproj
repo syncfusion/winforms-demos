@@ -37,40 +37,40 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Core.WinForms">
-      <HintPath>packages\Syncfusion.Core.WinForms.22.1.34\lib\net40\Syncfusion.Core.WinForms.dll</HintPath>
+      <HintPath>packages\Syncfusion.Core.WinForms.22.2.5\lib\net40\Syncfusion.Core.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.DataSource.WinForms">
-      <HintPath>packages\Syncfusion.DataSource.WinForms.22.1.34\lib\net40\Syncfusion.DataSource.WinForms.dll</HintPath>
+      <HintPath>packages\Syncfusion.DataSource.WinForms.22.2.5\lib\net40\Syncfusion.DataSource.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.GridCommon.WinForms">
-      <HintPath>packages\Syncfusion.GridCommon.WinForms.22.1.34\lib\net40\Syncfusion.GridCommon.WinForms.dll</HintPath>
+      <HintPath>packages\Syncfusion.GridCommon.WinForms.22.2.5\lib\net40\Syncfusion.GridCommon.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Office2016Theme.WinForms">
-      <HintPath>packages\Syncfusion.Office2016Theme.WinForms.22.1.34\lib\net40\Syncfusion.Office2016Theme.WinForms.dll</HintPath>
+      <HintPath>packages\Syncfusion.Office2016Theme.WinForms.22.2.5\lib\net40\Syncfusion.Office2016Theme.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfListView.WinForms">
-      <HintPath>packages\Syncfusion.SfListView.WinForms.22.1.34\lib\net40\Syncfusion.SfListView.WinForms.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfListView.WinForms.22.2.5\lib\net40\Syncfusion.SfListView.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Grid.Base">
-      <HintPath>packages\Syncfusion.Grid.Base.22.1.34\lib\net40\Syncfusion.Grid.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Grid.Base.22.2.5\lib\net40\Syncfusion.Grid.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SpellChecker.Base">
-      <HintPath>packages\Syncfusion.SpellChecker.Base.22.1.34\lib\net40\Syncfusion.SpellChecker.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.SpellChecker.Base.22.2.5\lib\net40\Syncfusion.SpellChecker.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Tools.Base">
-      <HintPath>packages\Syncfusion.Tools.Base.22.1.34\lib\net40\Syncfusion.Tools.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Tools.Base.22.2.5\lib\net40\Syncfusion.Tools.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Shared.Base">
-      <HintPath>packages\Syncfusion.Shared.Base.22.1.34\lib\net40\Syncfusion.Shared.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Shared.Base.22.2.5\lib\net40\Syncfusion.Shared.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Grid.Windows">
-      <HintPath>packages\Syncfusion.Grid.Windows.22.1.34\lib\net40\Syncfusion.Grid.Windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.Grid.Windows.22.2.5\lib\net40\Syncfusion.Grid.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Shared.Windows">
-      <HintPath>packages\Syncfusion.Shared.Windows.22.1.34\lib\net40\Syncfusion.Shared.Windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.Shared.Windows.22.2.5\lib\net40\Syncfusion.Shared.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Tools.Windows">
-      <HintPath>packages\Syncfusion.Tools.Windows.22.1.34\lib\net40\Syncfusion.Tools.Windows.dll</HintPath>
+      <HintPath>packages\Syncfusion.Tools.Windows.22.2.5\lib\net40\Syncfusion.Tools.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -119,7 +119,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Reference Include="Syncfusion.Licensing">
-      <HintPath>packages\Syncfusion.Licensing.22.1.34\lib\net40\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.22.2.5\lib\net40\Syncfusion.Licensing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
