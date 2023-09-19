@@ -1,0 +1,184 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>ExpenseAnalysis</AssemblyName>
+    <RootNamespace>ExpenseAnalysis</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <EmbeddedResource Include="Images\1-.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\chartstatistics.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Chart_Clicked.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Chart_Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Chart_Noraml.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\DataExporthover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\DataExportnormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ExcelExporthover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ExcelExportnormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\expense-values.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ExpenseAnalysis.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\expense_slice_valuetitle_bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Grid_Clicked.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Grid_Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Grid_Normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\image2.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\left-image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\minimise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\PdfExportHover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\PdfExportNormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Previous_MouseHover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Previous_Normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\statistics.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\WordExportHover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\WordExportNormal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Reference Include="Syncfusion.Chart.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Chart.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Office2016Theme.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGridConverter.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

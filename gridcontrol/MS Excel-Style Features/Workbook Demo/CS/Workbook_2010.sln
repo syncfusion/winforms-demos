@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workbook_2010", "Workbook_2010.csproj", "{BE7D5E5E-6C73-42BD-A25E-BDFC16C23511}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BE7D5E5E-6C73-42BD-A25E-BDFC16C23511}.Debug.ActiveCfg = Debug|.NET
+		{BE7D5E5E-6C73-42BD-A25E-BDFC16C23511}.Debug.Build.0 = Debug|.NET
+		{BE7D5E5E-6C73-42BD-A25E-BDFC16C23511}.Release.ActiveCfg = Release|.NET
+		{BE7D5E5E-6C73-42BD-A25E-BDFC16C23511}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

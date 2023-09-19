@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CarDashboard</AssemblyName>
+    <RootNamespace>CarDashboard</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Resource Remove="Fuel.png" />
+    <EmbeddedResource Include="Fuel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Gauge.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
