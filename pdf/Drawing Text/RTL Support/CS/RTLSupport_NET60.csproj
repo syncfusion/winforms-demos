@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>RTLSupport</AssemblyName>
+    <RootNamespace>DrawingText</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
