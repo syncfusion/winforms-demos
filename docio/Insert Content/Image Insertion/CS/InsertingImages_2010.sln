@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertingImages_2010", "InsertingImages_2010.csproj", "{399939DB-3336-4DDB-BFDD-557DAE202AF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{399939DB-3336-4DDB-BFDD-557DAE202AF9}.Debug.ActiveCfg = Debug|.NET
+		{399939DB-3336-4DDB-BFDD-557DAE202AF9}.Debug.Build.0 = Debug|.NET
+		{399939DB-3336-4DDB-BFDD-557DAE202AF9}.Release.ActiveCfg = Release|.NET
+		{399939DB-3336-4DDB-BFDD-557DAE202AF9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

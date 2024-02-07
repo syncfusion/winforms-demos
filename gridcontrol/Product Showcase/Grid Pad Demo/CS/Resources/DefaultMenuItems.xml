@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MenuName="Main Menu">
+  <MenuItems>
+	<MenuItemStruct>
+		<text>&amp;File</text>
+		<hasChildren>false</hasChildren>
+		<children>
+		<MenuItemStruct>
+			<text>&amp;New Grid</text>
+			<hasChildren>false</hasChildren>
+			<children>
+			<MenuItemStruct>
+				<text>&amp;Inside Default Frame</text>
+				<iconResource>NewDocumentIcon</iconResource>
+				<shortcutText>Open New Document</shortcutText>
+				<hasChildren>false</hasChildren>
+				<shortcut>CtrlN</shortcut>
+				<eventHandler>NewFile</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Inside Splitter Frame</text>
+				<shortcutText>Open new document Inside a splitter frame</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>NewSplitterFile</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Inside Workbook Frame</text>
+				<shortcutText>Open new document Inside a workbook frame</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>NewWorkbookFile</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Inside Record Frame</text>
+				<shortcutText>Open new document Inside a record navigation frame</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>NewRecordFile</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Inside a Dialog</text>
+				<shortcutText>Open a grid Inside a form</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>NewDialog</eventHandler>
+			</MenuItemStruct>
+			</children>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Open</text>
+			<iconResource>OpenFileIcon</iconResource>
+			<shortcutText>Open buffer from disc</shortcutText>
+			<shortcut>CtrlO</shortcut>
+			<eventHandler>OpenFile</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Close</text>
+			<shortcutText>Close active buffer</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>CloseFile</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>C&amp;lose All</text>
+			<shortcutText>Closes all buffers currently open</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>CloseAll</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+		</MenuItemStruct>
+		<MENU name="&amp;Save" icon="SaveIcon" description="Save current document" active="BUFFEROPEN" shortcut="CtrlS" event="SaveFile" />
+		<MENU name="Save &amp;As..." description="Save current document under different name" active="BUFFEROPEN" event="SaveFileAs" />
+		<MENU name="Save A&amp;ll" icon="SaveAllIcon" description="Save all documents currently open" active="BUFFEROPEN" event="SaveAll" />
+		<MenuItemStruct>
+			<text>&amp;Save</text>
+			<shortcutText>Save current document</shortcutText>
+			<eventHandler>SaveFile</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Save &amp;As...</text>
+			<shortcutText>Save current document under different name</shortcutText>
+			<eventHandler>SaveFileAs</eventHandler>
+		</MenuItemStruct> 
+		<MenuItemStruct>
+			<text>Save A&amp;ll</text>
+			<iconResource>SaveAllIcon</iconResource>
+			<shortcutText>Save all documents currently open</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>SaveAll</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Print...</text>
+			<iconResource>PrintIcon</iconResource>
+			<shortcutText>Print document</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlP</shortcut>
+			<eventHandler>PrintFile</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Print Pre&amp;view</text>
+			<shortcutText>Print preview current document</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>PrintPreviewFile</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>P&amp;rint Setup...</text>
+			<shortcutText>Specify printer settings</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>PrinterSettings</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>E&amp;xit</text>
+			<iconResource>CancelIcon</iconResource>
+			<shortcutText>Close Sharp Develop</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ExitProgram</eventHandler>
+		</MenuItemStruct>
+		</children>
+	</MenuItemStruct>
+	<MenuItemStruct>
+		<text>&amp;Edit</text>
+		<hasChildren>false</hasChildren>
+		<children>
+		<MenuItemStruct>
+			<text>&amp;Undo</text>
+			<iconResource>UndoIcon</iconResource>
+			<shortcutText>Undo last action</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlZ</shortcut>
+			<eventHandler>UndoAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Redo</text>
+			<iconResource>RedoIcon</iconResource>
+			<shortcutText>Redo last undo action</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlY</shortcut>
+			<eventHandler>RedoAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Cu&amp;t</text>
+			<iconResource>CutIcon</iconResource>
+			<shortcutText>Cut selection to clipboard</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlX</shortcut>
+			<eventHandler>CutAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Copy</text>
+			<iconResource>CopyIcon</iconResource>
+			<shortcutText>Copy selection to clipboard</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlC</shortcut>
+			<eventHandler>CopyAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Paste</text>
+			<iconResource>PasteIcon</iconResource>
+			<shortcutText>Paste text from clipboard</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlV</shortcut>
+			<eventHandler>PasteAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Delete</text>
+			<iconResource>DeleteIcon</iconResource>
+			<shortcutText>Delete selection</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>DeleteAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Select &amp;All</text>
+			<shortcutText>Select whole document</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlA</shortcut>
+			<eventHandler>SelectAllAction</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Excel-like Selection</text>
+			<shortcutText>Toggle selection behavior of cells</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ExcelLikeSelection</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Remove Rows</text>
+			<shortcutText>Remove selected rows from grid</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>RemoveRows</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Remove Columns</text>
+			<shortcutText>Remove selected columns from grid</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>RemoveCols</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Insert Row</text>
+			<shortcutText>Insert rows before current cell</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>InsertRows</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Insert Column</text>
+			<shortcutText>Insert column before current cell</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>InsertCols</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Find</text>
+			<iconResource>FindIcon</iconResource>
+			<shortcutText>Find text</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlF</shortcut>
+			<eventHandler>Find</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Replace</text>
+			<iconResource>ReplaceIcon</iconResource>
+			<shortcutText>Replace text</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>CtrlR</shortcut>
+			<eventHandler>Replace</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Find &amp;Next</text>
+			<iconResource>FindNextIcon</iconResource>
+			<shortcutText>Find next</shortcutText>
+			<hasChildren>false</hasChildren>
+			<shortcut>F3</shortcut>
+			<eventHandler>FindNext</eventHandler>
+		</MenuItemStruct>
+		</children>
+	</MenuItemStruct>
+	<MenuItemStruct>
+		<text>&amp;Format</text>
+		<hasChildren>false</hasChildren>
+		<children>
+		<MenuItemStruct>
+			<text>C&amp;ells</text>
+			<shortcutText>Format cells</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>FormatCells</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Base Styles</text>
+			<shortcutText>Edit Base Styles</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>FormatBaseStylesMap</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Options</text>
+			<shortcutText>Set Grid Options</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>FormatOptions</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Properties</text>
+			<shortcutText>Modify Grid Properties object</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>FormatProperties</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Freeze &amp;Columns</text>
+			<shortcutText>Freeze Columns</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>FreezeColumns</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Release Co&amp;lumns</text>
+			<shortcutText>Release Columns</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ReleaseColumns</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Freeze &amp;Rows</text>
+			<shortcutText>Freeze Rows</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>FreezeRows</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Release Ro&amp;ws</text>
+			<shortcutText>Release Rows</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ReleaseRows</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Resize Columns</text>
+			<shortcutText>Resize columns to preffered width</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ResizeColumns</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Resize Rows</text>
+			<shortcutText>Resize rows to preffered height</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ResizeRows</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Cover Cells</text>
+			<shortcutText>Convert active selection to a covered cell</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>CoverCell</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Reset Covered Cell</text>
+			<shortcutText>Convert covered cell to individual cells</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ResetCover</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Align</text>
+			<hasChildren>false</hasChildren>
+			<children>
+			<MenuItemStruct>
+				<text>&amp;Left</text>
+				<iconResource>AlignLeftIcon</iconResource>
+				<shortcutText>Align left</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>AlignLeft</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Center</text>
+				<iconResource>AlignCenterIcon</iconResource>
+				<shortcutText>Center text in cell</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>AlignCenter</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Right</text>
+				<iconResource>AlignRightIcon</iconResource>
+				<shortcutText>Align right</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>AlignRight</eventHandler>
+			</MenuItemStruct>
+			</children>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Font Style</text>
+			<hasChildren>false</hasChildren>
+			<children>
+			<MenuItemStruct>
+				<text>&amp;Bold</text>
+				<iconResource>FontBoldIcon</iconResource>
+				<shortcutText>Make font bold</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>FontStyleBold</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Italic</text>
+				<iconResource>FontItalicIcon</iconResource>
+				<shortcutText>Make font italic</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>FontStyleItalic</eventHandler>
+			</MenuItemStruct>
+			<MenuItemStruct>
+				<text>&amp;Underline</text>
+				<iconResource>FontUnderlineIcon</iconResource>
+				<shortcutText>Make font unerlined</shortcutText>
+				<hasChildren>false</hasChildren>
+				<eventHandler>FontStyleUnderline</eventHandler>
+			</MenuItemStruct>
+			</children>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>-</text>
+			<hasChildren>false</hasChildren>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Black And White</text>
+			<shortcutText>Toggle black and white behavior of grid</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>BlackWhiteGrid</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Background Image</text>
+			<shortcutText>Toggle if background image should be displayed</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>BackgroundImage</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Alphablending</text>
+			<shortcutText>Toggle if alpha blending is allowed.</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>AlphaBlending</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Empty Background</text>
+			<shortcutText>Toggle if cell background should be drawn or not</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>TransparentBackground</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Reset Transparency</text>
+			<shortcutText>Reset alphablending, background image and empty background</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>ResetTransparency</eventHandler>
+		</MenuItemStruct>
+		</children>
+	</MenuItemStruct>
+	<MenuItemStruct>
+		<text>&amp;Window</text>
+		<hasChildren>false</hasChildren>
+		<children>
+		<MenuItemStruct>
+			<text>&amp;New Window</text>
+			<shortcutText>Opens a new view on the existing grid</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>WindowNew</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Cascade</text>
+			<iconResource>CascadeWindowsIcon</iconResource>
+			<shortcutText>Cascade all open windows</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>WindowCascade</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Tile &amp;Horizontal</text>
+			<iconResource>TileHorizontalIcon</iconResource>
+			<shortcutText>Tile all open windows horizontal</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>WindowTileHorizontal</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>Tile &amp;Vertical</text>
+			<iconResource>TileVerticalIcon</iconResource>
+			<shortcutText>Tile all open windows vertical</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>WindowTileVertical</eventHandler>
+		</MenuItemStruct>
+		<MenuItemStruct>
+			<text>&amp;Arrange Icons</text>
+			<iconResource>ArrangeWindowsIcon</iconResource>
+			<shortcutText>Arrange Icons</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>WindowArrangeIcons</eventHandler>
+		</MenuItemStruct>
+		</children>
+	</MenuItemStruct>
+	<MenuItemStruct>
+		<text>&amp;Help</text>
+		<hasChildren>false</hasChildren>
+		<children>
+		<MenuItemStruct>
+			<text>&amp;About</text>
+			<iconResource>AboutIcon</iconResource>
+			<shortcutText>About ObjectGrid</shortcutText>
+			<hasChildren>false</hasChildren>
+			<eventHandler>AboutObjectGrid</eventHandler>
+		</MenuItemStruct>
+		</children>
+	  </MenuItemStruct>
+	</MenuItems>	 
+</MenuDefinition>

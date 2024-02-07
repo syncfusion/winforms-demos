@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3 
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderAndFooter_2013", "HeaderAndFooter_2013.csproj", "{378EEB97-8263-4B71-A5F9-8FDAA3CF680C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{378EEB97-8263-4B71-A5F9-8FDAA3CF680C}.Debug.ActiveCfg = Debug|.NET
+		{378EEB97-8263-4B71-A5F9-8FDAA3CF680C}.Debug.Build.0 = Debug|.NET
+		{378EEB97-8263-4B71-A5F9-8FDAA3CF680C}.Release.ActiveCfg = Release|.NET
+		{378EEB97-8263-4B71-A5F9-8FDAA3CF680C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
