@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLFormulaCalc_2010", "XLFormulaCalc_2010.csproj", "{1F035884-40B2-40F2-A951-9F92D061C7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F035884-40B2-40F2-A951-9F92D061C7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F035884-40B2-40F2-A951-9F92D061C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F035884-40B2-40F2-A951-9F92D061C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F035884-40B2-40F2-A951-9F92D061C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
