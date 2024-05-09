@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPointViewer_NET70", "PowerPointViewer_NET70.csproj", "{8C5FD5D9-51CE-4636-B579-1C9583E8BA39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C5FD5D9-51CE-4636-B579-1C9583E8BA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5FD5D9-51CE-4636-B579-1C9583E8BA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5FD5D9-51CE-4636-B579-1C9583E8BA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5FD5D9-51CE-4636-B579-1C9583E8BA39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EE4C3B4-8E56-4E57-AEDC-24924143245B}
+	EndGlobalSection
+EndGlobal

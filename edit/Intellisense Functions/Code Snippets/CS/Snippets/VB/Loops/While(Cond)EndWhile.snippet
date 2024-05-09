@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>While...End While Statement</Title>
+      <Author>Microsoft Corporation</Author>
+      <Description>Inserts a While...End While statement.</Description>
+      <Shortcut>While</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.VisualBasic</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Object>
+          <ID>Condition</ID>
+          <Type>Object</Type>
+          <ToolTip>Replace with an expression that evaluates to True or False.</ToolTip>
+          <Default>True</Default>
+        </Object>
+      </Declarations>
+      <Code Language="VB" Kind="method body"><![CDATA[While $Condition$
+
+End While]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
