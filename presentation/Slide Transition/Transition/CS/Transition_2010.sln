@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transition_2010", "Transition_2010.csproj", "{FB53651D-FC12-410E-933F-9E2A65E15EB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB53651D-FC12-410E-933F-9E2A65E15EB4}.Debug|x86.ActiveCfg = Debug|x86
+		{FB53651D-FC12-410E-933F-9E2A65E15EB4}.Debug|x86.Build.0 = Debug|x86
+		{FB53651D-FC12-410E-933F-9E2A65E15EB4}.Release|x86.ActiveCfg = Release|x86
+		{FB53651D-FC12-410E-933F-9E2A65E15EB4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E6F3B88-570C-4A8E-8833-635936F94F57}
+	EndGlobalSection
+EndGlobal
