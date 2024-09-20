@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingShapes_2017", "DrawingShapes_2017.csproj", "{D023B883-282B-47CF-B068-105B728F587B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D023B883-282B-47CF-B068-105B728F587B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D023B883-282B-47CF-B068-105B728F587B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D023B883-282B-47CF-B068-105B728F587B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D023B883-282B-47CF-B068-105B728F587B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
