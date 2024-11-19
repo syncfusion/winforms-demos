@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CellCustomization_2005</AssemblyName>
+    <RootNamespace>CellCustomization</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DemoCommon">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Images\ImageList1\**" />
+    <EmbeddedResource Remove="Images\ImageList1\**" />
+    <None Remove="Images\ImageList1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

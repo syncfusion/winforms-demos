@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>DiagramORMSample</AssemblyName>
+    <RootNamespace>DiagramORM.Sample</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DiagramDataBindingManager\DiagramDBiManager_NET90.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Diagram.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Diagram.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>OutlookDemo_2010</AssemblyName>
+    <RootNamespace>OutlookDemo_2010</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

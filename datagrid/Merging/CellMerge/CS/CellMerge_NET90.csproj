@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CellMerge</AssemblyName>
+    <RootNamespace>CellMerge</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Images\BOLID.png" />
+    <Resource Include="Images\CENTC.png" />
+    <Resource Include="Images\FOLKO.png" />
+    <Resource Include="Images\FRANS.png" />
+    <Resource Include="Images\MORGK.png" />
+    <Resource Include="Images\PICCO.png" />
+    <Resource Include="Images\RICSU.png" />
+    <Resource Include="Images\SEVES.png" />
+    <Resource Include="Images\VAFFE.png" />
+    <Resource Include="Images\WELLI.png" />
+    <Reference Include="Syncfusion.Core.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfDataGrid.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

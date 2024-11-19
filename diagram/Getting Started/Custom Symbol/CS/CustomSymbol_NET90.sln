@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomSymbol_NET90", "CustomSymbol_NET90.csproj", "{B9C5291E-A16E-4B84-92F0-D0A9C333C073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-XML|Any CPU = Release-XML|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C5291E-A16E-4B84-92F0-D0A9C333C073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C5291E-A16E-4B84-92F0-D0A9C333C073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C5291E-A16E-4B84-92F0-D0A9C333C073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C5291E-A16E-4B84-92F0-D0A9C333C073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C5291E-A16E-4B84-92F0-D0A9C333C073}.Release-XML|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C5291E-A16E-4B84-92F0-D0A9C333C073}.Release-XML|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B58BDA4E-1FAE-4C02-B374-B64059E6832C}
+	EndGlobalSection
+EndGlobal
