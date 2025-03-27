@@ -1,0 +1,430 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Localization</AssemblyName>
+    <RootNamespace>Localization</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Edit.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ImageList1\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_3.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_4.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_5.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_6.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_7.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_8.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_9.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_10.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_11.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_12.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_13.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_14.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_15.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_16.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_17.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_18.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_19.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_20.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_21.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_22.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_23.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_24.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_25.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_26.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_27.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_28.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_29.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_30.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_31.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_32.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_33.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_34.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_35.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_36.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_37.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_38.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_39.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_40.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_3.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_4.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_5.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_6.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_7.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_8.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_9.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_10.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_11.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_12.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_13.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_14.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_15.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_16.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_17.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_18.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_19.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_20.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_21.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_3.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_4.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_5.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_6.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_7.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_8.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_9.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_10.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_11.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_12.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_13.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_14.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_15.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_16.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_17.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_18.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_19.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_20.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_21.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_22.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_23.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_24.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_25.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_26.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_27.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_28.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_29.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_30.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_31.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_32.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_33.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_34.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_35.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_36.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_37.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_38.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_39.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_40.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_41.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_42.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_43.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_44.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_45.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_46.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_47.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_48.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_49.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_50.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_51.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_52.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_53.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_54.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_55.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_56.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_57.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_58.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_59.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_60.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_61.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_62.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_63.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_64.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_65.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_66.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_67.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_68.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_69.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_70.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_71.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_72.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_73.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_74.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_75.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_76.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_77.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_78.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_79.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_80.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_81.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_82.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_83.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_84.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_85.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_86.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_87.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_88.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_89.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_90.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_91.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_92.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_93.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_94.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_95.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_96.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_97.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_98.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_99.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_100.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_101.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_102.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_103.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_104.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_105.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_106.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_107.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_108.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_109.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_110.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_111.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_112.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_113.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_114.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_115.png" />
+    <EmbeddedResource Include="Images\ImageList3\Image_116.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_3.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_4.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_5.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_6.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_7.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_8.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_9.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_10.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_11.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_12.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_13.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_14.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_15.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_16.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_17.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_18.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_19.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_20.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_21.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_22.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_23.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_24.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_25.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_26.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_27.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_28.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_29.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_30.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_31.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_32.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_33.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_34.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_35.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_36.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_37.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_38.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_39.png" />
+    <EmbeddedResource Include="Images\ImageList4\Image_40.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_1.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_2.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_3.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_4.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_5.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_6.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_7.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_8.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_9.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_10.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_11.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_12.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_13.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_14.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_15.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_16.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_17.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_18.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_19.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_20.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_21.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_22.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_23.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_24.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_25.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_26.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_27.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_28.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_29.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_30.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_31.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_32.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_33.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_34.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_35.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_36.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_37.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_38.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_39.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_40.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_41.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_42.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_43.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_44.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_45.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_46.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_47.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_48.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_49.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_50.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_51.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_52.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_53.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_54.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_55.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_56.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_57.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_58.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_59.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_60.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_61.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_62.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_63.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_64.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_65.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_66.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_67.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_68.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_69.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_70.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_71.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_72.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_73.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_74.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_75.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_76.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_77.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_78.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_79.png" />
+    <EmbeddedResource Include="Images\DockingImageList\Image_80.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_1.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_2.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_3.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_4.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_5.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_6.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_7.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_8.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_9.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_10.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_11.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_12.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_13.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_14.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_15.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_16.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_17.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_18.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_19.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_20.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_21.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_22.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_23.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_24.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_25.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_26.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_27.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_28.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_29.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_30.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_31.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_32.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_33.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_34.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_35.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_36.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_37.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_38.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_39.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_40.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_41.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_42.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_43.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_44.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_45.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_46.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_47.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_48.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_49.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_50.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_51.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_52.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_53.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_54.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_55.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_56.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_57.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_58.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_59.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_60.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_61.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_62.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_63.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_64.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_65.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_66.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_67.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_68.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_69.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_70.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_71.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_72.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_73.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_74.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_75.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_76.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_77.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_78.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_79.png" />
+    <EmbeddedResource Include="Images\SolutionExplorerView_DockingImageList\Image_80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
