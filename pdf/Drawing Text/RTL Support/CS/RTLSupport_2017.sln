@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTLSupport_2017", "RTLSupport_2017.csproj", "{52D912D2-B421-4CC7-B688-D34C4C411E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D912D2-B421-4CC7-B688-D34C4C411E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D912D2-B421-4CC7-B688-D34C4C411E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D912D2-B421-4CC7-B688-D34C4C411E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D912D2-B421-4CC7-B688-D34C4C411E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

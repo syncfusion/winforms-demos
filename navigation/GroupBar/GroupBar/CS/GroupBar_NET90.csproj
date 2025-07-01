@@ -1,0 +1,140 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>GroupBarDemo_2005</AssemblyName>
+    <RootNamespace>GroupBarDemo_2005</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.HighContrastTheme.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Office2019Theme.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Office2016Theme.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\SmallImageList\Image_1.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_2.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_3.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_4.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_5.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_6.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_7.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_8.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_9.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_10.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_11.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_12.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_13.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_14.png" />
+    <EmbeddedResource Include="Images\SmallImageList\Image_15.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_1.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_2.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_3.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_4.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_5.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_6.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_7.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_8.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_9.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_10.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_11.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_12.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_13.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_14.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_15.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_16.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_17.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_18.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_19.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_20.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_21.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_22.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_23.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_24.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_25.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_26.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_27.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_28.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_29.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_30.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_31.png" />
+    <EmbeddedResource Include="Images\IlGroupBarSmall\Image_32.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_1.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_2.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_3.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_4.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_5.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_6.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_7.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_8.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_9.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_10.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_11.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_12.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_13.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_14.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_15.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_16.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_17.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_18.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_19.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_20.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_21.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_22.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_23.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_24.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_25.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_26.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_27.png" />
+    <EmbeddedResource Include="Images\IlGroupBarLarge\Image_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

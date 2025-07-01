@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>XPTaskBarSample</AssemblyName>
+    <RootNamespace>XPTaskBarSample</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DemoCommon">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ImageList1\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_3.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_4.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_5.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_6.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_7.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_8.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_9.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList2\Image_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
