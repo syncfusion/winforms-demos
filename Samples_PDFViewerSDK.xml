@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+
+<!--Region showcase-->
+<ShowcaseSample Name="SuccinitySeries" SourcePath="showcase\SuccinitySeries\CS" RowSpan="1" ImagePath="showcase\succinctly.png" IsNETCoreSupported="True"/>
+<!--End of Region showcase-->
+	
+<!--Region File Format-->
+	<Product Name="PDF Viewer" Category="File Viewers and Editors" EnableSecondLevel="True">
+		<Sample Name="Getting Started" Category="Getting Started" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\Getting Started\Pdf Viewer Demo" ImagePath="pdfviewer\Getting Started\Pdf Viewer Demo\Images\viewer.png" />
+		<Sample Name="Visual Styles" Category="Visual Styles" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\Visual Styles\PDF Viewer Visual Styles" ImagePath="pdfviewer\Visual Styles\PDF Viewer Visual Styles\Images\viewer.png"/>
+		<Sample Name="Bookmark Navigation" Category="Bookmark Navigation" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\PdfViewer Bookmark\PdfViewer Bookmark" ImagePath="pdfviewer\PdfViewer Bookmark\PdfViewer Bookmark\Images\Bookmark.png"/>
+		<Sample Name="Custom Toolbar" Category="Toolbar Customization" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\Toolbar Customization\Custom Toolbar" ImagePath="pdfviewer\Toolbar Customization\Custom Toolbar\Images\customtool.png"/>
+		<Sample Name="Multi Tabbed Viewer" Category="Multi Tabbed View" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\Multi Tabbed View\Multi Tabbed Viewer" ImagePath="pdfviewer\Multi Tabbed View\Multi Tabbed Viewer\Images\mutitab.png"/>
+		<Sample Name="Export as Image" Category="Exporting and Printing" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\Export\Export as Image" ImagePath="pdfviewer\Export\Export as Image\Images\pdftoimage.png"/>
+		<Sample Name="Silent Printing" Category="Exporting and Printing" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\Print\Silent Printing" ImagePath="pdfviewer\Print\Silent Printing\Images\printing.png"/>
+		<Sample Name="Right to Left" Category="Right to Left" IsNETCoreSupported="True"
+		SourcePath="pdfviewer\RightToLeft\Right to Left" ImagePath="pdfviewer\RightToLeft\Right to Left\Images\RTL.png"/>
+	</Product>
+<!--End of Region File Format-->
+</Products>
