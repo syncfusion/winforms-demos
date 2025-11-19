@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePersistence_NET90", "StatePersistence_NET90.csproj", "{0E5AA92A-D58C-4EA1-A71A-EB0B5F71CCCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E5AA92A-D58C-4EA1-A71A-EB0B5F71CCCF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E5AA92A-D58C-4EA1-A71A-EB0B5F71CCCF}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E5AA92A-D58C-4EA1-A71A-EB0B5F71CCCF}.Release|x86.ActiveCfg = Release|x86
+		{0E5AA92A-D58C-4EA1-A71A-EB0B5F71CCCF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FBB17B6-E9AB-485C-9AA3-21B6DEEE30ED}
+	EndGlobalSection
+EndGlobal
