@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>foreach</Title>
+			<Shortcut>foreach</Shortcut>
+			<Description>Code snippet for foreach statement</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Type of object in the collection to iterate through</ToolTip>
+					<Default>object</Default>
+				</Literal>
+				<Literal>
+					<ID>indentifier</ID>
+					<ToolTip>Identifier that represents the element in the collection</ToolTip>
+					<Default>var</Default>
+				</Literal>
+				<Literal>
+					<ID>collection</ID>
+					<ToolTip>Name of collection or array to iterate through</ToolTip>
+					<Default>collection_to_loop</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[foreach ($type$ $indentifier$ in $collection$)
+	{
+		$selected$ $end$
+	}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
