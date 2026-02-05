@@ -1,0 +1,697 @@
+Build started 10/9/2014 12:30:08 PM.
+Overriding target "GetFrameworkPaths" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "GetFrameworkPaths" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets".
+Project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" on node 1 (default targets).
+Building with tools version "4.0".
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message"
+  Configuration=Release
+Done executing task "Message".
+Task "Message"
+  Platform=AnyCPU
+Done executing task "Message".
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Release\' != '' and !HasTrailingSlash('bin\Release\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Release\' != '' and !HasTrailingSlash('obj\Release\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Sorting_2010.csproj".
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "BeforeBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "Sorting_2010.csproj".
+Target "BuildOnlySettings" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "BuildOnlySettings" in project "Sorting_2010.csproj".
+Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareForBuild" depends on it):
+Done building target "GetFrameworkPaths" in project "Sorting_2010.csproj".
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareForBuild" depends on it):
+Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+Done building target "GetReferenceAssemblyPaths" in project "Sorting_2010.csproj".
+Target "PrepareForBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindAppConfigFile"
+Done executing task "FindAppConfigFile".
+Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MakeDir"
+  Creating directory "bin\Release\".
+  Creating directory "obj\Release\".
+Done executing task "MakeDir".
+Done building target "PrepareForBuild" in project "Sorting_2010.csproj".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "Sorting_2010.csproj".
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "Sorting_2010.csproj".
+Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "Sorting_2010.csproj".
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetInstalledSDKLocations" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveSDKReferences" depends on it):
+Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Done building target "GetInstalledSDKLocations" in project "Sorting_2010.csproj".
+Target "ResolveSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "Sorting_2010.csproj".
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "Sorting_2010.csproj".
+Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveReferences" depends on it):
+Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.0
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      Syncfusion.Compression.Base
+      Syncfusion.Core
+      Syncfusion.Tools.Windows
+      Syncfusion.Shared.Base
+      Syncfusion.XlsIO.Base
+      System
+      System.Data
+      System.Drawing
+      System.Windows.Forms
+      System.Xml
+      System.Core
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\Release\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      False
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      x86
+  StateFile:
+      obj\Release\Sorting_2010.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  Unified primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Using this version instead of original version "1.0.3300.0" in "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll" because there is a more recent version of this framework file.
+      Using this version instead of original version "1.0.3300.0" in "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\stdole.dll" because there is a more recent version of this framework file.
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Syncfusion.Compression.Base, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Compression.Base.dll".
+      Reference found at search path location "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Compression.Base.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Compression.Base.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Compression.Base.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Compression.Base.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Syncfusion.Core, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=632609b4d040f6b4".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Core.dll".
+      Reference found at search path location "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Core.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Core.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Core.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Syncfusion.Tools.Windows, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Windows.dll".
+      Reference found at search path location "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Windows.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Windows.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Windows.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Windows.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Syncfusion.Shared.Base, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Base.dll".
+      Reference found at search path location "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Base.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Base.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Base.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Base.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Syncfusion.XlsIO.Base, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.XlsIO.Base.dll".
+      Reference found at search path location "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.XlsIO.Base.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.XlsIO.Base.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.XlsIO.Base.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.XlsIO.Base.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Design.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Design.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Design.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Required by "Syncfusion.Shared.Base".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "Syncfusion.Grid.Windows, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Grid.Windows.dll".
+      Reference found at search path location "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Grid.Windows.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Grid.Windows.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll".
+      Reference found at search path location "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\EnvDTE.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\EnvDTE.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\EnvDTE.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\EnvDTE.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\EnvDTE.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\EnvDTE.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+      Required by "Syncfusion.Tools.Windows".
+      Found related file "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v1.0.3705".
+  Dependency "Syncfusion.Grid.Base, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Grid.Base.dll".
+      Reference found at search path location "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Grid.Base.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Grid.Base.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "Syncfusion.Shared.Windows, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Windows.dll".
+      Reference found at search path location "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Windows.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Windows.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "Syncfusion.Tools.Base, Version=12.3400.0.22, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      Resolved file path is "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Base.dll".
+      Reference found at search path location "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Base.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Found related file "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Base.xml".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Drawing.Design.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Drawing.Design.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Drawing.Design.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Required by "Syncfusion.Shared.Base".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Runtime.Serialization.Formatters.Soap.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Runtime.Serialization.Formatters.Soap.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Runtime.Serialization.Formatters.Soap.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      Required by "Syncfusion.Shared.Base".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Web.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Web.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\System.Web.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.winmd", but it didn't exist.
+      Required by "Syncfusion.XlsIO.Base".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\UIAutomationProvider.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\UIAutomationProvider.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\UIAutomationProvider.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\WindowsBase.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\WindowsBase.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\WindowsBase.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0".
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\UIAutomationTypes.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\UIAutomationTypes.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\UIAutomationTypes.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\stdole.dll".
+      Reference found at search path location "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies".
+          For SearchPath "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies".
+          Considered "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\stdole.winmd", but it didn't exist.
+      Required by "Syncfusion.Tools.Windows".
+      This reference is not "CopyLocal" because it's registered in the GAC.
+      The ImageRuntimeVersion for this reference is "v1.0.3705".
+  AssemblyFoldersEx location: "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"
+          C:\Program Files\Reference Assemblies\Microsoft\Workflow Manager\1.0\
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.6\bin\.NETFramework\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v4.0.Framework\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+          C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\MVC\MVC4
+          C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\MVC\MVC3
+          C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\TEMPLATE\WorkflowActivities\
+          
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\WorkflowActivities\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\
+          C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\
+          C:\Program Files (x86)\Open XML SDK\V2.5\lib
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Prototyping\Libraries\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Libraries\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\
+          
+          C:\Program Files\Reference Assemblies\Microsoft\Microsoft Identity Extensions\1.0\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\VS7DEBUG\Program Files\Reference Assemblies\Microsoft\VSTA30\v11.0\.NET2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\3.5
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+          C:\Program Files (x86)\Open XML SDK\V2.0\lib
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v2.0\2.3.0.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+Done executing task "ResolveAssemblyReference".
+Done building target "ResolveAssemblyReferences" in project "Sorting_2010.csproj".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResolveReferences" depends on it):
+Done building target "AfterResolveReferences" in project "Sorting_2010.csproj".
+Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "ResolveReferences" in project "Sorting_2010.csproj".
+Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+Target "AfterMarkupCompilePass1" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResources" depends on it):
+Done building target "AfterMarkupCompilePass1" in project "Sorting_2010.csproj".
+Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "FileClassification" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResources" depends on it):
+Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Done building target "FileClassification" in project "Sorting_2010.csproj".
+Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResourceNames" depends on it):
+Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+Done building target "AssignTargetPaths" in project "Sorting_2010.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResourceNames" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignCulture"
+  Culture of "" was assigned to file "Sorting.resx".
+Done executing task "AssignCulture".
+Done building target "SplitResourcesByCulture" in project "Sorting_2010.csproj".
+Target "CreateManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResourceNames" depends on it):
+Using "CreateCSharpManifestResourceName" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CreateCSharpManifestResourceName"
+  Root namespace is 'ReportFromTemplate'.
+  Resource file 'Sorting.resx' depends on 'Sorting.cs'.
+  Resource file 'Sorting.resx' gets manifest resource name 'EssentialXlsIOSample.Sorting'.
+Done executing task "CreateCSharpManifestResourceName".
+Task "CreateCSharpManifestResourceName" skipped, due to false condition; ('%(EmbeddedResource.ManifestResourceName)' == '' and '%(EmbeddedResource.WithCulture)' == 'true' and '%(EmbeddedResource.Type)' == 'Non-Resx') was evaluated as ('' == '' and 'false' == 'true' and 'Resx' == 'Non-Resx').
+Done building target "CreateManifestResourceNames" in project "Sorting_2010.csproj".
+Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResourceNames" depends on it):
+Done building target "CreateCustomManifestResourceNames" in project "Sorting_2010.csproj".
+Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResources" depends on it):
+Done building target "PrepareResourceNames" in project "Sorting_2010.csproj".
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target "BeforeResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResGen" depends on it):
+Done building target "BeforeResGen" in project "Sorting_2010.csproj".
+Target "CoreResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResGen" depends on it):
+Using "GenerateResource" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GenerateResource"
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Compression.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Core.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Windows.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.XlsIO.Base.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Sorting.resx,obj\Release\EssentialXlsIOSample.Sorting.resources
+  Processing resource file "Sorting.resx" into "obj\Release\EssentialXlsIOSample.Sorting.resources".
+  Processing 2 resources from file "Sorting.resx".
+Done executing task "GenerateResource".
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('Resx' == 'Resx' and '' != 'false' and 'CLR4' == 'CLR2').
+Done building target "CoreResGen" in project "Sorting_2010.csproj".
+Target "AfterResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "ResGen" depends on it):
+Done building target "AfterResGen" in project "Sorting_2010.csproj".
+Target "ResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareResources" depends on it):
+Done building target "ResGen" in project "Sorting_2010.csproj".
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target "PrepareResources" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareResources" in project "Sorting_2010.csproj".
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "SetWin32ManifestProperties" depends on it):
+Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetFrameworkPath"
+Done executing task "GetFrameworkPath".
+Done building target "_SetEmbeddedWin32ManifestProperties" in project "Sorting_2010.csproj".
+Target "SetWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Compile" depends on it):
+Done building target "SetWin32ManifestProperties" in project "Sorting_2010.csproj".
+Target "_GenerateCompileInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Compile" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as ('obj\Release\EssentialXlsIOSample.Sorting.resources'!='' and 'true'=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateCompileInputs" in project "Sorting_2010.csproj".
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+Done building target "_SetTargetFrameworkMonikerAttribute" in project "Sorting_2010.csproj".
+Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "BeforeCompile" depends on it):
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+Input files: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets
+Output files: C:\Users\labuser\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs
+Done building target "GenerateTargetFrameworkMonikerAttribute" in project "Sorting_2010.csproj".
+Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+Target "BeforeCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Compile" depends on it):
+Done building target "BeforeCompile" in project "Sorting_2010.csproj".
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as ('OnBuildSuccess'=='OnOutputUpdated' or ('false'=='true' and 'WinExe'=='library')).
+Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Target "PreXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreCompile" depends on it):
+Using "CallTarget" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CallTarget"
+Target "CleanXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PreXsdCodeGen" depends on it):
+Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Delete"
+Done executing task "Delete".
+Done building target "CleanXsdCodeGen" in project "Sorting_2010.csproj".
+Done executing task "CallTarget".
+Done building target "PreXsdCodeGen" in project "Sorting_2010.csproj".
+Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+Target "CoreCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Compile" depends on it):
+Building target "CoreCompile" completely.
+Output file "obj\Release\Sorting.exe" does not exist.
+Using "Csc" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Csc"
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /unsafe- /checked- /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /baseaddress:285212672 /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Compression.Base.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Core.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Shared.Base.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.Tools.Windows.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\12.3.0.22\Assemblies\4.0\Syncfusion.XlsIO.Base.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /debug- /filealign:4096 /optimize+ /out:obj\Release\Sorting.exe /resource:obj\Release\EssentialXlsIOSample.Sorting.resources /target:winexe /warnaserror- /utf8output /win32icon:App.ico AssemblyInfo.cs Sorting.cs "C:\Users\labuser\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+  Microsoft (R) Visual C# Compiler version 4.0.30319.33440
+  
+  for Microsoft (R) .NET Framework 4.5
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+Done executing task "Csc".
+Task "CallTarget" skipped, due to false condition; ('$(TargetsTriggeredByCompilation)' != '') was evaluated as ('' != '').
+Done building target "CoreCompile" in project "Sorting_2010.csproj".
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as ('OnBuildSuccess'=='OnOutputUpdated' or ('false'=='true' and 'WinExe'=='library')).
+Target "AfterCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Compile" depends on it):
+Done building target "AfterCompile" in project "Sorting_2010.csproj".
+Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+Target "AfterCompileWinFX" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "_AfterCompileWinFXInternal" depends on it):
+Done building target "AfterCompileWinFX" in project "Sorting_2010.csproj".
+Target "_AfterCompileWinFXInternal" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Compile" depends on it):
+Done building target "_AfterCompileWinFXInternal" in project "Sorting_2010.csproj".
+Target "Compile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "Compile" in project "Sorting_2010.csproj".
+Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or 'false' != 'true' or 'WinExe' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\Sorting_2010.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CreateSatelliteAssemblies" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateSatelliteAssemblyInputs" in project "Sorting_2010.csproj".
+Target "CreateManifestResourceNames" skipped. Previously built successfully.
+Target "ComputeIntermediateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CreateSatelliteAssemblies" depends on it):
+Done building target "ComputeIntermediateSatelliteAssemblies" in project "Sorting_2010.csproj".
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "CreateSatelliteAssemblies" in project "Sorting_2010.csproj".
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+Target "GetTargetPath" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "GetTargetPath" in project "Sorting_2010.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped. Previously built successfully.
+Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Sorting_2010.csproj".
+Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryItems" in project "Sorting_2010.csproj".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CopySourceItemsToOutputDirectory" in project "Sorting_2010.csproj".
+Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CheckForCompileOutputs" in project "Sorting_2010.csproj".
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "PrepareForRun" depends on it):
+Using "Copy" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Copy"
+  Copying file from "obj\Release\Sorting.exe" to "bin\Release\Sorting.exe".
+Done executing task "Copy".
+Task "Message"
+  Sorting_2010 -> C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\bin\Release\Sorting.exe
+Done executing task "Message".
+Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+Done building target "CopyFilesToOutputDirectory" in project "Sorting_2010.csproj".
+Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareForRun" in project "Sorting_2010.csproj".
+Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as ('false'=='true' and 'WinExe'=='library').
+Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "IncrementalClean" depends on it):
+Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ReadLinesFromFile"
+Done executing task "ReadLinesFromFile".
+Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ConvertToAbsolutePath"
+Done executing task "ConvertToAbsolutePath".
+Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindUnderPath"
+  Comparison path is "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "bin\Release\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Release\".
+Done executing task "FindUnderPath".
+Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "Sorting_2010.csproj".
+Target "IncrementalClean" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "CoreBuild" depends on it):
+Task "FindUnderPath"
+  Comparison path is "bin\Release\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Release\".
+Done executing task "FindUnderPath".
+Task "Delete"
+Done executing task "Delete".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "WriteLinesToFile"
+Done executing task "WriteLinesToFile".
+Done building target "IncrementalClean" in project "Sorting_2010.csproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('OnBuildSuccess' != 'OnOutputUpdated' or '' != '')).
+Target "CoreBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Build" depends on it):
+Done building target "CoreBuild" in project "Sorting_2010.csproj".
+Target "AfterBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (target "Build" depends on it):
+Done building target "AfterBuild" in project "Sorting_2010.csproj".
+Target "Build" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (entry point):
+Done building target "Build" in project "Sorting_2010.csproj".
+Done Building Project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\12.3.0.22\Windows\XlsIO.Windows\Samples\Data Management\Sorting\cs\Sorting_2010.csproj" (default targets).
+
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileReference>
+    <FileName active="true">Samples.xml</FileName>
+    <FileName active="false">Samples_DocumentSDK.xml</FileName>
+    <FileName active="false">Samples_PDFViewerSDK.xml</FileName>
+	<FileName active="false">Samples_SpreadsheetEditorSDK.xml</FileName>  
+</FileReference>
