@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizingDialogs_NET90", "LocalizingDialogs_NET90.csproj", "{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-XML|Any CPU = Release-XML|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}.Release-XML|Any CPU.ActiveCfg = Release|Any CPU
+		{1C96FFDF-1CCC-4801-942E-B69E5B05CCAB}.Release-XML|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {594891EE-9A81-48DF-B6D5-2BB71D780E00}
+	EndGlobalSection
+EndGlobal

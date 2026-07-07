@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>syncfusion.word2013demo.winforms</AssemblyName>
+    <RootNamespace>Word2007Demo_2005</RootNamespace>
+    <Win32Manifest>app.manifest</Win32Manifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="**\*.png" />
+    <Resource Include="**\*.ico" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

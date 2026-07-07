@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>syncfusion.diagrambuilder.winforms</AssemblyName>
+    <RootNamespace>Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="_TESTSCRIPT\**" />
+    <EmbeddedResource Remove="_TESTSCRIPT\**" />
+    <None Remove="_TESTSCRIPT\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MyDiagram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.DemoCommon" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Diagram.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Diagram.Utility.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Diagram.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Edit.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Scripting.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Scripting.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

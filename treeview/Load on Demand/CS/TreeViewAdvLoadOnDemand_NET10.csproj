@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>TreeViewAdvLoadOnDemand</AssemblyName>
+    <RootNamespace>TreeViewAdvLoadOnDemand</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Grid.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ImageList1\Image_1.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_2.png" />
+    <EmbeddedResource Include="Images\ImageList1\Image_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

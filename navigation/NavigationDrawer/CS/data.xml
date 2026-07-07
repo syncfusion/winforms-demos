@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<DataSet1 xmlns="http://www.tempuri.org/DataSet1.xsd">
+  <Inbox>
+    <ContactID>ALFKI</ContactID>
+    <CompanyName>Alfreds Futterkiste</CompanyName>
+    <ContactName>Maria Anders</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Greetings>Hi</Greetings>
+    <Message>Can we schedule Meeting Appointment today?</Message>
+    <To>Jane Jonk</To>
+    <Address>Obere Str. 57</Address>
+    <City>Berlin</City>
+    <PostalCode>12209</PostalCode>
+    <Phone>030-0074321</Phone>
+    <Today>Today</Today>
+    <Time>11:27AM</Time>
+    <Date>6/14/2014</Date>
+    <Day>Sat</Day>
+    <Size>42KB</Size>
+</Inbox>
+<Inbox>
+    <ContactID>AROUT</ContactID>
+    <CompanyName>Around the Horn</CompanyName>
+    <ContactName>Thomas Hardy</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Message>Customer has accepted our proposal. Is it possible to arrange meeting tomorrow?</Message>
+    <Greetings>Hi</Greetings>
+    <To>Chris Kol</To>
+    <Address>120 Hanover Sq.</Address>
+    <City>London</City>
+    <PostalCode>WA1 1DP</PostalCode>
+    <Phone>(171) 555-7788</Phone>
+    <Today>Today</Today>
+    <Time>10:30AM</Time>
+    <Date>6/14/2014</Date>
+    <Day>Sat</Day>
+    <Size>74KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>BERGS</ContactID>
+    <CompanyName>Berglunds snabbköp</CompanyName>
+    <ContactName>Christina Berglund</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+    <Message>Merry Christmas</Message>
+    <Greetings>Hi</Greetings>
+    <To>Dev Khar</To>
+    <Address>Berguvsvägen  8</Address>
+    <City>Luleå</City>
+    <PostalCode>S-958 22</PostalCode>
+    <Phone>0921-12 34 65</Phone>
+    <Today>Today</Today>
+    <Time>8:10AM</Time>
+    <Date>6/14/2014</Date>
+    <Day>Sat</Day>
+    <Size>68KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>BOLID</ContactID>
+    <CompanyName>Bólido Comidas preparadas</CompanyName>
+    <ContactName>Martín Sommer</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Message>Please come and collect the rent receipt</Message>
+    <Greetings>Hi</Greetings>
+    <To>Anil Pahr</To>
+    <Address>C/ Araquil, 67</Address>
+    <City>Madrid</City>
+    <PostalCode>28023</PostalCode>
+    <Phone>(91) 555 22 82</Phone>
+    <Today>Yesterday</Today>
+    <Time>Fri 9:15AM</Time>
+    <Date>6/13/2014</Date>
+    <Day>Fri</Day>
+    <Size>28KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>BSBEV</ContactID>
+    <CompanyName>B's Beverages</CompanyName>
+    <ContactName>Victoria Ashworth</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Message>Yes, We will be available for meeting tomorrow</Message>
+    <Greetings>Hi</Greetings>
+    <To>Shanakar</To>
+    <Address>Fauntleroy Circus</Address>
+    <City>London</City>
+    <PostalCode>EC2 5NT</PostalCode>
+    <Phone>(171) 555-1212</Phone>
+    <Today>Yesterday</Today>
+    <Time>Fri 7:50AM</Time>
+    <Date>6/13/2014</Date>
+    <Day>Fri</Day>
+    <Size>58KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>CHOPS</ContactID>
+    <CompanyName>Chop-suey Chinese</CompanyName>
+    <ContactName>Yang Wang</ContactName>
+    <ContactTitle>Owner</ContactTitle><Greetings>Hi</Greetings>
+    <Message>Please schedule the meeting tomorrow</Message>
+    <To>Krish Kael</To>
+    <Address>Hauptstr. 29</Address>
+    <City>Bern</City>
+    <PostalCode>3012</PostalCode>
+    <Phone>0452-076545</Phone>
+    <Today>Yesterday</Today>
+    <Time>Fri 6:30AM</Time>
+    <Date>6/13/2014</Date>
+    <Day>Fri</Day>
+    <Size>16KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>DRACD</ContactID>
+    <CompanyName>Drachenblut Delikatessen</CompanyName>
+    <ContactName>Sven Ottlieb</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+	<Greetings>Hi</Greetings>
+    <Message>Merry Christmas</Message>
+    <To>Marie Krilsh</To>
+    <Address>Walserweg 21</Address>
+    <City>Aachen</City>
+    <PostalCode>52066</PostalCode>
+    <Phone>0241-039123</Phone>
+    <Today>Thursday</Today>
+    <Time>Thu 6:30AM</Time>
+    <Date>6/12/2014</Date>
+    <Day>Fri</Day>
+    <Size>72KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>FAMIA</ContactID>
+    <CompanyName>Familia Arquibaldo</CompanyName>
+    <ContactName>Aria Cruz</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Message>I wish you Happy new year.</Message>
+    <Greetings>Hi</Greetings>
+    <To>Maria Krilsh</To>
+    <Address>Rua Orós, 92</Address>
+    <City>Sao Paulo</City>
+    <PostalCode>05442-030</PostalCode>
+    <Phone>(11) 555-9857</Phone>
+    <Today>Thursday</Today>
+    <Time>Thu 6:30AM</Time>
+    <Date>6/12/2014</Date>
+    <Day>Thu</Day>
+    <Size>32KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>FISSA</ContactID>
+    <CompanyName>FISSA Fabrica Inter. Salchichas S.A.</CompanyName>
+    <ContactName>Diego Roel</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Message>Have a Great Weekend</Message>
+    <Greetings>Hi</Greetings>
+    <To>Michael</To>
+    <Address>C/ Moralzarzal, 86</Address>
+    <City>Madrid</City>
+    <PostalCode>28034</PostalCode>
+    <Phone>(91) 555 94 44</Phone>
+    <Today>Thursday</Today>
+    <Time>Thu 7:45AM</Time>
+    <Date>6/12/2014</Date>
+    <Day>Thu</Day>
+    <Size>48KB</Size>
+  </Inbox>
+  <Inbox>
+    <ContactID>FRANS</ContactID>
+    <CompanyName>Franchi S.p.A.</CompanyName>
+    <ContactName>Paolo Accorti</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle> 
+	<Greetings>Hi</Greetings>
+    <Message>Have a Great Day</Message>   
+    <To>John Michael</To>
+    <Address>Via Monte Bianco 34</Address>
+    <City>Torino</City>
+    <PostalCode>10100</PostalCode>
+    <Phone>011-4988260</Phone>
+    <Today>Wednesday</Today>
+    <Time>Wed 9:50AM</Time>
+    <Date>6/11/2014</Date>
+    <Day>Wed</Day>
+    <Size>30KB</Size>
+  </Inbox>
+  <Sent>
+    <ContactID>FRANS</ContactID>
+    <CompanyName>Franchi S.p.A.</CompanyName>
+    <ContactName>Paolo Accorti</ContactName>
+    <ContactTitle>Re:Sales Representative</ContactTitle>
+	<Greetings>Hi</Greetings>
+    <Message>Welcome</Message>   
+    <To>John Michael</To>
+    <Address>Via Monte Bianco 34</Address>
+    <City>Torino</City>
+    <PostalCode>10100</PostalCode>
+    <Phone>011-4988260</Phone>
+    <Today>Today</Today>
+    <Time>9:50AM</Time>
+    <Date>6/11/2014</Date>
+    <Day>Sat</Day>
+    <Size>30KB</Size>
+  </Sent>
+<Outbox>
+    <ContactID>BOLID</ContactID>
+    <CompanyName>Bólido Comidas preparadas</CompanyName>
+    <ContactName>Martín Sommer</ContactName>
+    <ContactTitle>Owner</ContactTitle> 
+	<Greetings>Hi</Greetings>
+    <Message>Ok, I will be there to collect the rent receipt</Message>   
+    <To>Anil Pahr</To>
+    <Address>C/ Araquil, 67</Address>
+    <City>Madrid</City>
+    <PostalCode>28023</PostalCode>
+    <Phone>(91) 555 22 82</Phone>
+    <Today>Yesterday</Today>
+    <Time>Fri 9:15AM</Time>
+    <Date>6/13/2014</Date>
+    <Day>Fri</Day>
+    <Size>28KB</Size>
+</Outbox>
+<Sent>
+    <ContactID>DRACD</ContactID>
+    <CompanyName>Drachenblut Delikatessen</CompanyName>
+    <ContactName>Sven Ottlieb</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+	<Greetings>Hi</Greetings>
+    <Message>Wish you the same.</Message>   
+    <To>Marie Krilsh</To>
+    <Address>Walserweg 21</Address>
+    <City>Aachen</City>
+    <PostalCode>52066</PostalCode>
+    <Phone>0241-039123</Phone>
+    <Today>Yesterday</Today>
+    <Time>Fri 6:30AM</Time>
+    <Date>6/12/2014</Date>
+    <Day>Fri</Day>
+    <Size>72KB</Size>
+  </Sent>
+<Sent>
+    <ContactID>FAMIA</ContactID>
+    <CompanyName>Familia Arquibaldo</CompanyName>
+    <ContactName>Aria Cruz</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+	<Greetings>Hi</Greetings>
+    <Message>Wish you the same.</Message>    
+    <To>Maria Krilsh</To>
+    <Address>Rua Orós, 92</Address>
+    <City>Sao Paulo</City>
+    <PostalCode>05442-030</PostalCode>
+    <Phone>(11) 555-9857</Phone>
+    <Today>Thursday</Today>
+    <Time>Thu 6:30AM</Time>
+    <Date>6/12/2014</Date>
+    <Day>Thu</Day>
+    <Size>32KB</Size>
+  </Sent>
+<Sent>
+    <ContactID>AROUT</ContactID>
+    <CompanyName>Around the Horn</CompanyName>
+    <ContactName>Thomas Hardy</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+	<Greetings>Hi</Greetings>
+    <Message>Yes, it is possible to arrange meeting tomorrow.</Message>   
+    <To>Chris Kol</To>
+    <Address>120 Hanover Sq.</Address>
+    <City>London</City>
+    <PostalCode>WA1 1DP</PostalCode>
+    <Phone>(171) 555-7788</Phone>
+    <Today>Today</Today>
+    <Time>10:30AM</Time>
+    <Date>6/14/2014</Date>
+    <Day>Sat</Day>
+    <Size>74KB</Size>
+  </Sent>
+ <Drafts>
+    <ContactID>ALFKI</ContactID>
+    <CompanyName>Alfreds Futterkiste</CompanyName>
+    <ContactName>Maria Anders</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Greetings>Hi</Greetings>
+    <Message>Yes, we can schedule meeting tomorrow.</Message>
+    <To>Jane Jonk</To>
+    <Address>Obere Str. 57</Address>
+    <City>Berlin</City>
+    <PostalCode>12209</PostalCode>
+    <Phone>030-0074321</Phone>
+    <Today>Today</Today>
+    <Time>11:27AM</Time>
+    <Date>6/14/2014</Date>
+    <Day>Sat</Day>
+    <Size>42KB</Size>
+  </Drafts>
+
+</DataSet1>

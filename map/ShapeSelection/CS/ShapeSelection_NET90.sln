@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeSelection_NET90", "ShapeSelection_NET90.csproj", "{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-Xml|Any CPU = Debug-Xml|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-Xml|Any CPU = Release-Xml|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Debug-Xml|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Debug-Xml|Any CPU.Build.0 = Debug|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FBE794-EF22-425F-A9FE-C6BD26FD9791}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06DB9E48-C822-484E-8F79-AA8D4999124A}
+	EndGlobalSection
+EndGlobal

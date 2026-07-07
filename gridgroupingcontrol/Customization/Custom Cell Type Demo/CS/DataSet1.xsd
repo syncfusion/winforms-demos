@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns:mstns="http://www.tempuri.org/DataSet1.xsd"
+	xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DataSet1" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Categories">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CategoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CategoryName" type="xs:string" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="Picture" type="xs:base64Binary" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Products">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ProductID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ProductName" type="xs:string" />
+							<xs:element name="SupplierID" type="xs:int" minOccurs="0" />
+							<xs:element name="CategoryID" type="xs:int" minOccurs="0" />
+							<xs:element name="QuantityPerUnit" type="xs:string" minOccurs="0" />
+							<xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UnitsInStock" type="xs:short" minOccurs="0" />
+							<xs:element name="UnitsOnOrder" type="xs:short" minOccurs="0" />
+							<xs:element name="ReorderLevel" type="xs:short" minOccurs="0" />
+							<xs:element name="Discontinued" type="xs:boolean" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Suppliers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SupplierID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="CompanyName" type="xs:string" />
+							<xs:element name="ContactName" type="xs:string" minOccurs="0" />
+							<xs:element name="ContactTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="Address" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="Region" type="xs:string" minOccurs="0" />
+							<xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Country" type="xs:string" minOccurs="0" />
+							<xs:element name="Phone" type="xs:string" minOccurs="0" />
+							<xs:element name="Fax" type="xs:string" minOccurs="0" />
+							<xs:element name="HomePage" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Categories" />
+			<xs:field xpath="mstns:CategoryID" />
+		</xs:unique>
+		<xs:unique name="Products_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Products" />
+			<xs:field xpath="mstns:ProductID" />
+		</xs:unique>
+		<xs:unique name="Suppliers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Suppliers" />
+			<xs:field xpath="mstns:SupplierID" />
+		</xs:unique>
+		<xs:keyref name="CategoriesProducts" refer="mstns:Constraint1">
+			<xs:selector xpath=".//mstns:Products" />
+			<xs:field xpath="mstns:CategoryID" />
+		</xs:keyref>
+		<xs:keyref name="SuppliersProducts" refer="mstns:Suppliers_Constraint1" msdata:ConstraintOnly="true">
+			<xs:selector xpath=".//mstns:Products" />
+			<xs:field xpath="mstns:SupplierID" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

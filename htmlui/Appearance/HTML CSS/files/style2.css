@@ -1,0 +1,24 @@
+.style1 
+{
+	font-family: Verdana; font-size: 8pt; color: #000000;
+}
+.style2 
+{
+	font-family: Arial; font-size: 10pt; color: #de6313;
+}
+.style3
+{
+	font-family: Tahoma; font-size: 12pt; color: #528c42;
+}
+.style4
+{
+	font-family: Tahoma; font-size: 14pt; color: #333367;
+}
+.style5
+{
+	font-family: Arial; font-size: 16pt; color: #3b867f;
+}
+BODY
+{
+	background-color:#ffffff;
+}

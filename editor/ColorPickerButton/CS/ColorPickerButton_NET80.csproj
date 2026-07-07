@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>ColorUIDemo</AssemblyName>
+    <RootNamespace>ColorUIDemo</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="sync_icon.ico" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sync_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

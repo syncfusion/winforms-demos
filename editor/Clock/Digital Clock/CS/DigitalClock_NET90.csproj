@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings" />
+    <None Include="Resources\Syncfusion.png" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\31.png" />
+    <None Include="Resources\clock.png" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

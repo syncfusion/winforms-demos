@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Syncfusion.AssistViewDemo.WinForms</AssemblyName>
+    <RootNamespace>Syncfusion.AssistViewDemo.WinForms</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Asset\AI_Assist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset\AI_Assist.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.SfAIAssistView.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Markdown" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfMarkdownViewer.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+    <PackageReference Include="Microsoft.SemanticKernel">
+      <Version>1.72.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

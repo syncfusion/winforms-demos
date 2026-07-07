@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>VisualStudioDemo</AssemblyName>
+    <RootNamespace>VisualStudioDemo</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <Compile Remove="Test Files\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <EmbeddedResource Remove="Test Files\**" />
+    <None Remove="Resources\**" />
+    <None Remove="Test Files\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Content.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="BlackThemeconfig.xml" />
+    <None Remove="config.xml" />
+    <None Remove="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Edit.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.HighContrastTheme.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Office2019Theme.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfListView.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Windows" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SpellChecker.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

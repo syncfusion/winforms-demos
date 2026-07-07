@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>CustomValidation</AssemblyName>
+    <RootNamespace>CustomValidation</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Data.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.GridCommon.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfInput.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfListView.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.DataSource.WinForms" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Licensing" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

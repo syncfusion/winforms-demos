@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+
+<!--Region showcase-->
+  <ShowcaseSample Name="Patient Monitor" SourcePath="showcase\PatientMonitoringDemo\CS" RowSpan="2" ImagePath="showcase\patientmonitor.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Car Dashboard" SourcePath="showcase\CarDashboardDemo\CS" RowSpan="1" ImagePath="showcase\CarDashboard.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Expense Analysis" SourcePath="showcase\Expense Analysis Demo\CS" RowSpan="1" ImagePath="showcase\ExpenseDetails.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Weather Analysis" SourcePath="showcase\Weather Analysis Demo\CS" RowSpan="2" ImagePath="showcase\weather.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Pivot Customization" SourcePath="showcase\Pivot Customization Demo\CS" RowSpan="1" ImagePath="showcase\PivotCustomization.png" IsNETCoreSupported="True"/> 
+  <ShowcaseSample Name="Visual Studio" SourcePath="showcase\VS2012Demo\CS" RowSpan="1" ImagePath="showcase\vs2012demo.png"/>
+  <ShowcaseSample Name="Word" SourcePath="showcase\Word 2013 Demo\CS" RowSpan="1" ImagePath="showcase\word2013demo.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Sales Analysis" SourcePath="showcase\Sales Analysis Demo\CS" RowSpan="2" ImagePath="showcase\sales.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Trader Grid" SourcePath="showcase\Grouping Trader Grid Test Demo\CS" RowSpan="1" ImagePath="showcase\TraderGridTestDemo.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Outlook" SourcePath="showcase\Outlook Demo\CS" RowSpan="1" ImagePath="showcase\OutlookDemo.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Formula Analysis" SourcePath="showcase\Formula Analysis Demo\CS" RowSpan="1" ImagePath="showcase\Calculate.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Audit showcase" SourcePath="showcase\Audit showcase\CS" RowSpan="1" ImagePath="showcase\Audit showcase\Image\tax.png" IsNETCoreSupported="True"/>
+  <ShowcaseSample Name="Unit Converter" SourcePath="showcase\UnitConverter\CS" RowSpan="1" ImagePath="showcase\UnitConverter\Images\UnitConverter.png" IsNETCoreSupported="True"/>
+<!--End of Region showcase-->
+
+<!--Region Grids-->
+  <Product Name="DataGrid" Category="Grids" EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category ="Getting Started" SourcePath="datagrid\Getting Started" IsNETCoreSupported="True" ImagePath="datagrid\Getting Started\Images\GettingStarted.png" />
+    <Sample Name="Data Binding" Category ="Data Binding" SourcePath="datagrid\DataBinding" IsNETCoreSupported="True" ImagePath="datagrid\DataBinding\Images\DataBinding.png" />
+    <Sample Name="Sorting" Category ="Data Representation" SourcePath="datagrid\Sorting" IsNETCoreSupported="True" ImagePath="datagrid\Sorting\Images\Sorting.png" />
+    <Sample Name="Grouping" Category ="Data Representation" SourcePath="datagrid\Grouping\Grouping" IsNETCoreSupported="True" ImagePath="datagrid\Grouping\Grouping\Images\Grouping.png" />
+    <Sample Name="Summaries" Category ="Data Representation" SourcePath="datagrid\Summaries\Summaries" IsNETCoreSupported="True" ImagePath="datagrid\Summaries\Summaries\Images\Summaries.png" />
+    <Sample Name="Custom Grouping" Category ="Data Representation" SourcePath="datagrid\Grouping\Custom Grouping" IsNETCoreSupported="True" ImagePath="datagrid\Grouping\Custom Grouping\Images\CustomGrouping.png" />
+    <Sample Name="Interval Grouping" Category ="Data Representation" SourcePath="datagrid\Interval Grouping" IsNETCoreSupported="True" ImagePath="datagrid\Interval Grouping\Images\Interval Grouping.png" />	
+    <Sample Name="Custom Summaries" Category ="Data Representation" SourcePath="datagrid\Summaries\Custom Summaries" IsNETCoreSupported="True" ImagePath="datagrid\Summaries\Custom Summaries\Images\CustomSummaries.png" />
+    <Sample Name="Filtering" Category ="Filtering" SourcePath="datagrid\Filtering\Filtering" IsNETCoreSupported="True" ImagePath="datagrid\Filtering\Filtering\Images\Filtering.png" />
+    <Sample Name="Advanced Filtering" Category ="Filtering" SourcePath="datagrid\Filtering\AdvancedFiltering" IsNETCoreSupported="True" ImagePath="datagrid\Filtering\AdvancedFiltering\Images\AdvancedFiltering.png" />
+    <Sample Name="Filter Row" Category ="Filtering" SourcePath="datagrid\Filtering\FilterRow" ImagePath="datagrid\Filtering\FilterRow\Images\FilterRow.png"/>
+    <Sample Name="Custom Filter Row" Category ="Filtering" SourcePath="datagrid\Filtering\CustomFilterRow" ImagePath="datagrid\Filtering\FilterRow\Images\CustomFilterRow.png"/>
+    <Sample Name="Search" Category ="Filtering" SourcePath="datagrid\Search" IsNETCoreSupported="True" ImagePath="datagrid\Search\Images\Search.png" />
+    <Sample Name="Editing" Category ="Editing" SourcePath="datagrid\Editing" IsNETCoreSupported="True" ImagePath="datagrid\Editing\Images\Editing.png" />
+    <Sample Name="Add New Row" Category ="Editing" SourcePath="datagrid\AddNewRow" IsNETCoreSupported="True" ImagePath="datagrid\AddNewRow\Images\AddNewRow.png" />
+    <Sample Name="Clipboard Operations" Category ="Editing" SourcePath="datagrid\Clipboard Operations" IsNETCoreSupported="True" ImagePath="datagrid\Sorting\Images\Sorting.png" />
+    <Sample Name="Master-DetailsView" Category ="Master-Detail" SourcePath="datagrid\DetailsView" IsNETCoreSupported="True" ImagePath="datagrid\DetailsView\Images\DetailsView.png"/>
+    <Sample Name="DataTable Binding" Category ="Master-Detail" SourcePath="datagrid\DetailsViewDataTableBinding" ImagePath="datagrid\DetailsViewDataTableBinding\Images\DetailsViewDataTableBinding.png"/>
+    <Sample Name="Stacked Headers" Category ="Master-Detail" SourcePath="datagrid\DetailsViewStackedHeaderRows" IsNETCoreSupported="True" ImagePath="datagrid\DetailsViewDataTableBinding\Images\DetailsViewStackedHeaderRows.png"/>
+    <Sample Name="Column Types" Category ="Master-Detail" SourcePath="datagrid\DetailsViewColumnTypes" ImagePath="datagrid\DetailsViewColumnTypes\Images\DetailsViewColumnTypes.png"/>
+    <Sample Name="Conditional Formatting" Category ="Master-Detail" SourcePath="datagrid\DetailsViewConditionalFormatting" IsNETCoreSupported="True" ImagePath="datagrid\DetailsViewConditionalFormatting\Images\DetailsViewConditionalFormatting.png"/>
+    <Sample Name="Excel Exporting" Category ="Master-Detail" SourcePath="datagrid\DetailsViewExcelExporting" IsNETCoreSupported="True" ImagePath="datagrid\DetailsViewExcelExporting\Images\DetailsViewExcelExporting.png"/>
+    <Sample Name="Pdf Exporting" Category ="Master-Detail" SourcePath="datagrid\DetailsViewPDFExporting" IsNETCoreSupported="True" ImagePath="datagrid\DetailsViewPDFExporting\Images\DetailsViewPDFExporting.png"/>
+    <Sample Name="Stacked Header Rows" Category ="Rows" SourcePath="datagrid\Stacked Header Rows" IsNETCoreSupported="True" ImagePath="datagrid\Grouping\Stacked Header Rows\Images\StackedHeaderRows.png" />	
+    <Sample Name="Auto RowHeight" Category ="Rows" SourcePath="datagrid\RowHeightCustomization" ImagePath="datagrid\RowHeightCustomization\Images\RowHeightCustomization.png" />
+    <Sample Name="Unbound Rows" Category ="Rows" SourcePath="datagrid\UnboundRows" IsNETCoreSupported="True" ImagePath="datagrid\Filtering\UnboundRows\Images\UnboundRows.png" />
+    <Sample Name="Column Types" Category ="Columns" SourcePath="datagrid\Column Types" IsNETCoreSupported="True" ImagePath="datagrid\Summaries\Column Types\Images\ColumnTypes.png" />
+    <Sample Name="ComboBox Column" Category ="Columns" SourcePath="datagrid\ComboBoxColumn" IsNETCoreSupported="True" ImagePath="datagrid\ComboBoxColumn\Images\ComboBoxColumn.png"/>
+    <Sample Name="Column Sizing" Category ="Columns" SourcePath="datagrid\Column Sizing" IsNETCoreSupported="True" ImagePath="datagrid\Grouping\Column Sizing\Images\ColumnSizing.png" />
+    <Sample Name="Unbound Columns" Category ="Columns" SourcePath="datagrid\Unbound Columns" IsNETCoreSupported="True" ImagePath="datagrid\Unbound Columns\Images\UnboundColumns.png" />
+    <Sample Name="Sparkline Column" Category ="Columns" SourcePath="datagrid\SparklineColumn" IsNETCoreSupported="True" ImagePath="datagrid\SparklineColumn\Images\Sparkline.png" />	
+    <Sample Name="Cell Merge" Category ="Merging" SourcePath="datagrid\Merging\CellMerge" IsNETCoreSupported="True" ImagePath="datagrid\Merging\CellMerge\Images\CellMerging.png"/>
+    <Sample Name="Auto Cell Merge" Category ="Merging" SourcePath="datagrid\Merging\AutoCellMerge" ImagePath="datagrid\Merging\CellMerge\Images\AutoCellMerging.png"/>		
+    <Sample Name="Data Validation" Category ="Data Validation" SourcePath="datagrid\DataValidation" IsNETCoreSupported="True" ImagePath="datagrid\DataValidation\Images\DataValidation.png" />
+    <Sample Name="Row Selection" Category ="Selection" SourcePath="datagrid\Selection" IsNETCoreSupported="True" ImagePath="datagrid\Selection\Images\Selection.png" />
+    <Sample Name="Cell Selection" Category ="Selection" SourcePath="datagrid\Cell Selection" IsNETCoreSupported="True" ImagePath="datagrid\Cell Selection\Images\CellSelection.png"/>
+    <Sample Name="CheckBox Selector Column" Category ="Selection" SourcePath="datagrid\CheckBoxSelectionColumn" IsNETCoreSupported="True" ImagePath="datagrid\CheckBoxSelectionColumn\Images\CheckBoxSelectorColumnDemo.png"/>
+    <Sample Name="Real Time Updates" Category ="Performance" SourcePath="datagrid\Real Time Updates" IsNETCoreSupported="True" ImagePath="datagrid\Grouping\Grouping\Images\Grouping.png" />
+    <Sample Name="Trader Grid" Category ="Performance" SourcePath="datagrid\Trader Grid" IsNETCoreSupported="True" ImagePath="datagrid\Grouping\Custom Grouping\Images\CustomGrouping.png" />	
+    <Sample Name="Data Virtualization" Category ="Performance" SourcePath="datagrid\Data Virtualization" IsNETCoreSupported="True" ImagePath="datagrid\Data Virtualization\Images\DataVirtualization.png" />	
+    <Sample Name="Paging" Category ="Paging" SourcePath="datagrid\Paging\Paging" IsNETCoreSupported="True" ImagePath="datagrid\Paging\Paging\Images\Paging.png" />		
+    <Sample Name="On-Demand Paging" Category ="Paging" SourcePath="datagrid\Paging\OnDemandPaging" IsNETCoreSupported="True" ImagePath="datagrid\Paging\OnDemandPaging\Images\OnDemandPaging.png" />
+    <Sample Name="Freeze Panes" Category ="Rows" SourcePath="datagrid\Freeze Panes" IsNETCoreSupported="True" ImagePath="datagrid\Sorting\Images\Sorting.png" />
+    <Sample Name="Context Menu" Category ="Interactive Features" SourcePath="datagrid\ContextMenu" IsNETCoreSupported="True" ImagePath="datagrid\Summaries\Custom Summaries\Images\ContextMenu.png" />
+    <Sample Name="Column Chooser" Category ="Interactive Features" SourcePath="datagrid\ColumnChooser" IsNETCoreSupported="True" ImagePath="datagrid\ColumnChooser\Images\ColumnChooser.png" />	
+    <Sample Name="ToolTip" Category ="Interactive Features" SourcePath="datagrid\ToolTip" IsNETCoreSupported="True" ImagePath="datagrid\Filtering\AdvancedFiltering\Images\AdvancedFiltering.png" />
+    <Sample Name="Alternate Row Style" Category ="Appearance" SourcePath="datagrid\Alternate Row Style" IsNETCoreSupported="True" ImagePath="datagrid\Alternate Row Style\Images\Alternate Row Style.png"  />
+    <Sample Name="Column Styling" Category ="Appearance" SourcePath="datagrid\Styling" IsNETCoreSupported="True" ImagePath="datagrid\Styling\Images\Custom Styling.png" />
+    <Sample Name="Conditional Row Style" Category ="Appearance" SourcePath="datagrid\Conditional Row Style" IsNETCoreSupported="True" ImagePath="datagrid\Conditional Row Style\Images\Conditional Row Style.png"  />
+    <Sample Name="Conditional Cell Style" Category ="Appearance" SourcePath="datagrid\Conditional Cell Style" IsNETCoreSupported="True" ImagePath="datagrid\Conditional Cell Style\Images\Conditional Cell Style.png"  />
+    <Sample Name="Themes" Category ="Appearance" SourcePath="datagrid\Themes" IsNETCoreSupported="True" ImagePath="datagrid\Themes\Images\visualstyles.png"/>
+    <Sample Name="Custom Validation" Category ="Data Validation" SourcePath="datagrid\Custom Validation" IsNETCoreSupported="True" ImagePath="datagrid\Custom Validation\Images\CustomValidation.png"  />
+    <Sample Name="Preview Rows" Category ="Preview Rows" SourcePath="datagrid\PreviewRows" IsNETCoreSupported="True" ImagePath="datagrid\PreviewRows\Images\PreviewRows.png"/>	
+    <Sample Name="Scroll Performance" Category ="Performance" SourcePath="datagrid\Scroll Performance" IsNETCoreSupported="True" ImagePath="datagrid\Scroll Performance\Images\ScrollPerfomance.png"  />
+    <Sample Name="Serialization" Category ="Serialization" SourcePath="datagrid\Serialization" ImagePath="datagrid\Serialization\Images\Serialization.png"  />
+    <Sample Name="Pdf Exporting" Category ="Exporting" SourcePath="datagrid\Pdf Exporting" ImagePath="datagrid\Pdf Exporting\Images\PdfExporting.png"  />
+    <Sample Name="Excel Exporting" Category ="Exporting" SourcePath="datagrid\Excel Exporting" ImagePath="datagrid\Excel Exporting\Images\ExcelExporting.png"  />
+    <Sample Name="Printing" Category ="Printing" SourcePath="datagrid\Printing" ImagePath="datagrid\Localization\Images\Printing.png"  />
+    <Sample Name="Localization" Category ="Localization" SourcePath="datagrid\Localization" IsNETCoreSupported="True" ImagePath="datagrid\Localization\Images\Localization.png"  />
+    <Sample Name="Right-to-Left" Category ="Localization" SourcePath="datagrid\RightToLeft" ImagePath="datagrid\Localization\Images\RightToLeft.png"  />
+	<Sample Name="Drag And Drop" Category ="Drag And Drop" SourcePath="datagrid\Drag And Drop" IsNETCoreSupported="True" ImagePath="datagrid\Drag And Drop\Images\DragAndDrop.png"  />
+  </Product>
+
+  <Product Name="Grid Control" Category="Grids" EnableSecondLevel="True">
+    <Sample Name="Grid Pad" Category ="Product Showcase" SourcePath="gridcontrol\Product Showcase\Grid Pad Demo" ImagePath="gridcontrol\Product Showcase\Grid Pad Demo\Images\GridPadDemo.png"/>
+    <Sample Name="Grid Folder Browser" Category ="Product Showcase" SourcePath="gridcontrol\Product Showcase\Grid Folder Browser Demo" ImagePath="gridcontrol\Product Showcase\Grid Folder Browser Demo\Images\GridFolderBrowserDemo.png"/>
+    <Sample Name="Pivot Grid" Category ="Product Showcase" SourcePath="gridcontrol\Product Showcase\Pivot Grid Demo" ImagePath="gridcontrol\Product Showcase\Pivot Grid Demo\Images\PivotGridDemo.png"/>
+
+    <Sample Name="Trader Grid Test" Category ="Performance" SourcePath="gridcontrol\Performance\Trader Grid Test Demo" ImagePath="gridcontrol\Performance\Trader Grid Test Demo\Images\TraderGridTestDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Refresh Grid" Category ="Performance" SourcePath="gridcontrol\Performance\Refresh Grid Demo" ImagePath="gridcontrol\Performance\Refresh Grid Demo\Images\RefreshGridDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="QueryCellInfo Optimization" Category ="Performance" SourcePath="gridcontrol\Performance\QueryCellInfo Optimization Demo" ImagePath="gridcontrol\Performance\QueryCellInfo Optimization Demo\Images\QueryCellInfoOptimizationDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Editor Cell" Category ="Cell Types" SourcePath="gridcontrol\Cell Types\Editor Cell Demo" ImagePath="gridcontrol\Cell Types\Editor Cell Demo\Images\EditorCellDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Drop Down Cell" Category ="Cell Types" SourcePath="gridcontrol\Cell Types\Drop Down Cell Demo" ImagePath="gridcontrol\Cell Types\Drop Down Cell Demo\Images\DropDownCellDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Content Cell" Category ="Cell Types" SourcePath="gridcontrol\Cell Types\Content Cell Demo" ImagePath="gridcontrol\Cell Types\Content Cell Demo\Images\ContentCellDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Interactive Cell" Category ="Cell Types" SourcePath="gridcontrol\Cell Types\Interactive Cell Demo" ImagePath="gridcontrol\Cell Types\Interactive Cell Demo\Images\InteractiveCellDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Web Browser Cell" Category ="Cell Types" SourcePath="gridcontrol\Cell Types\Web Browser Cell Demo" ImagePath="gridcontrol\Cell Types\Web Browser Cell Demo\Images\WebBrowserCellDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Event Logger" Category ="Cell Types" SourcePath="gridcontrol\Cell Types\Event Logger Demo" ImagePath="gridcontrol\Cell Types\Event Logger Demo\Images\EventLoggerDemo.png" IsNETCoreSupported="False"/>
+
+    <Sample Name="Getting Started" Category ="Custom Cell Types" SourcePath="gridcontrol\Custom Cell Types\Getting Started" ImagePath="gridcontrol\Custom Cell Types\Getting Started\Images\GettingStarted.png" IsNETCoreSupported="True"/>
+    <Sample Name="Editor Cell" Category ="Custom Cell Types" SourcePath="gridcontrol\Custom Cell Types\Editor Cell Demo" ImagePath="gridcontrol\Custom Cell Types\Editor Cell Demo\Images\EditorCellDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Content Cell" Category ="Custom Cell Types" SourcePath="gridcontrol\Custom Cell Types\Content Cell Demo" ImagePath="gridcontrol\Custom Cell Types\Content Cell Demo\Images\ContentCellDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Interactive Cell" Category ="Custom Cell Types" SourcePath="gridcontrol\Custom Cell Types\Interactive Cell Demo" ImagePath="gridcontrol\Custom Cell Types\Interactive Cell Demo\Images\InteractiveCellDemo.png"/>
+    <Sample Name="Drop Down Cell" Category ="Custom Cell Types" SourcePath="gridcontrol\Custom Cell Types\Drop Down Cell Demo" ImagePath="gridcontrol\Custom Cell Types\Drop Down Cell Demo\Images\DropDownCellDemo.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="Getting Started" Category ="Virtual Grid" SourcePath="gridcontrol\Virtual Grid\Getting Started" ImagePath="gridcontrol\Virtual Grid\Getting Started\Images\GettingStarted.png" IsNETCoreSupported="True"/>
+    <Sample Name="Virtual Grid" Category ="Virtual Grid" SourcePath="gridcontrol\Virtual Grid\Virtual Grid Demo" ImagePath="gridcontrol\Virtual Grid\Virtual Grid Demo\Images\VirtualGridDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Virtual Tree Grid" Category ="Virtual Grid" SourcePath="gridcontrol\Virtual Grid\Virtual Tree Grid Demo" ImagePath="gridcontrol\Virtual Grid\Virtual Tree Grid Demo\Images\VirtualTreeGridDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Grid Population" Category ="Virtual Grid" SourcePath="gridcontrol\Virtual Grid\Grid Population Demo" ImagePath="gridcontrol\Virtual Grid\Grid Population Demo\Images\GridPopulationDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Visual Styles" Category ="Appearance" SourcePath="gridcontrol\Appearance\Visual Styles Demo" ImagePath="gridcontrol\Appearance\Visual Styles Demo\Images\VisualStylesDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Text Format" Category ="Appearance" SourcePath="gridcontrol\Appearance\Text Format Demo" ImagePath="gridcontrol\Appearance\Text Format Demo\Images\TextFormatDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="GridStyle" Category ="Appearance" SourcePath="gridcontrol\Appearance\GridStyle Demo" ImagePath="gridcontrol\Appearance\GridStyle Demo\Images\GridStyleDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="SkinManager" Category ="Appearance" SourcePath="gridcontrol\Appearance\SkinManager Demo" ImagePath="gridcontrol\Appearance\SkinManager Demo\Images\SkinManagerDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Cell Customization" Category ="Appearance" SourcePath="gridcontrol\Appearance\Cell Customization Demo" ImagePath="gridcontrol\Appearance\Cell Customization Demo\Images\CellCustomizationDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Properties" Category ="Appearance" SourcePath="gridcontrol\Appearance\Properties Demo" ImagePath="gridcontrol\Appearance\Properties Demo\Images\PropertiesDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Cell Tip" Category ="ToolTip" SourcePath="gridcontrol\ToolTip\Cell Tip Demo" ImagePath="gridcontrol\ToolTip\Cell Tip Demo\Images\CellTipDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Cell Comment Tip" Category ="ToolTip" SourcePath="gridcontrol\ToolTip\Cell Comment Tip Demo" ImagePath="gridcontrol\ToolTip\Cell Comment Tip Demo\Images\CellCommentTipDemo.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="Format Cells" Category ="Dynamic Formatting" SourcePath="gridcontrol\Dynamic Formatting\Format Cells Demo" ImagePath="gridcontrol\Dynamic Formatting\Format Cells Demo\Images\FormatCellsDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Virtual Merge Cell" Category ="Dynamic Formatting" SourcePath="gridcontrol\Dynamic Formatting\Virtual Merge Cell Demo" ImagePath="gridcontrol\Dynamic Formatting\Virtual Merge Cell Demo\Images\VirtualMergeCellDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Multiple Views" Category ="Grid Layout" SourcePath="gridcontrol\Grid Layout\Multiple Views Demo" ImagePath="gridcontrol\Grid Layout\Multiple Views Demo\Images\MultipleViewsDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Resize To Fit" Category ="Grid Layout" SourcePath="gridcontrol\Grid Layout\Resize To Fit Demo" ImagePath="gridcontrol\Grid Layout\Resize To Fit Demo\Images\ResizeToFitDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Selection Mode" Category ="Grid Layout" SourcePath="gridcontrol\Grid Layout\Selection Mode Demo" ImagePath="gridcontrol\Grid Layout\Selection Mode Demo\Images\SelectionModeDemo.png"/>
+    <Sample Name="Error Provider" Category ="Grid Layout" SourcePath="gridcontrol\Grid Layout\Error Provider Demo" ImagePath="gridcontrol\Grid Layout\Error Provider Demo\Images\ErrorProviderDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Custom Cell Autosizing" Category ="Grid Layout" SourcePath="gridcontrol\Grid Layout\Custom Cell Autosizing Demo" ImagePath="gridcontrol\Grid Layout\Custom Cell Autosizing Demo\Images\CustomCellAutosizingDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Sorting" Category ="Grid Layout" SourcePath="gridcontrol\Grid Layout\Sorting Demo" ImagePath="gridcontrol\Grid Layout\Sorting Demo\Images\SortingDemo.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="Formula Grid" Category ="Formula Support" SourcePath="gridcontrol\Formula Support\Formula Grid Demo" ImagePath="gridcontrol\Formula Support\Formula Grid Demo\Images\FormulaGridDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Formula Range Selection" Category ="Formula Support" SourcePath="gridcontrol\Formula Support\Formula Range Selection Demo" ImagePath="gridcontrol\Formula Support\Formula Range Selection Demo\Images\FormulaRangeSelectionDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Cross-Reference" Category ="Formula Support" SourcePath="gridcontrol\Formula Support\Cross-Reference Demo" ImagePath="gridcontrol\Formula Support\Cross-Reference Demo\Images\Cross-ReferenceDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Named Range" Category ="Formula Support" SourcePath="gridcontrol\Formula Support\Named Range Demo" ImagePath="gridcontrol\Formula Support\Named Range Demo\Images\NamedRangeDemo.png"/>
+    <Sample Name="Retirement Simulation" Category ="Formula Support" SourcePath="gridcontrol\Formula Support\Retirement Simulation Demo" ImagePath="gridcontrol\Formula Support\Retirement Simulation Demo\Images\RetirementSimulationDemo.png" IsNETCoreSupported="False"/>
+
+    <Sample Name="Mark Header" Category ="MS Excel-Style Features" SourcePath="gridcontrol\MS Excel-Style Features\Mark Header Demo" ImagePath="gridcontrol\MS Excel-Style Features\Mark Header Demo\Images\MarkHeaderDemo.png"/>
+    <Sample Name="Workbook" Category ="MS Excel-Style Features" SourcePath="gridcontrol\MS Excel-Style Features\Workbook Demo" ImagePath="gridcontrol\MS Excel-Style Features\Workbook Demo\Images\WorkbookDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Freeze Pane" Category ="MS Excel-Style Features" SourcePath="gridcontrol\MS Excel-Style Features\Freeze Pane Demo" ImagePath="gridcontrol\MS Excel-Style Features\Freeze Pane Demo\Images\FreezePaneDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Selection Marker" Category ="MS Excel-Style Features" SourcePath="gridcontrol\MS Excel-Style Features\Selection Marker Demo" ImagePath="gridcontrol\MS Excel-Style Features\Selection Marker Demo\Images\SelectionMarkerDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Hide Rows and Columns" Category ="MS Excel-Style Features" SourcePath="gridcontrol\MS Excel-Style Features\Hide Rows and Columns Demo" ImagePath="gridcontrol\MS Excel-Style Features\Hide Rows and Columns Demo\Images\HideRowsandColumnsDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Split Pane" Category ="MS Excel-Style Features" SourcePath="gridcontrol\MS Excel-Style Features\Split Pane" ImagePath="gridcontrol\MS Excel-Style Features\Split Pane\Images\SplitterPane.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Copy-Paste" Category ="Editing" SourcePath="gridcontrol\Editing\Copy-Paste Demo" ImagePath="gridcontrol\Editing\Copy-Paste Demo\Images\Copy-PasteDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Find-Replace" Category ="Editing" SourcePath="gridcontrol\Editing\Find-Replace Demo" ImagePath="gridcontrol\Editing\Find-Replace Demo\Images\Find-ReplaceDemo.png"/>
+    <Sample Name="Undo-Redo" Category ="Editing" SourcePath="gridcontrol\Editing\Undo-Redo Demo" ImagePath="gridcontrol\Editing\Undo-Redo Demo\Images\Undo-RedoDemo.png" IsNETCoreSupported="True"/>
+      
+    <Sample Name="Drag Column Header" Category ="Drag-and-Drop Support" SourcePath="gridcontrol\Drag-and-Drop Support\Drag Column Header Demo" ImagePath="gridcontrol\Drag-and-Drop Support\Drag Column Header Demo\Images\DragColumnHeaderDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="OLE Drag-and-Drop" Category ="Drag-and-Drop Support" SourcePath="gridcontrol\Drag-and-Drop Support\OLE Drag-and-Drop Demo" ImagePath="gridcontrol\Drag-and-Drop Support\OLE Drag-and-Drop Demo\Images\OLEDrag-and-DropDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Print Grid" Category ="Printing" SourcePath="gridcontrol\Printing\Print Grid Demo" ImagePath="gridcontrol\Printing\Print Grid Demo\Images\PrintGridDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Print To Fit" Category ="Printing" SourcePath="gridcontrol\Printing\Print To Fit Demo" ImagePath="gridcontrol\Printing\Print To Fit Demo\Images\PrintToFitDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Print Page Layout" Category ="Printing" SourcePath="gridcontrol\Printing\Print Page Layout Demo" ImagePath="gridcontrol\Printing\Print Page Layout Demo\Images\PrintPageLayoutDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Multi-Grid Printing" Category ="Printing" SourcePath="gridcontrol\Printing\Multi-Grid Printing" ImagePath="gridcontrol\Printing\Multi-Grid Printing\Images\Multi-GridPrinting.png"/>
+
+    <Sample Name="Serialization" Category ="Serialization" SourcePath="gridcontrol\Serialization\Serialization Demo" ImagePath="gridcontrol\Serialization\Serialization Demo\Images\SerializationDemo.png"/>
+    
+    <Sample Name="Localization" Category ="Localization" SourcePath="gridcontrol\Localization Samples\Localization Demo" ImagePath="gridcontrol\Localization Samples\Localization Demo\Images\LocalizationDemo.png"/>
+
+    <Sample Name="Virtual Importing" Category ="Importing" SourcePath="gridcontrol\Importing\Virtual Importing" ImagePath="gridcontrol\Importing\Virtual Importing\Images\Virtual_Import.png"/>
+
+    <Sample Name="Exporting" Category ="Exporting" SourcePath="gridcontrol\Exporting\Exporting Demo" ImagePath="gridcontrol\Exporting\Exporting Demo\Images\ExportingDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Zooming" Category ="Zoom and Scroll" SourcePath="gridcontrol\Zoom and Scroll\Zooming Demo" ImagePath="gridcontrol\Zoom and Scroll\Zooming Demo\Images\ZoomingDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="ScrollBar" Category ="Zoom and Scroll" SourcePath="gridcontrol\Zoom and Scroll\ScrollBar Demo" ImagePath="gridcontrol\Zoom and Scroll\ScrollBar Demo\Images\ScrollBarDemo.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="GridGroupingControl" Category="Grids" EnableSecondLevel="True">
+    <Sample Name="Portfolio Grid" Category ="Product Showcase" SourcePath="gridgroupingcontrol\Product Showcase\Portfolio Grid Demo" ImagePath="gridgroupingcontrol\Product Showcase\Portfolio Grid Demo\Images\PortfolioGridDemo.png"/>
+    <Sample Name="LINQ Group-By" Category ="Product Showcase" SourcePath="gridgroupingcontrol\Product Showcase\LINQ Group-By Demo" ImagePath="gridgroupingcontrol\Product Showcase\LINQ Group-By Demo\Images\LINQGroup-ByDemo.png"/>
+    <Sample Name="LINQ To SQL" Category ="Product Showcase" SourcePath="gridgroupingcontrol\Product Showcase\LINQ To SQL Demo" ImagePath="gridgroupingcontrol\Product Showcase\LINQ To SQL Demo\Images\LINQToSQLDemo.png"/>
+    <Sample Name="Grid Vs Chart" Category ="Product Showcase" SourcePath="gridgroupingcontrol\Product Showcase\GridVsChart Demo" ImagePath="gridgroupingcontrol\Product Showcase\GridVsChart Demo\Images\GridVsChartDemo.png"/>
+    
+    <Sample Name="Real-Time Update" Category ="Performance" SourcePath="gridgroupingcontrol\Performance\Real-Time Update Demo" ImagePath="gridgroupingcontrol\Performance\Real-Time Update Demo\Images\Real-TimeUpdateDemo.png"/>
+    <Sample Name="Engine Optimization" Category ="Performance" SourcePath="gridgroupingcontrol\Performance\Engine Optimization Demo" ImagePath="gridgroupingcontrol\Performance\Engine Optimization Demo\Images\EngineOptimizationDemo.png"/>
+    <Sample Name="Grouping Performance" Category ="Performance" SourcePath="gridgroupingcontrol\Performance\Grouping Performance Demo" ImagePath="gridgroupingcontrol\Performance\Grouping Performance Demo\Images\GroupingPerformanceDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Market Simulation" Category ="Performance" SourcePath="gridgroupingcontrol\Performance\Market Simulation Demo" ImagePath="gridgroupingcontrol\Performance\Market Simulation Demo\Images\MarketSimulationDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Manual Total Summary" Category ="Performance" SourcePath="gridgroupingcontrol\Performance\Manual Total Summary Demo" ImagePath="gridgroupingcontrol\Performance\Manual Total Summary Demo\Images\ManualTotalSummaryDemo.png"/>
+    
+    <Sample Name="Getting Started" Category ="Getting Started" SourcePath="gridgroupingcontrol\Getting Started\Getting Started Demo" ImagePath="gridgroupingcontrol\Getting Started\Getting Started Demo\Images\VSDemo.png"/>
+    <Sample Name="Synchronization" Category ="Getting Started" SourcePath="gridgroupingcontrol\Getting Started\Synchronization Demo" ImagePath="gridgroupingcontrol\Getting Started\Synchronization Demo\Images\SynchronizationDemo.png"/>
+    <Sample Name="Data Binding" Category ="Getting Started" SourcePath="gridgroupingcontrol\Getting Started\Data Binding Demo" ImagePath="gridgroupingcontrol\Getting Started\Data Binding Demo\Images\DataBindingDemo.png"/>
+    <Sample Name="Record Binding" Category ="Getting Started" SourcePath="gridgroupingcontrol\Getting Started\Record Binding Demo" ImagePath="gridgroupingcontrol\Getting Started\Record Binding Demo\Images\RecordBindingDemo.png" IsNETCoreSupported="True"/>
+        
+    <Sample Name="Strong-Typed Collection" Category ="Data Sources" SourcePath="gridgroupingcontrol\Data Sources\Strong-Typed Collection Demo" ImagePath="gridgroupingcontrol\Data Sources\Strong-Typed Collection Demo\Images\Strong-TypedCollectionDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Nested Child-Collection" Category ="Data Sources" SourcePath="gridgroupingcontrol\Data Sources\Nested Child-Collection Demo" ImagePath="gridgroupingcontrol\Data Sources\Nested Child-Collection Demo\Images\NestedChild-CollectionDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Dynamic Object Binding" Category ="Data Sources" SourcePath="gridgroupingcontrol\Data Sources\Dynamic Object Binding Demo" ImagePath="gridgroupingcontrol\Data Sources\Dynamic Object Binding Demo\Images\DynamicObjectBindingDemo.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="Related Master Details" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Related Master Details Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Related Master Details Demo\Images\RelatedMasterDetailsDemo.png" IsNETCoreSupported="True"/>	
+    <Sample Name="Master Detail Form" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Master Detail Form Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Master Detail Form Demo\Images\MasterDetailFormDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Foreign-Key Reference" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Foreign-Key Reference Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Foreign-Key Reference Demo\Images\Foreign-KeyReferenceDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="List Item Reference" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\List Item Reference Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\List Item Reference Demo\Images\ListItemReferenceDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Uniform Child List" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Uniform Child List Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Uniform Child List Demo\Images\UniformChildListDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Self Referential Grid" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Self Referential Grid Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Self Referential Grid Demo\Images\SelfReferentialGridDemo.png"/>
+    <Sample Name="Hierarchy" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Hierarchy Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Hierarchy Demo\Images\HierarchyDemo.png"/>
+    <Sample Name="Hierarchy View" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Hierarchy View Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Hierarchy View Demo\Images\HierarchyViewDemo.png"/>
+    <Sample Name="Entity Framework" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Entity Framework Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Entity Framework Demo\Images\EntityFrameworkDemo.png"/>
+    <Sample Name="Employee Territory Order" Category ="Relation And Hierarchy" SourcePath="gridgroupingcontrol\Relation And Hierarchy\Employee Territory Order Demo" ImagePath="gridgroupingcontrol\Relation And Hierarchy\Employee Territory Order Demo\Images\EmployeeTerritoryOrderDemo.png"/>	
+      
+    <Sample Name="Grouping" Category ="Grouping"  SourcePath="gridgroupingcontrol\Grouping\Grouping Demo" ImagePath="gridgroupingcontrol\Grouping\Grouping Demo\Images\GroupingDemo.png"/>	
+    <Sample Name="Multi Column Grouping" Category ="Grouping" SourcePath="gridgroupingcontrol\Grouping\Multi Column Grouping Demo" ImagePath="gridgroupingcontrol\Grouping\Multi Column Grouping Demo\Images\MultiColumnGroupingDemo.png"/>
+    <Sample Name="Product Ratings" Category ="Grouping" SourcePath="gridgroupingcontrol\Grouping\Product Ratings Demo" ImagePath="gridgroupingcontrol\Grouping\Product Ratings Demo\Images\ProductRatingsDemo.png"/>
+    <Sample Name="Grouping Events" Category ="Grouping" SourcePath="gridgroupingcontrol\Grouping\Grouping Events Demo" ImagePath="gridgroupingcontrol\Grouping\Grouping Events Demo\Images\GroupingEventsDemo.png"/>
+    
+    <Sample Name="Sorting" Category ="Sorting" SourcePath="gridgroupingcontrol\Sorting\Sorting Demo" ImagePath="gridgroupingcontrol\Sorting\Sorting Demo\Images\SortingDemo.png"/>
+    <Sample Name="Multi Column Sorting" Category ="Sorting" SourcePath="gridgroupingcontrol\Sorting\Multi Column Sorting Demo" ImagePath="gridgroupingcontrol\Sorting\Multi Column Sorting Demo\Images\MultiColumnSortingDemo.png"/>
+    <Sample Name="Sort By Display Member" Category ="Sorting" SourcePath="gridgroupingcontrol\Sorting\Sort By Display Member Demo" ImagePath="gridgroupingcontrol\Sorting\Sort By Display Member Demo\Images\SortByDisplayMemberDemo.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="Getting Started" Category ="Summaries" SourcePath="gridgroupingcontrol\Summaries\Getting Started" ImagePath="gridgroupingcontrol\Summaries\Getting Started\Images\GettingStarted.png"/>	
+    <Sample Name="Nested-Table and Group Summary" Category ="Summaries" SourcePath="gridgroupingcontrol\Summaries\Nested-Table and Group Summary Demo" ImagePath="gridgroupingcontrol\Summaries\Nested-Table and Group Summary Demo\Images\Nested-TableandGroupSummaryDemo.png"/>
+    <Sample Name="Custom Summary" Category ="Summaries" SourcePath="gridgroupingcontrol\Summaries\Custom Summary Demo" ImagePath="gridgroupingcontrol\Summaries\Custom Summary Demo\Images\CustomSummaryDemo.png"/>
+    <Sample Name="Weighted Summary" Category ="Summaries" SourcePath="gridgroupingcontrol\Summaries\Weighted Summary Demo" ImagePath="gridgroupingcontrol\Summaries\Weighted Summary Demo\Images\WeightedSummaryDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Caption Summary" Category ="Summaries" SourcePath="gridgroupingcontrol\Summaries\Caption Summary Demo" ImagePath="gridgroupingcontrol\Summaries\Caption Summary Demo\Images\CaptionSummaryDemo.png"/>
+    <Sample Name="Sort by Summary" Category ="Summaries" SourcePath="gridgroupingcontrol\Summaries\Sort by Summary Demo" ImagePath="gridgroupingcontrol\Summaries\Sort by Summary Demo\Images\SortbySummaryDemo.png"/>
+    
+    <Sample Name="Getting Started" Category ="Filters and Expressions" SourcePath="gridgroupingcontrol\Filters and Expressions\Getting Started" ImagePath="gridgroupingcontrol\Filters and Expressions\Getting Started\Images\GettingStarted.png"/>	
+    <Sample Name="Filter Bar" Category ="Filters and Expressions" SourcePath="gridgroupingcontrol\Filters and Expressions\Filter Bar Demo" ImagePath="gridgroupingcontrol\Filters and Expressions\Filter Bar Demo\Images\FilterBarDemo.png"/>
+    <Sample Name="MS Excel-Style Filter" Category ="Filters and Expressions" SourcePath="gridgroupingcontrol\Filters and Expressions\Optimized Excel Filter Demo" ImagePath="gridgroupingcontrol\Filters and Expressions\Optimized Excel Filter Demo\Images\OptimizedExcelFilterDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Dynamic Filter" Category ="Filters and Expressions" SourcePath="gridgroupingcontrol\Filters and Expressions\Dynamic Filter Demo" ImagePath="gridgroupingcontrol\Filters and Expressions\Dynamic Filter Demo\Images\DynamicFilterDemo.png"/>
+    <Sample Name="Filter By DisplayMember" Category ="Filters and Expressions" SourcePath="gridgroupingcontrol\Filters and Expressions\Filter By DisplayMember Demo" ImagePath="gridgroupingcontrol\Filters and Expressions\Filter By DisplayMember Demo\Images\FilterByDisplayMemberDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Expression Field" Category ="Filters and Expressions" SourcePath="gridgroupingcontrol\Filters and Expressions\Expression Field Demo" ImagePath="gridgroupingcontrol\Filters and Expressions\Expression Field Demo\Images\ExpressionFieldDemo.png"/>
+    
+      <Sample Name ="Editing" Category ="Editing" SourcePath="gridgroupingcontrol\Editing\Editing Demo" ImagePath ="gridgroupingcontrol\Editing\Editing Demo\Images\EditDemo.png" />
+
+    <Sample Name="Record Range Selection" Category ="Selection" SourcePath="gridgroupingcontrol\Selection\Record Range Selection Demo" ImagePath="gridgroupingcontrol\Selection\Record Range Selection Demo\Images\RecordRangeSelectionDemo.png"/>	
+    <Sample Name="Cell Range Selection" Category ="Selection" SourcePath="gridgroupingcontrol\Selection\Cell Range Selection Demo" ImagePath="gridgroupingcontrol\Selection\Cell Range Selection Demo\Images\CellRangeSelectionDemo.png"/>
+    
+    <Sample Name="Table Style" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Table Style Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Table Style Demo\Images\TableStyleDemo.png"/>	
+    <Sample Name="Column Styles" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Column Style Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Column Style Demo\Images\ColumnStyleDemo.png"/>	
+    <Sample Name="Group Style" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Group Style Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Group Style Demo\Images\GroupStyleDemo.png"/>
+    <Sample Name="Record Style" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Record Style Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Record Style Demo\Images\RecordStyleDemo.png"/>
+    <Sample Name="Visual Styles" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Skin Customization Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Skin Customization Demo\Images\SkinCustomizationDemo.png"/>	
+    <Sample Name="Conditional Formatting" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Conditional Formatting Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Conditional Formatting Demo\Images\ConditionalFormattingDemo.png"/>
+    <Sample Name="Conditional Data Bars" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Conditional Data Bars" ImagePath="gridgroupingcontrol\Styling and Formatting\Conditional Data Bars\Images\DataBars.png"/>
+    <Sample Name="Dynamic Formatting" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Dynamic Formatting Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Dynamic Formatting Demo\Images\DynamicFormattingDemo.png"/>
+    <Sample Name="Cell Formatting" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Cell Formatting Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Cell Formatting Demo\Images\CellFormattingDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Table Indent Formatting" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Table Indent Formatting Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Table Indent Formatting Demo\Images\TableIndentFormattingDemo.png"  IsNETCoreSupported="True"/>
+    <Sample Name="Custom Cell Range" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Custom Cell Range Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Custom Cell Range Demo\Images\CustomCellRangeDemo.png"/>
+    <Sample Name="Error Provider" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Error Provider Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Error Provider Demo\Images\ErrorProviderDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Custom Views" Category ="Styling and Formatting" SourcePath="gridgroupingcontrol\Styling and Formatting\Custom Views Demo" ImagePath="gridgroupingcontrol\Styling and Formatting\Custom Views Demo\Images\CustomViewsDemo.png"/>
+      
+    <Sample Name="Cell Comment Tip" Category ="Comment Tip" SourcePath="gridgroupingcontrol\Comment Tip\Cell Comment Tip" ImagePath="gridgroupingcontrol\Comment Tip\Cell Comment Tip\Images\Excel-LikeCellCommentTipDemo.png"/>
+        
+    <Sample Name="Custom Cell Type" Category ="Customization" SourcePath="gridgroupingcontrol\Customization\Custom Cell Type Demo" ImagePath="gridgroupingcontrol\Customization\Custom Cell Type Demo\Images\CustomCellTypeDemo.png"/>
+    <Sample Name="Custom Field Type" Category ="Customization" SourcePath="gridgroupingcontrol\Customization\Custom Field Type Demo" ImagePath="gridgroupingcontrol\Customization\Custom Field Type Demo\Images\CustomFieldTypeDemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Table Options" Category ="Grouping Grid Options" SourcePath="gridgroupingcontrol\Grouping Grid Options\Table Options Demo" ImagePath="gridgroupingcontrol\Grouping Grid Options\Table Options Demo\Images\TableOptionsDemo.png"/>
+    <Sample Name="Top-Level Group Options" Category ="Grouping Grid Options" SourcePath="gridgroupingcontrol\Grouping Grid Options\Top-Level-Group Options Demo" ImagePath="gridgroupingcontrol\Grouping Grid Options\Top-Level-Group Options Demo\Images\Top-Level-GroupOptionsDemo.png"/>
+    <Sample Name="Child-Group Options" Category ="Grouping Grid Options" SourcePath="gridgroupingcontrol\Grouping Grid Options\Child-Group Options Demo" ImagePath="gridgroupingcontrol\Grouping Grid Options\Child-Group Options Demo\Images\Child-GroupOptionsDemo.png"/>
+    <Sample Name="Nested-Table Group Options" Category ="Grouping Grid Options" SourcePath="gridgroupingcontrol\Grouping Grid Options\Nested-Table Group Options Demo" ImagePath="gridgroupingcontrol\Grouping Grid Options\Nested-Table Group Options Demo\Images\Nested-TableGroupOptionsDemo.png"/>
+    
+    <Sample Name="Group Customization" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Group Customization Demo" ImagePath="gridgroupingcontrol\Layout Customization\Group Customization Demo\Images\GroupCustomizationDemo.png"/>
+    <Sample Name="Stacked Headers" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Stacked Headers Demo" ImagePath="gridgroupingcontrol\Layout Customization\Stacked Headers Demo\Images\StackedHeadersDemo.png"/>
+    <Sample Name="Field Chooser" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Field Chooser Demo" ImagePath="gridgroupingcontrol\Layout Customization\Field Chooser Demo\Images\FieldChooserDemo.png"/>
+    <Sample Name="Record Customization" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Record Customization Demo" ImagePath="gridgroupingcontrol\Layout Customization\Record Customization Demo\Images\RecordCustomizationDemo.png"/>
+    <Sample Name="Frozen Column" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Frozen Column Demo" ImagePath="gridgroupingcontrol\Layout Customization\Frozen Column Demo\Images\FrozenColumnDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Resizable Rows" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Resizable Rows Demo" ImagePath="gridgroupingcontrol\Layout Customization\Resizable Rows Demo\Images\ResizableRowsDemo.png"/>
+    <Sample Name="Cut-Copy-Paste" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Cut-Copy-Paste Demo" ImagePath="gridgroupingcontrol\Layout Customization\Cut-Copy-Paste Demo\Images\Cut-Copy-PasteDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Find-Replace" Category ="Layout Customization" SourcePath="gridgroupingcontrol\Layout Customization\Find-Replace Demo" ImagePath="gridgroupingcontrol\Layout Customization\Find-Replace Demo\Images\Find-ReplaceDemo.png" IsNETCoreSupported="True"/>
+      
+    <Sample Name="Elements View" Category ="Grouping Architecture" SourcePath="gridgroupingcontrol\Grouping Architecture\Elements View Demo" ImagePath="gridgroupingcontrol\Grouping Architecture\Elements View Demo\Images\ElementsViewDemo.png"/>	
+    <Sample Name="Current Element Access" Category ="Grouping Architecture" SourcePath="gridgroupingcontrol\Grouping Architecture\Current Element Access Demo" ImagePath="gridgroupingcontrol\Grouping Architecture\Current Element Access Demo\Images\CurrentElementAccessDemo.png"/>
+    <Sample Name="Table Control Events" Category ="Grouping Architecture" SourcePath="gridgroupingcontrol\Grouping Architecture\Table Control Events Demo" ImagePath="gridgroupingcontrol\Grouping Architecture\Table Control Events Demo\Images\TableControlEventsDemo.png"/>
+    <Sample Name="Grouping Engine Events" Category ="Grouping Architecture" SourcePath="gridgroupingcontrol\Grouping Architecture\Grouping Engine Events Demo" ImagePath="gridgroupingcontrol\Grouping Architecture\Grouping Engine Events Demo\Images\GroupingEngineEventsDemo.png"/>
+    
+    <Sample Name="XML Serialization" Category ="Serialization" SourcePath="gridgroupingcontrol\Serialization\XML Serialization Demo" ImagePath="gridgroupingcontrol\Serialization\XML Serialization Demo\Images\XMLSerializationDemo.png"/>	
+    <Sample Name="Employee View" Category ="Serialization" SourcePath="gridgroupingcontrol\Serialization\Employee View Demo" ImagePath="gridgroupingcontrol\Serialization\Employee View Demo\Images\EmployeeViewDemo.png"/>
+      
+    <Sample Name="Flat Grid" Category ="Printing" SourcePath="gridgroupingcontrol\Printing\Flat Grid Demo" ImagePath="gridgroupingcontrol\Printing\Flat Grid Demo\Images\FlatGridDemo.png"/>
+    <Sample Name="Hierarchical Grid" Category ="Printing" SourcePath="gridgroupingcontrol\Printing\Hierarchical Grid Demo" ImagePath="gridgroupingcontrol\Printing\Hierarchical Grid Demo\Images\HierarchicalGridDemo.png"/>
+    
+    <Sample Name="Excel Exporting" Category ="Exporting"  SourcePath="gridgroupingcontrol\Exporting\Excel Exporting Demo" ImagePath="gridgroupingcontrol\Exporting\Excel Exporting Demo\Images\ExcelExporting.png"/>
+    <Sample Name="PDF Export" Category ="Exporting" SourcePath="gridgroupingcontrol\Exporting\PDF Export Demo" ImagePath="gridgroupingcontrol\Exporting\PDF Export Demo\Images\PDFExportDemo.png"/>
+    <Sample Name="Word Converter" Category ="Exporting" SourcePath="gridgroupingcontrol\Exporting\Word Converter Demo" ImagePath="gridgroupingcontrol\Exporting\Word Converter Demo\Images\WordConverterDemo.png"/>
+    
+    <Sample Name="Localization" Category ="Localization Samples" SourcePath="gridgroupingcontrol\Localization Samples\Localization Demo" ImagePath="gridgroupingcontrol\Localization Samples\Localization Demo\Images\LocalizationDemo.png"/>	
+    <Sample Name="Enum Localization" Category ="Localization Samples" SourcePath="gridgroupingcontrol\Localization Samples\Enum Localization Demo" ImagePath="gridgroupingcontrol\Localization Samples\Enum Localization Demo\Images\EnumLocalizationDemo.png"/>
+      
+    <Sample Name="Zooming" Category ="Zooming" SourcePath="gridgroupingcontrol\Zooming\Zooming Demo" ImagePath="gridgroupingcontrol\Zooming\Zooming Demo\Images\ZoomingDemo.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Grid List Control" Category="Grids" EnableSecondLevel="False">
+    <Sample Name="Getting Started" SourcePath="gridcontrol\Grid List Control\Getting Started" ImagePath="gridcontrol\Grid List Control\Getting Started\Images\GettingStarted.png" IsNETCoreSupported="True"/>
+    <Sample Name="Customization" SourcePath="gridcontrol\Grid List Control\Customization Demo" ImagePath="gridcontrol\Grid List Control\Customization Demo\Images\CustomizationDemo.png"/>
+    <Sample Name="Drop-Down Grid" SourcePath="gridcontrol\Grid List Control\Drop-Down Grid Demo" ImagePath="gridcontrol\Grid List Control\Drop-Down Grid Demo\Images\Drop-DownGridDemo.png"/>
+  </Product>
+	
+  <Product Name="Pivot Grid" Category="Grids" EnableSecondLevel="True">
+		<Sample Name="Getting Started" Category="Getting Started" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Getting Started\Getting Started Demo" 
+				ImagePath="pivotgrid\Getting Started\Getting Started Demo\Images\PivotGridDemo.png"/>
+		<Sample Name="Customization" Category="Product Showcase" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Product Showcase\Customization Demo" 
+				ImagePath="pivotgrid\Product Showcase\Customization Demo\Images\PivotalChartDemo.png"/>
+	    <Sample Name="Field Caption" Category="Product Showcase" SourcePath="pivotgrid\Product Showcase\Field Caption" IsNETCoreSupported="True"
+				ImagePath="pivotgrid\Product Showcase\Field Caption\Images\FieldCaption.png"/>
+		<Sample Name="RowPivotsOnly" Category="Product Showcase" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Product Showcase\RowPivotsOnly Demo" 
+				ImagePath="pivotgrid\Product Showcase\RowPivotsOnly Demo\Images\Capture.png"/>		
+		<Sample Name="Asynchronous Data Loading" Category="Product Showcase" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Product Showcase\Asynchronous Data Demo" 
+				ImagePath="pivotgrid\Product Showcase\Asynchronous Data Demo\Images\asynload.png"/>
+		<Sample Name="Pivotal Chart" Category="Product Showcase" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Product Showcase\Pivotal Chart Demo" 
+				ImagePath="pivotgrid\Product Showcase\Pivotal Chart Demo\Images\PivotalChartDemo.png"/>
+		<Sample Name="Cell Selection" Category="Selection" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Selection\Cell Selection Demo" 
+				ImagePath="pivotgrid\Selection\Cell Selection Demo\Images\CellSelectionDemo.png"/>				
+		<Sample Name="Conditional Formatting" Category="Appearance" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Appearance\Conditional Formatting Demo" 
+				ImagePath="pivotgrid\Appearance\Conditional Formatting Demo\Images\ConditionalFormatDemo.png"/>
+		<Sample Name="Hyperlink Cell" Category="Appearance" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Appearance\Hyperlink Cell Demo" 
+				ImagePath="pivotgrid\Appearance\Hyperlink Cell Demo\Images\HyperlinkCellDemo.png"/>
+		<Sample Name="Visual Styles" Category="Appearance" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Appearance\Visual Styles Demo" 
+				ImagePath="pivotgrid\Appearance\Visual Styles Demo\Images\VisualStyleDemo.png"/>		
+		<Sample Name="Tooltip" Category="Appearance" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Appearance\ToolTip Demo" 
+				ImagePath="pivotgrid\Appearance\ToolTip Demo\Images\ToolTipDemo.png"/>
+		<Sample Name="Group Bar" Category="Group Bar" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Group Bar\Group Bar Demo" 
+				ImagePath="pivotgrid\Group Bar\Group Bar Demo\Images\GroupingBarDemo.png"/>
+		<Sample Name="Editing" Category="Interactive Features" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Interactive Features\Editing Demo" 
+				ImagePath="pivotgrid\Interactive Features\Editing Demo\Images\EditingDemo.png"/>
+		<Sample Name="Updating" Category="Interactive Features" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Interactive Features\Updating Demo" 
+				ImagePath="pivotgrid\Interactive Features\Updating Demo\Images\UpdatingDemo.png"/>
+		<Sample Name="Serialization" Category="Serialization" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Serialization\Serialization Demo" 
+				ImagePath="pivotgrid\Serialization\Serialization Demo\Images\Serialization.png"/>		
+		<Sample Name="Exporting" Category="Exporting" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Exporting\Exporting Demo" 
+				ImagePath="pivotgrid\Exporting\Exporting Demo\Images\ExportDemo.png"/>			
+		<Sample Name="Printing" Category="Printing" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Printing\Printing Demo" 
+				ImagePath="pivotgrid\Printing\Printing Demo\Images\PivotPrintDemo.png"/>
+		<Sample Name="Localization" Category="Localization" IsNETCoreSupported="True"
+				SourcePath="pivotgrid\Localization\Localization using Satellite Assemblies" 
+				ImagePath="pivotgrid\Localization\Localization using Satellite Assemblies\Images\LocalizationDemo.png"/>	
+	</Product>
+
+<!--End of Region Grids-->
+
+<!--Region Data Visualization-->
+  <Product Name="Chart" Category="Data Visualization" EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category="Getting Started" SourcePath="chart\Getting Started" IsNETCoreSupported="True" ImagePath="chart\Images\GettingStarted.png"/>
+
+    <Sample Name="Line" Category="Series Types" SourcePath="chart\Chart Types\Line Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Line.png"/>
+    <Sample Name="Area" Category="Series Types" SourcePath="chart\Chart Types\Area Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Area.png"/>
+    <Sample Name="Column" Category="Series Types" SourcePath="chart\Chart Types\Column Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Column.png"/>
+    <Sample Name="Bar" Category="Series Types" SourcePath="chart\Chart Types\Bar Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Bar.png"/>
+    <Sample Name="Financial Series" Category="Series Types" SourcePath="chart\Chart Types\Financial Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Financial.png"/>
+    <Sample Name="Pie" Category="Series Types" SourcePath="chart\Chart Types\Pie Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Pie.png"/>
+    <Sample Name="Pyramid and Funnel" Category="Series Types" SourcePath="chart\Chart Types\Pyramid and Funnel Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Funnel.png"/>
+    <Sample Name="Polar and Radar" Category="Series Types" SourcePath="chart\Chart Types\Polar and Radar Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Polar.png"/>
+    <Sample Name="Bubble and Scatter" Category="Series Types" SourcePath="chart\Chart Types\Bubble and Scatter Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Bubble.png"/>
+    <Sample Name="Gantt" Category="Series Types" SourcePath="chart\Chart Types\Gantt Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Gantt.png"/>
+    <Sample Name="Heatmap" Category="Series Types" SourcePath="chart\Chart Types\Heat Map Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Heat.png"/>
+    <Sample Name="Histogram" Category="Series Types" SourcePath="chart\Chart Types\Histogram Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Histogram.png"/>
+    <Sample Name="Tornado" Category="Series Types" SourcePath="chart\Chart Types\Tornado Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Tornado.png"/>
+    <Sample Name="Range Area" Category="Series Types" SourcePath="chart\Chart Types\Range Area Chart" IsNETCoreSupported="True" ImagePath="chart\Images\RangeArea.png"/>
+    <Sample Name="Box and Whisker" Category="Series Types" SourcePath="chart\Chart Types\Box-and-Whisker Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Box.png"/>
+    <Sample Name="Error Bar" Category="Series Types" SourcePath="chart\Chart Types\Error Bar Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Error Bar.png"/>
+    <Sample Name="Stacked 100" Category="Series Types" SourcePath="chart\Chart Types\Stacked 100 Charts" IsNETCoreSupported="True" ImagePath="chart\Images\Stacked.png"/>
+    <Sample Name="Stock and Volume" Category="Series Types" SourcePath="chart\Chart Types\Stock-and-Volume Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Stock.png"/>
+    <Sample Name="Combination of Series" Category="Series Types" SourcePath="chart\Chart Types\Combination Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Combination.png"/>
+    <Sample Name="Multiple Pie" Category="Series Types" SourcePath="chart\Custom Charts\Multiple Pie Chart" IsNETCoreSupported="True" ImagePath="chart\Images\MultiplePie.png"/>
+    <Sample Name="Pareto" Category="Series Types" SourcePath="chart\Custom Charts\Pareto Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Pareto.png"/>
+
+    <Sample Name="Categorical Axis" Category="Chart Axes"  SourcePath="chart\Chart Axes\Categorical Axis" IsNETCoreSupported="True" ImagePath="chart\Images\Category.png"/>
+    <Sample Name="DateTime Axis" Category="Chart Axes" SourcePath="chart\Date Time Chart\Chart Label Hierarchy" IsNETCoreSupported="True" ImagePath="chart\Images\Hierarchy.png"/>
+    <Sample Name="Multiple Axes" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Multiple Axes" IsNETCoreSupported="True" ImagePath="chart\Images\multipleAxes.png"/>
+    <Sample Name="Multiple Axes Layout" Category="Chart Axes" SourcePath="chart\Chart Axes\Multiple Axes Layout" IsNETCoreSupported="True" ImagePath="chart\Images\axisLayout.png"/>
+    <Sample Name="Custom Axis Origin" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Custom Axis Origin" IsNETCoreSupported="True" ImagePath="chart\Images\Origin.png"/>
+    <Sample Name="Axis Crossing" Category="Chart Axes" SourcePath="chart\Chart Axes\Axis Crossing" IsNETCoreSupported="True" ImagePath="chart\Images\Crossing.png"/>
+    <Sample Name="Axis Breaks" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Breaks" IsNETCoreSupported="True" ImagePath="chart\Images\Break.png"/>
+    <Sample Name="Axis Customization" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Axis Customization" IsNETCoreSupported="True" ImagePath="chart\Images\Customization.png"/>
+	  <Sample Name="Multi-level Labels" Category="Chart Axes" SourcePath="chart\Chart Axes\Multi Level Labels" IsNETCoreSupported="True" ImagePath="chart\Images\Multi-level.png"/>
+    <Sample Name="Label Customization" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Labels Customization" IsNETCoreSupported="True" ImagePath="chart\Images\labelCustomization.png"/>
+    <Sample Name="Label Position" Category="Chart Axes" SourcePath="chart\Chart Axes\Axes Label Position" IsNETCoreSupported="True" ImagePath="chart\Images\AxisLabel.png"/>
+    <Sample Name="Label Formatting" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Grouping Labels" IsNETCoreSupported="True" ImagePath="chart\Images\Labels.png"/>
+    <Sample Name="Tick Mark Customization" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Tick Marks" IsNETCoreSupported="True" ImagePath="chart\Images\Marks.png"/>
+    <Sample Name="Striplines" Category="Chart Axes" SourcePath="chart\Chart Axes\Chart Strip Line" IsNETCoreSupported="True" ImagePath="chart\Images\stripLine.png"/>
+
+    <Sample Name="Legend" Category="Legend" SourcePath="chart\Chart Title and Legends\Chart Legend" IsNETCoreSupported="True" ImagePath="chart\Images\Legend.png"/>
+    <Sample Name="Custom Legends" Category="Legend" SourcePath="chart\Chart Title and Legends\Multiple Chart Legends" IsNETCoreSupported="True" ImagePath="chart\Images\MultiLegend.png"/>
+
+    <Sample Name="Appearance" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Appearance" IsNETCoreSupported="True" ImagePath="chart\Images\Appearance.png"/>
+    <Sample Name="Borders" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Borders" IsNETCoreSupported="True" ImagePath="chart\Images\Borders.png"/>
+    <Sample Name="Skins" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Skins" IsNETCoreSupported="True" ImagePath="chart\Images\Skins.png"/>
+    <Sample Name="Loading from Template" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Template" IsNETCoreSupported="True" ImagePath="chart\Images\Template.png"/>
+    <Sample Name="Watermark" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Watermark" IsNETCoreSupported="True" ImagePath="chart\Images\Watermark.png"/>
+    <Sample Name="Interlaced Grid" Category="Chart Customization" SourcePath="chart\Chart Appearance\Interlaced Grid" IsNETCoreSupported="True" ImagePath="chart\Images\Grid.png"/>
+    <Sample Name="Custom Point Drawing" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Custom Drawing" IsNETCoreSupported="True" ImagePath="chart\Images\Custom.png"/>
+    <Sample Name="Dividing Chart Area" Category="Chart Customization" SourcePath="chart\Chart Appearance\Chart Divide Area" IsNETCoreSupported="True" ImagePath="chart\Images\Divide.png"/>
+    <Sample Name="Title Customization" Category="Chart Customization" SourcePath="chart\Chart Title and Legends\Multiple Chart Titles" IsNETCoreSupported="True" ImagePath="chart\Images\multiTitle.png"/>
+
+    <Sample Name="Smart Labels" Category="Series Customization" SourcePath="chart\Chart Styles\Chart Smart Labels" IsNETCoreSupported="True" ImagePath="chart\Images\smartLabels.png"/>
+    <Sample Name="Symbols" Category="Series Customization" SourcePath="chart\Chart Series\Chart Symbols" IsNETCoreSupported="True" ImagePath="chart\Images\Symbol.png"/>
+    <Sample Name="Trendlines" Category="Series Customization" SourcePath="chart\Chart Series\Chart Trendline" IsNETCoreSupported="True" ImagePath="chart\Images\Trendline.png"/>
+    <Sample Name="Custom Points" Category="Series Customization" SourcePath="chart\Chart Series\Chart Custom Points" IsNETCoreSupported="True" ImagePath="chart\Images\customPoint.png"/>
+    <Sample Name="Styles Customization" Category="Series Customization" SourcePath="chart\Chart Styles\Chart Styles Customization" IsNETCoreSupported="True" ImagePath="chart\Images\styleCustomization.png"/>
+    <Sample Name="Custom Series Model" Category="Series Customization" SourcePath="chart\Chart Series\Chart Series Model" IsNETCoreSupported="True" ImagePath="chart\Images\model.png"/>
+    <Sample Name="Point Collection Methods" Category="Series Customization" SourcePath="chart\Chart Series\Chart Point Collection Methods" IsNETCoreSupported="True" ImagePath="chart\Images\Collection.png"/>
+
+    <Sample Name="Data from DataSet" Category="Data Binding" SourcePath="chart\Date Time Chart\Dates in DataSet" IsNETCoreSupported="True" ImagePath="chart\Images\Dataset.png"/>
+    <Sample Name="Binding Data to Axis Labels" Category="Data Binding" SourcePath="chart\Data Binding\Axis Label Binding" IsNETCoreSupported="True" ImagePath="chart\Images\labelBinding.png"/>
+    <Sample Name="Binding Data from Collection" Category="Data Binding" SourcePath="chart\Data Binding\Custom Collections" IsNETCoreSupported="True" ImagePath="chart\Images\CustomCollection.png"/>
+    <Sample Name="Huge Datasource" Category="Data Binding" SourcePath="chart\Data Binding\Chart with Huge DataSource" IsNETCoreSupported="True" ImagePath="chart\Images\DataSource.png"/>
+    <Sample Name="Multiple Charts with Huge Datasource" Category="Data Binding" SourcePath="chart\Data Binding\Huge Data in Multi-Chart" IsNETCoreSupported="True" ImagePath="chart\Images\Huge Data.png"/>
+    <Sample Name="Custom Data Binding Model" Category="Data Binding" SourcePath="chart\Data Binding\Filtered Data" IsNETCoreSupported="True" ImagePath="chart\Images\Filtered.png"/>
+   	<Sample Name="Filtered Data" Category="Data Binding" SourcePath="chart\Data Binding\Chart Grouping" IsNETCoreSupported="True" ImagePath="chart\Images\Grouping.png"/>
+
+    <Sample Name="Zooming and Scrolling" Category="User Interaction"  SourcePath="chart\Zoom and Scrolling" IsNETCoreSupported="True" ImagePath="chart\Images\zoom.png"/>
+    <Sample Name="Trackball" Category="User Interaction" SourcePath="chart\User Interaction\Chart Trackball" IsNETCoreSupported="True" ImagePath="chart\Images\trackball.png"/>
+	  <Sample Name="Crosshair" Category="User Interaction" SourcePath="chart\User Interaction\Chart Crosshair" IsNETCoreSupported="True" ImagePath="chart\Images\trackball.png"/>
+	  <Sample Name="Interactive Cursor" Category="User Interaction" SourcePath="chart\User Interaction\Chart Interactive Cursor" IsNETCoreSupported="True" ImagePath="chart\Images\interactive.png"/>
+    <Sample Name="Auto Highlight" Category="User Interaction" SourcePath="chart\User Interaction\Chart Auto Highlight" IsNETCoreSupported="True" ImagePath="chart\Images\highlight.png"/>
+    <Sample Name="Series Highlight" Category="User Interaction" SourcePath="chart\User Interaction\Chart Series Highlight" IsNETCoreSupported="True" ImagePath="chart\Images\seriesHighlight.png"/>
+    <Sample Name="Toolbar" Category="User Interaction" SourcePath="chart\User Interaction\Chart Toolbar" IsNETCoreSupported="True" ImagePath="chart\Images\toolbar.png"/>
+    <Sample Name="Callout Labels" Category="User Interaction" SourcePath="chart\User Interaction\Chart Callout" IsNETCoreSupported="True" ImagePath="chart\Images\Callout.png"/>
+    <Sample Name="Tooltip" Category="User Interaction" SourcePath="chart\User Interaction\Chart ToolTips" IsNETCoreSupported="True" ImagePath="chart\Images\FancyTooltips.png"/>
+    <Sample Name="Axis Label Tooltip" Category="User Interaction" SourcePath="chart\User Interaction\ChartAxisLabel Tooltip" IsNETCoreSupported="True" ImagePath="chart\Images\axisTooltip.png"/>
+    <Sample Name="Region Events" Category="User Interaction" SourcePath="chart\User Interaction\Chart Region Events" IsNETCoreSupported="True" ImagePath="chart\Images\events.png"/>
+    <Sample Name="Drilldown" Category="User Interaction" SourcePath="chart\User Interaction\Chart Drill Down" IsNETCoreSupported="True" ImagePath="chart\Images\drill.png"/>
+    <Sample Name="Drag and Drop" Category="User Interaction" SourcePath="chart\User Interaction\Chart Drag and Drop" IsNETCoreSupported="True" ImagePath="chart\Images\Drag.png"/>
+    <Sample Name="Point Methods" Category="User Interaction" SourcePath="chart\User Interaction\Chart Point" IsNETCoreSupported="True" ImagePath="chart\Images\point.png"/>
+    <Sample Name="Serialization" Category="User Interaction" SourcePath="chart\User Interaction\ChartSerialization" IsNETCoreSupported="True" ImagePath="chart\Images\Serialization.png"/>
+
+    <Sample Name="From Database" Category="Importing Data" SourcePath="chart\Import\Data from Database" IsNETCoreSupported="True" ImagePath="chart\Images\DataSource.png"/>
+    <Sample Name="From Excel" Category="Importing Data" SourcePath="chart\Import\Data from Excel" IsNETCoreSupported="True" ImagePath="chart\Images\Excel.png"/>
+    <Sample Name="From XML" Category="Importing Data" SourcePath="chart\Import\Data from XML" IsNETCoreSupported="True" ImagePath="chart\Images\XML.png"/>
+    <Sample Name="From CSV" Category="Importing Data" SourcePath="chart\Import\Data from CSV" IsNETCoreSupported="True" ImagePath="chart\Images\CSV.png"/>
+    <Sample Name="From Custom Model" Category="Importing Data" SourcePath="chart\Import\Data from an Indexed Model" IsNETCoreSupported="True" ImagePath="chart\Images\Indexed.png"/>
+    <Sample Name="From Array" Category="Importing Data" SourcePath="chart\Import\Data from an Array" IsNETCoreSupported="True" ImagePath="chart\Images\Array.png"/>
+
+    <Sample Name="Exporting" Category="Exporting and Printing" SourcePath="chart\Chart Export Data" IsNETCoreSupported="True" ImagePath="chart\Images\Export.png"/>
+    <Sample Name="Printing" Category="Exporting and Printing" SourcePath="chart\Print\Chart Print" IsNETCoreSupported="True" ImagePath="chart\Images\Print.png"/>
+    <Sample Name="Printing in Multiple Pages" Category="Exporting and Printing" SourcePath="chart\Print\MultiPage Printing" IsNETCoreSupported="True" ImagePath="chart\Images\MultiPage.png"/>
+
+    <Sample Name="Localization" Category="Localization and RTL" SourcePath="chart\Culture Localization" IsNETCoreSupported="True" ImagePath="chart\Images\Localization.png"/>
+    <Sample Name="Right-to-Left Support" Category="Localization and RTL" SourcePath="chart\Chart Styles\Right-to-Left Support" IsNETCoreSupported="True" ImagePath="chart\Images\Right-To-Left.png"/>
+
+    <Sample Name="Real Time Scenario" Category="Real Time Charts" SourcePath="chart\Real Time\Chart Real Time" IsNETCoreSupported="True" ImagePath="chart\Images\RealTime.png"/>
+    <Sample Name="Real Time Scenario using Thread" Category="Real Time Charts" SourcePath="chart\Real Time\Chart RealTime With Thread" IsNETCoreSupported="True" ImagePath="chart\Images\Thread.png"/>
+    <Sample Name="Recorder Application" Category="Real Time Charts" SourcePath="chart\Real Time\Chart Recorder" IsNETCoreSupported="True" ImagePath="chart\Images\Recorder.png"/>
+
+    <Sample Name="Statistical Formulas" Category="Statistical Analytics" SourcePath="chart\Statistical Analysis\Chart Statistical Formulas" IsNETCoreSupported="True" ImagePath="chart\Images\statistical.png"/>
+    <Sample Name="Utility Functions" Category="Statistical Analytics" SourcePath="chart\Statistical Analysis\Chart Utility Functions" IsNETCoreSupported="True" ImagePath="chart\Images\Utility.png"/>
+
+    <Sample Name="Embedding Custom Control" Category="Embedding Custom Control" SourcePath="chart\Embed Custom Control" IsNETCoreSupported="True" ImagePath="chart\Images\Embed.png"/>
+  </Product>
+  
+  <Product Name="Barcode" Category="Data Visualization" EnableSecondLevel="True" >
+    <Sample Name="GettingStarted" Category="GettingStarted"  SourcePath="barcode\GettingStarted" ImagePath="barcode\images\barcode.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+  <Product Name="Bullet Graph" Category="Data Visualization" EnableSecondLevel="False" >  
+    <Sample Name="GettingStarted"  SourcePath="bulletgraph\GettingStartedDemo" ImagePath="bulletgraph\GettingStartedDemo\Images\GettingStarted.png" IsNETCoreSupported="True"/>
+	  <Sample Name="BulletGraphMeasures" SourcePath="bulletgraph\BulletGraphMeasuresDemo" ImagePath="bulletgraph\BulletGraphMeasuresDemo\Images\BulletGraphMeasures.png" IsNETCoreSupported="True"/>	
+  </Product>
+
+  <Product Name="Gauge" Category="Data Visualization" EnableSecondLevel="True">
+    <Sample Name="Health Tracker" Category ="Product Showcase" SourcePath="gauge\RadialGauge\HealthTracker" ImagePath="gauge\Images\GaugeInteraction.png" IsNETCoreSupported="True"/>
+    <Sample Name="Theme Customization" Category ="Product Showcase" SourcePath="gauge\Gauge Theme Demo" ImagePath="gauge\Images\GaugeTheme.png" IsNETCoreSupported="True"/>
+    <Sample Name="Getting Started" Category ="Radial Gauge" SourcePath="gauge\RadialGauge\RadialGauge" ImagePath="gauge\Images\RadialGaugeDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Frame Types" Category ="Radial Gauge" SourcePath="gauge\RadialGauge\RadialGauge Frames" ImagePath="gauge\Images\RadialGaugeFrameDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Half Circle Gauge" Category ="Radial Gauge" SourcePath="gauge\RadialGauge\HalfCircleGauge" ImagePath="gauge\Images\HalfCircleGauge.png" IsNETCoreSupported="True"/>
+    <Sample Name="Getting Started" Category ="Linear Gauge" SourcePath="gauge\LinearGauge\LinearGauge" ImagePath="gauge\Images\LinearGaugeDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Custom Renderer" Category ="Linear Gauge" SourcePath="gauge\LinearGauge\CustomRenderer" ImagePath="gauge\Images\CustomRenderer.png" IsNETCoreSupported="True"/>
+    <Sample Name="Getting Started" Category ="Digital Gauge" SourcePath="gauge\DigitalGauge\DigitalGauge" ImagePath="gauge\Images\DigitalGaugeDemo.png" IsNETCoreSupported="True"/>
+  </Product>  
+
+  <Product Name="Map" Category="Data Visualization" EnableSecondLevel="False">    
+	  <Sample Name="GettingStarted" SourcePath="map\GettingStarted" ImagePath="map\Images\DataMarkers.png" IsNETCoreSupported="True"/>	
+    <Sample Name="HeatMap" SourcePath="map\HeatMap" ImagePath="map\Images\HeatMap.png" IsNETCoreSupported="True"/>
+	  <Sample Name="BubbleVisualization" SourcePath="map\BubbleVisualisation" ImagePath="map\Images\BubbleVisualization.png" IsNETCoreSupported="True"/>
+	  <Sample Name="MultiLayer" SourcePath="map\MultiLayer" ImagePath="map\Images\MultiLayer.png" IsNETCoreSupported="True"/>	
+    <Sample Name="ShapeSelection" SourcePath="map\ShapeSelection" ImagePath="map\Images\ShapeSelection.png" IsNETCoreSupported="True"/>	
+  </Product>
+ 
+  <Product Name="Pivot Chart" Category="Data Visualization" EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category="Getting Started" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Getting Started\Getting Started Demo" ImagePath="pivotchart\Getting Started\PivotChart Demo\Images\image.png"/>
+    <Sample Name="Chart Types" Category="Chart Types" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Chart Types\Chart Types Demo" ImagePath="pivotchart\Chart Types\PivotChartTypes Demo\Images\pivotcharttypes.png"/>
+    <Sample Name="Customization" Category="Appearance" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Appearance\Customization Demo" ImagePath="pivotchart\Appearance\PivotChartStyles Demo\Images\image.png"/>
+    <Sample Name="Visual Styles" Category="Appearance" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Appearance\Visual Styles Demo" ImagePath="pivotchart\Appearance\PivotChartStyles Demo\Images\image.png"/>
+    <Sample Name="Data Binding" Category="Data Binding" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Data Binding\Data Binding Demo" ImagePath="pivotchart\Data Binding\IEnumerable Demo\Images\image.png"/>
+    <Sample Name="Group Bar" Category="Group Bar" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Group Bar\Group Bar Demo" ImagePath="pivotchart\PivotChart Layout\Groupbar Demo\Images\image.png"/>
+    <Sample Name="Drill Down" Category="User Interaction" IsNETCoreSupported="True"
+            SourcePath="pivotchart\User Interaction\Drill Down Demo" ImagePath="pivotchart\PivotChart Layout\DrillDown Demo\Images\image.png"/>
+    <Sample Name="Zooming and Scrolling" Category="User Interaction" IsNETCoreSupported="True"
+            SourcePath="pivotchart\User Interaction\Zooming and Scrolling Demo" ImagePath="pivotchart\Zooming and Scrolling\Zooming and Scrolling\images\Zoomingandscrolling.png"/>
+    <Sample Name="Exporting" Category="Exporting" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Exporting\Exporting Demo" ImagePath="pivotchart\Exporting\PivotChartExport Demo\Images\pivotchartexport.png"/>
+    <Sample Name="Printing" Category="Printing" IsNETCoreSupported="True"
+            SourcePath="pivotchart\Printing\Printing Demo" ImagePath="pivotchart\Printing\PivotChartPrint Demo\images\image.png"/>
+  </Product>  
+ 
+  <Product Name="Smith Chart" Category="Data Visualization"  EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category ="Getting Started" SourcePath="smithchart\GettingStarted" ImagePath="smithchart\GettingStarted\Images\GettingStarted.png" IsNETCoreSupported="True" />
+    <Sample Name="Customization" Category ="Customization" SourcePath="smithchart\Customization" ImagePath="smithchart\Customization\Images\Customization.png" IsNETCoreSupported="True" />	
+  </Product>
+ 
+  <Product Name="Sparkline" Category="Data Visualization" EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category="Getting Started" SourcePath="chart\SparklineChart\SparklineTypes" ImagePath="chart\Images\sparklinetypes.png" IsNETCoreSupported="True" />
+    <Sample Name="Customization" Category="Customization" SourcePath="chart\SparklineChart\SparklineControl" ImagePath="chart\Images\sparkline.png" IsNETCoreSupported="True" />
+    <Sample Name="Sparkline with Grid" Category="Customization" SourcePath="chart\SparklineChart\SparklinesWithGrid" ImagePath="chart\Images\sparkgrid.png" IsNETCoreSupported="True" />
+  </Product>
+
+  <Product Name="TreeMap" Category="Data Visualization" EnableSecondLevel="False" >  
+    <Sample Name="GettingStarted" SourcePath="treemap\GettingStarted" ImagePath="treemap\Images\GettingStarted.png" IsNETCoreSupported="True"/>
+    <Sample Name="Color Mapping" SourcePath="treemap\ColorMapping" ImagePath="treemap\Images\ColorMapping.png" IsNETCoreSupported="True"/>
+	  <Sample Name="Customization" SourcePath="treemap\Customization" ImagePath="treemap\Images\Customization.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+  <Product Name="Skins" Category="Data Visualization" EnableSecondLevel="False">
+    <Sample Name="Getting Started" SourcePath="skinmanager" IsNETCoreSupported="True" ImagePath="Tools.Windows\Images\skinmanager.png"/>
+  </Product>
+   
+  
+<!--End of Region Data Visualization-->
+  
+<!--Region File Viewers and Editors-->
+
+  <!--Region Edit Control--> 
+
+    <Product Name="Syntax Editor" Category="File Viewers and Editors" EnableSecondLevel="True">
+      <Sample Name="Getting Started" IsNETCoreSupported="True" Category="Getting Started" SourcePath="edit\Product Showcase\VisualStudioDemo" ImagePath="edit\Images\VisualStudioDemo.png"/>
+      
+      <Sample Name="Syntax Coloring" IsNETCoreSupported="True" Category ="Syntax Highlighting" SourcePath="edit\Syntax Highlighting\Syntax Coloring" ImagePath="edit\Images\syntaxcoloring.png"/>
+      <Sample Name="Custom Language Configuration" IsNETCoreSupported="True" Category ="Syntax Highlighting" SourcePath="edit\Syntax Highlighting\Custom Config" ImagePath="edit\Images\customconfig.png"/>
+      <Sample Name="Intellisense" IsNETCoreSupported="True" Category ="Intellisense Functions" SourcePath="edit\Intellisense Functions\Advanced Intellisense" ImagePath="edit\Images\advintellisense.png"/>
+    
+      <Sample Name="Column Guides" IsNETCoreSupported="True" Category ="Interactive Features" SourcePath="edit\Interactive Features\Getting Started" ImagePath="edit\Images\gettingstarted.png"/>
+      <Sample Name="Edit Features" IsNETCoreSupported="True" Category ="Interactive Features" SourcePath="edit\Interactive Features\Edit Features" ImagePath="edit\Images\editfeatures.png"/>
+      <Sample Name="Find and Replace" IsNETCoreSupported="True" Category ="Interactive Features" SourcePath="edit\Interactive Features\Find and Replace" ImagePath="edit\Images\findreplace.png"/>
+      <Sample Name="Font Customization" IsNETCoreSupported="True" Category ="Interactive Features" SourcePath="edit\Interactive Features\Font Customization" ImagePath="edit\Images\fontcustomization.png"/>
+      <Sample Name="Status Bar" IsNETCoreSupported="True" Category ="Interactive Features" SourcePath="edit\Interactive Features\StatusBar" ImagePath="edit\Images\statusbar.png"/>
+      
+      <Sample Name="Text Interactions" IsNETCoreSupported="True" Category ="Interactive Features" SourcePath="edit\Interactive Features\TextInteractions" ImagePath="edit\Images\textinteraction.png"/>    
+      <Sample Name="Code Snippets" IsNETCoreSupported="True" Category ="Intellisense Functions" SourcePath="edit\Intellisense Functions\Code Snippets" ImagePath="edit\Images\codesnippets.png"/>
+      <Sample Name="Context Choices" IsNETCoreSupported="True" Category ="Intellisense Functions" SourcePath="edit\Intellisense Functions\Context Choices" ImagePath="edit\Images\contextchoice.png"/>
+      <Sample Name="Context Tooltip" IsNETCoreSupported="True" Category ="Intellisense Functions" SourcePath="edit\Intellisense Functions\Context Tooltip" ImagePath="edit\Images\contexttooltip.png"/>
+      <Sample Name="From XML" IsNETCoreSupported="True" Category ="Intellisense Functions" SourcePath="edit\Intellisense Functions\Intellisense from XML" ImagePath="edit\Images\xmlintellisense.png"/>
+      
+      <Sample Name="Gradient Background" IsNETCoreSupported="True" Category ="Appearance" SourcePath="edit\Styles\Gradient Background" ImagePath="edit\Images\gradientbg.png"/>
+      <Sample Name="Single Line Mode" IsNETCoreSupported="True" Category ="Appearance" SourcePath="edit\Styles\Single Line Mode" ImagePath="edit\Images\singlelinemode.png"/>
+      <Sample Name="Split Views" IsNETCoreSupported="True" Category ="Appearance" SourcePath="edit\Styles\Split Views" ImagePath="edit\Images\splitview.png"/>
+      <Sample Name="Themes" IsNETCoreSupported="True" Category ="Appearance" SourcePath="edit\Styles\Themes Support" ImagePath="edit\Images\themes.png"/>
+
+      <Sample Name="Localization" IsNETCoreSupported="True" Category="Localization" SourcePath="edit\Localization" ImagePath="edit\Images\Localization.png"/>
+      
+      <Sample Name="Indentation Guidelines" IsNETCoreSupported="True" Category ="Text Navigation" SourcePath="edit\Text Navigation\Indentation Guidelines" ImagePath="edit\Images\indentation.png"/>
+      <Sample Name="Positions and Offsets" IsNETCoreSupported="True" Category ="Text Navigation" SourcePath="edit\Text Navigation\Positions and Offsets" ImagePath="edit\Images\positionoffset.png"/>
+      <Sample Name="Text Navigation" IsNETCoreSupported="True" Category ="Text Navigation" SourcePath="edit\Text Navigation\Text Navigation" ImagePath="edit\Images\textnavigation.png"/>
+    
+      <Sample Name="Interactive Operations" IsNETCoreSupported="True" Category ="Text Operations" SourcePath="edit\Text Operations\Interactive operations" ImagePath="edit\Images\interactiveoperations.png"/>
+      <Sample Name="ClipBoard Operations" IsNETCoreSupported="True" Category ="Text Operations" SourcePath="edit\Text Operations\Clipboard Operations" ImagePath="edit\Images\clipboardoperations.png"/>
+      <Sample Name="Unicode" IsNETCoreSupported="True" Category ="Text Operations" SourcePath="edit\Text Operations\Unicode" ImagePath="edit\Images\unicodedemo.png"/>
+      <Sample Name="Word Wrap" IsNETCoreSupported="True" Category ="Text Operations" SourcePath="edit\Text Operations\Word Wrap" ImagePath="edit\Images\wordwrap.png"/>
+
+      <Sample Name="Printing" IsNETCoreSupported="True" Category ="Printing" SourcePath="edit\Printing\Print" ImagePath="edit\Images\printing.png"/>
+      <Sample Name="Export" IsNETCoreSupported="True" Category ="Export" SourcePath="edit\Export\Export" ImagePath="edit\Images\exportdemo.png"/>
+  
+    </Product>
+
+  <!--End of Region EditControl-->
+  
+  <!--Region HTML-->
+  <Product Name="HTML Viewer" Category="File Viewers and Editors" EnableSecondLevel="True">
+    <Sample Name="Load From Disk" Category ="Getting Started" SourcePath="htmlui\Getting Started\Load From Disk" ImagePath="htmlui\Images\loaddisk.png" IsNETCoreSupported="True"/>
+    <Sample Name="Load From Resources" Category ="Getting Started" SourcePath="htmlui\Getting Started\Load From Resources" ImagePath="htmlui\Images\loadresources.png" IsNETCoreSupported="True"/>
+    <Sample Name="File Links" Category ="Getting Started" SourcePath="htmlui\Getting Started\File Links" ImagePath="htmlui\Images\filelinks.png" IsNETCoreSupported="True"/>
+    <Sample Name="Startup Document" Category ="Getting Started" SourcePath="htmlui\Getting Started\Startup Document" ImagePath="htmlui\Images\startupdoc.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="Background" Category ="Appearance" SourcePath="htmlui\Appearance\Background" ImagePath="htmlui\Images\background.png" IsNETCoreSupported="True"/>
+    <Sample Name="Element CSS" Category ="Appearance" SourcePath="htmlui\Appearance\Element CSS" ImagePath="htmlui\Images\elementcss.png" IsNETCoreSupported="True"/>
+    <Sample Name="HTML CSS" Category ="Appearance" SourcePath="htmlui\Appearance\HTML CSS" ImagePath="htmlui\Images\htmlcss.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Bookmarks" Category ="HTML Tags" SourcePath="htmlui\HTML Tags\Bookmarks" ImagePath="htmlui\Images\bookmarks.png" IsNETCoreSupported="True"/>
+    <Sample Name="Tables" Category ="HTML Tags" SourcePath="htmlui\HTML Tags\Tables" ImagePath="htmlui\Images\tables.png" IsNETCoreSupported="True"/>
+    <Sample Name="Tags Overview" Category ="HTML Tags" SourcePath="htmlui\HTML Tags\Tags Overview" ImagePath="htmlui\Images\tagsoverview.png" IsNETCoreSupported="True"/>
+    
+    <Sample Name="HTMLUI Chat" Category ="HTML Layout" SourcePath="htmlui\HTML Layout\HTMLUI Chat" ImagePath="htmlui\Images\htmlchat.png" IsNETCoreSupported="True"/>
+    <Sample Name="HTMLUI Dialog" Category ="HTML Layout" SourcePath="htmlui\HTML Layout\HTMLUI Dialog" ImagePath="htmlui\Images\htmldialog.png" IsNETCoreSupported="True"/>
+    <Sample Name="SlideShow" Category ="HTML Layout" SourcePath="htmlui\HTML Layout\Slide Show" ImagePath="htmlui\Images\slideshow.png" IsNETCoreSupported="True"/>
+    <Sample Name="Tic Tac Toe" Category ="HTML Layout" SourcePath="htmlui\HTML Layout\Tic Tac Toe" ImagePath="htmlui\Images\tictactoe.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="HTML UI Editor" Category ="HTML Renderer" SourcePath="htmlui\HTML Renderer\HTMLUI Editor" ImagePath="htmlui\Images\htmleditor.png" IsNETCoreSupported="True"/>
+    <Sample Name="HTML UI Explorer" Category ="HTML Explorer" SourcePath="htmlui\HTML Renderer\HTMLUI Explorer" ImagePath="htmlui\Images\htmlexplorer.png" IsNETCoreSupported="True"/>
+    <Sample Name="Scripting" Category ="Scripting" SourcePath="htmlui\HTML Renderer\Scripting" ImagePath="htmlui\Images\scripting.png" IsNETCoreSupported="True"/>
+    <Sample Name="XSL Transform" Category ="XSL Transform" SourcePath="htmlui\HTML Renderer\XSL Transform" ImagePath="htmlui\Images\xsltransform.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="CSS Binding" Category ="Data Binding" SourcePath="htmlui\Data Binding\CSS Binding" ImagePath="htmlui\Images\cssbinding.png" />
+
+    <Sample Name="Bubbling Events" Category ="Events" SourcePath="htmlui\Events\Bubbling Events" ImagePath="htmlui\Images\bubblingevents.png" IsNETCoreSupported="True"/>
+    <Sample Name="Control Events" Category ="Events" SourcePath="htmlui\Events\Control Events" ImagePath="htmlui\Images\controlevents.png" IsNETCoreSupported="True"/>
+    <Sample Name="Element Events" Category ="Events" SourcePath="htmlui\Events\Element Events" ImagePath="htmlui\Images\elementevents.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Controls Creation" Category ="Custom Controls" SourcePath="htmlui\Custom Controls\Controls Creation" ImagePath="htmlui\Images\controlcreation.png" IsNETCoreSupported="True"/>
+    <Sample Name="Custom Controls" Category ="Custom Controls" SourcePath="htmlui\Custom Controls\Custom Controls" ImagePath="htmlui\Images\customcontrols.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Element Coordinates" Category ="Format HTML" SourcePath="htmlui\Format HTML\Element Coordinates" ImagePath="htmlui\Images\elementcoord.png" IsNETCoreSupported="True"/>
+    <Sample Name="Formatting" Category ="Format HTML" SourcePath="htmlui\Format HTML\Formatting" ImagePath="htmlui\Images\formattingdemo.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Text Selection" Category ="User Interaction" SourcePath="htmlui\User Interaction\Text Selection" ImagePath="htmlui\Images\textselection.png" IsNETCoreSupported="True"/>
+    <Sample Name="Scrollbars" Category ="User Interaction" SourcePath="htmlui\User Interaction\Scroll bars" ImagePath="htmlui\Images\scrollbars.png" />
+    <Sample Name="Keyboard" Category ="User Interaction" SourcePath="htmlui\User Interaction\Keyboard" ImagePath="htmlui\Images\keyboard.png" IsNETCoreSupported="True"/>
+
+    <Sample Name="Export" Category ="Export" SourcePath="htmlui\Export\Export" ImagePath="htmlui\Images\exportdemo.png" IsNETCoreSupported="True"/>
+  </Product>
+  <!--End of Region HTML-->
+
+<!--End of Region File Viewers and Editors--> 
+  
+<!--Region Navigation-->
+   
+  <Product Name="Ribbon" Category="Navigation" EnableSecondLevel="True">
+    <Sample Name="Windows Explorer" IsNETCoreSupported="True" Category="Product Showcase" SourcePath="ribbon\WindowsExplorer" ImagePath="ribbon\WindowsExplorer\Images\Explorer.png"/>
+    <Sample Name="Getting Started" IsNETCoreSupported="True" Category="Getting Started" SourcePath="ribbon\Getting Started" ImagePath="ribbon\Getting Started\Images\Office2016.png"/>
+    <Sample Name="Simplified Ribbon" IsNETCoreSupported="True" Category="Getting Started" SourcePath="ribbon\Simplified Ribbon" ImagePath="ribbon\Simplified Ribbon\Images\SimplifiedRibbon.png"/>
+    <Sample Name="Menu Merging" IsNETCoreSupported="True" Category="Merging" SourcePath="ribbon\RibbonMerge" ImagePath="ribbon\RibbonMerge\Images\ribbonmerge.png"/>
+    <Sample Name="Visual Styles" IsNETCoreSupported="True" Category="Customization" SourcePath="ribbon\RibbonControlAdv" ImagePath="ribbon\RibbonControlAdv\Images\ribboncontroladvdemo.png"/>
+    <Sample Name="Customization" IsNETCoreSupported="True" Category="Customization" SourcePath="ribbon\Customization" ImagePath="ribbon\Customization\Images\ribbonmerge.png"/>
+    <Sample Name="Serialization" IsNETCoreSupported="True" Category="Serialization" SourcePath="ribbon\Serialization" ImagePath="ribbon\Serialization\Images\serialization.png"/>
+    <Sample Name="Localization" IsNETCoreSupported="True" Category="Localization" SourcePath="ribbon\RibbonLocalization" ImagePath="ribbon\RibbonLocalization\Images\ribbonfeatures.png"/>
+  </Product>
+   
+  <Product Name="Tab Control" Category="Navigation" EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category="Tab Control" SourcePath="navigation\TabControl\Getting Started" ImagePath="navigation\Images\gettingstarted.png" IsNETCoreSupported="True"/>
+    <Sample Name="Tab Alignment" Category="Tab Control" IsUpdated="False" SourcePath="navigation\TabControl\Tab Alignment" ImagePath="navigation\Images\TabAlignment.png" IsNETCoreSupported="True"/>
+    <Sample Name="Getting Started" Category="Tabbed MDI Manager"  SourcePath="navigation\TabbedMDI Manager\Tabbed MDI" ImagePath="navigation\Images\tabbedmdidemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Getting Started" Category="Tab Splitter Container" SourcePath="navigation\TabControl\VS2008 splitter" ImagePath="navigation\Images\VS2008splitter.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Menu" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="menu\Getting Started" ImagePath="menu\Images\GettingStarted.png"/>
+    <Sample Name="Customization" IsNETCoreSupported="True" SourcePath="menu\Customization" ImagePath="menu\Images\Customizations.png"/>
+	  <Sample Name="MDI Merge" IsNETCoreSupported="False" SourcePath="menu\MDI Merge" ImagePath="menu\Images\MDIMerge.png"/>
+	  <Sample Name="Localization" IsNETCoreSupported="True" SourcePath="menu\Localization" ImagePath="menu\Images\Localization.png"/>
+  </Product>
+   
+  <Product Name="ContextMenuStrip" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="contextmenustripext\Getting Started" ImagePath="contextmenustripext\Images\contextmenu.png"/>
+    <Sample Name="Customization" IsNETCoreSupported="True" SourcePath="contextmenustripext\Customization" ImagePath="contextmenustripext\Images\customcontextmenu.png"/>
+  </Product>
+  
+  <Product Name="Popup Menu" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="popupmenu\Getting Started" ImagePath="popupmenu\Images\PopupMenu.png"/>
+  </Product>
+  
+  <Product Name="Container Controls" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Excel-like Tabbar Splitter" SourcePath="containercontrols\TabBarSplitter" ImagePath="containercontrols\Images\tabbarsplitterdemo.png"/>
+    <Sample Name="Popup Container" IsNETCoreSupported="True" SourcePath="containercontrols\PopupContainer" ImagePath="containercontrols\Images\PopupContainer.png"/>
+  </Product>
+   
+  <Product Name="Navigation Drawer" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="navigation\NavigationDrawer" ImagePath="navigation\NavigationDrawer\Images\NavigationDrawer.png"/>
+  </Product>
+
+  <Product Name="Radial Menu" Category="Navigation" EnableSecondLevel="True" IsUpdated="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" IsUpdated="False" Category="Getting Started" SourcePath="radialmenu\GettingStarted" ImagePath="radialmenu\Images\radialmenu.png" />
+    <Sample Name="Appearance" IsNETCoreSupported="True" Category="Appearance" SourcePath="radialmenu\Appearance" ImagePath="radialmenu\Images\radialmenu.png" />
+    <Sample Name="Customization" IsNETCoreSupported="False" Category="Appearance" SourcePath="radialmenu\Customization" ImagePath="radialmenu\Images\radialmenu.png" />
+  </Product>
+
+  <Product Name="Scroll Frame" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" SourcePath="navigation\SfScrollFrame\GettingStarted" IsNETCoreSupported="True" ImagePath="SfScrollFrame\GettingStarted\Images\sfScrollFrame.png"/>
+  </Product>
+  
+  <Product Name="ToolBar" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="toolbars\Toolbars" ImagePath="toolbars\Images\toolbars.png"/>
+    <Sample Name="Control Bar" IsNETCoreSupported="True" SourcePath="toolbars\Control Bar" ImagePath="toolbars\Images\ControlBar.png"/>
+    <Sample Name="Command Bars" IsNETCoreSupported="True" SourcePath="toolbars\Command Bars" ImagePath="toolbars\Images\commandbars.png"/>
+  </Product>
+  
+  <Product Name="Tree Navigator" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="navigation\TreeNavigator" ImagePath="navigation\TreeNavigator\Images\treenavigator.png"/>
+  </Product>
+   
+  <Product Name="TreeView" Category="Navigation" EnableSecondLevel="True" IsUpdated="False" >
+    <Sample Name="Getting Started" IsNETCoreSupported="True" IsUpdated="false" Category ="Getting Started" SourcePath="treeview\Getting Started" ImagePath="treeview\Images\treeGettingStarted.png"/>
+    <Sample Name="Data Binding" IsNETCoreSupported="True" IsUpdated="False" Category ="Data Binding" SourcePath="treeview\Data Binding" ImagePath="treeview\Images\treesearch.png"/>
+    <Sample Name="Editing" IsNETCoreSupported="True" Category ="Data Binding" SourcePath="treeview\Editing" ImagePath="treeview\Images\treesearch.png"/>
+    <Sample Name="Virtualization" IsNETCoreSupported="True" Category ="Performance" SourcePath="treeview\Virtualization" ImagePath="treeview\Images\treesearch.png"/>
+    <Sample Name="Customizations" IsNETCoreSupported="True" Category ="Customizations" SourcePath="treeview\Customizations" ImagePath="treeview\Images\customizations.png"/>
+    <Sample Name="Custom Controls" IsNETCoreSupported="True" Category ="Customizations" SourcePath="treeview\Custom Controls" ImagePath="treeview\Images\customcontrols.png"/>
+	  <Sample Name="Drag and Drop" IsNETCoreSupported="False" Category ="Interaction" SourcePath="treeview\DragAndDrop" ImagePath="treeview\Images\treesearch.png"/>
+    <Sample Name="CheckBox" IsNETCoreSupported="True" Category ="Interaction" SourcePath="treeview\CheckBox Binding" ImagePath="treeview\Images\treesearch.png"/>
+	  <Sample Name="Search" IsNETCoreSupported="True" Category ="Interaction" SourcePath="treeview\TreeViewAdv Search" ImagePath="treeview\Images\treesearch.png"/>
+    <Sample Name="Sorting" IsNETCoreSupported="True" Category ="Sorting" SourcePath="treeview\Sorting" ImagePath="treeview\Images\treesearch.png"/>
+	  <Sample Name="Printing" IsNETCoreSupported="True" Category ="Printing" SourcePath="treeview\Printing" ImagePath="treeview\Images\treesearch.png"/>
+  </Product>
+  
+  <Product Name="Multicolumn Treeview" Category="Navigation" EnableSecondLevel="False" >
+   <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="multicolumntreeview\Multi Column TreeView" ImagePath="multicolumntreeview\Images\multicolumntreeview.png"/>
+   <Sample Name="AutoFit Column" IsNETCoreSupported="True" SourcePath="multicolumntreeview\AutoSize column" ImagePath="multicolumntreeview\Images\multicolumntreeview.png"/>
+   <Sample Name="Filtering" IsNETCoreSupported="True" SourcePath="multicolumntreeview\Filtering" ImagePath="multicolumntreeview\Images\multicolumntreeview.png"/>
+  </Product>
+  
+  <Product Name="Wizard Control" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="navigation\Wizard\Wizard Control" ImagePath="navigation\Wizard\Wizard Control\Images\wizard.png"/>
+    <Sample Name="Task Pane" IsNETCoreSupported="True" SourcePath="navigation\Wizard\Task Pane" ImagePath="navigation\Wizard\Task Pane\Images\wizardtaskpane.png"/>
+  </Product>
+  
+  <Product Name="GroupBar" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="navigation\GroupBar\GroupBar" ImagePath="navigation\GroupBar\GroupBar\Images\groupbar.png" />
+	  <Sample Name="Customization" IsNETCoreSupported="True" SourcePath="navigation\GroupBar\Customization" ImagePath="navigation\GroupBar\Customization\Images\groupbar.png" />
+    <Sample Name="GroupView" IsNETCoreSupported="True" SourcePath="navigation\GroupBar\GroupView" ImagePath="navigation\GroupBar\GroupView\Images\groupview.png" />
+  </Product>
+
+  <Product Name="Task Bar" Category="Navigation" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="navigation\TaskBar\TaskBar" ImagePath="navigation\TaskBar\TaskBar\Images\taskbar.png"/>
+    <Sample Name="XpTaskBar" IsNETCoreSupported="True" SourcePath="navigation\TaskBar\XpTaskbar" ImagePath="navigation\TaskBar\XpTaskbar\Images\xptaskbar.png"/>
+  </Product>
+
+<!--End of Region Navigation-->
+  
+<!--Region Input Controls-->
+
+  <Product Name="Numeric TextBox" Category="Input Controls" EnableSecondLevel="False">
+	  <Sample Name="Numeric TextBox"  SourcePath="editor\SfNumericTextBox" ImagePath="editor\Images\sfnumerictextbox.png"  IsNETCoreSupported="True"/>		
+    <Sample Name="Unit Converter"  SourcePath="editor\UnitConverter" ImagePath="editor\Images\UnitConverter.png" IsNETCoreSupported="False" />   
+  </Product>
+  
+   <Product Name="Masked Edit"  Category="Input Controls" EnableSecondLevel="False">
+    <Sample Name="Masked Edit" SourcePath="editor\MaskedEditBox" ImagePath="editor\Images\MaskedEditBox.png" IsNETCoreSupported="True"/>
+   </Product>
+
+  <Product Name="Buttons" Category="Input Controls" EnableSecondLevel="True">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" Category="Button" SourcePath="sfbutton\GettingStarted" ImagePath="sfbutton\GettingStarted\Images\sfbutton.jpg" />
+    <Sample Name="Getting Started " IsNETCoreSupported="True" Category="Split Button"  SourcePath="sfbutton\Buttons" ImagePath="sfbutton\Buttons\Images\SplitButton.png" />
+    <Sample Name="Getting Started  " IsNETCoreSupported="True" Category="Toggle Button" SourcePath="togglebutton\ToggleButton" ImagePath="togglebutton\Images\togglebuttondemo.png"/>
+    <Sample Name="Customization" IsNETCoreSupported="True" Category="Toggle Button" SourcePath="togglebutton\ToggleCustomization" ImagePath="togglebutton\Images\customizationdemo.png"/>
+  </Product>
+
+  <Product Name="AutoComplete"  Category="Input Controls" EnableSecondLevel="True" >
+   <Sample Name="Getting Started" IsNETCoreSupported="True" Category="Getting Started" SourcePath="autoComplete\GettingStarted" ImagePath="autoComplete\Images\autocomplete.png" />
+   <Sample Name="Data Binding" IsNETCoreSupported="False" Category="Data Binding" SourcePath="autoComplete\DataBinding" ImagePath="autoComplete\Images\autocomplete.png" />
+   <Sample Name="Appearance" IsNETCoreSupported="True" Category="Appearance" SourcePath="autoComplete\Appearance" ImagePath="autoComplete\Images\autocomplete.png" />
+   <Sample Name="Customization" IsNETCoreSupported="True" Category="Appearance" SourcePath="autoComplete\Customization" ImagePath="autoComplete\Images\autocomplete.png" />
+  </Product>
+  
+  <Product Name="Check Box" Category="Input Controls" EnableSecondLevel="False">
+   <Sample Name="Check Box"  SourcePath="editor\CheckboxAdv" ImagePath="editor\Images\checkbox.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+  <Product Name="Color Picker" Category="Input Controls" EnableSecondLevel="False">
+   <Sample Name="Color Picker" SourcePath="editor\ColorPicker" ImagePath="editor\Images\colorui.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+  <Product Name="Folder Browser" Category="Input Controls" EnableSecondLevel="False">
+    <Sample Name="Folder Browser" SourcePath="editor\FolderBrowser\Folder Browser" ImagePath="editor\Images\folderbrowser.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+   <Product Name="Radial Slider" Category="Input Controls" IsUpdated="False" EnableSecondLevel="False">
+    <Sample Name="Radial Slider" SourcePath="editor\RadialSlider\RadialSlider" ImagePath="editor\Images\radialslider.png" IsNETCoreSupported="True"/>
+	  <Sample Name="Formatting" IsNew="False" SourcePath="editor\RadialSlider\Formatting" ImagePath="editor\Images\RadialSliderFormatting.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Range Slider" Category="Input Controls" EnableSecondLevel="False">
+    <Sample Name="Range Slider" IsNew="False" SourcePath="editor\RangeSlider\Advanced RangeSlider" ImagePath="editor\Images\radialslider.png" IsNETCoreSupported="True"/>
+    <Sample Name="Formatting" IsNew="False" SourcePath="editor\RangeSlider\Formatting" ImagePath="editor\Images\radialslider.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+  <Product Name="Radio Button" Category="Input Controls" EnableSecondLevel="False">
+    <Sample Name="RadioButton" IsNETCoreSupported="True" SourcePath="inputcontrols\RadiobuttonAdv" ImagePath="inputcontrols\RadiobuttonAdv\Images\radiobutton.png"/>
+  </Product>
+  
+   <Product Name="Rating Control" Category="Input Controls" EnableSecondLevel="False">    
+    <Sample Name="Rating Control" SourcePath="editor\RatingControl\RatingControl" ImagePath="editor\Images\RatingCustomizationDemo.png" IsNETCoreSupported="True"/>
+  </Product> 
+  
+  <Product Name="Text Box"  Category="Input Controls" EnableSecondLevel="False">
+    <Sample Name="Text Box" SourcePath="editor\Editors" ImagePath="editor\Images\editors.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+  <Product Name="UpDown"  Category="Input Controls" EnableSecondLevel="False">
+    <Sample Name="UpDown" SourcePath="editor\UpDown" ImagePath="editor\Images\editors.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Spell Checker" Category="Input Controls" EnableSecondLevel="False" >
+    <Sample Name="Spell Checker" SourcePath="spellchecker\SpellCheckerAdv Demo" ImagePath="spellchecker\Images\SpellCheckerAdv.png" IsNETCoreSupported="True"/>
+  </Product> 
+ 
+<!--End of Region Input Controls-->
+ 
+<!-- Region Calendar -->
+
+  <Product Name="Calendar" Category="Calendar" EnableSecondLevel="True">
+    <Sample Name="Getting Started" Category = "Calendar" SourcePath="editor\SfCalendar\Getting Started" ImagePath="editor\Images\GettingStarted.png" IsNETCoreSupported="True"/>
+    <Sample Name="Disabled Dates" Category = "Calendar" SourcePath="editor\SfCalendar\Disabled Dates" ImagePath="editor\Images\DisabledDates.png" IsNETCoreSupported="True"/>
+    <Sample Name="Special Dates" Category = "Calendar" SourcePath="editor\SfCalendar\Special Dates" ImagePath="editor\Images\SpecialDates.png" IsNETCoreSupported="True"/>
+    <Sample Name="Cell Customization" Category = "Calendar" SourcePath="editor\SfCalendar\Cell Customization" ImagePath="editor\Images\Appointment.png" IsNETCoreSupported="True" />
+  </Product>
+   
+  <Product Name="DateTime Edit" Category="Calendar" EnableSecondLevel="False">
+	  <Sample Name="Getting Started" SourcePath="editor\SfDateTimeEdit\Getting Started" ImagePath="editor\Images\SfDateTimeEdit.png" IsNETCoreSupported="True"/>
+  </Product>
+  
+<!-- End of Region Calendar -->
+ 
+ <!-- Region Lists and DropDown -->
+  <Product Name="ComboBox"  Category="Lists and DropDown" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True"  SourcePath="sfcombobox\Getting Started" ImagePath="sfcombobox\GettingStarted\Images\Getting_Started.png"/>
+    <Sample Name="Multi Selection" IsNETCoreSupported="True"  SourcePath="sfcombobox\MultiSelection" ImagePath="sfcombobox\MultiSelection\Images\Checkbox.png"/>
+  </Product>
+
+  <Product Name="ListView" Category="Lists and DropDown" EnableSecondLevel="False">
+    <Sample Name="Getting Started" SourcePath="dropdown\SfListView\Getting Started" ImagePath="dropdown\Images\Getting_Started.png"  IsNETCoreSupported="True"/>
+    <Sample Name="CheckBox" SourcePath="dropdown\SfListView\CheckBox" ImagePath="dropdown\Images\Checkbox.png" IsNETCoreSupported="True"/>
+    <Sample Name="Header and Footer" SourcePath="dropdown\SfListView\Header Footer" ImagePath="dropdown\Images\HeaderFooter.png"  IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="List Controls" Category="Lists and DropDown" EnableSecondLevel="True" >
+    <Sample Name="ComboboxDropdown" IsNETCoreSupported="True" Category = "DropDown" SourcePath="listcontrols\Combo DropDown" ImagePath="listcontrols\Images\combodropdown.png"/>
+    <Sample Name="ComboBoxAutocomplete" IsNETCoreSupported="True" Category = "DropDown" SourcePath="listcontrols\ComboBox Autocomplete" ImagePath="listcontrols\Images\comboBoxautocomplete.png"/>
+    <Sample Name="Getting Started" Category = "MultiColumn ComboBox" IsNETCoreSupported="False" SourcePath="listcontrols\Multi Column Combobox\Getting Started" ImagePath="listcontrols\Images\multicolumncombo.png"/>
+    <Sample Name="Filtering" Category = "MultiColumn ComboBox" IsNETCoreSupported="False" SourcePath="listcontrols\Multi Column Combobox\Filtering" ImagePath="listcontrols\Images\multicolumncombo.png" />
+    <Sample Name="Font List Box" Category = "DropDown" SourcePath="dropdown\FontListBox" ImagePath="dropdown\Images\fontlistbox.png" IsNETCoreSupported="True"/>	
+    <Sample Name="Font Combo Box" Category = "DropDown" IsNETCoreSupported="True" SourcePath="fontcombobox\GettingStarted" ImagePath="fontcombobox\GettingStarted\Images\FontComboBox.png"/>
+  </Product>
+
+<!-- End of Region Lists and DropDown -->
+ 
+<!--Region Layout-->
+  <Product Name="Docking Manager" Category="Layout" EnableSecondLevel="True">
+    <Sample Name="Visual Studio" IsUpdated="False" Category="Product Showcase" SourcePath="dockingmanager\VisualStudioDemo" ImagePath="dockingmanager\Images\VisualStudioDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Getting Started" Category="Getting Started"  SourcePath="dockingmanager\SDI" ImagePath="dockingmanager\Images\SDIDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="MDI" Category="Getting Started" SourcePath="dockingmanager\MDI" ImagePath="dockingmanager\Images\MDIDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Custom Captions" Category="Customization" SourcePath="dockingmanager\Custom Captions" ImagePath="dockingmanager\Images\customcaptions.png" IsNETCoreSupported="True"/>
+    <Sample Name="Linked Manager" Category="Getting Started" SourcePath="dockingmanager\LinkedManager" ImagePath="dockingmanager\Images\LinkedManager.png" IsNETCoreSupported="True"/>
+    <Sample Name="Localization"  Category="Localization" SourcePath="dockingmanager\Localization" ImagePath="dockingmanager\Images\Localization.png" IsNETCoreSupported="True"/>
+    <Sample Name="Nested Docking" Category="Getting Started" SourcePath="dockingmanager\NestedDocking" ImagePath="dockingmanager\Images\NestedDocking.png"/>
+    <Sample Name="State Persistence" Category="Serialization" SourcePath="dockingmanager\StatePersistence" ImagePath="dockingmanager\Images\StatePersistence.png"/>
+    <Sample Name="Restrict Docking Hints" Category="Customization" SourcePath="dockingmanager\DockAbility Demo" ImagePath="dockingmanager\Images\DockAbilityDemo.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Carousel" Category="Layout" EnableSecondLevel="False">
+    <Sample Name="Getting Started" SourcePath="layout\Carousel\Carousel" ImagePath="layout\Images\carousel.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Gradient Panel" Category="Layout" EnableSecondLevel="False">
+    <Sample Name="Gradient Panel" SourcePath="layout\Gradient Panel" ImagePath="layout\Images\gradientpanel.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Split Container" Category="Layout" EnableSecondLevel="False">
+    <Sample Name="Split Container" SourcePath="layout\Split ContainerAdv" ImagePath="layout\Images\splitcontaineradv.png"/>
+  </Product>
+
+  <Product Name="Tile Layout" Category="Layout" EnableSecondLevel="False">
+    <Sample Name="Tile Layout" SourcePath="layout\Tile Layout\TileLayout" ImagePath="layout\Images\tilelayoutdemo.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Layout Manager" Category="Layout" EnableSecondLevel="False">
+    <Sample Name="Border Layout" SourcePath="layout\BorderLayout" ImagePath="layout\Images\border.png"/>
+    <Sample Name="Card Layout" SourcePath="layout\CardLayout" ImagePath="layout\Images\card.png" IsNETCoreSupported="True"/>
+    <Sample Name="Flow Layout" SourcePath="layout\FlowLayout" ImagePath="layout\Images\flow.png"/>
+    <Sample Name="Grid Layout" SourcePath="layout\GridLayout" ImagePath="layout\Images\grid.png" IsNETCoreSupported="True"/>
+  </Product>
+
+<!--End of Region Layout-->
+ 
+<!--Region Dialogs and Notification-->
+  <Product Name="Forms" Category="Dialogs and Notification" EnableSecondLevel="True" >
+    <Sample Name="Getting Started " Category="Form" SourcePath="dialogs\SfForm\GettingStarted" IsNETCoreSupported="True" ImagePath="dialogs\SfForm\GettingStarted\Images\sfform.png"/>
+    <Sample Name="MDI Form" Category="Form" SourcePath="dialogs\SfForm\MDIForm" IsNETCoreSupported="True" ImagePath="dialogs\SfForm\MDIForm\Images\mdi.png"/>
+    <Sample Name="Title Bar Customization" Category="Form" SourcePath="dialogs\SfForm\TitleBarControl" IsNETCoreSupported="True" ImagePath="dialogs\SfForm\TitleBarControl\Images\titleBarControl.png"/>
+    <Sample Name="Getting Started" Category="Tabbed Form" IsUpdated="True" SourcePath="dialogs\SfForm\TabbedForm" IsNETCoreSupported="True" ImagePath="dialogs\SfForm\TabbedForm\Images\TabbedForm.png"/>
+    <Sample Name="Getting Started" Category="Metro Form" SourcePath="dialogs\Metro Style\Metro Style Controls" IsNETCoreSupported="True" ImagePath="dialogs\Metro Style\Metro Style Controls\Images\metrostylecontrols.png"/>
+    <Sample Name="Getting Started" Category="Office Style Form" SourcePath="dialogs\Office Style Form\Office2010Form" IsNETCoreSupported="True"  ImagePath="dialogs\Office Style Form\Office2010Form\Images\office2010form.png"/>
+  </Product>
+
+  <Product Name="Hub Tile" Category="Dialogs and Notification"  EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="notification\HubTile\HubTile\HubTile" ImagePath="notification\HubTile\HubTile\HubTile\Images\Hubtilewf.png"/>
+	  <Sample Name="HubTile Transition" IsNETCoreSupported="True" SourcePath="notification\HubTile\HubTile\HubTile Transition" ImagePath="notification\HubTile\HubTile\HubTile Transition\Images\PulsingTile.png"/>	
+  </Product>
+
+  <Product Name="MessageBox" Category="Dialogs and Notification" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="notification\MessageBoxAdv\GettingStarted" ImagePath="notification\MessageBoxAdv\GettingStarted\Images\GettingStarted.png"/>
+	  <Sample Name="Customization" IsNETCoreSupported="True" SourcePath="notification\MessageBoxAdv\Customization" ImagePath="notification\MessageBoxAdv\Customization\Images\messageboxadv.png"/>
+  </Product> 
+  
+  <Product Name="Progress Bar" Category="Dialogs and Notification" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="notification\Progressbar\ProgressBar" ImagePath="notification\Progressbar\ProgressBar\Images\progressbar.png"/>
+	  <Sample Name="Customization" IsNETCoreSupported="True" SourcePath="notification\Progressbar\ProgressBarCustomization" ImagePath="notification\Progressbar\ProgressBarCustomization\Images\progressbar.png"/>
+  </Product>
+  
+  <Product Name="Splash Screen" Category="Dialogs and Notification" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="notification\Splash\Splash Control" ImagePath="notification\Splash\Splash Control\Images\splashpanel.png"/>
+	  <Sample Name="Customization" IsNETCoreSupported="True" SourcePath="notification\Splash\Customization" ImagePath="notification\Splash\Customization\Images\splashpanel.png"/>
+  </Product>
+
+  <Product Name="Status Bar" Category="Dialogs and Notification" EnableSecondLevel="False">
+    <Sample Name="StatusBarAdv" IsNETCoreSupported="True" SourcePath="notification\StatusBar\StatusBarAdv" ImagePath="notification\StatusBar\StatusBarAdv\Images\statusbaradv.png"/>
+    <Sample Name="StatusStripEx" IsNETCoreSupported="True" SourcePath="notification\StatusBar\StatusStripEx" ImagePath="notification\StatusBar\StatusStripEx\Images\statusbaradvpanel.png"/>
+  </Product>
+  
+  <Product Name="ToolTip" Category="Dialogs and Notification" EnableSecondLevel="False">
+    <Sample Name="Getting Started" IsNETCoreSupported="True" SourcePath="notification\SfToolTip\GettingStarted" ImagePath="notification\SfToolTip\GettingStarted\Images\sftooltip.jpg"/>
+  </Product>  
+
+<!--Region Forms-->
+
+<!--End of Region Forms-->
+	 
+<!--End of Region Notification-->
+
+<!--Region BigData-->
+  <Product Name="Predictive Analytics" Category="Data Science"  EnableSecondLevel="False">
+    <Sample Name="Getting Started" Category ="Predictive Analytics" IsNETCoreSupported="True" SourcePath="pmml\PMMLWFSampleBrowser\"
+    ImagePath=" pmml\PMMLWFSampleBrowser\Images\PMML_WF.png" />
+  </Product>
+<!--End of Region BigData-->
+
+<!--Region AssistView-->
+  <Product Name="AssistView" Category="Conversational UI" EnableSecondLevel="False" IsPreview="True" >
+    <Sample Name="Getting Started" SourcePath="AssistView\AIAssistView" ImagePath="AssistView\Images\AIAssistView.png" IsNETCoreSupported="True"/>
+    <Sample Name="Reservation" SourcePath="AssistView\Reservation" ImagePath="AssistView\Images\AssistView.png" IsNETCoreSupported="True"/>
+  </Product>
+<!--End of Region AssistView-->
+
+<!--Region Miscellaneous -->  
+  <Product Name="Calculate" Category="Miscellaneous" EnableSecondLevel="False">
+    <Sample Name="Array ICalcData" Category ="Calculate" SourcePath="calculate\Array ICalcData Demo" ImagePath="calculate\Array ICalcData Demo\Images\ArrayICalcDataDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Data Grid Calculator" Category ="Calculate" SourcePath="calculate\Data Grid Calculator Demo" ImagePath="calculate\Data Grid Calculator Demo\Images\DataGridCalculatorDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Data-Bound-Grid Calculator" Category ="Calculate" SourcePath="calculate\Grid-Data-Bound-Grid Calculator Demo" ImagePath="calculate\Grid-Data-Bound-Grid Calculator Demo\Images\Grid-Data-Bound-GridCalculatorDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Tabbed Panel Grids" Category ="Calculate" SourcePath="calculate\Tabbed Panel Grids Demo" ImagePath="calculate\Tabbed Panel Grids Demo\Images\TabbedPanelGridsDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Working With CalcQuick" Category ="Calculate" SourcePath="calculate\Working With CalcQuick Demo" ImagePath="calculate\Working With CalcQuick Demo\Images\WorkingWithCalcQuickDemo.png"/>
+    <Sample Name="Xls File Using CalcEngine" Category ="Calculate" SourcePath="calculate\Xls File Using CalcEngine Demo" ImagePath="calculate\Xls File Using CalcEngine Demo\Images\XlsFileUsingCalcEngineDemo.png" IsNETCoreSupported="True"/>
+  </Product>
+
+  <Product Name="Calculator" Category="Miscellaneous" EnableSecondLevel="False">
+    <Sample Name="Calculator" IsNETCoreSupported="True" SourcePath="inputcontrols\Calculator" ImagePath="inputcontrols\Calculator\Images\calculator.png"/>
+  </Product>
+
+  <Product Name="Clock" Category="Miscellaneous" EnableSecondLevel="False">
+    <Sample Name="Analog Clock" SourcePath="editor\Clock\Clock" ImagePath="editor\Images\clock.png" IsNETCoreSupported="True"/>
+    <Sample Name="Digital Clock" SourcePath="editor\Clock\Digital Clock" ImagePath="editor\Images\digitalclock.png"/>
+  </Product>
+ 
+  <Product Name="Grouping" Category="Miscellaneous" EnableSecondLevel="False">
+    <Sample Name="Custom Summary" Category ="Grouping" SourcePath="grouping\Custom Summary Demo" ImagePath="grouping\Custom Summary Demo\Images\CustomSummaryDemo.png"/>
+    <Sample Name="Foreign-Key Reference" Category ="Grouping" SourcePath="grouping\Foreign-Key Reference Demo" ImagePath="grouping\Foreign-Key Reference Demo\Images\Foreign-KeyReferenceDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="Grouping Tutorial" Category ="Grouping" SourcePath="grouping\Grouping Tutorial" ImagePath="grouping\Grouping Tutorial\Images\GroupingTutorial.png" IsNETCoreSupported="True"/>
+    <Sample Name="Grouping With Data Grid" Category ="Grouping" SourcePath="grouping\Grouping With Data Grid Demo" ImagePath="grouping\Grouping With Data Grid Demo\Images\GroupingWithDataGridDemo.png" IsNETCoreSupported="False"/>
+    <Sample Name="List-Item Reference" Category ="Grouping" SourcePath="grouping\List-Item Reference Demo" ImagePath="grouping\List-Item Reference Demo\Images\List-ItemReferenceDemo.png"/>
+    <Sample Name="Manual Relations" Category ="Grouping" SourcePath="grouping\Manual Relations Demo" ImagePath="grouping\Manual Relations Demo\Images\ManualRelationsDemo.png"/>
+    <Sample Name="Random Test" Category ="Grouping" SourcePath="grouping\Random Test Demo" ImagePath="grouping\Random Test Demo\Images\RandomTestDemo.png" IsNETCoreSupported="True"/>
+    <Sample Name="Strong-Typed Collection" Category ="Grouping" SourcePath="grouping\Strong-Typed Collection Demo" ImagePath="grouping\Strong-Typed Collection Demo\Images\Strong-TypedCollectionDemo.png"/>
+  </Product>
+
+<!-- End of Region Miscellaneous -->  
+
+</Products>

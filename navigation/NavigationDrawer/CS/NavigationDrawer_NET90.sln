@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationDrawer_NET90", "NavigationDrawer_NET90.csproj", "{DC960EC8-86DD-4CD1-A5CE-79AB1327F457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC960EC8-86DD-4CD1-A5CE-79AB1327F457}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC960EC8-86DD-4CD1-A5CE-79AB1327F457}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC960EC8-86DD-4CD1-A5CE-79AB1327F457}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC960EC8-86DD-4CD1-A5CE-79AB1327F457}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
