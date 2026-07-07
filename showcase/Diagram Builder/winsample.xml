@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sample>  
-  <displayname value="Diagram Builder" />
-  <sortorder value="1" />  
-  <imageUrl value="/Product Showcase/Diagram Builder/Images/diagrambuilder.png"></imageUrl>  
-  <name value="~/Product Showcase/Diagram Builder/Sample.aspx" /> 
-</sample>
