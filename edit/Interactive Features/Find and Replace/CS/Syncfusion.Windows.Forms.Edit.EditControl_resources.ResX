@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="propName_EditControl_ChangedLinesMarkingLineColor" xml:space="preserve">
+    <value>ChangedLinesMarkingLineColor</value>
+  </data>
+  <data name="descr_EditControl_ChangedLinesMarkingLineColor" xml:space="preserve">
+    <value>Specifies color of changed lines marking line.</value>
+  </data>
+  <data name="propName_EditControl_ShowIndentationBlockBorders" xml:space="preserve">
+    <value>ShowIndentationBlockBorders</value>
+  </data>
+  <data name="descr_EditControl_ShowIndentationBlockBorders" xml:space="preserve">
+    <value>Specifies whether indentation block borders should be drawn.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_TabIndex" xml:space="preserve">
+    <value>TabIndex</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabIndex" xml:space="preserve">
+    <value>Determines the index in the TAB order that this control will occupy.</value>
+  </data>
+  <data name="propName_EditControl_ContextChoiceSize" xml:space="preserve">
+    <value>ContextChoiceSize</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceSize" xml:space="preserve">
+    <value>Specifies size of the context choice form.</value>
+  </data>
+  <data name="propName_EditControl_FileExtensions" xml:space="preserve">
+    <value>FileExtensions</value>
+  </data>
+  <data name="descr_EditControl_FileExtensions" xml:space="preserve">
+    <value />
+  </data>
+  <data name="propName_EditControl_ReplaceSearchHistory" xml:space="preserve">
+    <value>ReplaceSearchHistory</value>
+  </data>
+  <data name="descr_EditControl_ReplaceSearchHistory" xml:space="preserve">
+    <value>Search history of Replace dialog.</value>
+  </data>
+  <data name="propName_EditControl_UseTabs" xml:space="preserve">
+    <value>UseTabs</value>
+  </data>
+  <data name="descr_EditControl_UseTabs" xml:space="preserve">
+    <value>Specifies whether tab symbol is allowed or spaces should be used instead.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Margin" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Margin" xml:space="preserve">
+    <value>Specifies space between this control and another control's margin.</value>
+  </data>
+  <data name="propName_EditControl_ShowContextTooltip" xml:space="preserve">
+    <value>ShowContextTooltip</value>
+  </data>
+  <data name="descr_EditControl_ShowContextTooltip" xml:space="preserve">
+    <value>Specifies whether context tooltips are shown.</value>
+  </data>
+  <data name="propName_EditControl_TransparentSelection" xml:space="preserve">
+    <value>TransparentSelection</value>
+  </data>
+  <data name="descr_EditControl_TransparentSelection" xml:space="preserve">
+    <value>Specifies whether transparent selection should (WinXP style selection) be used or invers selection should be used instead (Standard text selection).</value>
+  </data>
+  <data name="propName_EditControl_FindHistory" xml:space="preserve">
+    <value>FindHistory</value>
+  </data>
+  <data name="descr_EditControl_FindHistory" xml:space="preserve">
+    <value>Search history of Find dialog.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_MinimumSize" xml:space="preserve">
+    <value>MinimumSize</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MinimumSize" xml:space="preserve">
+    <value>Specifies the minimum size of the control.</value>
+  </data>
+  <data name="propName_EditControl_SelectionMarginWidth" xml:space="preserve">
+    <value>SelectionMarginWidth</value>
+  </data>
+  <data name="descr_EditControl_SelectionMarginWidth" xml:space="preserve">
+    <value>Specifies width of the selection margin area.</value>
+  </data>
+  <data name="propName_EditControl_TabStopsArray" xml:space="preserve">
+    <value>TabStopsArray</value>
+  </data>
+  <data name="descr_EditControl_TabStopsArray" xml:space="preserve">
+    <value>Specifies array of tab stops.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Font" xml:space="preserve">
+    <value>The font used to display text in the control.</value>
+  </data>
+  <data name="propName_EditControl_ShowVerticalSplitters" xml:space="preserve">
+    <value>ShowVerticalSplitters</value>
+  </data>
+  <data name="descr_EditControl_ShowVerticalSplitters" xml:space="preserve">
+    <value>Specifies whether vertical splitters should be visible.</value>
+  </data>
+  <data name="propName_EditControl_BookmarkTooltipBackgroundBrush" xml:space="preserve">
+    <value>BookmarkTooltipBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_BookmarkTooltipBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for bookmark tooltip background.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_CausesValidation" xml:space="preserve">
+    <value>CausesValidation</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_CausesValidation" xml:space="preserve">
+    <value>Indicates whether this component raises validation events. </value>
+  </data>
+  <data name="System.Windows.Forms.propName_UserControl_AutoValidate" xml:space="preserve">
+    <value>AutoValidate</value>
+  </data>
+  <data name="System.Windows.Forms.descr_UserControl_AutoValidate" xml:space="preserve">
+    <value>Indicates whether controls in the container will be automatically validated when the focus changes.</value>
+  </data>
+  <data name="propName_EditControl_ShowIndentationGuidelines" xml:space="preserve">
+    <value>ShowIndentationGuidelines</value>
+  </data>
+  <data name="descr_EditControl_ShowIndentationGuidelines" xml:space="preserve">
+    <value>Specifies whether indentation guidelines and block start/end highlighting should be drawn.</value>
+  </data>
+  <data name="propName_EditControl_ConvertOnLoad" xml:space="preserve">
+    <value>ConvertOnLoad</value>
+  </data>
+  <data name="descr_EditControl_ConvertOnLoad" xml:space="preserve">
+    <value>Specifies whether all new-line symbols in text should be converted to one common new-line symbol on load.</value>
+  </data>
+  <data name="propName_EditControl_ShowBookmarkTooltip" xml:space="preserve">
+    <value>ShowBookmarkTooltip</value>
+  </data>
+  <data name="descr_EditControl_ShowBookmarkTooltip" xml:space="preserve">
+    <value>Specifies whether bookmark tooltips are shown.</value>
+  </data>
+  <data name="propName_EditControl_CustomWrappedLinesMarkingImage" xml:space="preserve">
+    <value>CustomWrappedLinesMarkingImage</value>
+  </data>
+  <data name="descr_EditControl_CustomWrappedLinesMarkingImage" xml:space="preserve">
+    <value>Specifies custom image that marks wrapped lines .</value>
+  </data>
+  <data name="propName_EditControl_AutoSize" xml:space="preserve">
+    <value>AutoSize</value>
+  </data>
+  <data name="descr_EditControl_AutoSize" xml:space="preserve">
+    <value>Specifies whether autoresizing of the control is turned on.</value>
+  </data>
+  <data name="propName_EditControl_ParagraphOffset" xml:space="preserve">
+    <value>ParagraphOffset</value>
+  </data>
+  <data name="descr_EditControl_ParagraphOffset" xml:space="preserve">
+    <value>Specifies offset of paragraphs.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapType" xml:space="preserve">
+    <value>WordWrapType</value>
+  </data>
+  <data name="descr_EditControl_WordWrapType" xml:space="preserve">
+    <value>Specifies type of word wrapping.</value>
+  </data>
+  <data name="propName_EditControl_WordWrap" xml:space="preserve">
+    <value>WordWrap</value>
+  </data>
+  <data name="descr_EditControl_WordWrap" xml:space="preserve">
+    <value>Specifies whether word wrapping is enabled.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_ImeMode" xml:space="preserve">
+    <value>ImeMode</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ImeMode" xml:space="preserve">
+    <value>Determines the IME (Input Method Editor) status of the object when selected.</value>
+  </data>
+  <data name="propName_EditControl_ShowUserMargin" xml:space="preserve">
+    <value>ShowUserMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowUserMargin" xml:space="preserve">
+    <value>Specifies whether user margin should be visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_AccessibleDescription" xml:space="preserve">
+    <value>AccessibleDescription</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_AccessibleDescription" xml:space="preserve">
+    <value>The description that will be reported to accessibility clients.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Size" xml:space="preserve">
+    <value>The size of the control in pixels.</value>
+  </data>
+  <data name="propName_EditControl_UseXPStyle" xml:space="preserve">
+    <value>UseXPStyle</value>
+  </data>
+  <data name="descr_EditControl_UseXPStyle" xml:space="preserve">
+    <value>Specifies whether XP style should be used.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_UserControl_AutoSizeMode" xml:space="preserve">
+    <value>AutoSizeMode</value>
+  </data>
+  <data name="System.Windows.Forms.descr_UserControl_AutoSizeMode" xml:space="preserve">
+    <value>Specifies the mode by which the user interface element automatically resizes itself.</value>
+  </data>
+  <data name="propName_EditControl_HorizontalSplitterPosition" xml:space="preserve">
+    <value>HorizontalSplitterPosition</value>
+  </data>
+  <data name="descr_EditControl_HorizontalSplitterPosition" xml:space="preserve">
+    <value>Specifies position of the horizontal splitter.</value>
+  </data>
+  <data name="propName_EditControl_AutoIndentGuideline" xml:space="preserve">
+    <value>AutoIndentGuideline</value>
+  </data>
+  <data name="descr_EditControl_AutoIndentGuideline" xml:space="preserve">
+    <value>Specifies whether indent guideline should be automatically shown.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Cursor" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Cursor" xml:space="preserve">
+    <value>The cursor that appears when the pointer moves over the control.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginBackgroundColor" xml:space="preserve">
+    <value>UserMarginBackgroundColor</value>
+  </data>
+  <data name="descr_EditControl_UserMarginBackgroundColor" xml:space="preserve">
+    <value>Specifies BrushInfo object that is used when user margin is being drawn.</value>
+  </data>
+  <data name="propName_EditControl_DropAllFiles" xml:space="preserve">
+    <value>DropAllFiles</value>
+  </data>
+  <data name="descr_EditControl_DropAllFiles" xml:space="preserve">
+    <value>If true any file can be dropped in the EditControl.If false only files with certain extension can be dropped</value>
+  </data>
+  <data name="propName_EditControl_BorderStyle" xml:space="preserve">
+    <value>BorderStyle</value>
+  </data>
+  <data name="descr_EditControl_BorderStyle" xml:space="preserve">
+    <value>Specifies style of the controls border.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_UseWaitCursor" xml:space="preserve">
+    <value>UseWaitCursor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_UseWaitCursor" xml:space="preserve">
+    <value>When this property is true, the Cursor property of the control and its child controls is set to WaitCursor.</value>
+  </data>
+  <data name="propName_EditControl_ContextMenuEnabled" xml:space="preserve">
+    <value>ContextMenuEnabled</value>
+  </data>
+  <data name="descr_EditControl_ContextMenuEnabled" xml:space="preserve">
+    <value>Specifies whether context menu can be shown on right-click.</value>
+  </data>
+  <data name="propName_EditControl_WrappedLinesOffset" xml:space="preserve">
+    <value>WrappedLinesOffset</value>
+  </data>
+  <data name="descr_EditControl_WrappedLinesOffset" xml:space="preserve">
+    <value>Specifies offset of wrapped lines.</value>
+  </data>
+  <data name="propName_EditControl_MarkWrappedLines" xml:space="preserve">
+    <value>MarkWrappedLines</value>
+  </data>
+  <data name="descr_EditControl_MarkWrappedLines" xml:space="preserve">
+    <value>Specifies whether wrapped lines should be marked.</value>
+  </data>
+  <data name="propName_EditControl_InsertDroppedFileIntoText" xml:space="preserve">
+    <value>InsertDroppedFileIntoText</value>
+  </data>
+  <data name="descr_EditControl_InsertDroppedFileIntoText" xml:space="preserve">
+    <value>Specifies whether outer file dragged &amp; dropped into Edit Control
+			should be inserted into curent content. When set to false, current file is closed,
+			and dropped outer file is opened.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Anchor" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Anchor" xml:space="preserve">
+    <value>Defines the edges of the container to which a certain control is bound. When a control is anchored to an edge, the distance between the control's closest edge and the specified edge will remain constant. </value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_RightToLeft" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_RightToLeft" xml:space="preserve">
+    <value>Indicates whether the component should draw right-to-left for RTL languages.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginLineColor" xml:space="preserve">
+    <value>WordWrapMarginLineColor</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginLineColor" xml:space="preserve">
+    <value>Specifies color of line that delimits text area.</value>
+  </data>
+  <data name="propName_EditControl_CustomLineWrappingMarkingImage" xml:space="preserve">
+    <value>CustomLineWrappingMarkingImage</value>
+  </data>
+  <data name="descr_EditControl_CustomLineWrappingMarkingImage" xml:space="preserve">
+    <value>Specifies custom image that marks lines wrapping.</value>
+  </data>
+  <data name="propName_EditControl_DefaultNewLineStyle" xml:space="preserve">
+    <value>DefaultNewLineStyle</value>
+  </data>
+  <data name="descr_EditControl_DefaultNewLineStyle" xml:space="preserve">
+    <value>Specifies style of new line of the newly created stream.</value>
+  </data>
+  <data name="propName_EditControl_ShowSelectionMargin" xml:space="preserve">
+    <value>ShowSelectionMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowSelectionMargin" xml:space="preserve">
+    <value>Specifies whether selection margin area should be visible.</value>
+  </data>
+  <data name="propName_EditControl_ContextPromptBorderColor" xml:space="preserve">
+    <value>ContextPromptBorderColor</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptBorderColor" xml:space="preserve">
+    <value>Specifies color of context prompt form border. Used when UseXPSyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_GroupUndo" xml:space="preserve">
+    <value>GroupUndo</value>
+  </data>
+  <data name="descr_EditControl_GroupUndo" xml:space="preserve">
+    <value>Specifies whether undo operations should be grouped.</value>
+  </data>
+  <data name="propName_EditControl_SelectionMarginForegroundColor" xml:space="preserve">
+    <value>SelectionMarginForegroundColor</value>
+  </data>
+  <data name="descr_EditControl_SelectionMarginForegroundColor" xml:space="preserve">
+    <value>Specifies selection margin color.</value>
+  </data>
+  <data name="propName_EditControl_ReadOnly" xml:space="preserve">
+    <value>ReadOnly</value>
+  </data>
+  <data name="descr_EditControl_ReadOnly" xml:space="preserve">
+    <value>Specifies whether edit control is in readonly mode.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginTextFont" xml:space="preserve">
+    <value>UserMarginTextFont</value>
+  </data>
+  <data name="descr_EditControl_UserMarginTextFont" xml:space="preserve">
+    <value>Specifies default font of user margin text.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginVisible" xml:space="preserve">
+    <value>WordWrapMarginVisible</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginVisible" xml:space="preserve">
+    <value>Specifies whether word-wrap margin should be shown. It can be shown even when word-wrap is off.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Location" xml:space="preserve">
+    <value>The coordinates of the upper-left corner of the control relative to the upper-left corner of its container.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginTextColor" xml:space="preserve">
+    <value>UserMarginTextColor</value>
+  </data>
+  <data name="descr_EditControl_UserMarginTextColor" xml:space="preserve">
+    <value>Specifies default color of user margin text.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_AutoScrollMargin" xml:space="preserve">
+    <value>AutoScrollMargin</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_AutoScrollMargin" xml:space="preserve">
+    <value>The margin around controls during auto scroll.</value>
+  </data>
+  <data name="propName_EditControl_MinSize" xml:space="preserve">
+    <value>MinSize</value>
+  </data>
+  <data name="descr_EditControl_MinSize" xml:space="preserve">
+    <value>Specifies minimum size in autosize mode. If AutoSize mode is off, the value of this property is ignored.</value>
+  </data>
+  <data name="propName_EditControl_SaveOnClose" xml:space="preserve">
+    <value>SaveOnClose</value>
+  </data>
+  <data name="descr_EditControl_SaveOnClose" xml:space="preserve">
+    <value>Specifies whether save prompt dialog should be displayed before control is closed.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_BackColor" xml:space="preserve">
+    <value>BackColor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackColor" xml:space="preserve">
+    <value>The background color of the component. </value>
+  </data>
+  <data name="propName_EditControl_PrintDocumentName" xml:space="preserve">
+    <value>PrintDocumentName</value>
+  </data>
+  <data name="descr_EditControl_PrintDocumentName" xml:space="preserve">
+    <value>Specifies whether document name should be printed when page header is visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_AccessibleName" xml:space="preserve">
+    <value>AccessibleName</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_AccessibleName" xml:space="preserve">
+    <value>The name that will be reported to accessibility clients.</value>
+  </data>
+  <data name="propName_EditControl_IndentationBlockBackgroundBrush" xml:space="preserve">
+    <value>IndentationBlockBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_IndentationBlockBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for indentation block background.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginBrush" xml:space="preserve">
+    <value>WordWrapMarginBrush</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginBrush" xml:space="preserve">
+    <value>Specifies BrushInfo object that is used when area situated after text area is drawn.</value>
+  </data>
+  <data name="propName_EditControl_ContextTooltipBorderColor" xml:space="preserve">
+    <value>ContextTooltipBorderColor</value>
+  </data>
+  <data name="descr_EditControl_ContextTooltipBorderColor" xml:space="preserve">
+    <value>Specifies color of context tooltip form border. Used when UseXPSyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_MarkLineWrapping" xml:space="preserve">
+    <value>MarkLineWrapping</value>
+  </data>
+  <data name="descr_EditControl_MarkLineWrapping" xml:space="preserve">
+    <value>Specifies whether lines wrapping should be marked.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Visible" xml:space="preserve">
+    <value>Determines whether the control is visible or hidden.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_AutoScrollMinSize" xml:space="preserve">
+    <value>AutoScrollMinSize</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_AutoScrollMinSize" xml:space="preserve">
+    <value>The minimum logical size for the auto scroll region.</value>
+  </data>
+  <data name="propName_EditControl_ShowVerticalScroller" xml:space="preserve">
+    <value>ShowVerticalScroller</value>
+  </data>
+  <data name="descr_EditControl_ShowVerticalScroller" xml:space="preserve">
+    <value>Specifies whether vertical scroller can be shown.</value>
+  </data>
+  <data name="propName_EditControl_LoadConfigFile" xml:space="preserve">
+    <value>LoadConfigFile</value>
+  </data>
+  <data name="descr_EditControl_LoadConfigFile" xml:space="preserve">
+    <value>Specifies whether config file should be loaded. If set to false, default language is created from code.</value>
+  </data>
+  <data name="propName_EditControl_ContextPromptBackgroundBrush" xml:space="preserve">
+    <value>ContextPromptBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for context prompt background.</value>
+  </data>
+  <data name="propName_EditControl_ReplaceHistory" xml:space="preserve">
+    <value>ReplaceHistory</value>
+  </data>
+  <data name="descr_EditControl_ReplaceHistory" xml:space="preserve">
+    <value>Replace History of Replace dialog.</value>
+  </data>
+  <data name="propName_EditControl_StatusBarSettings" xml:space="preserve">
+    <value>StatusBarSettings</value>
+  </data>
+  <data name="descr_EditControl_StatusBarSettings" xml:space="preserve">
+    <value>Specifies settings of status bar.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_MaximumSize" xml:space="preserve">
+    <value>MaximumSize</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MaximumSize" xml:space="preserve">
+    <value>Specifies the maximum size of the control.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Padding" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Padding" xml:space="preserve">
+    <value>Specifies the interior spacing of a control.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_BackgroundImageLayout" xml:space="preserve">
+    <value>BackgroundImageLayout</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackgroundImageLayout" xml:space="preserve">
+    <value>The background image layout used for the component.</value>
+  </data>
+  <data name="propName_EditControl_ContextTooltipBackgroundBrush" xml:space="preserve">
+    <value>ContextTooltipBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_ContextTooltipBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for context tooltip background.</value>
+  </data>
+  <data name="propName_EditControl_ParsingMode" xml:space="preserve">
+    <value>ParsingMode</value>
+  </data>
+  <data name="descr_EditControl_ParsingMode" xml:space="preserve">
+    <value>Specifies text parsing mode used by control. Parsing can be set to be accurate and slow or non-accurate and fast.</value>
+  </data>
+  <data name="propName_EditControl_ShowOutliningTooltip" xml:space="preserve">
+    <value>ShowOutliningTooltip</value>
+  </data>
+  <data name="descr_EditControl_ShowOutliningTooltip" xml:space="preserve">
+    <value>Specifies whether info about encoding is shown on the statusbar.</value>
+  </data>
+  <data name="propName_EditControl_IndentationBlockBorderColor" xml:space="preserve">
+    <value>IndentationBlockBorderColor</value>
+  </data>
+  <data name="descr_EditControl_IndentationBlockBorderColor" xml:space="preserve">
+    <value>Specifies color of indentation block border line.</value>
+  </data>
+  <data name="propName_EditControl_Lines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="descr_EditControl_Lines" xml:space="preserve">
+    <value>Specifies the collection of the text lines.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsCompositingQuality" xml:space="preserve">
+    <value>GraphicsCompositingQuality</value>
+  </data>
+  <data name="descr_EditControl_GraphicsCompositingQuality" xml:space="preserve">
+    <value>Specifies image composition qaulity.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Tag" xml:space="preserve">
+    <value>User-defined data associated with the object.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Dock" xml:space="preserve">
+    <value>Dock</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Dock" xml:space="preserve">
+    <value>Defines which borders of the control are bound to the container. </value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_AutoScroll" xml:space="preserve">
+    <value>AutoScroll</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_AutoScroll" xml:space="preserve">
+    <value>Indicates whether scroll bars automatically appear when the control contents are larger than its visible area.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_DataBindings" xml:space="preserve">
+    <value>DataBindings</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DataBindings" xml:space="preserve">
+    <value>The data bindings for the control.</value>
+  </data>
+  <data name="propName_EditControl_ShowHorizontalScroller" xml:space="preserve">
+    <value>ShowHorizontalScroller</value>
+  </data>
+  <data name="descr_EditControl_ShowHorizontalScroller" xml:space="preserve">
+    <value>Specifies whether horizontal scroller can be shown.</value>
+  </data>
+  <data name="propName_EditControl_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="descr_EditControl_Text" xml:space="preserve">
+    <value>Specifies editable text of the control.</value>
+  </data>
+  <data name="propName_EditControl_BookmarkTooltipBorderColor" xml:space="preserve">
+    <value>BookmarkTooltipBorderColor</value>
+  </data>
+  <data name="descr_EditControl_BookmarkTooltipBorderColor" xml:space="preserve">
+    <value>Specifies color of bookmark tooltip form border. Used when UseXPSyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_TextAreaWidth" xml:space="preserve">
+    <value>TextAreaWidth</value>
+  </data>
+  <data name="descr_EditControl_TextAreaWidth" xml:space="preserve">
+    <value>Specifies width of the word-wrap margin. To make word-wrap margin visible you should set WordWrapMarginVisible property to true.</value>
+  </data>
+  <data name="propName_EditControl_BottomVerticalSplitterPosition" xml:space="preserve">
+    <value>BottomVerticalSplitterPosition</value>
+  </data>
+  <data name="descr_EditControl_BottomVerticalSplitterPosition" xml:space="preserve">
+    <value>Specifies position of the bottom vertical splitter.</value>
+  </data>
+  <data name="propName_EditControl_OnlyHighlightMatchingBraces" xml:space="preserve">
+    <value>OnlyHighlightMatchingBraces</value>
+  </data>
+  <data name="descr_EditControl_OnlyHighlightMatchingBraces" xml:space="preserve">
+    <value>Specifies whether only start and end of the block should be highlighted or guideline should be drawn either.</value>
+  </data>
+  <data name="propName_EditControl_TopVerticalSplitterPosition" xml:space="preserve">
+    <value>TopVerticalSplitterPosition</value>
+  </data>
+  <data name="descr_EditControl_TopVerticalSplitterPosition" xml:space="preserve">
+    <value>Specifies position of the top vertical splitter.</value>
+  </data>
+  <data name="propName_EditControl_BackgroundColor" xml:space="preserve">
+    <value>BackgroundColor</value>
+  </data>
+  <data name="descr_EditControl_BackgroundColor" xml:space="preserve">
+    <value>Specifies background fill style and color.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsInterpolationMode" xml:space="preserve">
+    <value>GraphicsInterpolationMode</value>
+  </data>
+  <data name="descr_EditControl_GraphicsInterpolationMode" xml:space="preserve">
+    <value>Specifies interpolation mode.</value>
+  </data>
+  <data name="propName_EditControl_ShowLineNumbers" xml:space="preserve">
+    <value>ShowLineNumbers</value>
+  </data>
+  <data name="descr_EditControl_ShowLineNumbers" xml:space="preserve">
+    <value>Specifies whether line numbers should be shown.</value>
+  </data>
+  <data name="propName_EditControl_LineNumbersFont" xml:space="preserve">
+    <value>LineNumbersFont</value>
+  </data>
+  <data name="descr_EditControl_LineNumbersFont" xml:space="preserve">
+    <value>Specifies font of line numbers.</value>
+  </data>
+  <data name="propName_EditControl_TabSize" xml:space="preserve">
+    <value>TabSize</value>
+  </data>
+  <data name="descr_EditControl_TabSize" xml:space="preserve">
+    <value>Specifies tab size in spaces.</value>
+  </data>
+  <data name="propName_EditControl_SharedFileMode" xml:space="preserve">
+    <value>SharedFileMode</value>
+  </data>
+  <data name="descr_EditControl_SharedFileMode" xml:space="preserve">
+    <value>Specifies whether entire file should be loaded into the memory (so file will be loaded in shared access mode), or it should be loaded just partially with exclusive access.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMode" xml:space="preserve">
+    <value>WordWrapMode</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMode" xml:space="preserve">
+    <value>Specifies mode of word wrapping.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_AccessibleRole" xml:space="preserve">
+    <value>AccessibleRole</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_AccessibleRole" xml:space="preserve">
+    <value>The role that will be reported to accessibility clients.</value>
+  </data>
+  <data name="propName_EditControl_MarkChangedLines" xml:space="preserve">
+    <value>MarkChangedLines</value>
+  </data>
+  <data name="descr_EditControl_MarkChangedLines" xml:space="preserve">
+    <value>Specifies whether changed lines should be marked.</value>
+  </data>
+  <data name="propName_EditControl_ShowIndicatorMargin" xml:space="preserve">
+    <value>ShowIndicatorMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowIndicatorMargin" xml:space="preserve">
+    <value>Specifies whether bookmarks and indicator margin should be visible.</value>
+  </data>
+  <data name="propName_EditControl_VirtualSpaceMode" xml:space="preserve">
+    <value>VirtualSpaceMode</value>
+  </data>
+  <data name="descr_EditControl_VirtualSpaceMode" xml:space="preserve">
+    <value>Specifies whether virtual space mode is enabled.</value>
+  </data>
+  <data name="propName_EditControl_AutoCompleteSingleLexem" xml:space="preserve">
+    <value>AutoCompleteSingleLexem</value>
+  </data>
+  <data name="descr_EditControl_AutoCompleteSingleLexem" xml:space="preserve">
+    <value>Specifies whether context choice list gets autocompleted when single lexem remains in the list.</value>
+  </data>
+  <data name="propName_EditControl_PrintPageNumber" xml:space="preserve">
+    <value>PrintPageNumber</value>
+  </data>
+  <data name="descr_EditControl_PrintPageNumber" xml:space="preserve">
+    <value>Specifies whether page number should be printed when page footer is visible.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsSmoothingMode" xml:space="preserve">
+    <value>GraphicsSmoothingMode</value>
+  </data>
+  <data name="descr_EditControl_GraphicsSmoothingMode" xml:space="preserve">
+    <value>Specifies smoothing mode.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Enabled" xml:space="preserve">
+    <value>Indicates whether the control is enabled.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginBorderColor" xml:space="preserve">
+    <value>UserMarginBorderColor</value>
+  </data>
+  <data name="descr_EditControl_UserMarginBorderColor" xml:space="preserve">
+    <value>Specifies color of user margin border.</value>
+  </data>
+  <data name="propName_EditControl_SingleLineMode" xml:space="preserve">
+    <value>SingleLineMode</value>
+  </data>
+  <data name="descr_EditControl_SingleLineMode" xml:space="preserve">
+    <value>Specifies whether single line mode is enabled.</value>
+  </data>
+  <data name="propName_EditControl_WhiteSpaceIndicators" xml:space="preserve">
+    <value>WhiteSpaceIndicators</value>
+  </data>
+  <data name="descr_EditControl_WhiteSpaceIndicators" xml:space="preserve">
+    <value>Specifies options of White space mode.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_BackgroundImage" xml:space="preserve">
+    <value>BackgroundImage</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackgroundImage" xml:space="preserve">
+    <value>The background image used for the control.</value>
+  </data>
+  <data name="propName_EditControl_AutoIndentMode" xml:space="preserve">
+    <value>AutoIndentMode</value>
+  </data>
+  <data name="descr_EditControl_AutoIndentMode" xml:space="preserve">
+    <value>Specifies mode of autoindentation.</value>
+  </data>
+  <data name="propName_EditControl_ContextChoiceBorderColor" xml:space="preserve">
+    <value>ContextChoiceBorderColor</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceBorderColor" xml:space="preserve">
+    <value>Specifies color of context choice form border. Used when UseXPSyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginLineStyle" xml:space="preserve">
+    <value>WordWrapMarginLineStyle</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginLineStyle" xml:space="preserve">
+    <value>Specifies style of line that is drawn at the border of the word-wrap margin.</value>
+  </data>
+  <data name="propName_EditControl_InsertMode" xml:space="preserve">
+    <value>InsertMode</value>
+  </data>
+  <data name="descr_EditControl_InsertMode" xml:space="preserve">
+    <value>Specifes insert mode state.</value>
+  </data>
+  <data name="propName_EditControl_TransferFocusOnTab" xml:space="preserve">
+    <value>TransferFocusOnTab</value>
+  </data>
+  <data name="descr_EditControl_TransferFocusOnTab" xml:space="preserve">
+    <value>Specifies whether control should transfer focus to the next control when user presses tab key, or it should insert tab symbol instead.</value>
+  </data>
+  <data name="propName_EditControl_ShowOutliningCollapsers" xml:space="preserve">
+    <value>ShowOutliningCollapsers</value>
+  </data>
+  <data name="descr_EditControl_ShowOutliningCollapsers" xml:space="preserve">
+    <value>Specifies whether outlining collapsers should be visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_ForeColor" xml:space="preserve">
+    <value>ForeColor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ForeColor" xml:space="preserve">
+    <value>The foreground color of this component, which is used to display text.</value>
+  </data>
+  <data name="propName_EditControl_ShowColumnGuides" xml:space="preserve">
+    <value>ShowColumnGuides</value>
+  </data>
+  <data name="descr_EditControl_ShowColumnGuides" xml:space="preserve">
+    <value>Specifies whether column guides should be drawn.</value>
+  </data>
+  <data name="propName_EditControl_ClearStaticDataOnDispose" xml:space="preserve">
+    <value>ClearStaticDataOnDispose</value>
+  </data>
+  <data name="descr_EditControl_ClearStaticDataOnDispose" xml:space="preserve">
+    <value>Specifies whether static data should be cleared on dispose.
+			Frees memory, but impairs time of next loading of EditControl.</value>
+  </data>
+  <data name="propName_EditControl_VisualColumn" xml:space="preserve">
+    <value>VisualColumn</value>
+  </data>
+  <data name="descr_EditControl_VisualColumn" xml:space="preserve">
+    <value>Specifies virtual column. Virtual column is visual position of character on the screen.</value>
+  </data>
+  <data name="propName_EditControl_IndentLineColor" xml:space="preserve">
+    <value>IndentLineColor</value>
+  </data>
+  <data name="descr_EditControl_IndentLineColor" xml:space="preserve">
+    <value>Specifes color of the block indentation line.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_ContextMenuStrip" xml:space="preserve">
+    <value>ContextMenuStrip</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ContextMenuStrip" xml:space="preserve">
+    <value>The shortcut menu to display when the user right-clicks the control.</value>
+  </data>
+  <data name="propName_EditControl_LineNumbersColor" xml:space="preserve">
+    <value>LineNumbersColor</value>
+  </data>
+  <data name="descr_EditControl_LineNumbersColor" xml:space="preserve">
+    <value>Specifies color of line numbers.</value>
+  </data>
+  <data name="propName_EditControl_IndentationBlockBorderStyle" xml:space="preserve">
+    <value>IndentationBlockBorderStyle</value>
+  </data>
+  <data name="descr_EditControl_IndentationBlockBorderStyle" xml:space="preserve">
+    <value>Specifies style of indentation block border line.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsTextRenderingHint" xml:space="preserve">
+    <value>GraphicsTextRenderingHint</value>
+  </data>
+  <data name="descr_EditControl_GraphicsTextRenderingHint" xml:space="preserve">
+    <value>Specifies text hinting mode.</value>
+  </data>
+  <data name="propName_EditControl_ShowHorizontalSplitters" xml:space="preserve">
+    <value>ShowHorizontalSplitters</value>
+  </data>
+  <data name="descr_EditControl_ShowHorizontalSplitters" xml:space="preserve">
+    <value>Specifies whether horizontal splitters should be visible.</value>
+  </data>
+  <data name="propName_EditControl_UseTabStops" xml:space="preserve">
+    <value>UseTabStops</value>
+  </data>
+  <data name="descr_EditControl_UseTabStops" xml:space="preserve">
+    <value>Specifies whether tab stops should be used.</value>
+  </data>
+  <data name="propName_EditControl_SelectionMarginBackgroundColor" xml:space="preserve">
+    <value>SelectionMarginBackgroundColor</value>
+  </data>
+  <data name="descr_EditControl_SelectionMarginBackgroundColor" xml:space="preserve">
+    <value>Specifies selection margin area color.</value>
+  </data>
+  <data name="propName_EditControl_AllowDrop" xml:space="preserve">
+    <value>AllowDrop</value>
+  </data>
+  <data name="descr_EditControl_AllowDrop" xml:space="preserve">
+    <value>Specifies whether drag and drop operations are allowed for control.</value>
+  </data>
+  <data name="propName_EditControl_ColumnGuideItems" xml:space="preserve">
+    <value>ColumnGuideItems</value>
+  </data>
+  <data name="descr_EditControl_ColumnGuideItems" xml:space="preserve">
+    <value>Specifies array of ColumnGuideItem objects.</value>
+  </data>
+  <data name="propName_EditControl_ShowWhitespaces" xml:space="preserve">
+    <value>ShowWhitespaces</value>
+  </data>
+  <data name="descr_EditControl_ShowWhitespaces" xml:space="preserve">
+    <value>Specifies whether whitespaces should be shown as special symbols.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginWidth" xml:space="preserve">
+    <value>UserMarginWidth</value>
+  </data>
+  <data name="descr_EditControl_UserMarginWidth" xml:space="preserve">
+    <value>Specifies user margin width.</value>
+  </data>
+  <data name="propName_EditControl_ContextPromptCustomSize" xml:space="preserve">
+    <value>ContextPromptCustomSize</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptCustomSize" xml:space="preserve">
+    <value>Specifies custom size of the context prompt dropdown.
+			The specified value is used only if UseCustomSizeContextPrompt is set to true.</value>
+  </data>
+  <data name="propName_EditControl_PageHeaderAndFooterVisible" xml:space="preserve">
+    <value>PageHeaderAndFooterVisible</value>
+  </data>
+  <data name="descr_EditControl_PageHeaderAndFooterVisible" xml:space="preserve">
+    <value>Specifies whether page header and footer should be printed.</value>
+  </data>
+  <data name="propName_EditControl_IndentBlockHighlightingColor" xml:space="preserve">
+    <value>IndentBlockHighlightingColor</value>
+  </data>
+  <data name="descr_EditControl_IndentBlockHighlightingColor" xml:space="preserve">
+    <value>Specifes color used for highlighting indented block start and end.</value>
+  </data>
+  <data name="propName_EditControl_MarkerAreaWidth" xml:space="preserve">
+    <value>MarkerAreaWidth</value>
+  </data>
+  <data name="descr_EditControl_MarkerAreaWidth" xml:space="preserve">
+    <value>Specifies width of marker area.</value>
+  </data>
+  <data name="propName_EditControl_UseCustomSizeContextPrompt" xml:space="preserve">
+    <value>UseCustomSizeContextPrompt</value>
+  </data>
+  <data name="descr_EditControl_UseCustomSizeContextPrompt" xml:space="preserve">
+    <value>Indicates whether custom context promt size should be used.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_TabStop" xml:space="preserve">
+    <value>TabStop</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabStop" xml:space="preserve">
+    <value>Indicates whether the user can use the TAB key to give focus to the control.</value>
+  </data>
+  <data name="propName_EditControl_ColumnGuidesMeasuringFont" xml:space="preserve">
+    <value>ColumnGuidesMeasuringFont</value>
+  </data>
+  <data name="descr_EditControl_ColumnGuidesMeasuringFont" xml:space="preserve">
+    <value>Specifies font that is used while measuring position of column guides.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptBeforeOpen" xml:space="preserve">
+    <value>ContextPromptBeforeOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptBeforeOpen" xml:space="preserve">
+    <value>Occurs when context prompt window is about to open. User can cancel it.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseDoubleClick" xml:space="preserve">
+    <value>MouseDoubleClick</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseDoubleClick" xml:space="preserve">
+    <value>Occurs when the control is double clicked by the mouse.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ControlAdded" xml:space="preserve">
+    <value>ControlAdded</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ControlAdded" xml:space="preserve">
+    <value>Occurs when a control is added to this control.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningTooltipClose" xml:space="preserve">
+    <value>OutliningTooltipClose</value>
+  </data>
+  <data name="descr_EditControl_OutliningTooltipClose" xml:space="preserve">
+    <value>Occurs when oulining tooltip is closed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragDrop" xml:space="preserve">
+    <value>DragDrop</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragDrop" xml:space="preserve">
+    <value>Occurs when a drag-and-drop operation is completed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Validating" xml:space="preserve">
+    <value>Validating</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Validating" xml:space="preserve">
+    <value>Occurs when the control is validating.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DoubleClick" xml:space="preserve">
+    <value>DoubleClick</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DoubleClick" xml:space="preserve">
+    <value>Occurs when the component is double-clicked.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptSelectionChanged" xml:space="preserve">
+    <value>ContextPromptSelectionChanged</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptSelectionChanged" xml:space="preserve">
+    <value>Occurs when context prompt item has been selected.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_HelpRequested" xml:space="preserve">
+    <value>HelpRequested</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_HelpRequested" xml:space="preserve">
+    <value>Occurs when the user invokes Help for the control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_TabStopChanged" xml:space="preserve">
+    <value>TabStopChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabStopChanged" xml:space="preserve">
+    <value>Event raised when the value of the TabStop property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_VisibleChanged" xml:space="preserve">
+    <value>VisibleChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_VisibleChanged" xml:space="preserve">
+    <value>Occurs when the control's visibility changes.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningExpand" xml:space="preserve">
+    <value>OutliningExpand</value>
+  </data>
+  <data name="descr_EditControl_OutliningExpand" xml:space="preserve">
+    <value>Occurs when region expands.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceOpen" xml:space="preserve">
+    <value>ContextChoiceOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceOpen" xml:space="preserve">
+    <value>Occurs when context choice window has been opened.</value>
+  </data>
+  <data name="eventName_EditControl_CodeSnippetTemplateTextChanging" xml:space="preserve">
+    <value>CodeSnippetTemplateTextChanging</value>
+  </data>
+  <data name="descr_EditControl_CodeSnippetTemplateTextChanging" xml:space="preserve">
+    <value>Occurs when text of template member is to be changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BindingContextChanged" xml:space="preserve">
+    <value>BindingContextChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BindingContextChanged" xml:space="preserve">
+    <value>Event raised when the value of the BindingContext property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_Closing" xml:space="preserve">
+    <value>Closing</value>
+  </data>
+  <data name="descr_EditControl_Closing" xml:space="preserve">
+    <value>Occurs when edited stream is about to be closed and changes should be saved.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseLeave" xml:space="preserve">
+    <value>MouseLeave</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseLeave" xml:space="preserve">
+    <value>Occurs when the mouse leaves the visible part of the control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_UserControl_AutoValidateChanged" xml:space="preserve">
+    <value>AutoValidateChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_UserControl_AutoValidateChanged" xml:space="preserve">
+    <value>Occurs whenever the AutoValidate property is changed.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningTooltipBeforePopup" xml:space="preserve">
+    <value>OutliningTooltipBeforePopup</value>
+  </data>
+  <data name="descr_EditControl_OutliningTooltipBeforePopup" xml:space="preserve">
+    <value>Occurs when oulining tooltip is about to be shown.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceBeforeOpen" xml:space="preserve">
+    <value>ContextChoiceBeforeOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceBeforeOpen" xml:space="preserve">
+    <value>Occurs when context choice window is about to open. User can cancel context choice window.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_UserControl_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="System.Windows.Forms.descr_UserControl_Load" xml:space="preserve">
+    <value>Occurs whenever the user control loads.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Validated" xml:space="preserve">
+    <value>Validated</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Validated" xml:space="preserve">
+    <value>Occurs after a control has been successfully validated.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptOpen" xml:space="preserve">
+    <value>ContextPromptOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptOpen" xml:space="preserve">
+    <value>Occurs when context prompt has been opened.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ControlRemoved" xml:space="preserve">
+    <value>ControlRemoved</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ControlRemoved" xml:space="preserve">
+    <value>Occurs when a control is removed from this control.</value>
+  </data>
+  <data name="eventName_EditControl_CollapsingAll" xml:space="preserve">
+    <value>CollapsingAll</value>
+  </data>
+  <data name="descr_EditControl_CollapsingAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_QueryContinueDrag" xml:space="preserve">
+    <value>QueryContinueDrag</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_QueryContinueDrag" xml:space="preserve">
+    <value>Occurs when the mouse drags an item. The system requests whether the drag-and-drop operation should be allowed to continue.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_UserControl_AutoSizeChanged" xml:space="preserve">
+    <value>AutoSizeChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_UserControl_AutoSizeChanged" xml:space="preserve">
+    <value>Occurs when the AutoSize property has changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_ScrollableControl_Scroll" xml:space="preserve">
+    <value>Scroll</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_Scroll" xml:space="preserve">
+    <value>Occurs when the user moves the scroll box.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragOver" xml:space="preserve">
+    <value>DragOver</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragOver" xml:space="preserve">
+    <value>Occurs when an object is dragged over the control's bounds.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_QueryAccessibilityHelp" xml:space="preserve">
+    <value>QueryAccessibilityHelp</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_QueryAccessibilityHelp" xml:space="preserve">
+    <value>Occurs when an Accessibility client invokes Help for the control.</value>
+  </data>
+  <data name="eventName_EditControl_MenuFill" xml:space="preserve">
+    <value>MenuFill</value>
+  </data>
+  <data name="descr_EditControl_MenuFill" xml:space="preserve">
+    <value>Occurs when context menu is about to open. User can handle this event to add custom menu items.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_KeyUp" xml:space="preserve">
+    <value>KeyUp</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_KeyUp" xml:space="preserve">
+    <value>Occurs when a key is released.</value>
+  </data>
+  <data name="eventName_EditControl_SaveFileWithDataLoss" xml:space="preserve">
+    <value>SaveFileWithDataLoss</value>
+  </data>
+  <data name="descr_EditControl_SaveFileWithDataLoss" xml:space="preserve">
+    <value>Occurs when user tries to save file with data loosing.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_TabIndexChanged" xml:space="preserve">
+    <value>TabIndexChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabIndexChanged" xml:space="preserve">
+    <value>Event raised when the value of the TabIndex property is changed.</value>
+  </data>
+  <data name="eventName_EditControl_CanUndoRedoChanged" xml:space="preserve">
+    <value>CanUndoRedoChanged</value>
+  </data>
+  <data name="descr_EditControl_CanUndoRedoChanged" xml:space="preserve">
+    <value>Occurs when CanUndoRedo state is has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_IndicatorMarginDoubleClick" xml:space="preserve">
+    <value>IndicatorMarginDoubleClick</value>
+  </data>
+  <data name="descr_EditControl_IndicatorMarginDoubleClick" xml:space="preserve">
+    <value>Occurs when user double clicks on the indicator margin.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Layout" xml:space="preserve">
+    <value>Occurs when the control is about to lay out its contents.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_CausesValidationChanged" xml:space="preserve">
+    <value>CausesValidationChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_CausesValidationChanged" xml:space="preserve">
+    <value>Event raised when the value of the CausesValidation property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceUpdate" xml:space="preserve">
+    <value>ContextChoiceUpdate</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceUpdate" xml:space="preserve">
+    <value>Occurs when context choice list should be updated.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceClose" xml:space="preserve">
+    <value>ContextChoiceClose</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceClose" xml:space="preserve">
+    <value>Occurs when context choice window has been closed.</value>
+  </data>
+  <data name="eventName_EditControl_CodeSnippetDeactivating" xml:space="preserve">
+    <value>CodeSnippetDeactivating</value>
+  </data>
+  <data name="descr_EditControl_CodeSnippetDeactivating" xml:space="preserve">
+    <value>Occurs when code snippet is to be deactivated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Paint" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Paint" xml:space="preserve">
+    <value>Occurs when a control needs repainting.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseClick" xml:space="preserve">
+    <value>MouseClick</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseClick" xml:space="preserve">
+    <value>Occurs when the control is clicked by the mouse.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_SystemColorsChanged" xml:space="preserve">
+    <value>SystemColorsChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_SystemColorsChanged" xml:space="preserve">
+    <value>Event raised when the system colors change.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BackColorChanged" xml:space="preserve">
+    <value>BackColorChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackColorChanged" xml:space="preserve">
+    <value>Event raised when the value of the BackColor property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_LocationChanged" xml:space="preserve">
+    <value>LocationChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_LocationChanged" xml:space="preserve">
+    <value>Event raised when the value of the Location property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Leave" xml:space="preserve">
+    <value>Occurs when the control is no longer the active control of the form.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseCaptureChanged" xml:space="preserve">
+    <value>MouseCaptureChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseCaptureChanged" xml:space="preserve">
+    <value>Occurs after the mouse capture is changed.</value>
+  </data>
+  <data name="eventName_EditControl_ExpandedAll" xml:space="preserve">
+    <value>ExpandedAll</value>
+  </data>
+  <data name="descr_EditControl_ExpandedAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="eventName_EditControl_TextChanging" xml:space="preserve">
+    <value>TextChanging</value>
+  </data>
+  <data name="descr_EditControl_TextChanging" xml:space="preserve">
+    <value>Occurs when text is about to change.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ContextMenuStripChanged" xml:space="preserve">
+    <value>ContextMenuStripChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ContextMenuStripChanged" xml:space="preserve">
+    <value>Occurs when the value of the ContextMenuStrip property changes.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_PreviewKeyDown" xml:space="preserve">
+    <value>PreviewKeyDown</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_PreviewKeyDown" xml:space="preserve">
+    <value>Occurs before the KeyDown event when a key is pressed while focus is on this control.</value>
+  </data>
+  <data name="eventName_EditControl_CodeSnippetActivating" xml:space="preserve">
+    <value>CodeSnippetActivating</value>
+  </data>
+  <data name="descr_EditControl_CodeSnippetActivating" xml:space="preserve">
+    <value>Occurs when code snippet is to be activated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_RegionChanged" xml:space="preserve">
+    <value>RegionChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_RegionChanged" xml:space="preserve">
+    <value>Event raised when the value of Region property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_StyleChanged" xml:space="preserve">
+    <value>StyleChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_StyleChanged" xml:space="preserve">
+    <value>Event raised when the window style of a Control is changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Enter" xml:space="preserve">
+    <value>Occurs when the control becomes the active control of the form.</value>
+  </data>
+  <data name="eventName_EditControl_ReadOnlyChanged" xml:space="preserve">
+    <value>ReadOnlyChanged</value>
+  </data>
+  <data name="descr_EditControl_ReadOnlyChanged" xml:space="preserve">
+    <value>Occurs when ReadOnly property value has been changed. </value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DockChanged" xml:space="preserve">
+    <value>DockChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DockChanged" xml:space="preserve">
+    <value>Event raised when the value of the Dock property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BackgroundImageLayoutChanged" xml:space="preserve">
+    <value>BackgroundImageLayoutChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackgroundImageLayoutChanged" xml:space="preserve">
+    <value>Event raised when the value of the BackgroundImageLayout property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_SelectionChanged" xml:space="preserve">
+    <value>SelectionChanged</value>
+  </data>
+  <data name="descr_EditControl_SelectionChanged" xml:space="preserve">
+    <value>Occurs when selection has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_WordWrapChanged" xml:space="preserve">
+    <value>WordWrapChanged</value>
+  </data>
+  <data name="descr_EditControl_WordWrapChanged" xml:space="preserve">
+    <value>Occurs when WordWrap property value has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_RegisteringKeyCommands" xml:space="preserve">
+    <value>RegisteringKeyCommands</value>
+  </data>
+  <data name="descr_EditControl_RegisteringKeyCommands" xml:space="preserve">
+    <value>Occurs when custom key-binding command should be registered.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseHover" xml:space="preserve">
+    <value>MouseHover</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseHover" xml:space="preserve">
+    <value>Occurs when the mouse remains stationary inside of the control for an amount of time.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragLeave" xml:space="preserve">
+    <value>DragLeave</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragLeave" xml:space="preserve">
+    <value>Occurs when an object is dragged out of the control's bounds.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BackgroundImageChanged" xml:space="preserve">
+    <value>BackgroundImageChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackgroundImageChanged" xml:space="preserve">
+    <value>Event raised when the value of the BackgroundImage property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptClose" xml:space="preserve">
+    <value>ContextPromptClose</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptClose" xml:space="preserve">
+    <value>Occurs when context prompt window has been closed.</value>
+  </data>
+  <data name="eventName_EditControl_PrintFooter" xml:space="preserve">
+    <value>PrintFooter</value>
+  </data>
+  <data name="descr_EditControl_PrintFooter" xml:space="preserve">
+    <value>Occurs when document is printed and page page footer needs to be printed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ParentChanged" xml:space="preserve">
+    <value>ParentChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ParentChanged" xml:space="preserve">
+    <value>Event raised when the value of the Parent property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragEnter" xml:space="preserve">
+    <value>DragEnter</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragEnter" xml:space="preserve">
+    <value>Occurs when the mouse drags an item into the client area for this Control.</value>
+  </data>
+  <data name="eventName_EditControl_UpdateBookmarkToolTip" xml:space="preserve">
+    <value>UpdateBookmarkToolTip</value>
+  </data>
+  <data name="descr_EditControl_UpdateBookmarkToolTip" xml:space="preserve">
+    <value>Occurs when bookmark tooltip text should be updated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_KeyPress" xml:space="preserve">
+    <value>KeyPress</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_KeyPress" xml:space="preserve">
+    <value>Occurs when the control has focus and the user presses and releases a key.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_GiveFeedback" xml:space="preserve">
+    <value>GiveFeedback</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_GiveFeedback" xml:space="preserve">
+    <value>Occurs when the mouse drags an item. The system requests that the Control provide feedback to that effect.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ClientSizeChanged" xml:space="preserve">
+    <value>ClientSizeChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ClientSizeChanged" xml:space="preserve">
+    <value>Event raised when the value of the ClientSize property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_OperationStopped" xml:space="preserve">
+    <value>OperationStopped</value>
+  </data>
+  <data name="descr_EditControl_OperationStopped" xml:space="preserve">
+    <value>Occurs when operation ends.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningBeforeExpand" xml:space="preserve">
+    <value>OutliningBeforeExpand</value>
+  </data>
+  <data name="descr_EditControl_OutliningBeforeExpand" xml:space="preserve">
+    <value>Occurs before region is about to expand.</value>
+  </data>
+  <data name="eventName_EditControl_InsertModeChanged" xml:space="preserve">
+    <value>InsertModeChanged</value>
+  </data>
+  <data name="descr_EditControl_InsertModeChanged" xml:space="preserve">
+    <value>Occurs when InsertMode propert value has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceSelectedTextInsert" xml:space="preserve">
+    <value>ContextChoiceSelectedTextInsert</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceSelectedTextInsert" xml:space="preserve">
+    <value>Occurs when editor is about to insert selected context choice item to the text. Action can be canceled.</value>
+  </data>
+  <data name="eventName_EditControl_PaintUserMargin" xml:space="preserve">
+    <value>PaintUserMargin</value>
+  </data>
+  <data name="descr_EditControl_PaintUserMargin" xml:space="preserve">
+    <value>Occurs when user margin should be drawn.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_SizeChanged" xml:space="preserve">
+    <value>SizeChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_SizeChanged" xml:space="preserve">
+    <value>Event raised when the value of the Size property is changed on Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ForeColorChanged" xml:space="preserve">
+    <value>ForeColorChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ForeColorChanged" xml:space="preserve">
+    <value>Event raised when the value of the ForeColor property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_SingleLineChanged" xml:space="preserve">
+    <value>SingleLineChanged</value>
+  </data>
+  <data name="descr_EditControl_SingleLineChanged" xml:space="preserve">
+    <value>Occurs when SingleLineMode property value has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_UpdateContextToolTip" xml:space="preserve">
+    <value>UpdateContextToolTip</value>
+  </data>
+  <data name="descr_EditControl_UpdateContextToolTip" xml:space="preserve">
+    <value>Occurs when context tooltip text should be updated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ImeModeChanged" xml:space="preserve">
+    <value>ImeModeChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ImeModeChanged" xml:space="preserve">
+    <value>Occurs when the control's input method editor (IME) mode changes.</value>
+  </data>
+  <data name="eventName_EditControl_ConfigurationChanged" xml:space="preserve">
+    <value>ConfigurationChanged</value>
+  </data>
+  <data name="descr_EditControl_ConfigurationChanged" xml:space="preserve">
+    <value>Occurs when configuration has been changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MarginChanged" xml:space="preserve">
+    <value>MarginChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MarginChanged" xml:space="preserve">
+    <value>Occurs when the Margin property has changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_EnabledChanged" xml:space="preserve">
+    <value>EnabledChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_EnabledChanged" xml:space="preserve">
+    <value>Occurs when the control's enabled state changes.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningBeforeCollapse" xml:space="preserve">
+    <value>OutliningBeforeCollapse</value>
+  </data>
+  <data name="descr_EditControl_OutliningBeforeCollapse" xml:space="preserve">
+    <value>Occurs before region is about to collapse.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ChangeUICues" xml:space="preserve">
+    <value>ChangeUICues</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ChangeUICues" xml:space="preserve">
+    <value>Occurs when focus rectangles and keyboard cue underlines are being shown or hidden.</value>
+  </data>
+  <data name="eventName_EditControl_UnreachableTextFound" xml:space="preserve">
+    <value>UnreachableTextFound</value>
+  </data>
+  <data name="descr_EditControl_UnreachableTextFound" xml:space="preserve">
+    <value>Occurs when text in hidden block is found and this block can't be expanded due to user's cancelling.</value>
+  </data>
+  <data name="eventName_EditControl_PrintHeader" xml:space="preserve">
+    <value>PrintHeader</value>
+  </data>
+  <data name="descr_EditControl_PrintHeader" xml:space="preserve">
+    <value>Occurs when document is printed and page page header needs to be printed.</value>
+  </data>
+  <data name="eventName_EditControl_OperationStarted" xml:space="preserve">
+    <value>OperationStarted</value>
+  </data>
+  <data name="descr_EditControl_OperationStarted" xml:space="preserve">
+    <value>Occurs when some operation starts.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_RightToLeftChanged" xml:space="preserve">
+    <value>RightToLeftChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_RightToLeftChanged" xml:space="preserve">
+    <value>Occurs when the value of the RightToLeft property changes.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningCollapse" xml:space="preserve">
+    <value>OutliningCollapse</value>
+  </data>
+  <data name="descr_EditControl_OutliningCollapse" xml:space="preserve">
+    <value>Occurs when region collapses.</value>
+  </data>
+  <data name="eventName_EditControl_IndicatorMarginClick" xml:space="preserve">
+    <value>IndicatorMarginClick</value>
+  </data>
+  <data name="descr_EditControl_IndicatorMarginClick" xml:space="preserve">
+    <value>Occurs when users single clicks on the indicator margin.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptUpdate" xml:space="preserve">
+    <value>ContextPromptUpdate</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptUpdate" xml:space="preserve">
+    <value>Occurs user has moved cursor and context prompt should be updated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Click" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Click" xml:space="preserve">
+    <value>Occurs when the component is clicked.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningTooltipPopup" xml:space="preserve">
+    <value>OutliningTooltipPopup</value>
+  </data>
+  <data name="descr_EditControl_OutliningTooltipPopup" xml:space="preserve">
+    <value>Occurs when oulining tooltip is shown.</value>
+  </data>
+  <data name="eventName_EditControl_ExpandingAll" xml:space="preserve">
+    <value>ExpandingAll</value>
+  </data>
+  <data name="descr_EditControl_ExpandingAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseDown" xml:space="preserve">
+    <value>MouseDown</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseDown" xml:space="preserve">
+    <value>Occurs when the mouse pointer is over the component and a mouse button is pressed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseEnter" xml:space="preserve">
+    <value>MouseEnter</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseEnter" xml:space="preserve">
+    <value>Occurs when the mouse enters the visible part of the control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Resize" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Resize" xml:space="preserve">
+    <value>Occurs when a control is resized.</value>
+  </data>
+  <data name="eventName_EditControl_RegisteringDefaultKeyBindings" xml:space="preserve">
+    <value>RegisteringDefaultKeyBindings</value>
+  </data>
+  <data name="descr_EditControl_RegisteringDefaultKeyBindings" xml:space="preserve">
+    <value>Occurs when default key bindings should be added.</value>
+  </data>
+  <data name="eventName_EditControl_NewSnippetMemberHighlighting" xml:space="preserve">
+    <value>NewSnippetMemberHighlighting</value>
+  </data>
+  <data name="descr_EditControl_NewSnippetMemberHighlighting" xml:space="preserve">
+    <value>Occurs when new snippet member has to be highlighted.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_KeyDown" xml:space="preserve">
+    <value>KeyDown</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_KeyDown" xml:space="preserve">
+    <value>Occurs when a key is first pressed.</value>
+  </data>
+  <data name="eventName_EditControl_DrawLineMark" xml:space="preserve">
+    <value>DrawLineMark</value>
+  </data>
+  <data name="descr_EditControl_DrawLineMark" xml:space="preserve">
+    <value>Occurs when custom line mark should be drawn.</value>
+  </data>
+  <data name="eventName_EditControl_ChangingStream" xml:space="preserve">
+    <value>ChangingStream</value>
+  </data>
+  <data name="descr_EditControl_ChangingStream" xml:space="preserve">
+    <value>Occurs when underlying stream of the control is about to change.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_CursorChanged" xml:space="preserve">
+    <value>CursorChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_CursorChanged" xml:space="preserve">
+    <value>Event raised when the value of the Cursor property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_SaveStreamWithDataLoss" xml:space="preserve">
+    <value>SaveStreamWithDataLoss</value>
+  </data>
+  <data name="descr_EditControl_SaveStreamWithDataLoss" xml:space="preserve">
+    <value>Occurs when user tries to save stream with data loosing.</value>
+  </data>
+  <data name="eventName_EditControl_CollapsedAll" xml:space="preserve">
+    <value>CollapsedAll</value>
+  </data>
+  <data name="descr_EditControl_CollapsedAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_PaddingChanged" xml:space="preserve">
+    <value>PaddingChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_PaddingChanged" xml:space="preserve">
+    <value>Occurs when the Padding property has changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Move" xml:space="preserve">
+    <value>Occurs when a control is moved.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseUp" xml:space="preserve">
+    <value>MouseUp</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseUp" xml:space="preserve">
+    <value>Occurs when the mouse pointer is over the component and a mouse button is released.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseMove" xml:space="preserve">
+    <value>MouseMove</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseMove" xml:space="preserve">
+    <value>Occurs when the mouse pointer is moved over the component.</value>
+  </data>
+  <data name="eventName_EditControl_CursorPositionChanged" xml:space="preserve">
+    <value>CursorPositionChanged</value>
+  </data>
+  <data name="descr_EditControl_CursorPositionChanged" xml:space="preserve">
+    <value>Occurs when cursors position has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_LanguageChanged" xml:space="preserve">
+    <value>LanguageChanged</value>
+  </data>
+  <data name="descr_EditControl_LanguageChanged" xml:space="preserve">
+    <value>Occurs when current language of the control has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_DrawUserMarginText" xml:space="preserve">
+    <value>DrawUserMarginText</value>
+  </data>
+  <data name="descr_EditControl_DrawUserMarginText" xml:space="preserve">
+    <value>Occurs when user margin area text is ready to be drawn.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_FontChanged" xml:space="preserve">
+    <value>FontChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_FontChanged" xml:space="preserve">
+    <value>Event raised when the value of the Font property is changed on Control.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceItemSelected" xml:space="preserve">
+    <value>ContextChoiceItemSelected</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceItemSelected" xml:space="preserve">
+    <value>Occurs when context choice item has been selected.</value>
+  </data>
+</root>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Syncfusion.MarkdownDemos.Winforms.WordtoMarkdown</AssemblyName>
+    <RootNamespace>Word_to_Markdown_2005</RootNamespace>
+    <DefineConstants>NETCORE</DefineConstants>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.OfficeChart.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.OfficeChart.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Markdown">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Markdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.DocIO.Base.dll</HintPath>
+    </Reference>
+     <Reference Include="Syncfusion.OfficeChartToImageConverter.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.OfficeChartToImageConverter.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.SfChart.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.SpellChecker.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Telemetry">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\net8.0-windows\Syncfusion.Telemetry.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

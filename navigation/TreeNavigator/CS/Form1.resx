@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="treeMenuItem1.DescriptionText" xml:space="preserve">
+    <value>Essential Studio for WindowsForms contains all the controls that you need for building typical line-of-business web applications including grids, charts, gauges, menus, calendars, editors, and much more. It also includes some unique controls that enable your applications to read and write Excel, Word, and PDF documents.</value>
+  </data>
+  <data name="treeMenuItem8.DescriptionText" xml:space="preserve">
+    <value>Our collection of Office 2007-style UI controls let you create Office-style menus, toolbars, window frames, etc. Bringing your application UI on par with industry standards and leaders has never been easier.</value>
+  </data>
+  <data name="treeMenuItem9.DescriptionText" xml:space="preserve">
+    <value>The TreeViewAdv control provides all the advanced capabilities that are missing in the framework version. Advanced features such as multiple columns, drag-and-drop, multi-node selection, and inline editing support are also available. It also has a feature for adding images, and it contains the built-in ability to perform item sorting on a tree view.</value>
+  </data>
+  <data name="treeMenuItem10.DescriptionText" xml:space="preserve">
+    <value>Essential Diagram for WindowsForms has the ability to present powerful and feature-rich diagrams. It provides an intuitive user-interaction model for creating and editing diagrams and data binding support. Its programmatic interface also places at your disposal many useful commands and methods that enable the performance of functionalities such as printing, data binding, serializing, and automatic layout algorithms. Virtualized rendering optimizes the rendering of large diagrams. It is fully localizable for any culture</value>
+  </data>
+  <data name="treeMenuItem11.DescriptionText" xml:space="preserve">
+    <value>Essential Gauge allows the use of code to draw gauges of various designs. It comes with sophisticated support to provide endless possibilities for customization. With Essential Gauge, users can display several data points or data ranges in a concise and compact area. Data in the control can be easily depicted and quickly understood by users of any level</value>
+  </data>
+  <data name="treeMenuItem12.DescriptionText" xml:space="preserve">
+    <value>Essential XlsIO is a .NET library that can read and write Microsoft Excel files. It features a full-fledged object model similar to the Microsoft Office Automation libraries. It can be used on systems that do not have Microsoft Excel installed, making it an excellent report engine for tabular data. Essential XlsIO enables users to create document-based reports in Windows Forms</value>
+  </data>
+  <data name="treeMenuItem13.DescriptionText" xml:space="preserve">
+    <value>Essential DocIO is a .NET library that can read, write, and modify Word files. It features a full-fledged object model similar to the Microsoft Office Automation libraries. It can be used on systems that do not have Word installed. Essential DocIO enables users to create richly formatted Word reports in Windows Forms</value>
+  </data>
+  <data name="treeMenuItem2.DescriptionText" xml:space="preserve">
+    <value>Essential Studio for WinRT contains all the controls you need to build line-of-business applications, including charts, gauges, maps, diagrams, and radial menus. It also includes a unique set of controls for reading and writing Excel, Word, and PDF documents in Windows store apps.</value>
+  </data>
+  <data name="treeMenuItem6.DescriptionText" xml:space="preserve">
+    <value>Essential Chart for WinRT is a high-performance, visually stunning charting component that is easy to use. It includes common chart types ranging from line charts to specialized financial charts. It incorporates DirectX rendering to deliver the best possible performance</value>
+  </data>
+  <data name="treeMenuItem7.DescriptionText" xml:space="preserve">
+    <value> Essential Gauge for WinRT is a highly customizable gauge control used to visualize a given value over a circular scale. All its elements—scales, ticks, pointers, and labels—can be customized as needed.</value>
+  </data>
+  <data name="treeMenuItem15.DescriptionText" xml:space="preserve">
+    <value>Essential Diagram for WinRT creates feature-rich diagrams for Windows store applications. It can compose diagrams and workflows visually, using touch interactions, or automatically, laying out elements according to set rules</value>
+  </data>
+  <data name="treeMenuItem19.DescriptionText" xml:space="preserve">
+    <value> The radial menu displays a hierarchical menu in a circular layout optimized for touch devices. Typically used as a context menu, it can expose more menu items in the same space than traditional menus.</value>
+  </data>
+  <data name="treeMenuItem3.DescriptionText" xml:space="preserve">
+    <value>Essential Studio for WPF contains all the controls that you need for building typical line-of-business web applications including grids, charts, gauges, menus, calendars, editors, and much more. It also includes some unique controls that enable your applications to read and write Excel, Word, and PDF documents.</value>
+  </data>
+  <data name="treeMenuItem25.DescriptionText" xml:space="preserve">
+    <value>The GridData control for WPF is the most advanced data grid available in the market with unmatched performance and versatility. Its advanced feature set is exposed through a powerful yet easy-to-use API with countless customization options. You can easily get started data-binding the grid to any data source; format the data with a rich selection of cell types; and enable editing, sorting, filtering, and grouping within a few minutes. The seamless editing experience rivals that of Microsoft Excel itself. The GridData control has been designed especially for the WPF platform and makes use of all the nuances the platform has to offer. It is also MVVM compatible.</value>
+  </data>
+  <data name="treeMenuItem28.DescriptionText" xml:space="preserve">
+    <value>Essential Spreadsheet is a control for viewing and editing Microsoft Excel files in a familiar Excel-like interface without Excel installed. It combines some of our most popular components like our Grid control, Ribbon control, formula engine, and others to create a first of its kind offering for WPF for viewing and editing Excel files.</value>
+  </data>
+  <data name="treeMenuItem29.DescriptionText" xml:space="preserve">
+    <value>The GridTree control is a grid that displays self-referencing lists in a multicolumn tree format. The data is loaded on demand so that large lists can be quickly displayed. Direct support for a classic tree look is provided, but it also gives you the ability to easily customize the look of the tree with special glyphs and icons. Exceptional performance is possible such that thousands of nodes can be expanded or collapsed instantaneously.</value>
+  </data>
+  <data name="treeMenuItem30.DescriptionText" xml:space="preserve">
+    <value>Use Essential BI Grid to summarize, analyze, explore, and present summaries for critical enterprise data, allowing informed decisions to be made. Data source support ranges from SQL Server Analysis Services to any XMLA-compatible OLAP databases like Mondrian. With our in-memory pivot engine, you can also bind to any standard relational data sources.</value>
+  </data>
+  <data name="treeMenuItem31.DescriptionText" xml:space="preserve">
+    <value>Essential BI PivotGrid is a powerful pivot table implementation for visualizing relational data in a multidimensional UI. The PivotGrid, as the name implies, pivots the data to organize it in a cross-tabulated form. The PivotGrid is just like our BI Grid, but works with relational data. Our powerful in-memory pivoting engine can transform hundreds of thousands of relational table rows into comprehensible pivot information within seconds. Along with pivoting, summarizing and grouping data are also supported.</value>
+  </data>
+  <data name="treeMenuItem4.DescriptionText" xml:space="preserve">
+    <value>Essential Studio for Silverlight contains all the controls you need for building typical line-of-business web applications including grids, charts, gauges, menus, calendars, editors, and much more. It also includes some unique controls that enable your applications to read and write Excel, Word, and PDF documents.</value>
+  </data>
+  <data name="treeMenuItem33.DescriptionText" xml:space="preserve">
+    <value>The docking manager provides VS.NET-style docked containers support to your application. Dock panels can be docked, floated, auto-hidden, and more. Based on a proven VS.NET-style architecture, your end users can interact with it in a very intuitive fashion. The layout can be set up easily in code or in XAML.</value>
+  </data>
+  <data name="treeMenuItem34.DescriptionText" xml:space="preserve">
+    <value>Our collection of Office 2007-style UI controls let you create Office-style menus, toolbars, window frames, and more. Bringing your application UI on par with industry standards and leaders has never been easier.</value>
+  </data>
+  <data name="treeMenuItem35.DescriptionText" xml:space="preserve">
+    <value>The TreeViewAdv control provides all the advanced capabilities that are missing in the framework version. Advanced features such as drag-and-drop, multi-node selection, the ability to add images to nodes, and inline editing support are also available.</value>
+  </data>
+  <data name="treeMenuItem36.DescriptionText" xml:space="preserve">
+    <value>Essential Diagram for Silverlight has the ability to present powerful and feature-rich diagrams. It provides an intuitive user interaction model for creating and editing diagrams with XAML support. It stores graphical objects in a node graph and renders those objects onto the screen. It explicitly lays out diagram objects, or lets the layout manager handle the job by automatically arranging the nodes using the predefined layout algorithms. Essential Diagram is fully localizable for any culture.</value>
+  </data>
+  <data name="treeMenuItem38.DescriptionText" xml:space="preserve">
+    <value>The circular gauge maps a single numerical value in an interface similar to speedometers or clocks. A range of colors can be applied to the gauge to correspond with particular business logic. The gauge's pointer changes position as the gauge value changes over time.</value>
+  </data>
+  <data name="treeMenuItem39.DescriptionText" xml:space="preserve">
+    <value>Essential Schedule for Silverlight is an Outlook calendar-like scheduler control that lets you add rich scheduling capabilities to your Silverlight applications. It is designed especially for the Silverlight platform and makes use of all the nuances that the platform has to offer, such as template creation, powerful data binding, and is also MVVM compatible.</value>
+  </data>
+  <data name="treeMenuItem40.DescriptionText" xml:space="preserve">
+    <value>Essential Maps lets you create visually stunning and interactive maps to show geographical data from an ESRI Shapefile. It comes with built-in navigation controls along with zooming and panning features.</value>
+  </data>
+  <data name="treeMenuItem42.DescriptionText" xml:space="preserve">
+    <value>The range slider is a dual-thumb slider that highlights a selected range between two thumbs. This enables you to specify a range as an input value. You can set the range by dragging the thumb or clicking on the slider bar. It accepts only numeric values and can be oriented vertically or horizontally.</value>
+  </data>
+  <data name="treeMenuItem16.DescriptionText" xml:space="preserve">
+    <value>Orubase is the only mobile application development framework built especially for developing complex line-of-business mobile applications targeting iOS, Android, and Windows Phone platforms in the shortest possible timeframe.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBar1.CollapseImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAWUlEQVQoU5WPwQnAMAwDM0I+
+        nd+f7NMFuotqFUMLkUIjODCOzpAGYIt3qBzj6smZoAgriDLnvhKmMvdSyMdQZcYJ3+tR3SdOmD5bfS0w
+        TrICoyQp/EUuPWg3JHU+tJx6RfoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        8v8ylvL/Mpby/zKW8v8ylvL/Mpby/zKW8vIylvJqfEEy9XxBMvV8QTL1fEEy9XxBMvV8QTL1fEEy9XxB
+        MvUAAAAAfEEyr3xBMvV8QTL1fEEy9XxBMvV8QTL1fEEy9XxBMvV4RDpGAAAAAAAAAABHfLgJNJLqkTKW
+        8vsylvL/Mpby/zKW8v8ylvL/Mpby/zKW8v8ylvL/Mpby+DKW8pN8QTJRfEEyUXxBMlF8QTJRfEEyUXxB
+        MlF8QTJRfEEyUQAAAAB8QTI6fEEyUXxBMlF8QTJRfEEyUXxBMlF8QTJRekE0UXRIQxcAAAAAAAAAAAAA
+        AAA7itcTMpXvtDKW8v8ylvL/Mpby/zKW8v8ylvL/Mpby/zKW8vcylvKIMpbyCAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzlO4YMpbyxjKW8v8ylvL/Mpby/zKW8v8ylvLtMpbyWjKW8gIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAylvIlMpby3zKW8v8ylvL+Mpby4DKW8j0ylvIDAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAylvJOMpby5TKW8sgylvI2AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAylvJAMpbyHQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAIAAHwCAAB8AgAAfAIAAHwCAAB8AgAAfAIAAHwCAAB8AgAAfAIAAHwCA
+        AB8AgAAfAIAAHwCAAB8AgAAfAIAAHwCAAB8AgAAfAIAAHwCAP/8AgD+PAIA/BwCAPAMAgDgBAIAwAACA
+        MAAAgDAAAIA4AP///AH///4D////D////58=
+</value>
+  </data>
+  <metadata name="superToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="groupBar1.ExpandImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxMAAAsTAQCanBgAAABYSURBVChTlYzBDcAgDAMzAh/m
+        74d9WIBdXCyZB6qDiiVLIbkjAFx1e9Q2+ixUziWUTCgCP5IVGAICl/QcBcZJt0JPBQdzZwUeBGwwP8oE
+        CzNW+FO7zIt4ASvPRGNndSKjAAAAAElFTkSuQmCC
+</value>
+  </data>
+</root>

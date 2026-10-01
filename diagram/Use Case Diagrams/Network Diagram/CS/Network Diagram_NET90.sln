@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Network Diagram_NET90", "Network Diagram_NET90.csproj", "{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		Release-XMl|Any CPU = Release-XMl|Any CPU
+		Release-XMl|x86 = Release-XMl|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release|x86.Build.0 = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release-XMl|Any CPU.ActiveCfg = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release-XMl|Any CPU.Build.0 = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release-XMl|x86.ActiveCfg = Release|Any CPU
+		{9F764B13-5A4A-4303-9246-DE8E31AEDDAD}.Release-XMl|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26C7EAC0-9F5E-4032-A275-5CAA2ECF75B8}
+	EndGlobalSection
+EndGlobal

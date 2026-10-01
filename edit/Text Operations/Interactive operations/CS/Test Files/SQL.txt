@@ -1,0 +1,61 @@
+sElEcT DISTINCT Company FROM Orders;
+
+select DISTINCT column_name(s) FROM table_name;
+
+seLECT columns FROM tables WHERE predicates;
+
+SElect *
+FROM supplier
+WHERE city = 'Newark';
+
+SeLecT name, city, state
+FROM supplier
+WHERE supplier_id > 1000;
+
+seLecT orders.order_id, supplier.name
+FROM supplier, order
+WHERE supplier.supplier_id = order.supplier_id;
+
+delete from "tablename" 
+where "columnname" 
+  OPERATOR "value" 
+[and|or "column" 
+  OPERATOR "value"];
+  
+FUNCTION GetEmplInfo ( p_empl_rcd  IN VARCHAR2
+,                      p_emplid    IN VARCHAR2)
+RETURN BOOLEAN IS
+--
+DECLARE 
+  CURSOR c_empl IS
+    SELECT  pd.emplid
+    ,	pd.empl_rcd#
+    ,	ba.acct_cd
+    FROM  ps_personal_data    pd
+    ,     ps_budget_actuals  ba
+    WHERE   pd.emplid = p_emplid
+      AND  pd.empl_rcd# = p_empl_rcd
+      AND  pd.emplid = ba.emplid
+      AND  pd.empl_rcd# = ba.empl_rcd#;
+    Emp_rec   c_empl%ROWTYPE;
+
+    v_acct_cd          VARCHAR2(20)                      -- holds the account cd to be returned
+    v_ok               BOOLEAN := TRUE     
+    v_empl_rcd         ps_personal_data.empl_rcd#%TYPE   -- holds the empl_rcd
+    e_employee_problem EXCEPTIONS;                       -- exceptions to indicate problem with employee record
+--
+BEGIN
+  FOR  emp_rec IN c_empl
+  LOOP
+    IF emp_rec.empl_rcd# > 0 THEN
+      ...
+    ELSE
+      ...
+    END IF;
+  END LOOP;
+  RETURN v_ok;
+EXCEPTIONS
+  WHEN OTHERS THEN
+         RETURN FALSE;
+END;
+  

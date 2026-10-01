@@ -1,0 +1,173 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Hashtable id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<LoadFactor>0.72</LoadFactor>
+<Version>2</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-2"/>
+<Values href="#ref-3"/>
+</a1:Hashtable>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[2]">
+<item id="ref-4" xsi:type="SOAP-ENC:string">ApplicationVersion</item>
+<item id="ref-5" xsi:type="SOAP-ENC:string">.TabGroupInfo</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="xsd:anyType[2]">
+<item id="ref-6" xsi:type="SOAP-ENC:string">&#60;SOAP-ENV:Envelope xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34; xmlns:xsd=&#34;http://www.w3.org/2001/XMLSchema&#34; xmlns:SOAP-ENC=&#34;http://schemas.xmlsoap.org/soap/encoding/&#34; xmlns:SOAP-ENV=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34; xmlns:clr=&#34;http://schemas.microsoft.com/soap/encoding/clr/1.0&#34; SOAP-ENV:encodingStyle=&#34;http://schemas.xmlsoap.org/soap/encoding/&#34;&#62;
+&#60;SOAP-ENV:Body&#62;
+&#60;SOAP-ENC:string id=&#34;ref-1&#34;&#62;1.0.2790.13080&#60;/SOAP-ENC:string&#62;
+&#60;/SOAP-ENV:Body&#62;
+&#60;/SOAP-ENV:Envelope&#62;
+</item>
+<item id="ref-7" xsi:type="SOAP-ENC:string">&#60;SOAP-ENV:Envelope xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34; xmlns:xsd=&#34;http://www.w3.org/2001/XMLSchema&#34; xmlns:SOAP-ENC=&#34;http://schemas.xmlsoap.org/soap/encoding/&#34; xmlns:SOAP-ENV=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34; xmlns:clr=&#34;http://schemas.microsoft.com/soap/encoding/clr/1.0&#34; SOAP-ENV:encodingStyle=&#34;http://schemas.xmlsoap.org/soap/encoding/&#34;&#62;
+&#60;SOAP-ENV:Body&#62;
+&#60;a1:TabGroupsStateInfo id=&#34;ref-1&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;GroupNamesVsTabPages href=&#34;#ref-3&#34;/&#62;
+&#60;SelectedPages href=&#34;#ref-4&#34;/&#62;
+&#60;GroupNames href=&#34;#ref-5&#34;/&#62;
+&#60;MdiAutoScaleBaseSizes href=&#34;#ref-6&#34;/&#62;
+&#60;MdiClientAutoScaleBaseSize&#62;0&#60;/MdiClientAutoScaleBaseSize&#62;
+&#60;TabAlignment&#62;true&#60;/TabAlignment&#62;
+&#60;LayoutPanel href=&#34;#ref-7&#34;/&#62;
+&#60;/a1:TabGroupsStateInfo&#62;
+&#60;a2:Hashtable id=&#34;ref-3&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;LoadFactor&#62;0.72&#60;/LoadFactor&#62;
+&#60;Version&#62;3&#60;/Version&#62;
+&#60;Comparer xsi:null=&#34;1&#34;/&#62;
+&#60;HashCodeProvider xsi:null=&#34;1&#34;/&#62;
+&#60;HashSize&#62;11&#60;/HashSize&#62;
+&#60;Keys href=&#34;#ref-8&#34;/&#62;
+&#60;Values href=&#34;#ref-9&#34;/&#62;
+&#60;/a2:Hashtable&#62;
+&#60;a2:Hashtable id=&#34;ref-4&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;LoadFactor&#62;0.72&#60;/LoadFactor&#62;
+&#60;Version&#62;3&#60;/Version&#62;
+&#60;Comparer xsi:null=&#34;1&#34;/&#62;
+&#60;HashCodeProvider xsi:null=&#34;1&#34;/&#62;
+&#60;HashSize&#62;11&#60;/HashSize&#62;
+&#60;Keys href=&#34;#ref-10&#34;/&#62;
+&#60;Values href=&#34;#ref-11&#34;/&#62;
+&#60;/a2:Hashtable&#62;
+&#60;a2:Hashtable id=&#34;ref-5&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;LoadFactor&#62;0.72&#60;/LoadFactor&#62;
+&#60;Version&#62;0&#60;/Version&#62;
+&#60;Comparer xsi:null=&#34;1&#34;/&#62;
+&#60;HashCodeProvider xsi:null=&#34;1&#34;/&#62;
+&#60;HashSize&#62;11&#60;/HashSize&#62;
+&#60;Keys href=&#34;#ref-12&#34;/&#62;
+&#60;Values href=&#34;#ref-13&#34;/&#62;
+&#60;/a2:Hashtable&#62;
+&#60;a2:ArrayList id=&#34;ref-6&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;_items href=&#34;#ref-14&#34;/&#62;
+&#60;_size&#62;3&#60;/_size&#62;
+&#60;_version&#62;3&#60;/_version&#62;
+&#60;/a2:ArrayList&#62;
+&#60;a1:LayoutPanel id=&#34;ref-7&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;LayoutPanel1TabHost_2 href=&#34;#ref-15&#34;/&#62;
+&#60;TabHost2TabHost_2 id=&#34;ref-16&#34;&#62;TabHost_2&#60;/TabHost2TabHost_2&#62;
+&#60;Coefficient&#62;0.5&#60;/Coefficient&#62;
+&#60;UniqueName href=&#34;#ref-16&#34;/&#62;
+&#60;Horizontal&#62;true&#60;/Horizontal&#62;
+&#60;/a1:LayoutPanel&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-8&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[3]&#34;&#62;
+&#60;item id=&#34;ref-17&#34; xsi:type=&#34;SOAP-ENC:string&#34;&#62;TabGroup2&#60;/item&#62;
+&#60;item id=&#34;ref-18&#34; xsi:type=&#34;SOAP-ENC:string&#34;&#62;TabGroup1&#60;/item&#62;
+&#60;item id=&#34;ref-19&#34; xsi:type=&#34;SOAP-ENC:string&#34;&#62;TabGroup0&#60;/item&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-9&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[3]&#34;&#62;
+&#60;item href=&#34;#ref-20&#34;/&#62;
+&#60;item href=&#34;#ref-21&#34;/&#62;
+&#60;item href=&#34;#ref-22&#34;/&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-10&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[3]&#34;&#62;
+&#60;item href=&#34;#ref-17&#34;/&#62;
+&#60;item href=&#34;#ref-18&#34;/&#62;
+&#60;item href=&#34;#ref-19&#34;/&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-11&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[3]&#34;&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;1&#60;/item&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-12&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[0]&#34;&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-13&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[0]&#34;&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-14&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[4]&#34;&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;a1:LayoutPanel id=&#34;ref-15&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;TabHost1TabHost_3 id=&#34;ref-23&#34;&#62;TabHost_1&#60;/TabHost1TabHost_3&#62;
+&#60;TabHost2TabHost_3 id=&#34;ref-24&#34;&#62;TabHost_3&#60;/TabHost2TabHost_3&#62;
+&#60;Coefficient&#62;0.5&#60;/Coefficient&#62;
+&#60;UniqueName href=&#34;#ref-24&#34;/&#62;
+&#60;Horizontal&#62;false&#60;/Horizontal&#62;
+&#60;/a1:LayoutPanel&#62;
+&#60;a2:Hashtable id=&#34;ref-20&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;LoadFactor&#62;0.72&#60;/LoadFactor&#62;
+&#60;Version&#62;1&#60;/Version&#62;
+&#60;Comparer xsi:null=&#34;1&#34;/&#62;
+&#60;HashCodeProvider xsi:null=&#34;1&#34;/&#62;
+&#60;HashSize&#62;11&#60;/HashSize&#62;
+&#60;Keys href=&#34;#ref-25&#34;/&#62;
+&#60;Values href=&#34;#ref-26&#34;/&#62;
+&#60;/a2:Hashtable&#62;
+&#60;a2:Hashtable id=&#34;ref-21&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;LoadFactor&#62;0.72&#60;/LoadFactor&#62;
+&#60;Version&#62;1&#60;/Version&#62;
+&#60;Comparer xsi:null=&#34;1&#34;/&#62;
+&#60;HashCodeProvider xsi:null=&#34;1&#34;/&#62;
+&#60;HashSize&#62;11&#60;/HashSize&#62;
+&#60;Keys href=&#34;#ref-27&#34;/&#62;
+&#60;Values href=&#34;#ref-28&#34;/&#62;
+&#60;/a2:Hashtable&#62;
+&#60;a2:Hashtable id=&#34;ref-22&#34; xmlns:a2=&#34;http://schemas.microsoft.com/clr/ns/System.Collections&#34;&#62;
+&#60;LoadFactor&#62;0.72&#60;/LoadFactor&#62;
+&#60;Version&#62;2&#60;/Version&#62;
+&#60;Comparer xsi:null=&#34;1&#34;/&#62;
+&#60;HashCodeProvider xsi:null=&#34;1&#34;/&#62;
+&#60;HashSize&#62;11&#60;/HashSize&#62;
+&#60;Keys href=&#34;#ref-29&#34;/&#62;
+&#60;Values href=&#34;#ref-30&#34;/&#62;
+&#60;/a2:Hashtable&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-25&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[1]&#34;&#62;
+&#60;item href=&#34;#ref-31&#34;/&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-26&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[1]&#34;&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-27&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[1]&#34;&#62;
+&#60;item href=&#34;#ref-32&#34;/&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-28&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[1]&#34;&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-29&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[2]&#34;&#62;
+&#60;item href=&#34;#ref-33&#34;/&#62;
+&#60;item href=&#34;#ref-34&#34;/&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;SOAP-ENC:Array id=&#34;ref-30&#34; SOAP-ENC:arrayType=&#34;xsd:anyType[2]&#34;&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;0&#60;/item&#62;
+&#60;item xsi:type=&#34;xsd:int&#34;&#62;1&#60;/item&#62;
+&#60;/SOAP-ENC:Array&#62;
+&#60;a1:UniquePageID id=&#34;ref-31&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;m_strTabName id=&#34;ref-35&#34;&#62;Document 4&#60;/m_strTabName&#62;
+&#60;/a1:UniquePageID&#62;
+&#60;a1:UniquePageID id=&#34;ref-32&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;m_strTabName id=&#34;ref-36&#34;&#62;Document 3&#60;/m_strTabName&#62;
+&#60;/a1:UniquePageID&#62;
+&#60;a1:UniquePageID id=&#34;ref-33&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;m_strTabName id=&#34;ref-37&#34;&#62;Document 1&#60;/m_strTabName&#62;
+&#60;/a1:UniquePageID&#62;
+&#60;a1:UniquePageID id=&#34;ref-34&#34; xmlns:a1=&#34;http://schemas.microsoft.com/clr/nsassem/Syncfusion.Windows.Forms.Tools/Syncfusion.Tools.Windows&#34;&#62;
+&#60;m_strTabName id=&#34;ref-38&#34;&#62;Document 2&#60;/m_strTabName&#62;
+&#60;/a1:UniquePageID&#62;
+&#60;/SOAP-ENV:Body&#62;
+&#60;/SOAP-ENV:Envelope&#62;
+</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

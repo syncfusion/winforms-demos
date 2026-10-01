@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Declare an Event</Title>
+      <Author>Microsoft Corporation</Author>
+      <Description>Declares an event.</Description>
+      <Shortcut>Event</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.VisualBasic</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>EventName</ID>
+          <Type>String</Type>
+          <ToolTip>Replace with the event name.</ToolTip>
+          <Default>PropertyChanged</Default>
+        </Literal>
+        <Literal>
+          <ID>EventArgsType</ID>
+          <Type>EventArgs</Type>
+          <ToolTip>Replace with EventArgs type.</ToolTip>
+          <Default>EventArgs</Default>
+        </Literal>
+        <Literal>
+          <ID>Scope</ID>
+          <Type>String</Type>
+          <ToolTip>Replace with the accessibility of the event.</ToolTip>
+          <Default>Public</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB" Kind="method decl"><![CDATA[$Scope$ Event $EventName$(ByVal sender As Object, ByVal e As $EventArgsType$)]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
