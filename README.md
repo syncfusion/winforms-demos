@@ -13,7 +13,7 @@ This section guides you to use the Syncfusion WinForms examples in your applicat
 
 ## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo ##
 
-The samples requires Visual Studio 2010 or higher to build, test and deploy. 
+The samples current supported VS (2022/2026) and .NET Framework 4.6.2+ / .NET 8-10. 
 
 ## <a name="documentation"></a>Documentation ##
 
@@ -138,38 +138,9 @@ The easiest way to use these samples without using Git is to download the zip fi
 </tr>
 <tr>
 <td colspan="3" rowspan="1">
-<b>FILE FORMAT FRAMEWORKS</b>
-</td>
-</tr>    
-<tr>
-<td>
-<a href="xlsio">Excel</a>
-</td>
-<td>
-<a href="pdf">PDF</a>
-</td>
-<td>
-<a href="presentation">Presentation</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="docio">Word</a>
-</td>
-<td/>
-<td/>
-</tr>
-<tr>
-<td colspan="3" rowspan="1">
 <b>FILE VIEWERS AND EDITORS
 </tr>
 <tr>
-<td >
-<a href="pdfviewer">PDFViewer</a>
-</td>
-<td>
-<a href="spreadsheet">Spreadsheet</a>
-</td>
 <td>
 <a href="editor">SyntaxEditor</a>
 </td>
