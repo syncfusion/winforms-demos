@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadialSlider_NET90", "RadialSlider_NET90.csproj", "{90BA7023-B1AC-4CD0-AE3A-C84F0F3A2001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90BA7023-B1AC-4CD0-AE3A-C84F0F3A2001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BA7023-B1AC-4CD0-AE3A-C84F0F3A2001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BA7023-B1AC-4CD0-AE3A-C84F0F3A2001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BA7023-B1AC-4CD0-AE3A-C84F0F3A2001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D7999AC-727E-488D-8B24-516FF0BCD07F}
+	EndGlobalSection
+EndGlobal

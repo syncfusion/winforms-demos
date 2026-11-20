@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Using Statement</Title>
+      <Author>Microsoft Corporation</Author>
+      <Description>Inserts a Using statement.</Description>
+      <Shortcut>Using</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.VisualBasic</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Object>
+          <ID>DisposeObject</ID>
+          <Type>Object</Type>
+          <ToolTip>Replace with the variable name of the object.</ToolTip>
+          <Default>resource</Default>
+        </Object>
+        <Literal>
+          <ID>ObjectType</ID>
+          <Type></Type>
+          <ToolTip>Replace with a Type or a New statement.</ToolTip>
+          <Default>New Object</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB" Kind="method body"><![CDATA[Using $DisposeObject$ As $ObjectType$
+
+End Using]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositionsAndOffsets_NET11", "PositionsAndOffsets_NET11.csproj", "{{42CF54A7-09D4-4C32-98CE-BC7B0B300D7C}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{42CF54A7-09D4-4C32-98CE-BC7B0B300D7C}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{42CF54A7-09D4-4C32-98CE-BC7B0B300D7C}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{42CF54A7-09D4-4C32-98CE-BC7B0B300D7C}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{42CF54A7-09D4-4C32-98CE-BC7B0B300D7C}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

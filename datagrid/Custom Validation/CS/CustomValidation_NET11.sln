@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomValidation_NET11", "CustomValidation_NET11.csproj", "{{405E499A-DD8B-4655-B55F-299F6725F00D}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{405E499A-DD8B-4655-B55F-299F6725F00D}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{405E499A-DD8B-4655-B55F-299F6725F00D}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{405E499A-DD8B-4655-B55F-299F6725F00D}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{405E499A-DD8B-4655-B55F-299F6725F00D}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

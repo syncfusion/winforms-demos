@@ -1,0 +1,22 @@
+Build started 6/26/2012 5:08:47 AM.
+__________________________________________________
+Project "C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\10.2.0.56\Windows\Diagram.Windows\Samples\2.0\Use Case Diagrams\Sequence Diagram\cs\Sequence Diagram_2005.csproj" (default targets):
+
+Target PrepareForBuild:
+    Creating directory "bin\Release\".
+    Creating directory "obj\Release\".
+Target CoreResGen:
+    Processing resource file "MainForm.resx" into "obj\Release\Sequence_Diagram_2005.MainForm.resources".
+    Processing resource file "Properties\Resources.resx" into "obj\Release\Sequence_Diagram_2005.Properties.Resources.resources".
+Target CoreCompile:
+    C:\Windows\Microsoft.NET\Framework\v2.0.50727\Csc.exe /noconfig /nowarn:1701,1702 /errorreport:prompt /warn:4 /define:TRACE /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\10.2.0.56\assemblies\2.0\Syncfusion.Core.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\10.2.0.56\assemblies\2.0\Syncfusion.Diagram.Base.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\10.2.0.56\assemblies\2.0\Syncfusion.Diagram.Windows.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\10.2.0.56\assemblies\2.0\Syncfusion.Shared.Base.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Design.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Runtime.Serialization.Formatters.Soap.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug:pdbonly /optimize+ /out:"obj\Release\Sequence Diagram_2005.exe" /resource:obj\Release\Sequence_Diagram_2005.MainForm.resources /resource:obj\Release\Sequence_Diagram_2005.Properties.Resources.resources /target:winexe MainForm.cs MainForm.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+Target CopyFilesToOutputDirectory:
+    Copying file from "obj\Release\Sequence Diagram_2005.exe" to "bin\Release\Sequence Diagram_2005.exe".
+    Sequence Diagram_2005 -> C:\Users\labuser\AppData\Local\Syncfusion\EssentialStudio\10.2.0.56\Windows\Diagram.Windows\Samples\2.0\Use Case Diagrams\Sequence Diagram\cs\bin\Release\Sequence Diagram_2005.exe
+    Copying file from "obj\Release\Sequence Diagram_2005.pdb" to "bin\Release\Sequence Diagram_2005.pdb".
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.42

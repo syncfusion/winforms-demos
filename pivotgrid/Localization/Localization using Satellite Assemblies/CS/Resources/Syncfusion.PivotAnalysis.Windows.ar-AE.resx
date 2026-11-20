@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Average" xml:space="preserve">
+    <value>المتوسط</value>
+  </data>
+  <data name="BaseField" xml:space="preserve">
+    <value>الحقل الأساسي</value>
+  </data>
+  <data name="BaseItem" xml:space="preserve">
+    <value>العنصر الأساسي</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Choosefieldstoaddreport" xml:space="preserve">
+    <value>اختر الحقول لإضافتها إلى التقرير</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>مسح التصفية</value>
+  </data>
+  <data name="ColumnLabels" xml:space="preserve">
+    <value>الأعمدة</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>العدد</value>
+  </data>
+  <data name="CountNumbers" xml:space="preserve">
+    <value>حساب الأرقام</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>مخصص</value>
+  </data>
+  <data name="DecimalTotalSum" xml:space="preserve">
+    <value>المجموع الكلي العشري</value>
+  </data>
+  <data name="DeferlayoutUpdate" xml:space="preserve">
+    <value>تأجيل تحديث التخطيط</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="DifferenceFrom" xml:space="preserve">
+    <value>الفرق من</value>
+  </data>
+  <data name="DisplayIfDiscreteValuesEqual" xml:space="preserve">
+    <value>عرض إذا كانت القيم المتفرقة متساوية</value>
+  </data>
+  <data name="Distinct" xml:space="preserve">
+    <value>مميز</value>
+  </data>
+  <data name="DoubleAverage" xml:space="preserve">
+    <value>متوسط مزدوج</value>
+  </data>
+  <data name="DoubleMaximum" xml:space="preserve">
+    <value>الحد الأقصى المزدوج</value>
+  </data>
+  <data name="DoubleMinimum" xml:space="preserve">
+    <value>الحد الأدنى المزدوج</value>
+  </data>
+  <data name="DoubleStandardDeviation" xml:space="preserve">
+    <value>الانحراف المعياري المزدوج</value>
+  </data>
+  <data name="DoubleTotalSum" xml:space="preserve">
+    <value>المجموع الإجمالي المزدوج</value>
+  </data>
+  <data name="DoubleVariance" xml:space="preserve">
+    <value>التباين المزدوج</value>
+  </data>
+  <data name="Dragfieldsbetweenareasbelow" xml:space="preserve">
+    <value>اسحب الحقول بين المناطق أدناه</value>
+  </data>
+  <data name="DropPivotFieldsheretoFilterBy" xml:space="preserve">
+    <value>إسقاط الحقول المحورية هنا للتصفية حسب</value>
+  </data>
+  <data name="FieldHeader" xml:space="preserve">
+    <value>عنوان الحقل</value>
+  </data>
+  <data name="FieldName" xml:space="preserve">
+    <value>اسم الحقل</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>تنسيق</value>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>الصيغة</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>الإجمالي العام</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>الفهرس</value>
+  </data>
+  <data name="IntTotalSum" xml:space="preserve">
+    <value>مجموع الإجمالي الصحيح</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>الحد الأقصى</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>الحد الأدنى</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>تحريك للأسفل</value>
+  </data>
+  <data name="MoveToBeginning" xml:space="preserve">
+    <value>الانتقال إلى البداية</value>
+  </data>
+  <data name="MoveToColumnLabels" xml:space="preserve">
+    <value>الانتقال إلى تسميات الأعمدة</value>
+  </data>
+  <data name="MoveToEnd" xml:space="preserve">
+    <value>الانتقال إلى النهاية</value>
+  </data>
+  <data name="MoveToReportFilter" xml:space="preserve">
+    <value>الانتقال إلى تصفية التقرير</value>
+  </data>
+  <data name="MoveToRowLabels" xml:space="preserve">
+    <value>الانتقال إلى تسميات الصفوف</value>
+  </data>
+  <data name="MoveToValues" xml:space="preserve">
+    <value>الانتقال إلى القيم</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>تحريك للأعلى</value>
+  </data>
+  <data name="NoCalculation" xml:space="preserve">
+    <value>بدون حساب</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="PercentageOf" xml:space="preserve">
+    <value>٪ من</value>
+  </data>
+  <data name="PercentageOfColumnTotal" xml:space="preserve">
+    <value>٪ من إجمالي العمود</value>
+  </data>
+  <data name="PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>٪ من الفرق من</value>
+  </data>
+  <data name="PercentageOfGrandTotal" xml:space="preserve">
+    <value>٪ من الإجمالي العام</value>
+  </data>
+  <data name="PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>٪ من إجمالي عمود الأصل</value>
+  </data>
+  <data name="PercentageOfParentRowTotal" xml:space="preserve">
+    <value>٪ من إجمالي صف الأصل</value>
+  </data>
+  <data name="PercentageOfParentTotal" xml:space="preserve">
+    <value>٪ من إجمالي الأصل</value>
+  </data>
+  <data name="PercentageOfRowTotal" xml:space="preserve">
+    <value>٪ من إجمالي الصف</value>
+  </data>
+  <data name="PercentageOfRunningTotalIn" xml:space="preserve">
+    <value>٪ من الإجمالي المتواصل في</value>
+  </data>
+  <data name="PivotComputationInformation" xml:space="preserve">
+    <value>معلومات حساب المحور</value>
+  </data>
+  <data name="PivotSchemaDesigner" xml:space="preserve">
+    <value>مصمم مخطط المحور</value>
+  </data>
+  <data name="PivotTableFieldList" xml:space="preserve">
+    <value>قائمة حقول الجدول المحوري</value>
+  </data>
+  <data name="PivotValueChooser" xml:space="preserve">
+    <value>اختيار القيم المحورية</value>
+  </data>
+  <data name="RankLargestToSmallest" xml:space="preserve">
+    <value>تصنيف من الأكبر إلى الأصغر</value>
+  </data>
+  <data name="RankSmallestToLargest" xml:space="preserve">
+    <value>تصنيف من الأصغر إلى الأكب</value>
+  </data>
+  <data name="RemoveField" xml:space="preserve">
+    <value>إزالة الحقل</value>
+  </data>
+  <data name="ReportFilter" xml:space="preserve">
+    <value>الفلاتر</value>
+  </data>
+  <data name="RowLabel" xml:space="preserve">
+    <value>الصفوف</value>
+  </data>
+  <data name="RunningTotalIn" xml:space="preserve">
+    <value>إجمالي التشغيل في</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>تحديد الكل</value>
+  </data>
+  <data name="ShowCalculationsasColumns" xml:space="preserve">
+    <value>عرض الحسابات كأعمدة</value>
+  </data>
+  <data name="ShowValueAs" xml:space="preserve">
+    <value>عرض القيمة كـ</value>
+  </data>
+  <data name="SortLargestToSmallest" xml:space="preserve">
+    <value>فرز من الأكبر إلى الأصغر</value>
+  </data>
+  <data name="SortSmallestToLargest" xml:space="preserve">
+    <value>فرز من الأصغر إلى الأكبر</value>
+  </data>
+  <data name="StdDev" xml:space="preserve">
+    <value>الانحراف المعياري</value>
+  </data>
+  <data name="StdDevP" xml:space="preserve">
+    <value>StdDevP</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>المجموع</value>
+  </data>
+  <data name="SummarizeValueBy" xml:space="preserve">
+    <value>تلخيص القيمة حسب</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>الإجمالي</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>القيم</value>
+  </data>
+  <data name="Var" xml:space="preserve">
+    <value>التباين</value>
+  </data>
+  <data name="VarP" xml:space="preserve">
+    <value>VarP</value>
+  </data>
+</root>

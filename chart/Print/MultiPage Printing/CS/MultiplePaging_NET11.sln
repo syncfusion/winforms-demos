@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplePaging_NET11", "MultiplePaging_NET11.csproj", "{{B748B0B8-20F0-4913-9375-3851DFA91C5B}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{B748B0B8-20F0-4913-9375-3851DFA91C5B}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{B748B0B8-20F0-4913-9375-3851DFA91C5B}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{B748B0B8-20F0-4913-9375-3851DFA91C5B}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{B748B0B8-20F0-4913-9375-3851DFA91C5B}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

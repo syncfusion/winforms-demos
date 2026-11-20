@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTip_2017", "ToolTip_2017.csproj", "{39D70A5C-FE08-4AFC-90BD-F020ACC39496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D70A5C-FE08-4AFC-90BD-F020ACC39496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D70A5C-FE08-4AFC-90BD-F020ACC39496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D70A5C-FE08-4AFC-90BD-F020ACC39496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D70A5C-FE08-4AFC-90BD-F020ACC39496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

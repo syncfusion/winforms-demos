@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomizationDemo_NET11", "CustomizationDemo_NET11.csproj", "{{ACC2AFFD-5F20-4094-BBA5-75E7162FD769}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{ACC2AFFD-5F20-4094-BBA5-75E7162FD769}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{ACC2AFFD-5F20-4094-BBA5-75E7162FD769}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{ACC2AFFD-5F20-4094-BBA5-75E7162FD769}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{ACC2AFFD-5F20-4094-BBA5-75E7162FD769}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiColumnTreeView_NET11", "MultiColumnTreeView_NET11.csproj", "{{DCF46104-E5EE-4D95-B9B8-67FCA24C8653}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{DCF46104-E5EE-4D95-B9B8-67FCA24C8653}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{DCF46104-E5EE-4D95-B9B8-67FCA24C8653}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{DCF46104-E5EE-4D95-B9B8-67FCA24C8653}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{DCF46104-E5EE-4D95-B9B8-67FCA24C8653}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

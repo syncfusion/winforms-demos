@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filtering_NET90", "Filtering_NET90.csproj", "{6B5E4E57-91FC-420F-8FD6-9AEB4FEE5335}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B5E4E57-91FC-420F-8FD6-9AEB4FEE5335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5E4E57-91FC-420F-8FD6-9AEB4FEE5335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5E4E57-91FC-420F-8FD6-9AEB4FEE5335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5E4E57-91FC-420F-8FD6-9AEB4FEE5335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450EE184-93FE-4A61-997F-285BA9710EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450EE184-93FE-4A61-997F-285BA9710EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450EE184-93FE-4A61-997F-285BA9710EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450EE184-93FE-4A61-997F-285BA9710EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF349D2F-7C04-4CB2-B005-02A83C73D6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF349D2F-7C04-4CB2-B005-02A83C73D6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF349D2F-7C04-4CB2-B005-02A83C73D6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF349D2F-7C04-4CB2-B005-02A83C73D6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7915168B-D000-41D6-9844-A370A2FA4A3E}
+	EndGlobalSection
+EndGlobal

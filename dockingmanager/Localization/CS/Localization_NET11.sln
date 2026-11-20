@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_NET11", "Localization_NET11.csproj", "{{EB288005-6162-490D-8038-6A36824B88EC}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{EB288005-6162-490D-8038-6A36824B88EC}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{EB288005-6162-490D-8038-6A36824B88EC}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{EB288005-6162-490D-8038-6A36824B88EC}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{EB288005-6162-490D-8038-6A36824B88EC}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

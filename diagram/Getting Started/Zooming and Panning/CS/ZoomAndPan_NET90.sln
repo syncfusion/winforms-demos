@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZoomAndPan_NET90", "ZoomAndPan_NET90.csproj", "{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Debug|x86 = Debug|x86
+		Release|AnyCPU = Release|AnyCPU
+		Release|x86 = Release|x86
+		Release-XML|AnyCPU = Release-XML|AnyCPU
+		Release-XML|x86 = Release-XML|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release|AnyCPU.Build.0 = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release|x86.Build.0 = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release-XML|AnyCPU.ActiveCfg = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release-XML|AnyCPU.Build.0 = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release-XML|x86.ActiveCfg = Release|Any CPU
+		{646D9887-7FF5-4EEB-A9D9-A38530BC48C9}.Release-XML|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE3C9CD4-B2BD-4BB2-84AE-2930014B1EE8}
+	EndGlobalSection
+EndGlobal

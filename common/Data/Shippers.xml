@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<ShippersDataSet xmlns="http://www.tempuri.org/ShippersDataSet.xsd">
+  <xs:schema id="ShippersDataSet" targetNamespace="http://www.tempuri.org/ShippersDataSet.xsd" xmlns:mstns="http://www.tempuri.org/ShippersDataSet.xsd" xmlns="http://www.tempuri.org/ShippersDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="ShippersDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Shippers">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ShipperID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="CompanyName" type="xs:string" />
+                <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Shippers" />
+        <xs:field xpath="mstns:ShipperID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Shippers>
+    <ShipperID>1</ShipperID>
+    <CompanyName>Speedy Express</CompanyName>
+    <Phone>(503) 555-9831</Phone>
+  </Shippers>
+  <Shippers>
+    <ShipperID>2</ShipperID>
+    <CompanyName>United Package</CompanyName>
+    <Phone>(503) 555-3199</Phone>
+  </Shippers>
+  <Shippers>
+    <ShipperID>3</ShipperID>
+    <CompanyName>Federal Shipping</CompanyName>
+    <Phone>(503) 555-9931</Phone>
+  </Shippers>
+</ShippersDataSet>

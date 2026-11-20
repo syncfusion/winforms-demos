@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Drawing;
+using System.ComponentModel;
+
+namespace WeatherAnalysis
+{
+    class RotateLabel : System.Windows.Forms.Label
+    {
+        int a;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public int RotateAngle { get; set; }  // to rotate your text
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string NewText { get; set; }   // to draw text
+        protected override void OnPaint(System.Windows.Forms.PaintEventArgs e)
+        {
+            Brush b = new SolidBrush(this.ForeColor);
+            e.Graphics.TranslateTransform(this.Width / 2, this.Height / 2);
+            e.Graphics.RotateTransform(this.RotateAngle);
+            if (this.NewText.Length > 8)
+                a = 120;
+            else
+                a = 150;
+
+            using (Graphics dpi = this.CreateGraphics())
+            {
+                if (dpi.DpiX == 120)
+                {
+                    if (this.NewText.Length > 8)
+                        a = 70;
+                    else
+                        a = 110;
+                }
+            }
+            e.Graphics.DrawString(this.NewText, this.Font, b, a, -20f);
+            base.OnPaint(e);
+        }
+    }
+}

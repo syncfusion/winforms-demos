@@ -1,0 +1,94 @@
+'Configuration For VBScript Embedded with HTML
+<html>
+<body>
+
+<script type="text/vbscript">
+randomize()
+r=rnd()
+if r>0.5 then
+ document.write("<a href='http://www.w3schools.com'>Learn Web Development!</a>")
+else
+ document.write("<a href='http://www.refsnesdata.no'>Visit Refsnes Data!</a>")
+end if 
+</script>
+
+<p>
+This example demonstrates a link, when you click on the link it will take you to W3Schools.com OR to
+RefsnesData.no. There is a 50% chance for each of them.
+</p>
+</body>
+</html>
+
+<html>
+
+<body>
+<script type="text/vbscript">
+d=weekday(date)
+
+select case d
+  case 1
+    document.write("Sleepy Sunday")
+  case 2
+    document.write("Monday again!")
+  case 3
+    document.write("Just Tuesday!")
+  case 4
+    document.write("Wednesday!")
+  case 5
+    document.write("Thursday...")
+  case 6
+    document.write("Finally Friday!")
+  case else
+    document.write("Super Saturday!!!!")
+end select
+</script>
+
+<p>This example demonstrates the "select case" statement.<br />
+You will receive a different greeting based on what day it is.<br />
+Note that Sunday=1, Monday=2, Tuesday=3, etc.</p>
+
+</body>
+</html>
+
+<html>
+
+<head>
+<script type="text/vbscript">
+function greeting()
+i=hour(time)
+If i = 10 then
+	document.write("Just started...!")
+elseif i = 11 then
+	document.write("Hungry!")
+elseif i = 12 then
+	document.write("Ah, lunch-time!")
+elseif i = 16 then
+	document.write("Time to go home!")
+else
+	document.write("Unknown")
+end if
+end function
+</script>
+</head>
+
+<body onload="greeting()">
+</body>
+
+</html>
+
+<html>
+<head>
+<script type="text/vbscript">
+alert("Hello")
+</script>
+</head>
+
+<body>
+<p>
+We usually use the head section for "functions".
+The reason for this is to be sure that the script is loaded before the function is called.
+</p>
+
+</body>
+</html>
+

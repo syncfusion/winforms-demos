@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialDates_NET11", "SpecialDates_NET11.csproj", "{{349C8FA4-9AAC-47FD-974E-F4AF5E29C2DE}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{349C8FA4-9AAC-47FD-974E-F4AF5E29C2DE}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{349C8FA4-9AAC-47FD-974E-F4AF5E29C2DE}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{349C8FA4-9AAC-47FD-974E-F4AF5E29C2DE}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{349C8FA4-9AAC-47FD-974E-F4AF5E29C2DE}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

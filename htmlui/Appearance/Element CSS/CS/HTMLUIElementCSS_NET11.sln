@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLUIElementCSS_NET11", "HTMLUIElementCSS_NET11.csproj", "{{4C715FB1-DB2F-4722-8A1E-2AD87A265DEA}}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{4C715FB1-DB2F-4722-8A1E-2AD87A265DEA}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{{4C715FB1-DB2F-4722-8A1E-2AD87A265DEA}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{{4C715FB1-DB2F-4722-8A1E-2AD87A265DEA}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{{4C715FB1-DB2F-4722-8A1E-2AD87A265DEA}}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

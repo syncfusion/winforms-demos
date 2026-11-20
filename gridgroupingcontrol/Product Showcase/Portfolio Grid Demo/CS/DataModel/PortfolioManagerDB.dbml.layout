@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 8.5">
+  <DataContextMoniker Name="/PortfolioManagerDB" />
+  <nestedChildShapes>
+    <classShape Id="b2f3fde0-b332-4d05-b279-39b4e60ee744" absoluteBounds="6.25, 6.125, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PortfolioManagerDB/Accounts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f56253e-f82f-4a3d-8543-57d2f5ddbe20" absoluteBounds="6.265, 6.585, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c667da7-ee7a-4739-a637-6c57961e3c11" absoluteBounds="0.75, 3.75, 2, 2.0822371419270826">
+      <DataClassMoniker Name="/PortfolioManagerDB/HistoricalQuotes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee8cf4de-ed9b-4e4a-a0dc-ebd968031d51" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86dfcb11-be42-4ef0-a746-335c278faf6d" absoluteBounds="9, 1.125, 2, 2.0822371419270826">
+      <DataClassMoniker Name="/PortfolioManagerDB/Holdings" />
+      <nestedChildShapes>
+        <elementListCompartment Id="22b72e49-7fbb-4bf9-a168-6f486d95e084" absoluteBounds="9.015, 1.585, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f65f133b-d230-4993-9131-15fd633b3812" absoluteBounds="3.5, 1.5, 2, 1.2605004882812503">
+      <DataClassMoniker Name="/PortfolioManagerDB/Industries" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58803ce7-6bf5-40aa-817b-d53482dc3868" absoluteBounds="3.515, 1.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68bc0d94-9507-4163-b4e4-a2bb8e0b80b3" absoluteBounds="6.25, 1, 2, 2.4109318033854166">
+      <DataClassMoniker Name="/PortfolioManagerDB/Quotes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c8b3c10-65e3-438b-be0d-a79ffc482be2" absoluteBounds="6.265, 1.46, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b978fccf-a4ed-46e8-a3cc-0df75bcfe37c" absoluteBounds="0.75, 1.625, 2, 1.0961531575520835">
+      <DataClassMoniker Name="/PortfolioManagerDB/Sectors" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3450a7ca-ee3d-4135-b92f-998ca1f7feae" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="670c6fbc-3540-44ab-b94e-5f5fbdecfc6e" absoluteBounds="6.25, 4.125, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/PortfolioManagerDB/StockExchanges" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3a20df7-c0a2-467f-8a79-0cdfa761ecb5" absoluteBounds="6.265, 4.585, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 7.08394490559896); (10 : 7.08394490559896); (10 : 3.20723714192708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PortfolioManagerDB/Accounts/Accounts_Holdings" />
+      <nodes>
+        <classShapeMoniker Id="b2f3fde0-b332-4d05-b279-39b4e60ee744" />
+        <classShapeMoniker Id="86dfcb11-be42-4ef0-a746-335c278faf6d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 2.16611857096354); (9 : 2.16611857096354)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PortfolioManagerDB/Quotes/Quotes_Holdings" />
+      <nodes>
+        <classShapeMoniker Id="68bc0d94-9507-4163-b4e4-a2bb8e0b80b3" />
+        <classShapeMoniker Id="86dfcb11-be42-4ef0-a746-335c278faf6d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.75525024414063); (9.4687475 : 4.75525024414063); (9.4687475 : 3.20723714192708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PortfolioManagerDB/StockExchanges/StockExchanges_Holdings" />
+      <nodes>
+        <classShapeMoniker Id="670c6fbc-3540-44ab-b94e-5f5fbdecfc6e" />
+        <classShapeMoniker Id="86dfcb11-be42-4ef0-a746-335c278faf6d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.17307657877604); (3.5 : 2.17307657877604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PortfolioManagerDB/Sectors/Sectors_Industries" />
+      <nodes>
+        <classShapeMoniker Id="b978fccf-a4ed-46e8-a3cc-0df75bcfe37c" />
+        <classShapeMoniker Id="f65f133b-d230-4993-9131-15fd633b3812" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.13025024414063); (6.25 : 2.13025024414063)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PortfolioManagerDB/Industries/Industries_Quotes" />
+      <nodes>
+        <classShapeMoniker Id="f65f133b-d230-4993-9131-15fd633b3812" />
+        <classShapeMoniker Id="68bc0d94-9507-4163-b4e4-a2bb8e0b80b3" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

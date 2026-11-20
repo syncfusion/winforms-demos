@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DragDrop_NET90", "DragDrop_NET90.csproj", "{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-XML|Any CPU = Release-XML|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}.Release-XML|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AA564F-EF49-4BDE-9B21-356AD5749CAA}.Release-XML|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5F8713-9ECD-47CF-8667-067B43012C5D}
+	EndGlobalSection
+EndGlobal
